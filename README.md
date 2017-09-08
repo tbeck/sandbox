@@ -28,7 +28,7 @@ Push mirror to new repository
 
 ```
 cd jekyll-project.git
-git push --mirror git@bitbucket.org:ocupop/repo-name
+git push --mirror git@bitbucket.org:ocupop/bittercube
 ```
 
 Remove temporary local instance
@@ -36,5 +36,5 @@ Remove temporary local instance
 ``` 
 cd ../
 rm -rf jekyll-project.git
-git clone git@bitbucket.org:ocupop/repo-name
+git clone git@bitbucket.org:ocupop/bittercube
 ```

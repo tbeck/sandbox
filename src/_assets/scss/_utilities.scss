@@ -25,6 +25,22 @@ img.pull-right {
   margin-left: 12px;
 }
 
+.bg-graphic {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  
+}
+
+//color utilities
+.bg-blue {
+  background-color: $brand-primary;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
 
 // Media Queries
 // Small devices (landscape phones, 576px and up)

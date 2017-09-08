@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(24, 55, 75, .95);
+  background-blend-mode: multiply;
+  .hero-caption {
+    width: 50%;
+  }
+}

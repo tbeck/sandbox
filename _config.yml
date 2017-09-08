@@ -1,5 +1,5 @@
 # Site settings
-title: Client Name
+title: Bittercube
 email: dev@ocupop.com
 description: ''
 url: "http://client_url"
@@ -20,6 +20,11 @@ twitter:
   featured_image:
   image_alt_text:
   description:
+
+collections:
+  pages:
+    output: true
+    permalink: /:path  
 
 # Build settings
 safe: false

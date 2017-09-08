@@ -5,7 +5,8 @@
 @import "utilities";
 @import "fonts";
 
-
+//Import base styles
+@import "base/global";
 
 // Import layout / global styles
 @import "layout/page_header";
@@ -16,6 +17,7 @@
 @import "elements/canvas";
 @import "elements/blockquotes";
 @import "elements/wufoo";
+@import "elements/hero";
 
 // Animations
 @import "animations";

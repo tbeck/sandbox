@@ -21,6 +21,23 @@ img.pull-left {
 img.pull-right {
   margin-left: 12px; }
 
+.bg-graphic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.bg-blue {
+  background-color: #18374b; }
+
+.bg-yellow {
+  background-color: #d3b262; }
+
 @font-face {
   font-family: "project_name";
   src: url("/fonts/${custom-font-name}.eot?i6fit0");
@@ -45,6 +62,14 @@ img.pull-right {
    content: "\e900";
  }
 */
+section {
+  position: relative;
+  padding: 50px 0;
+  clear: both;
+  overflow: hidden; }
+  section:focus {
+    outline: none; }
+
 canvas {
   width: 200px;
   height: 200px; }
@@ -58,7 +83,7 @@ blockquote {
   font-size: 32px;
   font-style: italic;
   line-height: 1.2;
-  color: #404041;
+  color: #18374b;
   text-align: justify; }
   blockquote em {
     z-index: 9; }
@@ -97,7 +122,7 @@ blockquote::after {
 blockquote a {
   text-decoration: none;
   cursor: pointer;
-  color: #72b341; }
+  color: #18374b; }
 
 blockquote a:hover {
   color: #222222; }
@@ -130,12 +155,12 @@ blockquote a:hover {
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
     border: none;
-    border-left: 10px solid #72b341; }
+    border-left: 10px solid #18374b; }
   .wufoo textarea {
     background: #eeeeee;
     padding: 20px;
     border: none;
-    border-left: 10px solid #72b341;
+    border-left: 10px solid #18374b;
     height: 130px;
     width: 100%; }
   .wufoo #saveForm {
@@ -159,6 +184,25 @@ blockquote a:hover {
     /* Internet Explorer 10+ */
     color: #000;
     font-family: 'Open Sans', helvetica, arial, sans-serif; }
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(24, 55, 75, 0.95);
+  background-blend-mode: multiply; }
+  .hero .hero-caption {
+    width: 50%; }
 
 @-webkit-keyframes cardSlideIn {
   from {
