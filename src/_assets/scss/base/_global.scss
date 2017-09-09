@@ -1,7 +1,7 @@
 body {
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
-  // font-family: $font-family-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family-serif;
   // line-height: 1.6;
   // font-size: 16px;
   // letter-spacing: 1px;
@@ -20,8 +20,11 @@ section {
 }
 
 a {
-  // padding-bottom: 5px;
-  // font-weight: 400;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid $brand-primary;
+  color: $brand-primary;
+  letter-spacing: 2px;
   // &:hover, &:focus {
   //   text-decoration: none;
   //   outline: none;

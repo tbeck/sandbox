@@ -62,6 +62,11 @@ img.pull-right {
    content: "\e900";
  }
 */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Alegreya", serif; }
+
 section {
   position: relative;
   padding: 50px 0;
@@ -69,6 +74,25 @@ section {
   overflow: hidden; }
   section:focus {
     outline: none; }
+
+a {
+  font-family: "proxima-nova", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #18374b;
+  color: #18374b;
+  letter-spacing: 2px; }
+
+#page-header a {
+  color: #fff;
+  border-bottom: none; }
+
+.navbar-brand {
+  width: 55px; }
+
+#page-footer {
+  color: #fff; }
+  #page-footer a {
+    color: #fff; }
 
 canvas {
   width: 200px;
@@ -195,7 +219,7 @@ blockquote a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 800px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -203,6 +227,9 @@ blockquote a:hover {
   background-blend-mode: multiply; }
   .hero .hero-caption {
     width: 50%; }
+
+.media {
+  background: #fff; }
 
 @-webkit-keyframes cardSlideIn {
   from {
