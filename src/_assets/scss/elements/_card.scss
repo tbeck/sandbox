@@ -1,0 +1,45 @@
+.card {
+  border: none;
+  .card-img-top {
+    border-radius: 0;
+  }
+  .card-body {
+    padding: 20px 0;
+  }
+  .hover-overlay {
+    position: relative;
+    border: 1px solid $yellow;
+    &:hover {
+      .overlay-text {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    .overlay-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(24,55,75,.75);
+      height: 100%;
+      padding: 10px;
+      color: $yellow;
+      text-align: center;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      font-family: $font-family-sans-serif;
+      opacity: 0;
+      visibility: hidden;
+      @include transition(.5s);
+    }
+  }
+  .card-footer {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    .button {
+      font-size: .8rem;
+      display: block;
+    }
+  }
+}

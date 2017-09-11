@@ -9,6 +9,16 @@
   background-color: rgba(24, 55, 75, .95);
   background-blend-mode: multiply;
   .hero-caption {
+    text-align: center; 
     width: 50%;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    color: #fff;
+    margin-bottom: 0;
+  }
+  p {
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 }

@@ -1,6 +1,12 @@
 #page-header {
+  background-color: $brand-primary;
+  border-bottom: 2px solid $yellow;
   a {
     color: #fff;
+    border-bottom: none;
+  }
+  &.home-header {
+    background-color: transparent;
     border-bottom: none;
   }
 }

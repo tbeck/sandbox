@@ -20,6 +20,12 @@
 @import "elements/wufoo";
 @import "elements/hero";
 @import "elements/media";
+@import "elements/forms";
+@import "elements/buttons";
+@import "elements/card";
+
+// Page specific styles
+@import "views/contact";
 
 // Animations
 @import "animations";

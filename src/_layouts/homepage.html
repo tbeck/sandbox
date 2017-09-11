@@ -1,4 +1,13 @@
----
-layout: default
----
-{{ content }}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{ page.layout }}">
+    {% include home-header.html %}
+    <main id="page-content">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    <!-- Javascript -->
+    {% include scripts.html %}
+  </body>
+</html>

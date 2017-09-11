@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid $brand-primary;
+  color: $brand-primary;
+  text-align: center;
+  padding: .5rem 1rem;
+  margin: 1rem 0;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  &.button-block {
+    display: block;
+  }
+  &.button-yellow {
+    background-color: $yellow;
+  }
+}

@@ -25,6 +25,17 @@ img.pull-right {
   margin-left: 12px;
 }
 
+hr {
+  border-top: 2px solid $brand-primary;
+  margin: 30px auto;
+  &.yellow {
+    border-top: 2px solid $yellow;
+  }
+  &.small {
+    width: 20%;
+  }
+}
+
 .bg-graphic {
   display: flex;
   align-items: center; 
