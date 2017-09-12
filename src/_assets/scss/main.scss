@@ -4,6 +4,7 @@
 @import "mixins";
 @import "utilities";
 @import "fonts";
+@import "animations";
 
 //Import base styles
 @import "base/global";
@@ -13,6 +14,7 @@
 @import "layout/page_header";
 @import "layout/page_content";
 @import "layout/page_footer";
+@import "layout/page";
 
 // Import additional elements or project specific styles
 @import "elements/canvas";
@@ -23,9 +25,11 @@
 @import "elements/forms";
 @import "elements/buttons";
 @import "elements/card";
+@import "elements/socialnav";
 
 // Page specific styles
 @import "views/contact";
+@import "views/recipes";
 
 // Animations
 @import "animations";

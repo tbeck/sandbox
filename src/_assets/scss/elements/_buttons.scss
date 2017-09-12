@@ -9,10 +9,20 @@
   font-family: $font-family-sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  @include transition(.5s);
+  &:hover {
+    background-color: $brand-primary;
+    color: #fff;
+  }
   &.button-block {
     display: block;
   }
   &.button-yellow {
     background-color: $yellow;
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $yellow;
+    }
   }
+
 }

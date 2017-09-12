@@ -36,11 +36,8 @@ hr {
   }
 }
 
-.bg-graphic {
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  
+.bg-pattern {
+  background-image: url(/assets/img/bg-pattern.png);
 }
 
 //color utilities

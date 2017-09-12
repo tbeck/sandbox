@@ -1,18 +1,18 @@
-$custom-font-name: 'project_name';
 @font-face {
-  font-family: $custom-font-name;
-  src:  url('/fonts/${custom-font-name}.eot?i6fit0');
-  src:  url('/fonts/${custom-font-name}.eot?i6fit0#iefix') format('embedded-opentype'),
-    url('/fonts/${custom-font-name}.ttf?i6fit0') format('truetype'),
-    url('/fonts/${custom-font-name}.woff?i6fit0') format('woff'),
-    url('/fonts/${custom-font-name}.svg?i6fit0#${custom-font-name}') format('svg');
+  font-family: 'bittercube';
+  src:  url('/assets/fonts/bittercube.eot?5zctft');
+  src:  url('/assets/fonts/bittercube.eot?5zctft#iefix') format('embedded-opentype'),
+    url('/assets/fonts/bittercube.woff2?5zctft') format('woff2'),
+    url('/assets/fonts/bittercube.ttf?5zctft') format('truetype'),
+    url('/assets/fonts/bittercube.woff?5zctft') format('woff'),
+    url('/assets/fonts/bittercube.svg?5zctft#bittercube') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change /img/fonts */
-  font-family: '${custom-font-name}' !important;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bittercube' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,24 +25,20 @@ $custom-font-name: 'project_name';
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Content declarations
-/*
- .icon-example:before {
-   content: "\e900";
- }
-*/
-
-
-
-// Media Queries
-// Small devices (landscape phones, 576px and up)
-@media (min-width: $screen-sm-min) {}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: $screen-md-min) {}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: $screen-lg-min) {}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: $screen-xl-min) {}
+.icon-pinterest:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-cart:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
