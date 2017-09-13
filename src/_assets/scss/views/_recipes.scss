@@ -1,3 +1,25 @@
+#search-recipes {
+  background-image: url(/assets/img/recipes/bg-ingredients.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:80%;
+  input[type="text"] {
+    background-color: $brand-primary;
+    border: 2px solid $yellow;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 20px;
+    width: 80%;
+    font-family: $font-family-sans-serif;
+  }
+  input[type="submit"] {
+    background-color: $yellow;
+    border: 2px solid $brand-primary;
+    width: 20%;
+    font-family: $font-family-sans-serif;
+  }
+}
+
 .recipes {
   .card {
     background-color: transparent;

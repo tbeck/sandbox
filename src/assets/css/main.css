@@ -303,6 +303,7 @@ h1, h2 {
   margin: 1.5rem 0 1rem 0; }
 
 h3, h4, h5 {
+  margin: 1rem 0;
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px; }
@@ -581,6 +582,11 @@ input[type="submit"] {
 .socialnav a {
   padding: 0 3px; }
 
+.tab-content {
+  padding: 50px;
+  background-color: #fff;
+  border: 2px solid #18374b; }
+
 #contact-info h4, #contact-info h5 {
   text-transform: uppercase;
   letter-spacing: 2px; }
@@ -593,6 +599,25 @@ input[type="submit"] {
 .distributor {
   border-bottom: 1px solid #18374b;
   text-align: center; }
+
+#search-recipes {
+  background-image: url(/assets/img/recipes/bg-ingredients.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80%; }
+  #search-recipes input[type="text"] {
+    background-color: #18374b;
+    border: 2px solid #d3b262;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 20px;
+    width: 80%;
+    font-family: "proxima-nova", sans-serif; }
+  #search-recipes input[type="submit"] {
+    background-color: #d3b262;
+    border: 2px solid #18374b;
+    width: 20%;
+    font-family: "proxima-nova", sans-serif; }
 
 .recipes .card {
   background-color: transparent;
