@@ -57,6 +57,9 @@ hr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-search:before {
+  content: "\e902"; }
+
 .icon-pinterest:before {
   content: "\e900";
   color: #fff; }
@@ -367,7 +370,9 @@ blockquote {
   /*Font*/
   font-size: 23px;
   line-height: 1.2;
-  color: #18374b; }
+  color: #18374b;
+  padding-left: 30px;
+  padding-right: 30px; }
   blockquote em {
     z-index: 9; }
   blockquote span {
@@ -388,7 +393,7 @@ blockquote::before {
   color: #18374b;
   /*Positioning*/
   position: absolute;
-  left: -60px;
+  left: -20px;
   top: -30px;
   z-index: -1; }
 
@@ -402,7 +407,7 @@ blockquote::after {
   color: #18374b;
   /*Positioning*/
   position: absolute;
-  right: -40px;
+  right: -10px;
   top: -webkit-calc(100% - 75px);
   top: calc(100% - 75px);
   z-index: -1; }
@@ -587,6 +592,32 @@ input[type="submit"] {
   background-color: #fff;
   border: 2px solid #18374b; }
 
+.carousel-indicators {
+  bottom: -30px; }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    background-color: #a2c2cc; }
+    .carousel-indicators li.active {
+      background-color: #18374b; }
+
+#search-recipes input[type="submit"] {
+  color: #18374b;
+  text-transform: uppercase;
+  position: relative; }
+  #search-recipes input[type="submit"]:before {
+    content: "\e902";
+    font-family: 'bittercube';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
 #contact-info h4, #contact-info h5 {
   text-transform: uppercase;
   letter-spacing: 2px; }
@@ -625,6 +656,10 @@ input[type="submit"] {
   .recipes .card .card-body {
     background-color: #fff;
     padding: 50px 30px; }
+
+#contact-consulting input, #contact-consulting textarea {
+  border: 2px solid #18374b;
+  color: #18374b; }
 
 @-webkit-keyframes cardSlideIn {
   from {

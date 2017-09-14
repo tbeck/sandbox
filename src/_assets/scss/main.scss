@@ -27,10 +27,13 @@
 @import "elements/card";
 @import "elements/socialnav";
 @import "elements/tabs";
+@import "elements/carousel";
+@import "elements/recipe_search";
 
 // Page specific styles
 @import "views/contact";
 @import "views/recipes";
+@import "views/consulting";
 
 // Animations
 @import "animations";

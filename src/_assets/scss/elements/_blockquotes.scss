@@ -6,6 +6,8 @@ blockquote{
   font-size: 23px;
   line-height: 1.2;
   color: $text-color;
+  padding-left:30px;
+  padding-right: 30px;
   em {
     z-index: 9;
   }
@@ -30,7 +32,7 @@ blockquote::before{
   
   /*Positioning*/
   position: absolute;
-  left: -60px;
+  left: -20px;
   top: -30px;
   z-index: -1;
 }
@@ -47,7 +49,7 @@ blockquote::after{
   
   /*Positioning*/
   position: absolute;
-  right: -40px;
+  right: -10px;
   top: calc(100% - 75px);
   z-index: -1;
 }
