@@ -68,8 +68,14 @@ ul.no-bullets {
 }
 
 // Media Queries
-// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 576px and up, 767px and down)
 @media (min-width: $screen-sm-min) {}
+
+@media (max-width: $screen-sm-max) {
+  .w-50 {
+    width: 100% !important;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: $screen-md-min) {}

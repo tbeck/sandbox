@@ -1,9 +1,10 @@
 .tabnav {
-  justify-content: space-around;
+  display: block;
+  margin-bottom: 30px;
   li {
     a {
       border-bottom: 0;
-      padding-bottom: 25px;
+      padding-bottom: 15px;
       position: relative;
 
       &.active {
@@ -15,12 +16,12 @@
           font-size: 12px; /*set the size for arrow*/
           width: 15px;
           height: 15px;
-          left: 50%;
+          left: 0;
+          top: 12px;
           margin-left: -8px;
           border-top: 1px solid $brand-primary;
           border-left: 1px solid $brand-primary;
-          transform: rotate(45deg);
-          bottom: -8px;
+          transform: rotate(135deg);
         }
       }
     }
@@ -32,3 +33,36 @@
   border: 2px solid $brand-primary;
   padding: 50px;
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .tabnav {
+    justify-content: space-around;
+    margin-bottom: 0;
+
+    li {
+      a {
+        padding-bottom: 25px;
+
+        &.active {
+          &::after {
+            left: 50%;
+            transform: rotate(45deg);
+            top: auto;
+            bottom: -8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

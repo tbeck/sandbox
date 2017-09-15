@@ -63,16 +63,42 @@
 }
 
 .card-grid {
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   display: flex;
-
+  flex-wrap: wrap;
   .card {
-    width: 23%;
+    width: 100%;
     
     a {
       font-family: $font-family-serif;
       border-bottom: 0;
+      line-height: 1.4;
     }
   }
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {
+  .card-grid {
+    .card {
+      width: 48%;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .card-grid {
+    .card {
+      width: 23%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

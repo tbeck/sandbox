@@ -4,10 +4,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  height: 600px;
+  height: 350px;
   justify-content: center;
   position: relative;
-
+  
   &::before {
     background-color: $brand-primary-opacity-60;
     content: '';
@@ -22,7 +22,7 @@
 
   .hero-caption {
     text-align: center;
-    width: 50%;
+    width: 100%;
     z-index: 5;
   }
 
@@ -43,3 +43,25 @@
     text-transform: uppercase;
   }
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up, 767px and down)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .hero {
+    height: 600px;
+
+    .hero-caption {
+      width: 50%;
+      max-width: 650px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

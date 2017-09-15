@@ -1,5 +1,5 @@
 .carousel-indicators {
-  bottom: -30px;
+  bottom: -20px;
 
   li {
     background-color: $blue-light;
@@ -38,3 +38,20 @@
   left: 0;
   transform: translate3d(0, 0, 0);
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up, 767px and down)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .carousel-indicators {
+    bottom: -30px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

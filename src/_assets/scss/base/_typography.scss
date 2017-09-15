@@ -1,9 +1,9 @@
-h1 { font-size: 53px; }
-h2 { font-size: 40px; }
-h3 { font-size: 30px; }
-h4 { font-size: 20px; }
-h5 { font-size: 18px; }
-h6 { font-size: 16px; }
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
 
 h1,
 h2 {
@@ -18,3 +18,25 @@ h5 {
   margin: 1rem 0;
   text-transform: uppercase;
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up, 767px and down)
+@media (min-width: $screen-sm-min) {}
+
+@media (max-width: $screen-sm-max) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  h1 { font-size: 53px; }
+  h2 { font-size: 40px; }
+  h3 { font-size: 30px; }
+  h4 { font-size: 20px; }
+  h5 { font-size: 18px; }
+  h6 { font-size: 16px; }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

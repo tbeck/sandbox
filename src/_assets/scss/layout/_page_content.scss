@@ -1,10 +1,27 @@
 #page-content {
-  padding-top: 77px;
+  padding-top: 55px;
 }
 
-//homepage specific
-.homepage {
+// Media Queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
   #page-content {
-    padding-top: 0;
+    padding-top: 77px;
+  }
+
+  //homepage specific
+  .homepage {
+    #page-content {
+      padding-top: 0;
+    }
   }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}
