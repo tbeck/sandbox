@@ -5,3 +5,36 @@ title: Search Results
 permalink: /search-results
 ---
 
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <h2>Search Results For: "Searchterm"</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          <div class="card-grid flex-wrap">
+            {% for item in (1..8) %}
+              <div class="card">
+                <a href="#">
+                  <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+                </a>
+                
+                <div class="card-body text-center">
+                  <p class="lead"><a href="#">Name {{ forloop.index }}</a></p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+

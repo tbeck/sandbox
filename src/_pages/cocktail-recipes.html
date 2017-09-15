@@ -10,22 +10,25 @@ permalink: /cocktail-recipes
 <section class="bg-yellow">
   <div class="container">
     <div class="row recipes">
-      <div class="card w-50">
-        <div class="card-body text-center">
-          <h2>The Seven Pillars of Classic Cocktails</h2>
-          <p>These seven modernized classics are the foundation for thousands of cocktail variations</p>
-          <ul class="no-bullets sans-serif">
-            <li>Sour</li>
-            <li>French 75</li>
-            <li>Daisy</li>
-            <li>Old Fashioned</li>
-            <li>Collins</li>
-            <li>Manhattan</li>
-            <li>Negroni</li>
-          </ul>
-        </div>
-      </div>
+      
       {% for recipe in site.cocktail_recipes %}
+        {% if forloop.index == 2 %}
+          <div class="card w-50">
+            <div class="card-body text-center">
+              <h2>The Seven Pillars of Classic Cocktails</h2>
+              <p>These seven modernized classics are the foundation for thousands of cocktail variations</p>
+              <ul class="no-bullets sans-serif">
+                <li>Sour</li>
+                <li>French 75</li>
+                <li>Daisy</li>
+                <li>Old Fashioned</li>
+                <li>Collins</li>
+                <li>Manhattan</li>
+                <li>Negroni</li>
+              </ul>
+            </div>
+          </div>
+        {% endif %}
       <div class="card w-50">
         <div class="card-img-wrapper" style="background-image: url({{ recipe.image }});">
         </div>

@@ -13,7 +13,7 @@
 // Import layout / global styles
 @import 'layout/page_header';
 @import 'layout/page_footer';
-@import 'layout/page';
+@import 'layout/page_content';
 
 // Import additional elements or project specific styles
 @import 'elements/blockquotes';
@@ -30,9 +30,11 @@
 // Page specific styles
 @import 'views/contact';
 @import 'views/recipes';
+@import 'views/recipe';
 @import 'views/consulting';
 @import 'views/shop';
 @import 'views/about';
+@import 'views/product';
 
 // Animations
 @import 'animations';

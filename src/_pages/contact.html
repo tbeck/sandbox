@@ -11,9 +11,9 @@ permalink: /contact
   </div>
 </div>
 
-<section id="contact-info">
+<section>
   <div class="container">
-    <div class="row">
+    <div id="contact-info" class="row">
       <div class="col">
         <div class="content text-center">
           <h5>General Inquiries</h5>
@@ -29,7 +29,8 @@ permalink: /contact
           <address>
             2018 S. 1st St, Ste. 290<br>Milwaukee WI 53204
           </address>
-          <hr class="yellow">
+          <a href="tel:414-3674477" class="phone">414.367.4477</a>
+          <hr class="yellow mt-5">
         </div>
       </div>
     </div>
@@ -45,23 +46,25 @@ permalink: /contact
       <div class="row">
         <div class="col">
           <div class="content text-center">
-            <h3>{{ object.country }}</h3>
+            <h3 class="bordered">{{ object.country }}</h3>
           </div>
         </div>
       </div>
       
-      <div class="row distributors">
-      {% for distributor in object.distributors %}
-        <div class="col-md-4">
-          <div class="distributor">
-            <h4>{{ distributor.state }}</h4>
-            <p>{{ distributor.name }}</p>
+      <div class="row">
+        <div class="col">
+          <div class="content">
+            <div class="distributors">
+              {% for distributor in object.distributors %}
+                <a href="#" class="distributor">
+                  <h4>{{ distributor.location }}</h4>
+                  <p>{{ distributor.name }}</p>
+                </a>
+              {% endfor %}
+            </div>
           </div>
         </div>
-      {% endfor %}
       </div>
     {% endfor %}
-      
- 
   </div>
 </section>

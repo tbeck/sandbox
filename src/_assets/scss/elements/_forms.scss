@@ -10,3 +10,20 @@ input[type="submit"] {
   display: inline-block;
   width: auto;
 }
+
+.select {
+  border: 1px solid $brand-primary;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 17px;
+  font-family: $font-family-sans-serif;
+  text-align: center;
+  color: $brand-primary;
+  select {
+    background: transparent;
+    border: none;
+    height: 22px;
+    line-height: 1;
+    -webkit-appearance: none;
+  }  
+}

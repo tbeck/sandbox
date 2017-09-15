@@ -12,10 +12,52 @@
     font-size: 1.8rem;
     text-transform: none;
   }
+  
+  .phone {
+    font-family: $font-family-sans-serif;
+    font-size: 18px;
+  }
 }
 
-.distributor {
-  border-bottom: 2px solid $brand-primary;
-  text-align: center;
-  margin-bottom: 30px;
+
+
+.distributors {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  //pseudo element so that rows that aren't filled will be aligned correctly
+  &::after {
+    height: 0;
+    width: 30%;
+    content: '';
+  }
+  .distributor {
+    border-bottom: 2px solid $brand-primary;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+.bordered {
+  position: relative;
+  &::before,
+  &::after {
+    content: '';
+    width: 33%;
+    border-top: 1px solid $yellow;
+    position: absolute;
+    top: 50%;
+  }
+
+  &::before {
+    left:0;
+  }
+
+  &::after {
+    right: 0;
+  }
 }

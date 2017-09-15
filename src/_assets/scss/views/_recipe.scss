@@ -1,0 +1,42 @@
+.recipe-image {
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  a {
+    border-bottom: 0;
+    padding: 5px 7px;
+    background-color: $brand-primary;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    i {
+      color: $white;
+    }
+  }
+}
+
+.ingredients {
+  margin-right: 8px;
+  padding: 50px;
+  width: 50%;
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      font-family: $font-family-sans-serif;
+      line-height: 2;
+    }
+     
+  }
+}
+
+.notes {
+  width: 50%;
+  margin-left: 8px;
+  padding: 50px;
+  font-size: 26px;
+}
