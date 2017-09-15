@@ -24,7 +24,9 @@ twitter:
 collections:
   pages:
     output: true
-    permalink: /:path  
+    permalink: /:path
+  cocktail_recipes:
+    output: true  
 
 # Build settings
 safe: false

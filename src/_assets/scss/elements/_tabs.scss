@@ -1,5 +1,34 @@
+.tabnav {
+  justify-content: space-around;
+  li {
+    a {
+      border-bottom: 0;
+      padding-bottom: 25px;
+      position: relative;
+
+      &.active {
+        &::after {
+          content: '';
+          position: absolute;
+          overflow: hidden;
+          display: inline-block;
+          font-size: 12px; /*set the size for arrow*/
+          width: 15px;
+          height: 15px;
+          left: 50%;
+          margin-left: -8px;
+          border-top: 1px solid $brand-primary;
+          border-left: 1px solid $brand-primary;
+          transform: rotate(45deg);
+          bottom: -8px;
+        }
+      }
+    }
+  }
+}
+
 .tab-content {
-  padding:50px;
-  background-color: #fff;
+  background-color: $white;
   border: 2px solid $brand-primary;
+  padding: 50px;
 }

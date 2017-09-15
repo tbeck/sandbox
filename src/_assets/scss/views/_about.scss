@@ -1,0 +1,25 @@
+.team-member {
+  h4 {
+    font-size: 22px;
+    font-family: $font-family-serif;
+    letter-spacing: 0;
+  }
+  span {
+    font-size: 14px;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+.partners {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    border-bottom: 0;
+    display: block;
+    padding: 20px 6px;
+  }
+}

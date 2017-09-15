@@ -1,46 +1,72 @@
 .card {
-  border: none;
+  border: 0;
   border-radius: 0;
+  position: relative;
+
   .card-img-top {
     border-radius: 0;
   }
+
+  .card-img-wrapper {
+    background-color: $white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+  }
+
   .card-body {
     padding: 20px 0;
   }
+
   .hover-overlay {
-    position: relative;
     border: 1px solid $yellow;
+    position: relative;
+
     &:hover {
       .overlay-text {
         opacity: 1;
         visibility: visible;
       }
     }
+
     .overlay-text {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: rgba(24,55,75,.75);
-      height: 100%;
-      padding: 10px;
+      @include transition(.5s);
+      align-items: center;
+      background-color: $brand-primary-opacity-60;
       color: $yellow;
+      display: flex;
+      font-family: $font-family-sans-serif;
+      height: 100%;
+      left: 0;
+      opacity: 0;
+      padding: 10px;
+      position: absolute;
       text-align: center;
       text-transform: uppercase;
-      display: flex;
-      align-items: center;
-      font-family: $font-family-sans-serif;
-      opacity: 0;
+      top: 0;
       visibility: hidden;
-      @include transition(.5s);
     }
   }
+
   .card-footer {
     background-color: transparent;
-    border: none;
+    border: 0;
     padding: 0;
+
     .button {
-      font-size: .8rem;
       display: block;
+      font-size: .8rem;
     }
+  }
+}
+
+.card-grid {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  .card {
+    width: 23%;
   }
 }

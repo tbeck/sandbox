@@ -15,8 +15,8 @@ permalink: /about
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="content">
-          <p>Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. No extracts or oils have ever been used in Bittercube Bitters. The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
+        <div class="content text-center">
+          <p class="lead">Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. No extracts or oils have ever been used in Bittercube Bitters. The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ permalink: /about
   </div>
 </section>
 
-<section>
+<section id="team">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -58,34 +58,15 @@ permalink: /about
       </div>
     </div>
     <div class="row">
-      <div class="card w-25 p-3">
+      {% for staff in site.data.team %}
+      <div class="card w-25 p-3 team-member">
         <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
         <div class="card-body">
-          <h4 class="card-title">Firstname Lastname</h4>
-          <span class="role">Role</span>
+          <h4 class="card-title">{{ staff.name }}</h4>
+          <span>{{ staff.role }}</span>
         </div>
       </div>
-      <div class="card w-25 p-3">
-        <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Firstname Lastname</h4>
-          <span class="role">Role</span>
-        </div>
-      </div>
-      <div class="card w-25 p-3">
-        <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Firstname Lastname</h4>
-          <span class="role">Role</span>
-        </div>
-      </div>
-      <div class="card w-25 p-3">
-        <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Firstname Lastname</h4>
-          <span class="role">Role</span>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -109,7 +90,7 @@ permalink: /about
       </div>
       <div class="col-md-6">
         <div class="content">
-          <img src="http://via.placeholder.com/350x300" class="img-fluid" alt="">
+          <img src="/assets/img/about/apothecary.jpg" class="img-fluid" alt="Apothecary Image">
         </div>
       </div>
     </div>
@@ -128,7 +109,74 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content">
-          <img src="http://via.placeholder.com/1000x600?text=logo+pile" class="img-fluid" alt="">
+          <div class="partners">
+            <a href="#">
+              <img src="/assets/img/about/partners/bombay-sapphire.png" alt="Bombay Sapphire">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/the-oxford.png" alt="The Oxford">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/alma.png" alt="Alma">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/iron-horse-hotel.png" alt="The Iron Horse Hotel">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/lawless-distilling.png" alt="Lawless Distilling Company">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/curry-up-now.png" alt="Curry Up Now Indian Street Food">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/mortar-pestle.png" alt="Mortar &amp; Pestle">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/hewing-hotel.png" alt="Hewing Hotel">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/can-can.png" alt="Can Can Wonderland">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/hotel-covington.png" alt="Hotel Covington">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/charmant.png" alt="Charmant">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/foundation-hotel.png" alt="Foundation Hotel">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/red-bone-alley.png" alt="Red Bone Alley">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/scratch.png" alt="Scratch">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/beach-house.png" alt="The Beach House Kitchen &amp; Cocktails">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/gamble-ode.png" alt="Gamble Ode">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/the-lynhall.png" alt="The Lynhall">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/rujero.png" alt="Rujero">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/dock18.png" alt="Dock 18">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/yaguara.png" alt="Yaguara Cachaca">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/crooked-water.png" alt="Crooked Water Spirits">
+            </a>
+            <a href="#">
+              <img src="/assets/img/about/partners/tailor-made-tonics.png" alt="Tailor Made Tonics">
+            </a>
+          </div>
         </div>
       </div>
     </div>

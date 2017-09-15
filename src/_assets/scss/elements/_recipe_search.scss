@@ -1,15 +1,16 @@
 #search-recipes {
-  input[type="submit"] {
+  input[type='submit'] {
     color: $brand-primary;
-    text-transform: uppercase;
     position: relative;
-    &:before {
-      content: "\e902";
-      font-family: 'bittercube';
+    text-transform: uppercase;
+
+    &::before {
+      content: '\e902';
       display: block;
-      position: absolute;
+      font-family: 'bittercube';
       left: 0;
-      top:0;
+      position: absolute;
+      top: 0;
     }
   }
 }

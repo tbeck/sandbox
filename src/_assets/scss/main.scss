@@ -1,39 +1,38 @@
-@charset "utf-8";
+@charset 'utf-8';
 
-@import "variables";
-@import "mixins";
-@import "utilities";
-@import "fonts";
-@import "animations";
+@import 'variables';
+@import 'mixins';
+@import 'utilities';
+@import 'fonts';
+@import 'animations';
 
 //Import base styles
-@import "base/global";
-@import "base/typography";
+@import 'base/global';
+@import 'base/typography';
 
 // Import layout / global styles
-@import "layout/page_header";
-@import "layout/page_content";
-@import "layout/page_footer";
-@import "layout/page";
+@import 'layout/page_header';
+@import 'layout/page_footer';
+@import 'layout/page';
 
 // Import additional elements or project specific styles
-@import "elements/canvas";
-@import "elements/blockquotes";
-@import "elements/wufoo";
-@import "elements/hero";
-@import "elements/media";
-@import "elements/forms";
-@import "elements/buttons";
-@import "elements/card";
-@import "elements/socialnav";
-@import "elements/tabs";
-@import "elements/carousel";
-@import "elements/recipe_search";
+@import 'elements/blockquotes';
+@import 'elements/hero';
+@import 'elements/media';
+@import 'elements/forms';
+@import 'elements/buttons';
+@import 'elements/card';
+@import 'elements/socialnav';
+@import 'elements/tabs';
+@import 'elements/carousel';
+@import 'elements/recipe_search';
 
 // Page specific styles
-@import "views/contact";
-@import "views/recipes";
-@import "views/consulting";
+@import 'views/contact';
+@import 'views/recipes';
+@import 'views/consulting';
+@import 'views/shop';
+@import 'views/about';
 
 // Animations
-@import "animations";
+@import 'animations';

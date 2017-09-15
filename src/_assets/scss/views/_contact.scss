@@ -1,18 +1,21 @@
 #contact-info {
-  h4, h5 {
-    text-transform: uppercase;
+  h4,
+  h5 {
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
-  a, address {
+
+  a,
+  address {
+    border-bottom: 0;
     font-family: $font-family-serif;
-    border-bottom: none;
-    text-transform: none;
     font-size: 1.8rem;
+    text-transform: none;
   }
 }
 
-
 .distributor {
-  border-bottom: 1px solid $brand-primary;
+  border-bottom: 2px solid $brand-primary;
   text-align: center;
+  margin-bottom: 30px;
 }

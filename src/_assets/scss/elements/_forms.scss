@@ -1,8 +1,9 @@
-input, textarea {
+input,
+textarea {
+  border: 0;
+  margin: .5rem 0;
+  padding: .5rem 1rem;
   width: 100%;
-  border: none;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem 0;
 }
 
 input[type="submit"] {

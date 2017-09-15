@@ -1,28 +1,31 @@
 .button {
-  display: inline-block;
+  @include transition(.5s);
   background-color: transparent;
   border: 1px solid $brand-primary;
   color: $brand-primary;
-  text-align: center;
-  padding: .5rem 1rem;
-  margin: 1rem 0;
+  display: inline-block;
   font-family: $font-family-sans-serif;
-  text-transform: uppercase;
   letter-spacing: 2px;
-  @include transition(.5s);
+  margin: 1rem 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+
   &:hover {
     background-color: $brand-primary;
-    color: #fff;
+    color: $white;
   }
+
   &.button-block {
     display: block;
   }
+
   &.button-yellow {
     background-color: $yellow;
+
     &:hover {
       background-color: transparent;
       border: 1px solid $yellow;
     }
   }
-
 }

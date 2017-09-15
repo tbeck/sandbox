@@ -1,22 +1,24 @@
 #search-recipes {
-  background-image: url(/assets/img/recipes/bg-ingredients.png);
-  background-repeat: no-repeat;
+  background-image: url('/assets/img/recipes/bg-ingredients.png');
   background-position: center center;
-  background-size:80%;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
   input[type="text"] {
     background-color: $brand-primary;
     border: 2px solid $yellow;
-    text-transform: uppercase;
-    color: #fff;
-    margin-right: 20px;
-    width: 80%;
+    color: $white;
     font-family: $font-family-sans-serif;
+    margin-right: 20px;
+    text-transform: uppercase;
+    width: 80%;
   }
+
   input[type="submit"] {
     background-color: $yellow;
     border: 2px solid $brand-primary;
-    width: 20%;
     font-family: $font-family-sans-serif;
+    width: 20%;
   }
 }
 
@@ -24,8 +26,9 @@
   .card {
     background-color: transparent;
     padding: 20px;
+
     .card-body {
-      background-color: #fff;
+      background-color: $white;
       padding: 50px 30px;
     }
   }

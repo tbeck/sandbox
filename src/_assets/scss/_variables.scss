@@ -1,17 +1,20 @@
 // Color Palette
 // -------------------------
 
-$gray-darker:            #222222;
+$gray-darker:            #222;
 $gray-dark:              #272729;
 $gray:                   #757575;
 $gray-light:             #e9e9e3;
-$gray-lighter:           #eeeeee;
+$gray-lighter:           #eee;
 
-$body-bg:               #ffffff;
-$brand-primary:         #18374b;
-$text-color:            $brand-primary;
-$yellow:                #d3b262;
-$blue-light:            #a2c2cc;
+$white:                  #fff;
+$brand-primary:          #18374b;
+$brand-primary-opacity-60: rgba(24, 55, 75, .6);
+$text-color:             $brand-primary;
+$yellow:                 #d3b262;
+$blue-light:             #a2c2cc;
+$body-bg:                $white;
+
 
 $link-color:            $brand-primary;
 $link-hover-color:      darken($link-color, 15%);

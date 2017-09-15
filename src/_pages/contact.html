@@ -37,35 +37,31 @@ permalink: /contact
       <div class="col">
         <div class="content text-center">
           <h2>Distributors</h2>
-          <h3>United States</h3>
         </div>
       </div>
     </div>
-    <div class="row distributors">
-      <div class="col-md-4">
-        <div class="distributor">
-          <h4>Alabama</h4>
-          <p>International Wines &amp; Craft Beer</p>
+   
+    {% for object in site.data.distributors %}
+      <div class="row">
+        <div class="col">
+          <div class="content text-center">
+            <h3>{{ object.country }}</h3>
+          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="distributor">
-          <h4>Arizona</h4>
-          <p>Pacific Edge Wine &amp; Spirits</p>
+      
+      <div class="row distributors">
+      {% for distributor in object.distributors %}
+        <div class="col-md-4">
+          <div class="distributor">
+            <h4>{{ distributor.state }}</h4>
+            <p>{{ distributor.name }}</p>
+          </div>
         </div>
+      {% endfor %}
       </div>
-      <div class="col-md-4">
-        <div class="distributor">
-          <h4>California</h4>
-          <p>Pacific Edge Wine &amp; Spirits</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="distributor">
-          <h4>California</h4>
-          <p>Pacific Edge Wine &amp; Spirits</p>
-        </div>
-      </div>
-    </div>
+    {% endfor %}
+      
+ 
   </div>
 </section>

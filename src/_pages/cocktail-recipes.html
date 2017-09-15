@@ -1,0 +1,149 @@
+---
+layout: page
+title: Recipes
+
+permalink: /cocktail-recipes
+---
+
+{% include recipe-search.html %}
+
+<section class="bg-yellow">
+  <div class="container">
+    <div class="row recipes">
+      <div class="card w-50">
+        <div class="card-body text-center">
+          <h2>The Seven Pillars of Classic Cocktails</h2>
+          <p>These seven modernized classics are the foundation for thousands of cocktail variations</p>
+          <ul class="no-bullets sans-serif">
+            <li>Sour</li>
+            <li>French 75</li>
+            <li>Daisy</li>
+            <li>Old Fashioned</li>
+            <li>Collins</li>
+            <li>Manhattan</li>
+            <li>Negroni</li>
+          </ul>
+        </div>
+      </div>
+      {% for recipe in site.cocktail_recipes %}
+      <div class="card w-50">
+        <div class="card-img-wrapper" style="background-image: url({{ recipe.image }});">
+        </div>
+        <div class="card-body text-center">
+          <h2 class="card-title">{{ recipe.title }}</h2>
+          <p>{{ recipe.description }}</p>
+          <a href="{{ recipe.url }}">View Recipe</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <h2>Dealer's Choice</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          <div class="card-grid">
+            <div class="card">
+              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+              <div class="card-body text-center">
+                <p class="lead">Citrus Forward</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+              <div class="card-body text-center">
+                <p class="lead">Hot Drinks</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+              <div class="card-body text-center">
+                <p class="lead">Punches</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+              <div class="card-body text-center">
+                <p class="lead">Sours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cocktail-basics" class="bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <h2>Cocktail Basics</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          <ul class="nav tabnav" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#making-syrup" role="tab" aria-controls="syrup" aria-expanded="true">Making 1:1 Syrup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#shaking-stirring" role="tab" aria-controls="shaking-stirring">Shaking &amp; Stirring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#experimentation" role="tab" aria-controls="experimentation">Experimentation</a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active text-center" id="making-syrup" role="tabpanel">
+              <p><em>Our recipes use 1:1 (one-to-one) syrups, meaning equal parts sugar and water by weight. The easiest of these is Simple Syrup.</em></p>
+              <p class="lead">Combine equal parts of granulated sugar and boiling water removed from heat.<br>
+              Stir until dissolved, let cool before using.<br>
+              Keep covered and refridgerated for up to 2 weeks.</p>
+              <p><small>Be creative! Use botanical tea instead of plain water to create a flavored syrup. For a more robust syrup, try turbinado sugar.</small></p>
+              <a href="#">More Syrup Recipes</a>
+            </div>
+            <div class="tab-pane fade" id="shaking-stirring" role="tabpanel">Shaking &amp; Stirring Tab</div>
+            <div class="tab-pane fade" id="experimentation" role="tabpanel">Experimentation Tab</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="content">
+          <h2 class="mt-0">Visiting Bartending: Annie Pierce</h2>
+          <p class="sans-serif text-uppercase">Working at:</p>
+          <p class="lead">Bombay Sapphire</p>
+          <p class="sans-serif text-uppercase">Cocktail:</p>
+          <p class="lead">Gin Gin Pony</p>
+          <p><small>Annie received this year’s "Most Imaginative Bartender" title lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis turpis, sed tristique orci sollicitudin ut.</small></p>
+          <a href="#">See Annie's Recipe</a>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="content">
+          <img class="img-fluid" src="https://unsplash.it/350/350/?random" alt="Card image cap">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

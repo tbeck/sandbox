@@ -1,24 +1,45 @@
 .hero {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  height: 600px;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-color: rgba(24, 55, 75, .95);
-  background-blend-mode: multiply;
-  .hero-caption {
-    text-align: center; 
-    width: 50%;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  position: relative;
+
+  &::before {
+    background-color: $brand-primary-opacity-60;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
   }
-  h1, h2, h3, h4, h5, h6, p {
-    color: #fff;
+
+  .hero-caption {
+    text-align: center;
+    width: 50%;
+    z-index: 5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: $white;
     margin-bottom: 0;
   }
+
   p {
     font-family: $font-family-sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 }

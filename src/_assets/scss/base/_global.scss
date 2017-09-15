@@ -1,32 +1,31 @@
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: $font-family-serif;
-  // line-height: 1.6;
-  // font-size: 16px;
-  // letter-spacing: 1px;
-  // background-color: $gray-lighter;
   color: $brand-primary;
+  font-family: $font-family-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 section {
-  position: relative;
-  padding: 50px 0;
   clear: both;
   overflow: hidden;
+  padding: 50px 0;
+  position: relative;
+
   &:focus {
     outline: none;
   }
 }
 
 a {
-  font-family: $font-family-sans-serif;
-  text-transform: uppercase;
   border-bottom: 1px solid $brand-primary;
   color: $brand-primary;
+  font-family: $font-family-sans-serif;
   letter-spacing: 2px;
-  &:hover, &:focus {
-    text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
     outline: none;
+    text-decoration: none;
   }
 }

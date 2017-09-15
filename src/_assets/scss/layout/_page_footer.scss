@@ -1,18 +1,23 @@
 #page-footer {
-  padding: 100px 0 50px 0;
-  color: #fff;
+  color: $white;
+  padding: 100px 0 50px;
+
   .nav {
     margin: 1rem 0;
   }
+
   a {
-    color: #fff;
+    color: $white;
+
     &.nav-link {
       padding: .1rem 0;
     }
   }
+
   h3 {
     margin-top: 0;
   }
+
   .contact-details {
     h4 {
       font-family: $font-family-sans-serif;
@@ -20,11 +25,12 @@
       margin-bottom: 0;
       text-transform: uppercase;
     }
+
     a {
       display: block;
       font-family: $font-family-serif;
-      text-transform: none;
       margin-bottom: 1.5rem;
+      text-transform: none;
     }
   }
 }
