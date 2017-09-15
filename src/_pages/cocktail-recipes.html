@@ -56,30 +56,14 @@ permalink: /cocktail-recipes
       <div class="col">
         <div class="content">
           <div class="card-grid">
+            {% for item in (1..4) %}
             <div class="card">
               <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
               <div class="card-body text-center">
                 <p class="lead">Citrus Forward</p>
               </div>
             </div>
-            <div class="card">
-              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
-              <div class="card-body text-center">
-                <p class="lead">Hot Drinks</p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
-              <div class="card-body text-center">
-                <p class="lead">Punches</p>
-              </div>
-            </div>
-            <div class="card">
-              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
-              <div class="card-body text-center">
-                <p class="lead">Sours</p>
-              </div>
-            </div>
+            {% endfor %}
           </div>
         </div>
       </div>
@@ -133,7 +117,7 @@ permalink: /cocktail-recipes
     <div class="row">
       <div class="col-md-7 order-sm-2">
         <div class="content">
-          <h2 class="mt-0">Visiting Bartending: Annie Pierce</h2>
+          <h2 class="mt-0">Visiting Bartender: Annie Pierce</h2>
           <p class="sans-serif text-uppercase">Working at:</p>
           <p class="lead">Bombay Sapphire</p>
           <p class="sans-serif text-uppercase">Cocktail:</p>

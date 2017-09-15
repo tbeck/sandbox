@@ -20,6 +20,27 @@
   a {
     border-bottom: 0;
     display: block;
-    padding: 20px 6px;
+    padding: 10px;
+    width: 50%;
   }
 }
+
+// Media Queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .partners {
+    a {
+      width: auto;
+      padding: 20px 6px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

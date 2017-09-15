@@ -555,6 +555,7 @@ blockquote {
   .hero .hero-caption {
     text-align: center;
     width: 100%;
+    padding: 20px;
     z-index: 5; }
   .hero h1,
   .hero h2,
@@ -743,6 +744,9 @@ input[type="submit"] {
 
 @media (min-width: 768px) {
   .tabnav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-bottom: 0; }
@@ -808,7 +812,8 @@ input[type="submit"] {
     color: #fff;
     font-family: "proxima-nova", sans-serif;
     text-transform: uppercase;
-    width: 100%; }
+    width: 100%;
+    font-size: 12px; }
   #search-recipes input[type="submit"] {
     background-color: #d3b262;
     border: 2px solid #18374b;
@@ -831,7 +836,8 @@ input[type="submit"] {
         flex-wrap: nowrap; }
   #search-recipes input[type="text"] {
     width: 80%;
-    margin-right: 20px; }
+    margin-right: 20px;
+    font-size: 16px; }
   #search-recipes input[type="submit"] {
     width: 20%; } }
 #contact-info h4,
@@ -866,7 +872,7 @@ input[type="submit"] {
     content: ''; }
   .distributors .distributor {
     border-bottom: 2px solid #18374b;
-    width: 30%;
+    width: 100%;
     text-align: center;
     margin-bottom: 30px; }
 
@@ -874,7 +880,7 @@ input[type="submit"] {
   position: relative; }
   .bordered::before, .bordered::after {
     content: '';
-    width: 33%;
+    width: 30%;
     border-top: 1px solid #d3b262;
     position: absolute;
     top: 50%; }
@@ -883,6 +889,12 @@ input[type="submit"] {
   .bordered::after {
     right: 0; }
 
+@media (min-width: 576px) {
+  .distributors .distributor {
+    width: 47%; } }
+@media (min-width: 768px) {
+  .distributors .distributor {
+    width: 30%; } }
 .recipes .card {
   background-color: transparent;
   padding: 20px; }
@@ -981,8 +993,13 @@ input[type="submit"] {
   .partners a {
     border-bottom: 0;
     display: block;
-    padding: 20px 6px; }
+    padding: 10px;
+    width: 50%; }
 
+@media (min-width: 768px) {
+  .partners a {
+    width: auto;
+    padding: 20px 6px; } }
 .back-button {
   padding-left: 30px;
   border-bottom: 0;
