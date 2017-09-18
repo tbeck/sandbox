@@ -67,6 +67,18 @@ ul.no-bullets {
   background-image: url('/assets/img/bg-pattern.png');
 }
 
+.pinterest-share {
+  border-bottom: 0;
+  padding: 5px 7px;
+  background-color: $brand-primary;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  i {
+    color: $white;
+  }
+}
+
 // Media Queries
 // Small devices (landscape phones, 576px and up, 767px and down)
 @media (min-width: $screen-sm-min) {}

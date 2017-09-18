@@ -48,6 +48,16 @@ ul.no-bullets {
 .bg-pattern {
   background-image: url("/assets/img/bg-pattern.png"); }
 
+.pinterest-share {
+  border-bottom: 0;
+  padding: 5px 7px;
+  background-color: #18374b;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .pinterest-share i {
+    color: #fff; }
+
 @media (max-width: 767px) {
   .w-50 {
     width: 100% !important; } }
@@ -381,6 +391,7 @@ h5 {
     right: 20px;
     top: 5px; }
     #page-header .socialnav a {
+      color: #fff;
       padding: 0 3px; }
   #page-header #mainnav {
     -webkit-box-pack: end;
@@ -645,8 +656,9 @@ input[type="submit"] {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 220px;
-    width: 100%; }
+    height: 250px;
+    width: 100%;
+    position: relative; }
   .card .card-body {
     padding: 20px 0; }
   .card .hover-overlay {
@@ -909,15 +921,6 @@ input[type="submit"] {
   background-position: center center;
   background-size: cover;
   position: relative; }
-  .recipe-image a {
-    border-bottom: 0;
-    padding: 5px 7px;
-    background-color: #18374b;
-    position: absolute;
-    bottom: 0;
-    right: 0; }
-    .recipe-image a i {
-      color: #fff; }
 
 .ingredients {
   margin-right: 8px;

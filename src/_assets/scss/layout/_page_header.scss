@@ -21,6 +21,7 @@
     top: 5px;
 
     a {
+      color: $white;
       padding: 0 3px;
     }
   }
@@ -52,24 +53,6 @@
       }
     }
   }
-
-  // &.home-header {
-  //   background-color: transparent;
-  //   border-bottom: 0;
-
-  //   #mainnav {
-  //     justify-content: center;
-  //   }
-
-  //   .navbar-nav {
-  //     margin-top: 0;
-  //   }
-
-  //   .navbar-brand,
-  //   .socialnav {
-  //     opacity: 0;
-  //   }
-  // }
 }
 
 

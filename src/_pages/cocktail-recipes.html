@@ -31,6 +31,7 @@ permalink: /cocktail-recipes
         {% endif %}
       <div class="card w-50">
         <div class="card-img-wrapper" style="background-image: url({{ recipe.image }});">
+          <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ recipe.image | xm_escape }}&description={{ recipe.title | xml_escape }}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
         </div>
         <div class="card-body text-center">
           <h2 class="card-title">{{ recipe.title }}</h2>
