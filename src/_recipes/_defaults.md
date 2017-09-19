@@ -6,8 +6,9 @@ ingredients:
   - 
     name:
     quantity:
-notes_html:
+garnish:
+instructions_html:
 image:
 tags:
-product:
+products:
 ---
