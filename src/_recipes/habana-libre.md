@@ -5,7 +5,8 @@ description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
 ingredients:
   - name:
     quantity:
-notes_html:
+garnish:
+instructions_html:
 image: /uploads/habana-libre.jpg
 tags:
 products:

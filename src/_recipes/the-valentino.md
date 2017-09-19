@@ -5,7 +5,8 @@ description: 'A tribute to the 1920’s italian silent movie actor Rudolph Valen
 ingredients:
   - name:
     quantity:
-notes_html:
+garnish:
+instructions_html:
 image: /uploads/valentino.jpg
 tags:
 products:
