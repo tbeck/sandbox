@@ -852,22 +852,13 @@ input[type="submit"] {
     font-family: "proxima-nova", sans-serif;
     text-transform: uppercase;
     width: 100%;
-    font-size: 12px; }
-  #search-recipes input[type="submit"] {
-    background-color: #d3b262;
-    border: 2px solid #18374b;
-    color: #18374b;
-    font-family: "proxima-nova", sans-serif;
-    width: 100%;
-    position: relative;
-    text-transform: uppercase; }
-    #search-recipes input[type="submit"]::before {
-      content: '\e902';
-      display: block;
-      font-family: 'bittercube';
-      left: 0;
-      position: absolute;
-      top: 0; }
+    font-size: 12px;
+    padding: 15px;
+    margin: 0 20px 0 0; }
+  #search-recipes .button {
+    margin: 0; }
+    #search-recipes .button i {
+      margin-right: 10px; }
 
 @media (min-width: 768px) {
   #search-recipes .d-flex {
@@ -914,6 +905,10 @@ input[type="submit"] {
     width: 100%;
     text-align: center;
     margin-bottom: 30px; }
+    .distributors .distributor h4 {
+      height: 50px; }
+    .distributors .distributor p {
+      height: 50px; }
 
 .bordered {
   position: relative; }
@@ -953,12 +948,20 @@ input[type="submit"] {
   margin-right: 8px;
   padding: 50px;
   width: 50%; }
-  .ingredients ul {
+  .ingredients .ingredients-list {
     list-style-type: none;
     padding-left: 0; }
-    .ingredients ul li {
+    .ingredients .ingredients-list li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       font-family: "proxima-nova", sans-serif;
-      line-height: 2; }
+      line-height: 1.4;
+      padding: 10px 0; }
+      .ingredients .ingredients-list li .ingredient-quantity {
+        width: 20%; }
+      .ingredients .ingredients-list li .ingredient-name {
+        width: 80%; }
 
 .notes {
   width: 50%;

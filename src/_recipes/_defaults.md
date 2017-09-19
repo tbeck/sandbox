@@ -9,5 +9,5 @@ ingredients:
 notes_html:
 image:
 tags:
-product:
+products:
 ---

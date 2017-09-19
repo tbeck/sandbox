@@ -26,17 +26,27 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
   //pseudo element so that rows that aren't filled will be aligned correctly
   &::after {
     height: 0;
     width: 30%;
     content: '';
   }
+
   .distributor {
     border-bottom: 2px solid $brand-primary;
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
+
+    h4 {
+      height: 50px;
+    }
+
+    p {
+      height: 50px;
+    }
   }
 }
 
