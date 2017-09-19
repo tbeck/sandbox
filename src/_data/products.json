@@ -1,17 +1,7 @@
 [
-  {
-    "handle": "product-1",
-    "name": "Product 1",
-    "url": "/product1"
-  },
-  {
-    "handle": "product-2",
-    "name": "Product 2",
-    "url": "/product2"
-  },
-  {
-    "handle": "product-3",
-    "name": "Product 3",
-    "url": "/product3"
-  }
+	{
+		"handle": "product-3",
+		"name": "Product 3",
+		"url": "/product3"
+	}
 ]
