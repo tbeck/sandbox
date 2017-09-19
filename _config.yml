@@ -24,6 +24,8 @@ twitter:
 collections:
   recipes:
     output: true
+  products:
+    output: true
 # Build settings
 safe: false
 source: src
