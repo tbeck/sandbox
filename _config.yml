@@ -23,8 +23,7 @@ twitter:
 
 collections:
   recipes:
-    output: true  
-
+    output: true
 # Build settings
 safe: false
 source: src

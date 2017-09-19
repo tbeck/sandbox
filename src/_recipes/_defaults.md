@@ -2,7 +2,12 @@
 layout: recipe
 title:
 description:
-recipe_html: 
+ingredients:
+  - 
+    name:
+    quantity:
 notes_html:
 image:
+tags:
+products:
 ---
