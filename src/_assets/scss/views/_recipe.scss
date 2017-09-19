@@ -11,13 +11,23 @@
   margin-right: 8px;
   padding: 50px;
   width: 50%;
-  ul {
+
+  .ingredients-list {
     list-style-type: none;
     padding-left: 0;
-
+  
     li {
+      display: flex;
       font-family: $font-family-sans-serif;
-      line-height: 2;
+      line-height: 1.4;
+      padding: 10px 0;
+      .ingredient-quantity {
+        width: 20%;
+      }
+
+      .ingredient-name {
+        width: 80%;
+      }
     }
      
   }

@@ -22,7 +22,14 @@ layout: default
           <div class="d-flex">
             <div class="card ingredients">
               <h5 class="text-center">Ingredients</h5>
-              {{ page.recipe_html }}
+              <ul class="ingredients-list">
+                {% for ingredient in page.ingredients %}
+                <li>
+                  <span class="ingredient-quantity">{{ ingredient.quantity }}</span>
+                  <span class="ingredient-name">{{ ingredient.name }}</span>
+                </li>
+                {% endfor %}
+              </ul>
             </div>
             <div class="card notes">
               <h5 class="text-center">Notes</h5>
