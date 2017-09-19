@@ -9,7 +9,7 @@ notes_html:
 image:
 tags:
   - Cardamon
-products:
+product:
 ---
 
 
