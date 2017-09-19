@@ -22,7 +22,7 @@ twitter:
   description:
 
 collections:
-  cocktail_recipes:
+  recipes:
     output: true  
 
 # Build settings
