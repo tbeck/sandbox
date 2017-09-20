@@ -1,6 +1,20 @@
 .cognito {
   .c-forms-form {
     max-width: 100% !important;
+    
+    .c-field {
+      padding: 8px 0 2px;
+      input,
+      textarea {
+        border: 2px solid $brand-primary;
+        color: $brand-primary;
+      }
+
+      &:focus {
+        outline-style: solid;
+        outline-color: $yellow;
+      }
+    }
 
     .c-action {
       float: none;
@@ -8,6 +22,7 @@
     }
 
     #c-submit-button {
+      @include transition(.5s);
       font-family: $font-family-sans-serif;
       border: 2px solid $brand-primary;
       border-radius: 0;
@@ -15,6 +30,11 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       padding: 10px 30px;
+
+      &:hover {
+        background-color: $brand-primary;
+        color: $white;
+      }
     }
 
     .c-forms-confirmation-message {
@@ -35,7 +55,5 @@
     }
   }
 
-  .c-field {
-    padding: 8px 0 2px;
-  }
+  
 }

@@ -404,6 +404,18 @@ h5 {
     width: 40px;
     height: 40px;
     padding: 10px; }
+    #page-header .navbar-toggler.open .close-one {
+      opacity: 0; }
+    #page-header .navbar-toggler.open .close-two {
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      margin-top: 0; }
+    #page-header .navbar-toggler.open .close-three {
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      margin-top: 0; }
     #page-header .navbar-toggler .bar {
       -webkit-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
@@ -601,6 +613,10 @@ textarea {
   margin: .5rem 0;
   padding: .5rem 1rem;
   width: 100%; }
+  input:focus,
+  textarea:focus {
+    outline-style: solid;
+    outline-color: #d3b262; }
 
 input[type="submit"] {
   display: inline-block;
@@ -623,10 +639,21 @@ input[type="submit"] {
 
 .cognito .c-forms-form {
   max-width: 100% !important; }
+  .cognito .c-forms-form .c-field {
+    padding: 8px 0 2px; }
+    .cognito .c-forms-form .c-field input,
+    .cognito .c-forms-form .c-field textarea {
+      border: 2px solid #18374b;
+      color: #18374b; }
+    .cognito .c-forms-form .c-field:focus {
+      outline-style: solid;
+      outline-color: #d3b262; }
   .cognito .c-forms-form .c-action {
     float: none;
     text-align: center; }
   .cognito .c-forms-form #c-submit-button {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     font-family: "proxima-nova", sans-serif;
     border: 2px solid #18374b;
     border-radius: 0;
@@ -634,6 +661,9 @@ input[type="submit"] {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px 30px; }
+    .cognito .c-forms-form #c-submit-button:hover {
+      background-color: #18374b;
+      color: #fff; }
   .cognito .c-forms-form .c-forms-confirmation-message {
     text-align: center;
     font-family: "Alegreya", serif !important;
@@ -645,8 +675,6 @@ input[type="submit"] {
   font-family: "Alegreya", serif;
   color: #18374b;
   font-size: 16px; }
-.cognito .c-field {
-  padding: 8px 0 2px; }
 
 .button {
   -webkit-transition: all 0.5s ease-in-out;
@@ -737,6 +765,9 @@ input[type="submit"] {
       flex-wrap: wrap; }
   .card-grid .card {
     width: 100%; }
+    .card-grid .card:last-of-type {
+      margin-right: auto;
+      margin-left: 2.5%; }
     .card-grid .card a {
       font-family: "Alegreya", serif;
       border-bottom: 0;
@@ -885,9 +916,9 @@ input[type="submit"] {
   font-size: 18px; }
 
 .distributors {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -905,10 +936,6 @@ input[type="submit"] {
     width: 100%;
     text-align: center;
     margin-bottom: 30px; }
-    .distributors .distributor h4 {
-      height: 50px; }
-    .distributors .distributor p {
-      height: 50px; }
 
 .bordered {
   position: relative; }
@@ -969,11 +996,6 @@ input[type="submit"] {
   padding: 50px;
   font-size: 26px; }
 
-#contact-consulting input,
-#contact-consulting textarea {
-  border: 2px solid #18374b;
-  color: #18374b; }
-
 .products {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1032,7 +1054,7 @@ input[type="submit"] {
 @media (min-width: 768px) {
   .partners a {
     width: auto;
-    padding: 20px 6px; } }
+    padding: 20px 7px; } }
 .back-button {
   padding-left: 30px;
   border-bottom: 0;

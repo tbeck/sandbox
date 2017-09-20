@@ -32,4 +32,9 @@ $(document).ready(function() {
    else {
     $('.homepage #page-header').addClass('home-header');
    }
+
+   //nav interaction
+   $('.navbar-toggler').on('click', function(){
+     $(this).toggleClass('open');
+   });
 });

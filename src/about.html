@@ -16,7 +16,7 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content text-center">
-          <p class="lead">Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. No extracts or oils have ever been used in Bittercube Bitters. The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
+          <p class="editable lead">Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. No extracts or oils have ever been used in Bittercube Bitters. The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
         </div>
       </div>
     </div>
@@ -28,20 +28,20 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content">
-          <h2>Our Story</h2>
+          <h2 class="editable">Our Story</h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="content">
+        <div class="editable content">
           <p>Bittercube was founded by Nicholas Kosevich and Ira Koplowitz in 2009. After successful stints at Town Talk Diner (Nick) in Minneapolis and The Violet Hour (Ira) in Chicago, they began developing, formulating, and tweaking the lineup that is now the six varieties of Bittercube Bitters. The first larger batches began maceration in July of 2010, and since then the business has grown to distributed in more than 25 states around the country. Beyond bitters, Bittercube consults with a number of restaurants and bars, creating unique cocktail programs throughout the country.</p><p>Bittercube has a team of dedicated cocktail craftsmen and lend its spirited prowess to trade shows, cocktail classes, events, weddings and cocktail dinners.</p>
           <p>Bittercube has been featured in Martha Stewart’s Everyday Food, Playboy, Imbibe Magazine, Timeout, Chicago Tribune, New York Times, Bloomberg BusinessWeek, GO – AirTran Inflight Magazine, Milwaukee Journal-Sentinel, NPR, and Daily Candy, among other publications.</p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="content">
-          <img src="http://via.placeholder.com/350x450" class="img-fluid" alt="">
+          <img src="http://via.placeholder.com/350x450" class="editable img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content text-center">
-          <h2>The Team</h2>
+          <h2 class="editable">The Team</h2>
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ permalink: /about
           <div class="card-grid">
             {% for staff in site.data.team %}
             <div class="card team-member">
-              <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
+              <img class="card-img-top" src="{{ staff.image }}" alt="{{ staff.name }} Image">
               <div class="card-body">
                 <h4 class="card-title">{{ staff.name }}</h4>
                 <span>{{ staff.role }}</span>
@@ -82,13 +82,13 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content text-center">
-          <h2>The Apothecary</h2>
+          <h2 class="editable">The Apothecary</h2>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="content">
+        <div class="editable content">
           <p>Our apothecary is housed on the 2nd floor of the Lincoln Warehouse in Milwaukee.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam mauris, facilisis consectetur tortor sed, tincidunt faucibus sapien. Aenean porta leo nec velit pulvinar, et cursus ante tristique. Curabitur blandit viverra est, at condimentum mi volutpat at. Nulla a tortor felis. Mauris at interdum dui. Duis molestie nisl sed sollicitudin hendrerit. Aenean eu lorem ultricies, tristique est nec, aliquet ipsum.</p>
           <p>On the first floor of the warehouse, is Dock 18­—our experimental cocktail lab where we’ve partnered with Twisted Path Distillery to create truly exceptional cocktails on our ever-changing menu.</p>
@@ -96,7 +96,7 @@ permalink: /about
       </div>
       <div class="col-md-6">
         <div class="content">
-          <img src="/assets/img/about/apothecary.jpg" class="img-fluid" alt="Apothecary Image">
+          <img src="/assets/img/about/apothecary.jpg" class="img-fluid editable" alt="Apothecary Image">
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ permalink: /about
     <div class="row">
       <div class="col">
         <div class="content text-center">
-          <h2>Our Partners</h2>
+          <h2 class="editable">Our Partners</h2>
         </div>
       </div>
     </div>
@@ -116,72 +116,11 @@ permalink: /about
       <div class="col">
         <div class="content">
           <div class="partners">
-            <a href="#">
-              <img src="/assets/img/about/partners/bombay-sapphire.png" class="img-fluid" alt="Bombay Sapphire">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/the-oxford.png" class="img-fluid" alt="The Oxford">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/alma.png" class="img-fluid" alt="Alma">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/iron-horse-hotel.png" class="img-fluid" alt="The Iron Horse Hotel">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/lawless-distilling.png" class="img-fluid" alt="Lawless Distilling Company">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/curry-up-now.png" class="img-fluid" alt="Curry Up Now Indian Street Food">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/mortar-pestle.png" class="img-fluid" alt="Mortar &amp; Pestle">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/hewing-hotel.png" class="img-fluid" alt="Hewing Hotel">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/can-can.png" class="img-fluid" alt="Can Can Wonderland">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/hotel-covington.png" class="img-fluid" alt="Hotel Covington">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/charmant.png" class="img-fluid" alt="Charmant">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/foundation-hotel.png" class="img-fluid" alt="Foundation Hotel">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/red-bone-alley.png" class="img-fluid" alt="Red Bone Alley">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/scratch.png" class="img-fluid" alt="Scratch">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/beach-house.png" class="img-fluid" alt="The Beach House Kitchen &amp; Cocktails">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/gamble-ode.png" class="img-fluid" alt="Gamble Ode">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/the-lynhall.png" class="img-fluid" alt="The Lynhall">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/rujero.png" class="img-fluid" alt="Rujero">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/dock18.png" class="img-fluid" alt="Dock 18">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/yaguara.png" class="img-fluid" alt="Yaguara Cachaca">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/crooked-water.png" class="img-fluid" alt="Crooked Water Spirits">
-            </a>
-            <a href="#">
-              <img src="/assets/img/about/partners/tailor-made-tonics.png" class="img-fluid" alt="Tailor Made Tonics">
-            </a>
+            {% for partner in site.data.partners %}
+              <a href="{{ partner.url }}">
+                <img src="{{ partner.image }}" class="img-fluid" alt="{{ partner.title }}">
+              </a>
+            {% endfor %}
           </div>
         </div>
       </div>

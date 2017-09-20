@@ -71,6 +71,10 @@
   .card {
     width: 100%;
     
+    &:last-of-type {
+      margin-right: auto;
+      margin-left: 2.5%;
+    }
     a {
       font-family: $font-family-serif;
       border-bottom: 0;
