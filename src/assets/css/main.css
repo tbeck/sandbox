@@ -314,7 +314,8 @@ section {
     outline: none; }
 
 a {
-  border-bottom: 1px solid #18374b;
+  padding: 3px 0;
+  border-bottom: 2px solid #18374b;
   color: #18374b;
   font-family: "proxima-nova", sans-serif;
   letter-spacing: 2px;
@@ -361,10 +362,10 @@ h5 {
     font-size: 53px; }
 
   h2 {
-    font-size: 40px; }
+    font-size: 28px; }
 
   h3 {
-    font-size: 30px; }
+    font-size: 24px; }
 
   h4 {
     font-size: 20px; }
@@ -477,11 +478,12 @@ h5 {
   color: #fff;
   padding: 100px 0 50px; }
   #page-footer .nav {
-    margin: 1rem 0; }
+    margin: 2rem 0 1rem 0; }
   #page-footer a {
     color: #fff; }
     #page-footer a.nav-link {
-      padding: .1rem 0; }
+      padding: .1rem 0;
+      font-size: 14px; }
   #page-footer h3 {
     margin-top: 0; }
   #page-footer .contact-details h4 {
@@ -616,7 +618,8 @@ textarea {
   input:focus,
   textarea:focus {
     outline-style: solid;
-    outline-color: #d3b262; }
+    outline-color: #d3b262;
+    outline-width: 3px; }
 
 input[type="submit"] {
   display: inline-block;
@@ -636,6 +639,9 @@ input[type="submit"] {
     height: 22px;
     line-height: 1;
     -webkit-appearance: none; }
+
+.mce_inline_error {
+  color: #d3b262; }
 
 .cognito .c-forms-form {
   max-width: 100% !important; }
@@ -693,9 +699,11 @@ input[type="submit"] {
     background-color: #18374b;
     color: #fff; }
   .button.button-block {
-    display: block; }
+    display: block;
+    width: 100%; }
   .button.button-yellow {
-    background-color: #d3b262; }
+    background-color: #d3b262;
+    border-color: #d3b262; }
     .button.button-yellow:hover {
       background-color: transparent;
       border: 1px solid #d3b262; }

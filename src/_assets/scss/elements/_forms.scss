@@ -8,6 +8,7 @@ textarea {
   &:focus {
     outline-style: solid;
     outline-color: $yellow;
+    outline-width: 3px;
   }
 }
 
@@ -33,11 +34,7 @@ input[type="submit"] {
   }  
 }
 
-//styles for inputs 
-// .contact-form {
-//   input,
-//   textarea {
-//     border: 2px solid $brand-primary;
-//     color: $brand-primary;
-//   }
-// }
+.mce_inline_error {
+  color: $yellow;
+}
+

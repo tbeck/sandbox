@@ -3,12 +3,6 @@ layout: homepage
 title: Bittercube
 recipe: captain-truman
 ---
-<section id="message" style="display: none;">
-  <div class="alert alert-info alert-dismissible hide">
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    <p><strong>Thanks</strong> for your inquiry. We'll be in touch shortly.</p>
-  </div>
-</section>
 
 <div class="hero" style="background-image: url(/assets/img/home/hero-home.jpg)">
   <div class="hero-caption">
@@ -16,7 +10,7 @@ recipe: captain-truman
   </div>
 </div>
 
-<section class="bg-blue">
+<section id="" class="bg-blue">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -39,7 +33,7 @@ recipe: captain-truman
     </div>
     <div class="row">
       <div class="card w-50 p-3 text-center">
-        <img class="card-img-top img-fluid" src="/assets/img/home/bitters-collection.jpg" alt="Card image cap">
+        <img class="card-img-top img-fluid editable" src="/assets/img/home/bitters-collection.jpg" alt="Card image cap">
         <div class="card-body">
           <h2 class=" editable card-title">The Bitters Collection</h2>
           <div class="editable">
@@ -51,7 +45,7 @@ recipe: captain-truman
         </div>
       </div>
       <div class="card w-50 p-3 text-center">
-        <img class="card-img-top img-fluid" src="/assets/img/home/seven-pillars-consulting.jpg" alt="Card image cap">
+        <img class="card-img-top img-fluid editable " src="/assets/img/home/seven-pillars-consulting.jpg" alt="Card image cap">
         <div class="card-body text-center">
           <h2 class="editable card-title">Seven Pillars Consulting</h2>
           <div class="editable">
@@ -66,11 +60,10 @@ recipe: captain-truman
   </div>
 </section>
 
-{% for object in page.recipe %}
-  {% assign featured = site.recipes | where: "slug", object  | first %}
-
-{% endfor %}
-<section class="bg-yellow bg-pattern">
+<section id="featured-recipe" class="bg-yellow bg-pattern">
+  {% for object in page.recipe %}
+    {% assign featured = site.recipes | where: "slug", object  | first %}
+  {% endfor %}
   <div class="container">
     <div class="row">
       <div class="col">
@@ -91,46 +84,12 @@ recipe: captain-truman
     </div>
   </div>
 </section>
-<!-- <section class="bg-yellow bg-pattern">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="content">
-          <div class="media align-items-center">
-            <img src="/assets/img/home/six-corner-sling.jpg" class="img-fluid w-50" alt="Six Corner Sling Image">
-            <div class="media-body w-50 p-4">
-              <h2 class="mt-0">Six Corner Sling</h2>
-              <p>A perfect match for a hot summer’s night. The Six Corner Sling uses our Bolivar Bitters and Orange Bitters to make your backyard shindig come to life!</p>
-              <a href="#">View Recipe</a>
-            </div>
-          </div>
-        </div>
-        <div class="py-5 text-center">
-          <a href="/recipes">Discover More Recipes</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
 
-<section>
+<section id="instagram-feed">
   <div class="container">
     <div class="row">
-      <div class="content">
-        <div class="card-grid">
-          <div class="card">
-            <img src="http://via.placeholder.com/350x350" class="img-fluid" alt="">
-          </div>
-          <div class="card">
-            <img src="http://via.placeholder.com/350x350" class="img-fluid" alt="">
-          </div>
-          <div class="card">
-            <img src="http://via.placeholder.com/350x350" class="img-fluid" alt="">
-          </div>
-          <div class="card">
-            <img src="http://via.placeholder.com/350x350" class="img-fluid" alt="">
-          </div>
-        </div>
+      <div class="content text-center">
+        Instagram Widget
       </div>
     </div>
     <div class="row">
