@@ -681,6 +681,8 @@ input[type="submit"] {
   font-family: "Alegreya", serif;
   color: #18374b;
   font-size: 16px; }
+.cognito .c-button-section {
+  padding: 20px 0; }
 
 .button {
   -webkit-transition: all 0.5s ease-in-out;
