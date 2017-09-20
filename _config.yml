@@ -17,6 +17,10 @@ gems:
 collections:
   recipes:
     output: true
+  bartenders:
+    output: true
+    layout: bartender
+    permalink: /bartenders/:name
   products:
     output: false
 
