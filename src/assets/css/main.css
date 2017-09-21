@@ -313,16 +313,9 @@ section {
   section:focus {
     outline: none; }
 
-a {
-  padding: 3px 0;
-  border-bottom: 2px solid #18374b;
-  color: #18374b;
-  font-family: "proxima-nova", sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
-  a:hover, a:focus {
-    outline: none;
-    text-decoration: none; }
+a:hover, a:focus {
+  outline: none;
+  text-decoration: none; }
 
 @media (min-width: 768px) {
   section {
@@ -700,6 +693,17 @@ input[type="submit"] {
   .button:hover {
     background-color: #18374b;
     color: #fff; }
+  .button.inline {
+    display: inline-block;
+    padding: 3px 0;
+    border: none;
+    border-bottom: 2px solid #18374b;
+    color: #18374b;
+    font-family: "proxima-nova", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+    .button.inline:hover, .button.inline:focus {
+      background-color: transparent; }
   .button.button-block {
     display: block;
     width: 100%; }
@@ -757,9 +761,6 @@ input[type="submit"] {
     background-color: transparent;
     border: 0;
     padding: 0; }
-    .card .card-footer .button {
-      display: block;
-      font-size: .8rem; }
 
 .card-grid {
   -webkit-box-align: start;
@@ -775,9 +776,6 @@ input[type="submit"] {
       flex-wrap: wrap; }
   .card-grid .card {
     width: 100%; }
-    .card-grid .card:last-of-type {
-      margin-right: auto;
-      margin-left: 2.5%; }
     .card-grid .card a {
       font-family: "Alegreya", serif;
       border-bottom: 0;
@@ -911,6 +909,11 @@ input[type="submit"] {
     font-size: 16px; }
   #search-recipes input[type="submit"] {
     width: 20%; } }
+.nav .nav-item a {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
 #contact-info h4,
 #contact-info h5 {
   letter-spacing: 2px;
@@ -966,12 +969,17 @@ input[type="submit"] {
 @media (min-width: 768px) {
   .distributors .distributor {
     width: 30%; } }
-.recipes .card {
-  background-color: transparent;
-  padding: 20px; }
-  .recipes .card .card-body {
-    background-color: #fff;
-    padding: 50px 30px; }
+.recipes {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  .recipes .card {
+    background-color: transparent;
+    padding: 20px; }
+    .recipes .card .card-body {
+      background-color: #fff;
+      padding: 50px 30px; }
 
 .recipe-image {
   height: 400px;
@@ -1042,6 +1050,9 @@ input[type="submit"] {
   font-family: "proxima-nova", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px; }
+.team-member:last-of-type {
+  margin-right: auto;
+  margin-left: 2.5%; }
 
 .partners {
   -webkit-box-align: center;

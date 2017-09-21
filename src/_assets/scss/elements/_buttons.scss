@@ -16,6 +16,20 @@
     color: $white;
   }
 
+  &.inline {
+    display: inline-block;
+    padding: 3px 0;
+    border: none;
+    border-bottom: 2px solid $brand-primary;
+    color: $brand-primary;
+    font-family: $font-family-sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover, &:focus {
+      background-color: transparent;
+    }
+  }
+
   &.button-block {
     display: block;
     width: 100%;

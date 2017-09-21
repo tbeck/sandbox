@@ -17,13 +17,7 @@ section {
 }
 
 a {
-  padding: 3px 0;
-  border-bottom: 2px solid $brand-primary;
-  color: $brand-primary;
-  font-family: $font-family-sans-serif;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-
+  
   &:hover,
   &:focus {
     outline: none;

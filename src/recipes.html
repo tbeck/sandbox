@@ -13,28 +13,26 @@ permalink: /recipes/
     <div class="row recipes">
       <div class="card w-50">
         <div class="card-body text-center">
-          <h2>The Seven Pillars of Classic Cocktails</h2>
-          <p>These seven modernized classics are the foundation for thousands of cocktail variations</p>
-          <ul class="no-bullets sans-serif">
-            <li>Sour</li>
-            <li>French 75</li>
-            <li>Daisy</li>
-            <li>Old Fashioned</li>
-            <li>Collins</li>
-            <li>Manhattan</li>
-            <li>Negroni</li>
+          <h2 class="editable">Featured Recipes</h2>
+          <p class="editable">Our short list of must-trys for the season.</p>
+          <ul class="nav flex-column">
+            {% for recipe in site.recipes %}
+              {% if recipe.featured %}
+              <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
+              {% endif %}
+            {% endfor %}
           </ul>
         </div>
       </div>
       {% for recipe in site.recipes %}
       <div class="card w-50">
         <div class="card-img-wrapper" style="background-image: url({{ recipe.image }});">
-          <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ recipe.image | xm_escape }}&description={{ recipe.title | xml_escape }}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
+          <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ recipe.image | xm_escape }}&description={{ recipe.title | xml_escape }}"target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
         </div>
         <div class="card-body text-center">
           <h2 class="card-title">{{ recipe.title }}</h2>
           <p>{{ recipe.description }}</p>
-          <a href="{{ recipe.url }}">View Recipe</a>
+          <a href="{{ recipe.url }}" class="button inline">View Recipe</a>
         </div>
       </div>
       {% endfor %}
@@ -98,9 +96,9 @@ permalink: /recipes/
               <p><em>Our recipes use 1:1 (one-to-one) syrups, meaning equal parts sugar and water by weight. The easiest of these is Simple Syrup.</em></p>
               <p class="lead">Combine equal parts of granulated sugar and boiling water removed from heat.<br>
               Stir until dissolved, let cool before using.<br>
-              Keep covered and refridgerated for up to 2 weeks.</p>
+              Keep covered and refrigerated for up to 2 weeks.</p>
               <p><small>Be creative! Use botanical tea instead of plain water to create a flavored syrup. For a more robust syrup, try turbinado sugar.</small></p>
-              <a href="#">More Syrup Recipes</a>
+              <a href="/recipes#terms=syrup" class="button inline editable">More Syrup Recipes</a>
             </div>
             <div class="tab-pane fade" id="shaking-stirring" role="tabpanel">Shaking &amp; Stirring Tab</div>
             <div class="tab-pane fade" id="experimentation" role="tabpanel">Experimentation Tab</div>
@@ -111,23 +109,29 @@ permalink: /recipes/
   </div>
 </section>
 
-<section>
+<section id="featured-bartender">
+  {% assign bartender = site.bartenders | where: "featured", "true" | first %}
+  {% for object in bartender.featured_recipe %}
+    {% assign recipe = site.recipes | where: "slug", object  | first %}
+  {% endfor %}
   <div class="container">
     <div class="row">
       <div class="col-md-7 order-sm-2">
         <div class="content">
-          <h2 class="mt-0">Visiting Bartender: Annie Pierce</h2>
+          <h2 class="mt-0">Visiting Bartender: {{ bartender.name }}</h2>
           <p class="sans-serif text-uppercase">Working at:</p>
-          <p class="lead">Bombay Sapphire</p>
+          <p class="lead">{{ bartender.employer }}</p>
           <p class="sans-serif text-uppercase">Cocktail:</p>
-          <p class="lead">Gin Gin Pony</p>
-          <p><small>Annie received this year’s "Most Imaginative Bartender" title lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis turpis, sed tristique orci sollicitudin ut.</small></p>
-          <a href="#">See Annie's Recipe</a>
+          <p class="lead">{{ recipe.title }}</p>
+          <p><small>{{ bartender.summary }}</small></p>
+          <a href="{{ recipe.url }}" class="button inline">See {{ bartender.first_name }}'s Recipe</a>
         </div>
       </div>
       <div class="col-md-5 order-sm-1">
         <div class="content">
-          <img class="img-fluid" src="https://unsplash.it/350/350/?random" alt="Card image cap">
+          <a href="{{ bartender.url }}" title="See {{ bartneder.first_name }}'s full profile">
+            <img class="img-fluid" src="{{ bartender.image }}" alt="{{ bartender.name }}">
+          </a>
         </div>
       </div>
     </div>

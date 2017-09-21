@@ -12,4 +12,5 @@ instructions_html:
 image:
 tags:
 products:
+featured: false
 ---

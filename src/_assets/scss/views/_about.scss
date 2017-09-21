@@ -10,6 +10,10 @@
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+  &:last-of-type {
+    margin-right: auto;
+    margin-left: 2.5%;
+  }
 }
 
 .partners {

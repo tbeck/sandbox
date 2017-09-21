@@ -56,10 +56,10 @@
     border: 0;
     padding: 0;
 
-    .button {
-      display: block;
-      font-size: .8rem;
-    }
+    // .button {
+    //   display: block;
+    //   font-size: .8rem;
+    // }
   }
 }
 
@@ -70,11 +70,7 @@
   flex-wrap: wrap;
   .card {
     width: 100%;
-    
-    &:last-of-type {
-      margin-right: auto;
-      margin-left: 2.5%;
-    }
+
     a {
       font-family: $font-family-serif;
       border-bottom: 0;

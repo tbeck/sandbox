@@ -18,4 +18,5 @@ instructions_html: '<p>Garnish: Orange Peel</p><p>Stir ingredients, strain into 
 image: /uploads/captain-truman.jpg
 tags:
 products:
+featured: true
 ---

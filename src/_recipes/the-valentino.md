@@ -10,4 +10,5 @@ instructions_html:
 image: /uploads/valentino.jpg
 tags:
 products:
+featured: true
 ---

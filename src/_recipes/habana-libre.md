@@ -10,4 +10,5 @@ instructions_html:
 image: /uploads/habana-libre.jpg
 tags:
 products:
+featured: true
 ---
