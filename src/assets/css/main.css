@@ -313,9 +313,11 @@ section {
   section:focus {
     outline: none; }
 
-a:hover, a:focus {
-  outline: none;
-  text-decoration: none; }
+a {
+  color: #18374b; }
+  a:hover, a:focus {
+    outline: none;
+    text-decoration: none; }
 
 @media (min-width: 768px) {
   section {

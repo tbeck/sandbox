@@ -8,7 +8,7 @@ permalink: /recipes/
 
 {% include recipe-search.html %}
 
-<section class="bg-yellow">
+<section id="recipes" class="bg-yellow">
   <div class="container">
     <div class="row recipes">
       <div class="card w-50">
@@ -40,7 +40,7 @@ permalink: /recipes/
   </div>
 </section>
 
-<section>
+<section id="dealers-choice">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -53,11 +53,17 @@ permalink: /recipes/
       <div class="col">
         <div class="content">
           <div class="card-grid">
-            {% for item in (1..4) %}
+            {% for category in site.data.drink_categories %}
             <div class="card">
-              <img class="img-fluid" src="https://unsplash.it/250/250/?random" alt="Card image cap">
+              <a href="/recipes#term={{ category.title }}">
+                {% if category.image %}
+                  <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
+                {% else %}
+                  <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+                {% endif %}
+              </a>
               <div class="card-body text-center">
-                <p class="lead">Citrus Forward</p>
+                <p class="lead">{{ category.title }}</p>
               </div>
             </div>
             {% endfor %}
@@ -88,9 +94,13 @@ permalink: /recipes/
               <a class="nav-link" data-toggle="tab" href="#shaking-stirring" role="tab" aria-controls="shaking-stirring">Shaking &amp; Stirring</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#dropper-dash" role="tab" aria-controls="shaking-stirring">Dropper vs. Dash</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#experimentation" role="tab" aria-controls="experimentation">Experimentation</a>
             </li>
           </ul>
+          <!-- TODO - Speak with client to understand what the content is for this section and how we can help make it editable? -->
           <div class="tab-content">
             <div class="tab-pane fade show active text-center" id="making-syrup" role="tabpanel">
               <p><em>Our recipes use 1:1 (one-to-one) syrups, meaning equal parts sugar and water by weight. The easiest of these is Simple Syrup.</em></p>
@@ -100,8 +110,15 @@ permalink: /recipes/
               <p><small>Be creative! Use botanical tea instead of plain water to create a flavored syrup. For a more robust syrup, try turbinado sugar.</small></p>
               <a href="/recipes#terms=syrup" class="button inline editable">More Syrup Recipes</a>
             </div>
-            <div class="tab-pane fade" id="shaking-stirring" role="tabpanel">Shaking &amp; Stirring Tab</div>
-            <div class="tab-pane fade" id="experimentation" role="tabpanel">Experimentation Tab</div>
+            <div class="tab-pane fade" id="shaking-stirring" role="tabpanel">
+              <div class="editable">Shaking &amp; Stirring Content</div>
+            </div>
+            <div class="tab-pane fade" id="dropper-dash" role="tabpanel">
+              <div class="editable">Dropper vs. Dash Content</div>
+            </div>
+            <div class="tab-pane fade" id="experimentation" role="tabpanel">
+              <div class="editable">Experimentation Content</div>
+            </div>
           </div>
         </div>
       </div>
@@ -130,7 +147,11 @@ permalink: /recipes/
       <div class="col-md-5 order-sm-1">
         <div class="content">
           <a href="{{ bartender.url }}" title="See {{ bartneder.first_name }}'s full profile">
-            <img class="img-fluid" src="{{ bartender.image }}" alt="{{ bartender.name }}">
+            {% if bartender.image %}
+              <img class="img-fluid" src="{{ bartender.image }}" alt="{{ bartender.name }}">
+            {% else %}
+              <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+            {% endif %}
           </a>
         </div>
       </div>
