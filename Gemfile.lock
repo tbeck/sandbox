@@ -41,6 +41,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    replace_regex (0.1.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
@@ -56,8 +57,9 @@ DEPENDENCIES
   fontcustom
   jekyll
   jekyll-sitemap
+  replace_regex
   sass
   scss_lint
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

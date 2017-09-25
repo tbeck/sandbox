@@ -1,9 +1,9 @@
 ---
 layout: recipe
-title: Captain Truman
-description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fuga iure rerum voluptas provident debitis quidem eaque.'
+name: Captain Truman
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis fuga iure rerum voluptas provident debitis quidem eaque."
 ingredients:
-  - name: Partida Blanco Tequila
+  - name: Partida     Blanco Tequila
     quantity: 1.5 oz
   - name: Del Maguey Mezcal (Vida, Santa Domingo or Chichicapa)
     quantity: .5 oz

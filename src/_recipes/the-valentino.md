@@ -1,7 +1,7 @@
 ---
 layout: recipe
-title: The Valentino
-description: 'A tribute to the 1920’s italian silent movie actor Rudolph Valentino, this modern classic is a take on a Negroni variation.'
+name: The Valentino
+description: "A tribute to the 1920’s italian silent movie actor Rudolph Valentino, this modern classic is a take on a Negroni variation."
 ingredients:
   - name:
     quantity:

@@ -15,11 +15,16 @@
   "license": "MIT",
   "browser": {
     "modernizr": "./src/_assets/scripts/modernizr-custom.js",
-    "jquery": "./bower_components/jquery/dist/jquery.js"
+    "jquery": "./src/_assets/scripts/jquery_shim.js",
+    "mixitup": "./bower_components/mixitup/dist/mixitup.min.js",
+    "typeahead": "./bower_components/bootstrap3-typeahead/bootstrap3-typeahead.min.js"
   },
   "browserify-shim": {
     "modernizr": "Modernizr",
-    "jquery": "$"
+    "jquery": "global:jQuery",
+    "typeahead": {
+      "depends": ["jquery:jQuery"]
+    }
   },
   "browserify": {
     "transform": [

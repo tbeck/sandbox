@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title:
+name:
 bartender:
 description:
 ingredients:

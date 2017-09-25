@@ -13,10 +13,13 @@ exclude: ["_assets"]
 
 gems:
   - jekyll-sitemap
+  - replace_regex
 
 collections:
   recipes:
     output: true
+    layout: recipe
+    permalink: /recipes/:name
   bartenders:
     output: true
     layout: bartender
@@ -38,4 +41,27 @@ twitter:
   featured_image:
   image_alt_text:
   description:
+
+
+keywords:
+  - Citrusy
+  - Crisp
+  - Refreshing
+  - Effervescent
+  - Spirit Forward
+  - Bitter
+  - Smokey
+  - Velvetty
+  - Tropical
+  - Fruity
+  - Seasonal
+  - Hot
+  - Creamy
+  - Dry
+  - Low ABV
+  - Herbaceous
+  - Spicy
+  - Floral
+  - Savory
+  - Nutty
 

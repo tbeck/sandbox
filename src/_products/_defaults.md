@@ -1,6 +1,7 @@
 ---
 layout: page
-title:
+name:
 recipes:
 tags:
+shop_url:
 ---

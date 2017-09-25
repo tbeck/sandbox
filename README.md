@@ -38,3 +38,29 @@ cd ../
 rm -rf jekyll-project.git
 git clone git@bitbucket.org:ocupop/bittercube
 ```
+
+
+From issue: https://github.com/thlorenz/browserify-shim/issues/46
+
+If this helps anyone, I used the following to be able to include jQuery from a CDN but still have the ability to use require('jquery') in CommonJS modules via Globals
+
+package.json
+
+"browser": {
+        "jquery": "./client/src/js/jquery_shim.js"
+    },
+"browserify": {
+    "transform": [
+        "browserify-shim"
+    ]
+},
+"browserify-shim": {
+    "jquery": "global:jQuery"
+}
+jquery_shim.js
+
+module.exports = require('jquery');
+index.html
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/js/bundle.js"></script>

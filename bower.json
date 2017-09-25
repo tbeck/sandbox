@@ -23,7 +23,8 @@
     "waypoints": "^4.0.1",
     "lunr.js": "lunr#^0.7.2",
     "jquery": "^3.2.1",
-    "animate-sass": "^0.6.6"
+    "animate-sass": "^0.6.6",
+    "bootstrap3-typeahead": "git://github.com/bassjobsen/Bootstrap-3-Typeahead.git#master"
   },
   "devDependencies": {},
   "overrides": {

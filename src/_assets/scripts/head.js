@@ -7,10 +7,10 @@ WebFont.load({
   },
   typekit: { id: 'psg5pio' },
   loading: function() {
-    console.log("LOADING FONTS");
+    console.log('LOADING FONTS');
   },
   active: function() {
-    console.log("ACTIVE FONTS");
+    console.log('ACTIVE FONTS');
   },
   inactive: function() {},
   fontloading: function(familyName, fvd) {},
