@@ -700,6 +700,8 @@ input[type="submit"] {
   .button:hover {
     background-color: #18374b;
     color: #fff; }
+  .button:focus {
+    outline: none; }
   .button.inline {
     display: inline-block;
     padding: 3px 0;

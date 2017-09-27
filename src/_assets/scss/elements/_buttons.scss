@@ -15,6 +15,9 @@
     background-color: $brand-primary;
     color: $white;
   }
+  &:focus {
+    outline: none;
+  }
 
   &.inline {
     display: inline-block;
