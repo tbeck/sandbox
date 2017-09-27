@@ -5,7 +5,7 @@ title: Consulting
 permalink: /consulting
 ---
 
-<div class="hero" style="background-image: url(/assets/img/consulting/hero-consulting.jpg)">
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/consulting/hero-consulting.jpg)">
   <div class="hero-caption">
     <h1 class="editable">Seven Pillars Consulting</h1>
     <p class="editable">By Bittercube</p>
@@ -63,7 +63,7 @@ permalink: /consulting
   </div>
 </section>
 
-<section class="bg-yellow bg-pattern">
+<section id="training-program" class="bg-yellow bg-pattern">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -75,7 +75,7 @@ permalink: /consulting
     <div class="row align-items-center">
       <div class="col-md-5">
         <div class="content">
-          <img src="http://via.placeholder.com/550x550" class="img-fluid editable" alt="">
+          <img src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" class="img-fluid editable" alt="">
         </div>
       </div>
       <div class="col-md-7">
@@ -87,7 +87,7 @@ permalink: /consulting
   </div>
 </section>
 
-<section>
+<section id="testimonials">
   <div class="container">
     <div id="carouselExampleIndicators" class="carousel carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -102,14 +102,14 @@ permalink: /consulting
             <div class="col-md-6">
               <div class="content">
                 <blockquote>
-                  {{ testimonial.testimonial }}
+                  {{ testimonial.quote }}
                   <span>- {{ testimonial.author }}{% if testimonial.company %}, {{ testimonial.company  }}{% endif %}</span>
                 </blockquote>
               </div>
             </div>
             <div class="col-md-6">
               <div class="content">
-                <img src="http://via.placeholder.com/550x550/00{{ forloop.index }}" class="img-fluid" alt="">
+                <img src="{{ testimonial.image }}" class="img-fluid" alt="{{ testimonial.company }}">
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ permalink: /consulting
     <div class="row justify-content-center">
       <div class="col-md-9">
         <div class="content">
-          {% include form-contact.html %}
+          {% include forms/contact.html %}
         </div>
       </div>
     </div>
