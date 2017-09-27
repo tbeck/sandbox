@@ -5,6 +5,8 @@ description: ''
 url: "http://fluent-skunk.cloudvent.net"
 permalink: /:title
 
+store_url: "https://bittercube.myshopify.com"
+
 
 # Build settings
 safe: false
@@ -32,16 +34,16 @@ collections:
 store: "https://bittercube.myshopify.com"
 products_url: "/admin/products.json?fields=handle,image,title,tags"
 facebook:
-  title:
-  appid:
-  description:
+  title: "Bittercube Bitters"
+  appid: "261325721045749"
+  description: "Our Goal is Simple: To make drinks come true."
   featured_image:
 twitter:
-  username:
-  title:
+  username: "bittercube"
+  title: "Bittercube Bitters"
   featured_image:
-  image_alt_text:
-  description:
+  image_alt_text: "Bittercube Bitters"
+  description: "Our Goal is Simple: To make drinks come true."
 
 
 keywords:
