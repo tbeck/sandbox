@@ -12,12 +12,13 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dash
-garnish:
-glass:
+garnish: Smile
+glass: Mini rocks
 instructions_html:
 image:
 tags:
 products:
+  - cherry-bark-vanilla-bitters
 featured: false
 ---
 
