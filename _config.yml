@@ -5,6 +5,7 @@ description: ''
 url: "http://fluent-skunk.cloudvent.net"
 permalink: /:title
 
+
 # Build settings
 safe: false
 source: src
