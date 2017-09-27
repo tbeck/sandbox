@@ -665,6 +665,8 @@ input[type="submit"] {
     .cognito .c-forms-form #c-submit-button:hover {
       background-color: #18374b;
       color: #fff; }
+    .cognito .c-forms-form #c-submit-button:focus {
+      outline: none; }
   .cognito .c-forms-form .c-forms-confirmation-message {
     text-align: center;
     font-family: "Alegreya", serif !important;
@@ -678,6 +680,9 @@ input[type="submit"] {
   font-size: 16px; }
 .cognito .c-button-section {
   padding: 20px 0; }
+.cognito .c-validation {
+  border-radius: 0;
+  padding: 5px 10px; }
 
 .button {
   -webkit-transition: all 0.5s ease-in-out;

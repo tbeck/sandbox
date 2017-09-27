@@ -35,6 +35,9 @@
         background-color: $brand-primary;
         color: $white;
       }
+      &:focus {
+        outline: none;
+      }
     }
 
     .c-forms-confirmation-message {
@@ -57,5 +60,9 @@
 
   .c-button-section {
     padding: 20px 0;
+  }
+  .c-validation {
+    border-radius: 0;
+    padding: 5px 10px;
   }
 }
