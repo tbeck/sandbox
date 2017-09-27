@@ -890,9 +890,6 @@ input[type="submit"] {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 80%; }
-  #search-recipes .d-flex {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
   #search-recipes input[type="text"] {
     background-color: #18374b;
     border: 2px solid #d3b262;
@@ -900,21 +897,25 @@ input[type="submit"] {
     font-family: "proxima-nova", sans-serif;
     text-transform: uppercase;
     width: 100%;
-    font-size: 12px;
-    padding: 15px;
-    margin: 0 20px 0 0; }
+    padding: 15px; }
   #search-recipes .button {
-    margin: 0; }
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 20px;
+    border-width: 2px; }
     #search-recipes .button i {
-      margin-right: 10px; }
+      margin-right: 8px; }
+  #search-recipes .dropdown-menu {
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+    border-radius: 0;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: "proxima-nova", sans-serif; }
 
 @media (min-width: 768px) {
-  #search-recipes .d-flex {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap; }
   #search-recipes input[type="text"] {
-    width: 80%;
-    margin-right: 20px;
     font-size: 16px; }
   #search-recipes input[type="submit"] {
     width: 20%; } }
