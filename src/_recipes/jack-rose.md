@@ -19,9 +19,9 @@ image:
 tags:
   - Daisy
   - Brandy
-  - Bolivar Bitters
 products:
-featured: false
+  - bolivar-bitters
+featured: true
 ---
 
 
