@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.image %}
+  {% assign featured_image = page.image %}
+{% else %}
+  {% assign featured_image = "http://via.placeholder.com/1250x600/000000/333333?text=placeholder" %}
+{% endif %}
+
 {% include recipe-search.html %}
 
 <section id="recipe" class="bg-yellow">
@@ -10,8 +16,8 @@ layout: default
       <div class="col">
         <div class="content text-center">
           <h1 class="mb-5">{{ page.title }}</h1>
-          <div class="recipe-image" style="background-image: url({{ page.image }})">
-            <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ page.url | xml_escape }}&media={{ site.url | xml_escape }}{{ page.image | xml_escape }}&description={{ page.title | xml_escape }}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
+          <div class="recipe-image" style="background-image: url({{ featured_image }})">
+            <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ page.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ page.title | xml_escape }}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
           </div>
         </div>
       </div>
