@@ -8,6 +8,7 @@ ingredients:
     name:
     quantity:
 garnish:
+glass:
 instructions_html:
 image:
 tags:

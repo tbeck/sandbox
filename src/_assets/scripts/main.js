@@ -1,5 +1,6 @@
 require('jquery');
 require('typeahead');
+// require('search');
 
 
 $(window).scroll(function(){

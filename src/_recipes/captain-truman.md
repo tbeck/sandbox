@@ -13,8 +13,9 @@ ingredients:
     quantity: 11 drops
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 5 drops
-garnish:
-instructions_html: '<p>Garnish: Orange Peel</p><p>Stir ingredients, strain into rocks glass with ice and garnish.</p>'
+garnish: 'Orange Peel'
+glass:
+instructions_html: '<p>Stir ingredients, strain into rocks glass with ice and garnish.</p>'
 image: /uploads/captain-truman.jpg
 tags:
 products:
