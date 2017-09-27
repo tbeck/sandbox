@@ -1,7 +1,7 @@
 <header id="page-header" class="fixed-top {% if page.url == '/' %}home-header{% endif %}">
   <div class="container">
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="/"><img src="/assets/img/logo.svg" alt="Bittercube Logo"></a>
+      <a class="navbar-brand" href="{{ site.baseurl }}"><img src="{{ '/assets/img/logo.svg' | prepend: site.baseurl }}" alt="Bittercube Logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="bar close-one"></span>
@@ -12,23 +12,23 @@
       <div class="collapse navbar-collapse" id="mainnav">
         <ul class="nav navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/shop">Shop</a>
+            <a class="nav-link" href="{{ site.shop_url }}">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/consulting">Consulting</a>
+            <a class="nav-link" href="{{ '/consulting' | prepend: site.baseurl }}">Consulting</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/recipes">Recipes</a>
+            <a class="nav-link" href="{{ '/recipes' | prepend: site.baseurl }}">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
           </li>
         </ul>
         <ul class="nav socialnav">
-          <li><a href="#"><i class="icon-cart"></i> &vert;&nbsp;</a></li>
+          <li><a href="{{ '/cart' | prepend: site.shop_url }}"><i class="icon-cart"></i> &vert;&nbsp;</a></li>
           <li><a href="https://twitter.com/bittercube" target="_blank"><i class="icon-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/bittercube" target="_blank"><i class="icon-instagram"></i></a></li>
           <li><a href="https://www.facebook.com/bittercubebitters/" target="_blank"><i class="icon-facebook"></i></a></li>
