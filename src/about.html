@@ -41,7 +41,7 @@ permalink: /about
       </div>
       <div class="col-md-6">
         <div class="content">
-          <img src="http://via.placeholder.com/350x450" class="editable img-fluid" alt="">
+          <img src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" class="img-fluid editable" alt="">
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ permalink: /about
           <div class="card-grid">
             {% for staff in site.data.team %}
             <div class="card team-member">
-              <img class="card-img-top" src="{{ staff.image }}" alt="{{ staff.name }} Image">
+              <img class="card-img-top" src="{{ staff.image | prepend: site.baseurl }}" alt="{{ staff.name }} Image">
               <div class="card-body">
                 <h4 class="card-title">{{ staff.name }}</h4>
                 <span>{{ staff.role }}</span>
