@@ -5,7 +5,7 @@ description: ''
 url: "http://fluent-skunk.cloudvent.net"
 permalink: /:title
 
-store_url: "https://bittercube.myshopify.com"
+shop_url: "https://bittercube.myshopify.com"
 
 
 # Build settings
