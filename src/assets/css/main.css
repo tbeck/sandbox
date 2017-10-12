@@ -44,6 +44,9 @@ ul.no-bullets {
 
 .bg-yellow {
   background-color: #d3b262; }
+  .bg-yellow .button.inline:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3; }
 
 .bg-pattern {
   background-image: url("/assets/img/bg-pattern.png"); }

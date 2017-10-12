@@ -61,6 +61,15 @@ ul.no-bullets {
 
 .bg-yellow {
   background-color: $yellow;
+
+  .button {
+    &.inline {
+      &:hover {
+        color: $blue-medium;
+        border-bottom: 2px solid $blue-medium;
+      }
+    }
+  }
 }
 
 .bg-pattern {
@@ -74,6 +83,7 @@ ul.no-bullets {
   position: absolute;
   bottom: 0;
   right: 0;
+
   i {
     color: $white;
   }
