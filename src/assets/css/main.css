@@ -58,6 +58,9 @@ ul.no-bullets {
   .pinterest-share i {
     color: #fff; }
 
+.intro {
+  margin: 30px 0; }
+
 @media (max-width: 767px) {
   .w-50 {
     width: 100% !important; } }
@@ -384,11 +387,8 @@ h5 {
       padding-right: 1rem; }
   #page-header .socialnav {
     position: absolute;
-    right: 20px;
+    right: 30px;
     top: 5px; }
-    #page-header .socialnav a {
-      color: #fff;
-      padding: 0 3px; }
   #page-header #mainnav {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -595,7 +595,7 @@ blockquote {
   .hero {
     height: 600px; }
     .hero .hero-caption {
-      width: 50%;
+      width: 45%;
       max-width: 650px; } }
 .media {
   background: #fff; }
@@ -661,7 +661,8 @@ input[type="submit"] {
     color: #18374b;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 10px 30px; }
+    padding: 10px 30px;
+    margin-top: 35px; }
     .cognito .c-forms-form #c-submit-button:hover {
       background-color: #18374b;
       color: #fff; }
@@ -712,7 +713,9 @@ input[type="submit"] {
     letter-spacing: 2px;
     text-transform: uppercase; }
     .button.inline:hover, .button.inline:focus {
-      background-color: transparent; }
+      background-color: transparent;
+      color: #d3b262;
+      border-bottom: 2px solid #d3b262; }
   .button.button-block {
     display: block;
     width: 100%; }
@@ -797,7 +800,18 @@ input[type="submit"] {
   .card-grid .card {
     width: 23%; } }
 .socialnav a {
-  padding: 0 3px; }
+  font-size: 13px;
+  padding: 0 4px;
+  color: #fff; }
+  .socialnav a.cart-link {
+    border-right: 1px solid #fff;
+    padding-right: 6px;
+    margin-right: 5px; }
+  .socialnav a i {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .socialnav a:hover i {
+    color: #d3b262; }
 
 .tabnav {
   display: block;
@@ -828,6 +842,8 @@ input[type="submit"] {
   background-color: #fff;
   border: 2px solid #18374b;
   padding: 50px; }
+  .tab-content h5 {
+    margin-bottom: 5px; }
 
 @media (min-width: 768px) {
   .tabnav {
@@ -924,6 +940,12 @@ input[type="submit"] {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
+#instagram-feed {
+  padding: 40px 0 0 0; }
+
+@media (min-width: 768px) {
+  #instagram-feed {
+    padding: 80px 0 0 0; } }
 #contact-info h4,
 #contact-info h5 {
   letter-spacing: 2px;
@@ -1051,6 +1073,9 @@ input[type="submit"] {
             justify-content: space-between; }
     .products .card {
       width: 23%; } }
+#contact-consulting .lead {
+  margin-top: 20px; }
+
 .team-member h4 {
   font-size: 22px;
   font-family: "Alegreya", serif;

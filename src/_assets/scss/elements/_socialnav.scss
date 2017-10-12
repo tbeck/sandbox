@@ -1,5 +1,23 @@
 .socialnav {
   a {
-    padding: 0 3px;
+    font-size: 13px;
+    padding: 0 4px;
+    color: $white;
+
+    &.cart-link {
+      border-right: 1px solid $white;
+      padding-right: 6px;
+      margin-right: 5px;
+    }
+
+    i {
+      @include transition(.3s);
+    }
+
+    &:hover {
+      i {
+        color: $yellow;
+      }
+    }
   }
 }

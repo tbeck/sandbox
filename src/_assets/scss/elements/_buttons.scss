@@ -28,8 +28,12 @@
     font-family: $font-family-sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
+
     &:hover, &:focus {
       background-color: transparent;
+      color: $yellow;
+      border-bottom: 2px solid $yellow;
+
     }
   }
 
