@@ -452,6 +452,8 @@ h5 {
     #page-header .socialnav a {
       color: #18374b;
       border-bottom: 0; }
+      #page-header .socialnav a.cart-link {
+        border-right: 1px solid #18374b; }
 
   #page-footer .button {
     display: block;
@@ -800,13 +802,13 @@ input[type="submit"] {
   .card-grid .card {
     width: 23%; } }
 .socialnav a {
-  font-size: 13px;
+  font-size: 14px;
   padding: 0 4px;
   color: #fff; }
   .socialnav a.cart-link {
     border-right: 1px solid #fff;
-    padding-right: 6px;
-    margin-right: 5px; }
+    padding-right: 10px;
+    margin-right: 7px; }
   .socialnav a i {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
@@ -918,7 +920,7 @@ input[type="submit"] {
     width: 100%;
     height: 58px;
     line-height: 58px;
-    padding: 0 20px;
+    padding: 0 15px;
     border-width: 2px; }
     #search-recipes .button i {
       margin-right: 8px; }
@@ -1045,6 +1047,10 @@ input[type="submit"] {
   margin-left: 8px;
   padding: 50px;
   font-size: 26px; }
+  .notes .button {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 16px; }
 
 .products {
   display: -webkit-box;

@@ -96,6 +96,7 @@
     .navbar-nav {
       li {
         padding: 0 20px;
+
         a {
           color: $brand-primary;
           padding: 10px 0;
@@ -117,9 +118,14 @@
       right: auto;
       top: auto;
       padding: 30px 20px;
+      
       a {
         color: $brand-primary;
         border-bottom: 0;
+
+        &.cart-link {
+          border-right: 1px solid $brand-primary;
+        }
       }
     }
   }
