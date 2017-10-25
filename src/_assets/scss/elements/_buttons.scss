@@ -10,7 +10,6 @@
   padding: .5rem 1rem;
   text-align: center;
   text-transform: uppercase;
-
   &:hover {
     background-color: $brand-primary;
     color: $white;
@@ -18,30 +17,26 @@
   &:focus {
     outline: none;
   }
-
   &.inline {
     display: inline-block;
     padding: 3px 0;
-    border: none;
+    border: 0;
     border-bottom: 2px solid $brand-primary;
     color: $brand-primary;
     font-family: $font-family-sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       background-color: transparent;
       color: $yellow;
       border-bottom: 2px solid $yellow;
-
     }
   }
-
   &.button-block {
     display: block;
     width: 100%;
   }
-
   &.button-yellow {
     background-color: $yellow;
     border-color: $yellow;

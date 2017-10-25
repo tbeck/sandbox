@@ -1,4 +1,4 @@
-.clearfix {
+%clearfix {
   zoom: 1;
 
   &::before,
@@ -14,7 +14,7 @@
 
 // Spacing
 .content {
-  @extend .clearfix;
+  @extend %clearfix;
   padding: 20px;
   position: relative;
 }
@@ -73,7 +73,7 @@ ul.no-bullets {
 }
 
 .bg-pattern {
-  background-image: url('/assets/img/bg-pattern.png');
+  background-image: url('./bg-pattern.png');
 }
 
 .pinterest-share {

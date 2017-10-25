@@ -24,7 +24,7 @@
   margin: 8px 0;
   select {
     background: transparent;
-    border: none;
+    border: 0;
     line-height: 1;
     -webkit-appearance: none;
     width: 100%;
@@ -51,14 +51,15 @@ input[type="checkbox"] {
   margin-bottom: 20px;
   td {
     vertical-align: middle;
-    &.cart-product-image, &.remove-item {
+    &.cart-product-image,
+    &.remove-item {
       width: 100px;
     }
   }
   tfoot {
     border: 1px solid $brand-primary;
     td {
-    border-top: 0;
+      border-top: 0;
     }
   }
 }
@@ -68,12 +69,12 @@ input[type="checkbox"] {
     td {
       font-size: 14px;
       &.cart-product-image {
-       width: 10%;
-       padding: 0;
+        width: 10%;
+        padding: 0;
       }
       &.product-title {
         width: 30%;
-      }  
+      }
     }
   }
   .cart-qty-input {

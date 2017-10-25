@@ -7,7 +7,6 @@ blockquote {
   padding-right: 30px;
   position: relative;
   z-index: 1;
-  
   em {
     z-index: 9;
   }
@@ -35,10 +34,8 @@ blockquote {
     color: $brand-primary;
     content: '\201C'; //Unicode for Left Double Quote
     display: block;
-    //Font
     font-family: $font-family-sans-serif;
     font-size: 100px;
-    //Positioning
     left: -20px;
     position: absolute;
     top: -30px;
@@ -49,10 +46,8 @@ blockquote {
     color: $brand-primary;
     content: '\201D'; //Unicode for Left Double Quote
     display: block;
-    //Font
     font-family: $font-family-sans-serif;
     font-size: 100px;
-    //Positioning
     position: absolute;
     right: -10px;
     top: calc(100% - 75px);

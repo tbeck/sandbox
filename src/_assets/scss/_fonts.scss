@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'bittercube';
-  src:  url('./bittercube.eot?5zctft');
-  src:  url('./bittercube.eot?5zctft#iefix') format('embedded-opentype'),
+  src: url('./bittercube.eot?5zctft');
+  src: url('./bittercube.eot?5zctft#iefix') format('embedded-opentype'),
     url('./bittercube.woff2?5zctft') format('woff2'),
     url('./bittercube.ttf?5zctft') format('truetype'),
     url('./bittercube.woff?5zctft') format('woff'),
@@ -10,8 +10,8 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+[class^="icon-"],
+[class*=" icon-"] {
   font-family: 'bittercube' !important;
   speak: none;
   font-style: normal;
@@ -20,26 +20,25 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-search:before {
+.icon-search::before {
   content: "\e902";
 }
-.icon-pinterest:before {
+.icon-pinterest::before {
   content: "\e900";
 }
-.icon-cart:before {
+.icon-cart::before {
   content: "\e901";
 }
-.icon-facebook:before {
+.icon-facebook::before {
   content: "\ea90";
 }
-.icon-instagram:before {
+.icon-instagram::before {
   content: "\ea92";
 }
-.icon-twitter:before {
+.icon-twitter::before {
   content: "\ea96";
 }

@@ -13,7 +13,7 @@
           position: absolute;
           overflow: hidden;
           display: inline-block;
-          font-size: 12px; /*set the size for arrow*/
+          font-size: 12px; // set the size for arrow
           width: 15px;
           height: 15px;
           left: 0;
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 0;
-    
+
     li {
       a {
         padding-bottom: 25px;

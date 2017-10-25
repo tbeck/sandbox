@@ -7,7 +7,7 @@
   height: 350px;
   justify-content: center;
   position: relative;
-  
+
   &::before {
     background-color: $brand-primary-opacity-60;
     content: '';

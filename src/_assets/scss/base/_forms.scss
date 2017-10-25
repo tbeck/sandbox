@@ -27,14 +27,9 @@ input[type="submit"] {
   color: $brand-primary;
   select {
     background: transparent;
-    border: none;
+    border: 0;
     height: 22px;
     line-height: 1;
     -webkit-appearance: none;
-  }  
+  }
 }
-
-.mce_inline_error {
-  color: $yellow;
-}
-
