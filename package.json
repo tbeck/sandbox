@@ -23,7 +23,9 @@
     "modernizr": "Modernizr",
     "jquery": "global:jQuery",
     "typeahead": {
-      "depends": ["jquery:jQuery"]
+      "depends": [
+        "jquery:jQuery"
+      ]
     }
   },
   "browserify": {
@@ -69,6 +71,7 @@
     "webfontloader": "^1.6.28"
   },
   "dependencies": {
+    "gulp-flatten": "^0.3.1",
     "gulp-fontcustom": "^0.1.2"
   }
 }

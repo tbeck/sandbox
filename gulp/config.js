@@ -5,10 +5,8 @@ var development       = 'build/development';
 var production        = 'build/production';
 var srcAssets         = 'src/_assets';
 var buildAssets       = 'build/assets';
-var bowerAssets       = 'bower_components';
 var productionAssets  = 'build/production/assets';
-var developmentAssets = 'src/assets';
-var shopify           = 'src/shopify/shop-bittercube';
+var shopify           = 'src/shopify';
 
 module.exports = {
   bower: {
@@ -16,7 +14,7 @@ module.exports = {
     includeDev: true,
     dest: srcAssets + '/vendor',
     paths: {
-      bowerDirectory: bowerAssets,
+      bowerDirectory: 'bower_components',
       bowerrc: './.bowerrc',
       bowerJson: './bower.json'
     }
@@ -45,7 +43,7 @@ module.exports = {
     }
   },
   delete: {
-    src: [buildAssets, developmentAssets]
+    src: [buildAssets]
   },
   jekyll: {
     development: {
@@ -61,8 +59,7 @@ module.exports = {
   },
   sass: {
     src:   srcAssets + '/scss/**/*.{sass,scss}',
-    dest:  developmentAssets + '/css',
-    build: buildAssets + '/css',
+    dest:  buildAssets + '/css',
     options: {
       noCache: true,
       compass: false,
@@ -91,20 +88,17 @@ module.exports = {
     // bundle config in the list below
     bundleConfigs: [{
       entries:    './' + srcAssets + '/scripts/main.js',
-      dest:       developmentAssets + '/js',
-      build:      buildAssets + '/js',
+      dest:       buildAssets + '/js',
       outputName: 'main.js'
     }, {
       entries:    './' + srcAssets + '/scripts/head.js',
-      dest:       developmentAssets + '/js',
-      build:      buildAssets + '/js',
+      dest:       buildAssets + '/js',
       outputName: 'head.js'
     }]
   },
   images: {
     src:  srcAssets + '/img/**/*',
-    dest: developmentAssets + '/img',
-    build: buildAssets + '/img'
+    dest: buildAssets + '/img'
   },
   sprites: {
     src: srcAssets + '/svg/**/*.svg',
@@ -136,8 +130,9 @@ module.exports = {
     }
   },
   shopify: {
+    src: buildAssets + '/**/*',
     assets: shopify + '/assets',
-    src: shopify + '/{layout,config,snippets,templates,locales}/**/*.*',
+    // src: shopify + '/{layout,config,snippets,templates,locales}/**/*.*',
     config: {
       api_key: "8a1a2001d06ff…",
       password: "51f8c8de49ee28…",
@@ -154,12 +149,11 @@ module.exports = {
   copyfonts: {
     development: {
       src:  srcAssets + '/fonts/*',
-      dest: developmentAssets + '/css',
-      build: buildAssets + '/css'
+      dest: buildAssets + '/css'
     },
     production: {
       src:  buildAssets + '/fonts/*',
-      dest: productionAssets + '/fonts'
+      dest: productionAssets + '/css'
     }
   },
   optimize: {
@@ -250,9 +244,11 @@ module.exports = {
     scripts: srcAssets + '/scripts/**/*.js',
     images:  srcAssets + '/images/**/*',
     sprites: [
-      srcAssets + '/svg/**/*.svg',
-      src + '/docs/_templates/*',
+      // srcAssets + '/svg/**/*.svg',
+      // src + '/docs/_templates/*'
     ],
-    svg:     'vectors/*.svg'
+    // svg:     'vectors/*.svg',
+    iconfonts: srcAssets + '/fonts/**/*',
+    assets: buildAssets + '/**/*'
   }
 };
