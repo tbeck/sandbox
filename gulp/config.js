@@ -154,8 +154,8 @@ module.exports = {
   copyfonts: {
     development: {
       src:  srcAssets + '/fonts/*',
-      dest: developmentAssets + '/fonts',
-      build: buildAssets + '/fonts'
+      dest: developmentAssets + '/css',
+      build: buildAssets + '/css'
     },
     production: {
       src:  buildAssets + '/fonts/*',
