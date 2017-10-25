@@ -8,6 +8,7 @@ var buildAssets       = 'build/assets';
 var bowerAssets       = 'bower_components';
 var productionAssets  = 'build/production/assets';
 var developmentAssets = 'src/assets';
+var shopify           = 'src/shopify/shop-bittercube';
 
 module.exports = {
   bower: {
@@ -134,33 +135,17 @@ module.exports = {
       }
     }
   },
-  // sprites: {
-  //   src: srcAssets + '/svg/*.svg',
-  //   dest: src,
-  //   options: {
-  //     mode: 'symbols',
-  //     baseSize: 16,
-  //     selector: "%f",
-  //     layout: 'diagonal',
-  //     svgId: "svg-%f",
-  //     cssFile:  '_assets/scss/_sprite.scss',
-  //     svgPath: '/assets/svg/%f',
-  //     pngPath: '/assets/png/%f',
-  //     svg: {
-  //       sprite: "_assets/img/sprite.svg",
-  //       defs: "_assets/img/defs.svg",
-  //       symbols: "_assets/img/symbols.svg"
-  //     },
-  //     preview: {
-  //       sprite: 'docs/sprite.html',
-  //       defs: 'docs/defs.html',
-  //       symbols: 'docs/symbols.html'
-  //     },
-  //     templates: {
-  //       css: require("fs").readFileSync('resources/templates/_sprites_template.scss', "utf-8")
-  //     }
-  //   }
-  // },
+  shopify: {
+    assets: shopify + '/assets',
+    src: shopify + '/{layout,config,snippets,templates,locales}/**/*.*',
+    config: {
+      api_key: "8a1a2001d06ff…",
+      password: "51f8c8de49ee28…",
+      shared_secret: "51f8c8de49ee51…",
+      shop_name: "bittercube.myshopify.com",
+      theme_id: "184072917"
+    }
+  },
   iconfonts: {
     fontName: clientName,
     src:  srcAssets + '/icons/*',

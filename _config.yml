@@ -11,7 +11,7 @@ shop_url: "https://bittercube.myshopify.com"
 # Build settings
 safe: false
 source: src
-exclude: ["_assets"]
+exclude: ["_assets", "shopify"]
 
 
 gems:

@@ -28,6 +28,7 @@ gulp.task('sass', function() {
     .pipe(filter) // Don’t write sourcemaps of sourcemaps
     .pipe(sourcemaps.write('.', { includeContent: false, sourceRoot: 'app/_assets/scss' }))
     .pipe(filter.restore) // Restore original files
+    .pipe(gulp.dest(config.shopify.assets))
     .pipe(gulp.dest(config.sass.dest))
     .pipe(gulp.dest(config.sass.build));
 });

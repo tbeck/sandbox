@@ -1,1 +1,1 @@
-exclude: ["assets", "_assets"]
+exclude: ["assets", "_assets", "shopify"]
