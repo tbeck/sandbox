@@ -1,8 +1,10 @@
 @charset 'utf-8';
+
 @import 'variables';
 @import 'mixins';
-@import 'utilities';
 @import 'animations';
+
+@import 'store/products';
 
 
 .form-group {

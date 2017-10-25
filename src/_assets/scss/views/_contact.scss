@@ -44,6 +44,7 @@
 
 .bordered {
   position: relative;
+
   &::before,
   &::after {
     content: '';
@@ -54,7 +55,7 @@
   }
 
   &::before {
-    left:0;
+    left: 0;
   }
 
   &::after {

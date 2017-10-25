@@ -6,7 +6,7 @@ var production        = 'build/production';
 var srcAssets         = 'src/_assets';
 var buildAssets       = 'build/assets';
 var productionAssets  = 'build/production/assets';
-var shopify           = 'src/shopify';
+var shopifyTheme      = 'src/shopify/shop-bittercube';
 
 module.exports = {
   bower: {
@@ -131,7 +131,7 @@ module.exports = {
   },
   shopify: {
     src: buildAssets + '/**/*',
-    assets: shopify + '/assets',
+    assets: shopifyTheme + '/assets',
     // src: shopify + '/{layout,config,snippets,templates,locales}/**/*.*',
     config: {
       api_key: "8a1a2001d06ff…",
@@ -193,7 +193,8 @@ module.exports = {
       // '!' + srcAssets + '/scss/base/_sprites.scss'
       ],
       options: {
-        bundleExec: true
+        bundleExec: true,
+        config: './scss-lint.yml'
       }
   },
   jshint: {
