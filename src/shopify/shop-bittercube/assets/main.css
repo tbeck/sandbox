@@ -44,7 +44,7 @@ ul.no-bullets {
     border-bottom: 2px solid #0056b3; }
 
 .bg-pattern {
-  background-image: url("./bg-pattern.png"); }
+  background-image: url("/assets/img/backgrounds/bg-pattern.png"); }
 
 .pinterest-share {
   border-bottom: 0;
