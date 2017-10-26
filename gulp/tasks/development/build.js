@@ -10,6 +10,7 @@ gulp.task('build', function(callback) {
     'scripts',
     'images',
     'copy:fonts',
+    'cloudcannon:assets',
     'shopify:assets'
   ],
   'base64',

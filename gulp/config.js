@@ -141,6 +141,10 @@ module.exports = {
       theme_id: "184072917"
     }
   },
+  cloudcannon: {
+    src: buildAssets + '/**/*',
+    dest: src + '/assets'
+  },
   iconfonts: {
     fontName: clientName,
     src:  srcAssets + '/icons/*',

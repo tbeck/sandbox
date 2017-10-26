@@ -9,5 +9,5 @@ gulp.task('watch', ['browsersync'], function() {
   gulp.watch(config.images,    ['images']);
   gulp.watch(config.iconfonts, ['copy:fonts']);
   gulp.watch(config.sprites,   ['sprites']);
-  gulp.watch(config.assets,    ['shopify:assets']);
+  gulp.watch(config.assets,    ['shopify:assets', 'cloudcannon:assets']);
 });
