@@ -968,8 +968,17 @@ blockquote {
 @media (min-width: 768px) {
   .distributors .distributor {
     width: 30%; } }
+#consulting img {
+  width: 150px; }
+
 #contact-consulting .lead {
   margin-top: 20px; }
+
+#additional-support ul {
+  list-style-type: none;
+  padding-left: 0; }
+  #additional-support ul li {
+    margin-bottom: 15px; }
 
 .team-member h4 {
   font-size: 22px;
