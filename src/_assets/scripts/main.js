@@ -28,6 +28,37 @@ $(document).ready(function() {
      $(this).toggleClass('open');
    });
 
+   function setCookie() {
+      Cookies.set('age', 'verified');
+   }
+
+   function checkCookie() {
+      var age = Cookies.get('age');
+      if(age == 'verified') {
+        window.console.log('age is', age);
+        $('#age-verification').removeClass('active');
+
+      }else {
+        window.console.log('age is not verified');
+        $('#age-verification').addClass('active');
+      }
+   }
+
+   checkCookie();
+
+   $('#yes').on('click', function(){
+    setCookie();
+    checkCookie();
+   });
+
+   $('#no').on('click', function(){
+    window.console.log('no clicked');
+    $('.age-message').text('Message for when a user clicks no');
+    $('.confirm-age button').remove();
+   });
+
+   
+
    // Initialize typeahead feature
    // var $input = $('#search');
    // $input.typeahead({
