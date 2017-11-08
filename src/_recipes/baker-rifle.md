@@ -30,7 +30,7 @@ tags:
   - Refreshing
 products:
   - corazon-bitters
-featured: false
+featured: true
 ---
 
 
