@@ -8,17 +8,17 @@ $(function() {
 
 $(window).scroll(function(){
   if ($(window).scrollTop() >= 250) {
-    $('.homepage #page-header').removeClass('home-header');
+    $('.homepage-layout #page-header').removeClass('home-header');
    }
    else {
-    $('.homepage #page-header').addClass('home-header');
+    $('.homepage-layout #page-header').addClass('home-header');
    }
 });
 
 if ($(window).scrollTop() >= 250) {
-  $('.homepage #page-header').removeClass('home-header');
+  $('.homepage-layout #page-header').removeClass('home-header');
 } else {
-  $('.homepage #page-header').addClass('home-header');
+  $('.homepage-layout #page-header').addClass('home-header');
 }
 
 

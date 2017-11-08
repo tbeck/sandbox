@@ -502,10 +502,7 @@ h5 {
 
 @media (min-width: 768px) {
   #page-content {
-    padding-top: 77px; }
-
-  .homepage #page-content {
-    padding-top: 0; } }
+    padding-top: 77px; } }
 blockquote {
   color: #18374b;
   display: block;
@@ -1017,6 +1014,9 @@ blockquote {
       width: 200px;
       margin: 50px auto 25px; }
 
+@media (min-width: 768px) {
+  .homepage-layout #page-content {
+    padding-top: 0; } }
 #contact-info h4,
 #contact-info h5 {
   letter-spacing: 2px;
