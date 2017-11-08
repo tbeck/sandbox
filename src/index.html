@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: Bittercube
-recipe: captain-truman
+recipe: baker-rifle
 ---
 
 <div class="hero" style="background-image: url(/assets/img/home/hero-home.jpg)">
@@ -45,7 +45,7 @@ recipe: captain-truman
         </div>
       </div>
       <div class="card w-50 p-3 text-center">
-        <img class="card-img-top img-fluid editable " src="/assets/img/home/seven-pillars-consulting.jpg" alt="Card image cap">
+        <img class="card-img-top img-fluid editable" src="/assets/img/home/seven-pillars-consulting.jpg" alt="Card image cap">
         <div class="card-body text-center">
           <h2 class="editable card-title">Seven Pillars Consulting</h2>
           <div class="editable">
@@ -62,7 +62,7 @@ recipe: captain-truman
 
 <section id="featured-recipe" class="bg-yellow bg-pattern">
   {% for object in page.recipe %}
-    {% assign featured = site.recipes | where: "slug", object  | first %}
+    {% assign featured = site.recipes | where: "slug", object | first %}
   {% endfor %}
   <div class="container">
     <div class="row">

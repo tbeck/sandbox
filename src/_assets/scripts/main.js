@@ -1,5 +1,5 @@
 require('jquery');
-require('typeahead');
+// require('typeahead');
 // var search = require('./search');
 
 $(function() {
@@ -29,15 +29,15 @@ $(document).ready(function() {
    });
 
    // Initialize typeahead feature
-   var $input = $('#search');
-   $input.typeahead({
-     source: [
-       {id: 'someId1', name: 'Captain Truman'},
-       {id: 'someId2', name: 'Valentino'},
-       {id: 'someId3', name: 'Habana Libre'}
-     ],
-     autoSelect: true
-   });
+   // var $input = $('#search');
+   // $input.typeahead({
+   //   source: [
+   //     {id: 'someId1', name: 'Captain Truman'},
+   //     {id: 'someId2', name: 'Valentino'},
+   //     {id: 'someId3', name: 'Habana Libre'}
+   //   ],
+   //   autoSelect: true
+   // });
    // $input.change(function() {
    //   var current = $input.typeahead("getActive");
    //   if (current) {
