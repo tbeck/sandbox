@@ -7,4 +7,5 @@ gem 'fontcustom'
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'replace_regex'
+  gem 'jekyll-archives'
 end

@@ -17,6 +17,7 @@ exclude: ["_assets", "shopify"]
 gems:
   - jekyll-sitemap
   - replace_regex
+  - jekyll-archives
 
 collections:
   recipes:
@@ -68,3 +69,13 @@ keywords:
   - Savory
   - Nutty
 
+# Archives / API
+jekyll-archives:
+  enabled: []
+  layout: 'default'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
