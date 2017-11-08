@@ -6,6 +6,11 @@
   .content::after {
     clear: both; }
 
+.hide {
+  display: none;
+  visibility: hidden;
+  pointer-events: none; }
+
 .content {
   padding: 20px;
   position: relative; }
@@ -1013,7 +1018,7 @@ blockquote {
   .distributors .distributor {
     width: 30%; } }
 #consulting img {
-  width: 150px; }
+  width: 125px; }
 
 #contact-consulting .lead {
   margin-top: 20px; }
