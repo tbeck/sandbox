@@ -25,6 +25,13 @@
 
   #mainnav {
     justify-content: flex-end;
+    .nav {
+      .nav-item {
+        a {
+          letter-spacing: 3px;
+        }
+      }
+    }
   }
 
   .navbar-brand {

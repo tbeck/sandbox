@@ -396,6 +396,8 @@ h5 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+    #page-header #mainnav .nav .nav-item a {
+      letter-spacing: 3px; }
   #page-header .navbar-brand {
     padding: 0;
     width: 55px; }
@@ -582,6 +584,9 @@ blockquote {
     width: 100%;
     padding: 20px;
     z-index: 5; }
+    .hero .hero-caption img {
+      width: 80%;
+      max-width: 350px; }
   .hero h1,
   .hero h2,
   .hero h3,
@@ -926,7 +931,7 @@ blockquote {
   width: 50%;
   margin-left: 8px;
   padding: 50px;
-  font-size: 26px; }
+  font-size: 18px; }
   .notes .button {
     -ms-flex-item-align: start;
         align-self: flex-start;
