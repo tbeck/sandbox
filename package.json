@@ -15,23 +15,35 @@
   "license": "MIT",
   "browser": {
     "modernizr": "./src/_assets/scripts/modernizr-custom.js",
-    "jquery": "./src/_assets/scripts/jquery_shim.js",
-    "mixitup": "./bower_components/mixitup/dist/mixitup.min.js",
+    "jquery": "./node_modules/jquery/dist/jquery.js",
+    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+    "mixitup": "./node_modules/mixitup/dist/mixitup.min.js",
     "typeahead": "./bower_components/bootstrap3-typeahead/bootstrap3-typeahead.min.js"
-  },
-  "browserify-shim": {
-    "modernizr": "Modernizr",
-    "jquery": "global:jQuery",
-    "typeahead": {
-      "depends": [
-        "jquery:jQuery"
-      ]
-    }
   },
   "browserify": {
     "transform": [
       "browserify-shim"
     ]
+  },
+  "browserify-shim": {
+    "modernizr": "Modernizr",
+    "jquery": "$",
+    "bootstrap": {
+      "depends": [
+        "jquery:jQuery"
+      ]
+    },
+    "mixitup": {
+      "exports": "mixitup",
+      "depends": [
+        "jquery:jQuery"
+      ]
+    },
+    "typeahead": {
+      "depends": [
+        "jquery:jQuery"
+      ]
+    }
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
@@ -44,6 +56,7 @@
     "gulp-changed": "^3.1.0",
     "gulp-csso": "^3.0.0",
     "gulp-filter": "^5.0.0",
+    "gulp-flatten": "^0.3.1",
     "gulp-imagemin": "^3.3.0",
     "gulp-jshint": "^2.0.4",
     "gulp-modernizr": "^1.0.0-alpha",
@@ -71,7 +84,13 @@
     "webfontloader": "^1.6.28"
   },
   "dependencies": {
-    "gulp-flatten": "^0.3.1",
-    "gulp-fontcustom": "^0.1.2"
+    "bootstrap": "^4.0.0-beta.2",
+    "gulp-fontcustom": "^0.1.2",
+    "jquery": "^3.2.1",
+    "lunr": "^2.1.4",
+    "mixitup": "^3.2.1",
+    "onmount": "^1.3.0",
+    "popper.js": "^1.12.6",
+    "typeahead.js": "^0.11.1"
   }
 }

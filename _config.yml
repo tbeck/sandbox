@@ -5,6 +5,8 @@ description: ''
 url: "http://fluent-skunk.cloudvent.net"
 permalink: /:title
 
+analytics_code: UA-000000000-1 # accessible via dev@ocupop.com
+
 shop_url: "https://bittercube.myshopify.com"
 
 

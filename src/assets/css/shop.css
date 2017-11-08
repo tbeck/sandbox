@@ -204,7 +204,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
   .products .card {
     width: 100%; }
   .products h4 {
@@ -240,12 +243,8 @@
   display: block; }
 
 @media (min-width: 576px) {
-  .products {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .products .card {
-      width: 48%; } }
+  .products .card {
+    width: 48%; } }
 @media (min-width: 768px) {
   .products {
     -webkit-box-pack: justify;

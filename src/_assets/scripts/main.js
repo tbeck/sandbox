@@ -1,7 +1,10 @@
 require('jquery');
 require('typeahead');
-// require('search');
+// var search = require('./search');
 
+$(function() {
+  console.log("HELLO jQuery loaded");
+});
 
 $(window).scroll(function(){
   if ($(window).scrollTop() >= 250) {

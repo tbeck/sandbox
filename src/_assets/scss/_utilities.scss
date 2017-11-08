@@ -12,6 +12,12 @@
   }
 }
 
+.hide {
+  display: none;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 // Spacing
 .content {
   @extend %clearfix;

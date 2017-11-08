@@ -1,7 +1,7 @@
 .products {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: flex-start;
   .card {
     width: 100%;
   }
@@ -50,8 +50,6 @@
 // Small devices (landscape phones, 576px and up)
 @media (min-width: $screen-sm-min) {
   .products {
-    justify-content: space-between;
-
     .card {
       width: 48%;
     }
