@@ -29,6 +29,7 @@ tags:
   - Spicy
   - Refreshing
 products:
+  - corazon-bitters
 featured: false
 ---
 
