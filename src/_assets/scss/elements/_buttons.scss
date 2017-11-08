@@ -10,6 +10,7 @@
   padding: .5rem 1rem;
   text-align: center;
   text-transform: uppercase;
+  border-radius: 0;
   &:hover {
     background-color: $brand-primary;
     color: $white;
@@ -45,5 +46,9 @@
       background-color: transparent;
       border: 1px solid $yellow;
     }
+  }
+  &.button-bordered {
+    border: 2px solid $yellow;
+    color: $white;
   }
 }
