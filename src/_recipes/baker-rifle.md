@@ -22,7 +22,7 @@ instructions_html: >-
   <p>Add all of the ingredients except seltzer to a cocktail shaker and then
   fill with ice. &nbsp; &nbsp;Shake with a fluid, strong motion. Add seltzer to
   shaker and strain into collins glass. Fill glass with ice.</p>
-image:
+image: /uploads/baker-rifle.jpg
 tags:
   - Citrusy
   - Crisp
