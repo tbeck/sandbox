@@ -28,6 +28,7 @@ $(document).ready(function() {
      $(this).toggleClass('open');
    });
 
+   //age verification
    function setCookie() {
       Cookies.set('age', 'verified');
    }
@@ -36,7 +37,7 @@ $(document).ready(function() {
       var age = Cookies.get('age');
       if(age == 'verified') {
         window.console.log('age is', age);
-        $('#age-verification').removeClass('active');
+        $('#age-verification').remove();
 
       }else {
         window.console.log('age is not verified');
