@@ -2824,6 +2824,11 @@ blockquote {
     padding: 20px;
     z-index: 5;
     opacity: 0; }
+    .hero .hero-caption.animated {
+      -webkit-animation-delay: 1.5s;
+              animation-delay: 1.5s;
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .hero .hero-caption img {
       width: 80%;
       max-width: 350px; }
