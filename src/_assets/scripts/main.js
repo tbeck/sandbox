@@ -1,5 +1,5 @@
 require('jquery');
-var search = require('./search');
+require('./search');
 
 $(function() {
   console.log("HELLO jQuery loaded");
