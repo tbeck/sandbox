@@ -1,13 +1,6 @@
 var mixitup = require('mixitup');
-// var recipes = require('request-promise');
 var Recipes = require('./recipes');
 
-// Recipes.get()
-//   .then(recipes => {
-//     console.log("FOUND: ",recipes.length);
-//   });
-
-console.log(Recipes.get());
 
 var container = document.querySelector('[data-ref="container"]');
 var inputSearch = document.querySelector('[data-ref="input-search"]');
@@ -56,19 +49,18 @@ var config = {
 };
 
 if(container) {
+  var recipes = Recipes.get();
   var mixer = mixitup(container, config);
-  // recipes('http://localhost:9999/api/recipes.json')
-  //     .then(function (response) {
-  //         // Process html...
-  //         console.log(response);
-  //         mixer.dataset(response)
-  //           .then(function(state) {
-  //             console.log('loaded ' + state.activeDataset.length + ' items');
-  //           });
-  //     })
-  //     .catch(function (err) {
-  //         // Crawling failed...
-  //     });
+
+  recipes.then(function(obj) {
+
+    mixer.dataset(obj)
+      .then(function(state) {
+        console.log('loaded ' + state.activeDataset.length + ' items');
+      });
+
+  });
+
 }
 
 if(inputSearch) {

@@ -8,7 +8,7 @@ permalink: /recipes/
 
 {% include recipe-search.html %}
 
-<section class="bg-yellow">
+<section id="recipes" class="bg-yellow">
   <div class="container">
     <div class="row recipes-list" data-ref="container"></div>
   </div>
@@ -28,7 +28,7 @@ permalink: /recipes/
   </div>
 </div>
 -->
-<section id="recipes" class="bg-yellow">
+<section class="bg-yellow hide">
   <div class="container">
     <div class="row recipes-list">
       {% for recipe in site.recipes %}
