@@ -1,8 +1,22 @@
+// require('autocomplete');
+// var countries = [
+//    { value: 'Andorra', data: 'AD' },
+//    { value: 'Zimbabwe', data: 'ZZ' }
+// ];
+
+// $('#search').autocomplete({
+//     lookup: countries,
+//     onSelect: function (suggestion) {
+//         alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+//     }
+// });
 
 var mixitup = require('mixitup');
-var Recipes = require('./recipes');
-// require('typeahead');
+var mixitupMultifilter = require('./vendor/mixitup-multifilter');
 
+var Recipes = require('./recipes');
+
+mixitup.use(mixitupMultifilter);
 
 var container = document.querySelector('[data-ref="container"]');
 var inputSearch = document.querySelector('[data-ref="input-search"]');
@@ -11,18 +25,18 @@ var keyupTimeout;
 
 var config = {
   selectors: {
-      target: '[data-ref="item"]' // Query targets with an attribute selector to keep our JS and styling classes seperate
+    target: '[data-ref="item"]' // Query targets with an attribute selector to keep our JS and styling classes seperate
   },
-  // animation: {
-  //   duration: 350
-  // },
+  multifilter: {
+    enable: true // enable the multifilter extension for the mixer
+  },
   data: {
       uidKey: 'slug' // Our data model must have a unique id. In this case, its key is 'id'
   },
-  render: { // We must provide a target render function incase we need to render new items not in the initial dataset (not used in this demo)
+  render: { // We must provide a target render function incase we need to render new items not in the initial dataset (not used in this case)
       target: function(recipe) {
           var html = `
-            <div class="recipe ${recipe.tags}" data-ref='item'>
+            <div class="recipe ${recipe.tags} ${recipe.slug}" data-ref='item'>
               <div class="content">
                 <div class="recipe-image" style="background-image: url(${recipe.image});">
                   <a href="${recipe.pinterest}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
@@ -90,30 +104,6 @@ if(inputSearch) {
 }
 
 
-// Initialize typeahead feature
-// var $input = $('#search');
-// $input.typeahead({
-//   source: [
-//     {id: 'someId1', name: 'Captain Truman'},
-//     {id: 'someId2', name: 'Valentino'},
-//     {id: 'someId3', name: 'Habana Libre'}
-//   ],
-//   autoSelect: true
-// });
-// $input.change(function() {
-//   var current = $input.typeahead("getActive");
-//   if (current) {
-//     // Some item from your model is active!
-//     if (current.name == $input.val()) {
-//       // This means the exact match is found. Use toLowerCase() if you want case insensitive match.
-//     } else {
-//       // This means it is only a partial match, you can either add a new item
-//       // or take the active if you don't want new items
-//     }
-//   } else {
-//     // Nothing is active so it is a new value (or maybe empty value)
-//   }
-// });
 
 filterByString = function(searchValue) {
   if (searchValue) {

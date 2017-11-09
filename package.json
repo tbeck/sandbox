@@ -17,8 +17,7 @@
     "modernizr": "./src/_assets/scripts/modernizr-custom.js",
     "jquery": "./node_modules/jquery/dist/jquery.js",
     "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-    "mixitup": "./node_modules/mixitup/dist/mixitup.min.js",
-    "typeahead": "./bower_components/bootstrap3-typeahead/bootstrap3-typeahead.min.js"
+    "mixitup": "./node_modules/mixitup/dist/mixitup.min.js"
   },
   "browserify": {
     "transform": [
@@ -35,11 +34,6 @@
     },
     "mixitup": {
       "exports": "mixitup",
-      "depends": [
-        "jquery:jQuery"
-      ]
-    },
-    "typeahead": {
       "depends": [
         "jquery:jQuery"
       ]
@@ -89,10 +83,8 @@
     "jquery": "^3.2.1",
     "lunr": "^2.1.4",
     "mixitup": "^3.2.1",
-    "onmount": "^1.3.0",
     "popper.js": "^1.12.6",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2",
-    "typeahead.js": "^0.11.1"
+    "request-promise": "^4.2.2"
   }
 }
