@@ -1,3 +1,19 @@
+.banner-desktop {
+  display: block;
+}
+
+.banner-mobile {
+  display: none;
+}
+
+@media (max-width: $screen-sm-max) {
+  .banner-desktop {
+    display: none;
+  }
+  .banner-mobile {
+    display: block;
+  }
+}
 .homepage-layout {}
 
 // Small devices (landscape phones, 576px and up)

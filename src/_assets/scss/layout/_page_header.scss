@@ -2,9 +2,15 @@
   @include transition(.5s);
   background-color: $brand-primary;
   border-bottom: 2px solid $yellow;
+  -webkit-transform: translateZ(0); //fix for fixed header flash on scroll in chrome
 
   .navbar-nav {
     margin-top: 20px;
+    opacity: 0;
+    &.animated {
+      animation-delay: 1s;
+      animation-duration: 1s;
+    }
 
     li {
 
@@ -37,6 +43,11 @@
   .navbar-brand {
     padding: 0;
     width: 55px;
+    //opacity: 0;
+    &.animated {
+      animation-delay: .5s;
+      animation-duration: 1s;
+    }
   }
 
   .navbar-toggler {

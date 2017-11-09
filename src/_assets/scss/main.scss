@@ -4,6 +4,7 @@
 @import 'mixins';
 @import 'utilities';
 @import 'fonts';
+@import 'animate';
 @import 'animations';
 
 //Import base styles
@@ -31,7 +32,7 @@
 @import 'elements/age_verification';
 
 // Page specific styles
-@import 'views/homepage';
+@import "views/homepage";
 @import 'views/contact';
 @import "views/consulting";
 @import 'views/about';

@@ -25,6 +25,11 @@
     width: 100%;
     padding: 20px;
     z-index: 5;
+    opacity: 0;
+    &.animated {
+      animation-delay: 1.5s;
+      animation-duration: 1s;
+    }
     img {
       width: 80%;
       max-width: 350px

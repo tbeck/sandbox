@@ -1,29 +1,29 @@
 ---
 layout: page
 title: About
-
 permalink: /about
 ---
 
-<div class="hero" style="background-image: url(/assets/img/consulting/hero-consulting.jpg)">
+<div class="hero" style="background-image: url(/assets/img/about/about-header.jpg)">
   <div class="hero-caption">
     <h1>About Bittercube</h1>
   </div>
 </div>
 
-<section>
+<section id="about-intro">
   <div class="container">
     <div class="row">
       <div class="col">
         <div class="content text-center intro">
-          <p class="editable lead">Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. No extracts or oils have ever been used in Bittercube Bitters. The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
+          <p class="editable lead">Bittercube Bitters are developed and created in Milwaukee, WI, by hand with naturally sourced ingredients. We’ve only ever used real botanicals in our bitters.</p>
+          <p class="editable">The process is different for each style of our bitters, with batches going through various phases on their way to completion, taking anywhere from two to five weeks depending on variety. Bittercube has grown from humble beginnings, starting with creating one gallon jars of bitters and growing to now producing batches in large maceration barrels – but the process has stayed the same.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="bg-yellow bg-pattern">
+<section id="about-story" class="bg-yellow">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -33,15 +33,16 @@ permalink: /about
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <div class="editable content">
-          <p>Bittercube was founded by Nicholas Kosevich and Ira Koplowitz in 2009. After successful stints at Town Talk Diner (Nick) in Minneapolis and The Violet Hour (Ira) in Chicago, they began developing, formulating, and tweaking the lineup that is now the six varieties of Bittercube Bitters. The first larger batches began maceration in July of 2010, and since then the business has grown to distributed in more than 25 states around the country. Beyond bitters, Bittercube consults with a number of restaurants and bars, creating unique cocktail programs throughout the country.</p><p>Bittercube has a team of dedicated cocktail craftsmen and lend its spirited prowess to trade shows, cocktail classes, events, weddings and cocktail dinners.</p>
-          <p>Bittercube has been featured in Martha Stewart’s Everyday Food, Playboy, Imbibe Magazine, Timeout, Chicago Tribune, New York Times, Bloomberg BusinessWeek, GO – AirTran Inflight Magazine, Milwaukee Journal-Sentinel, NPR, and Daily Candy, among other publications.</p>
+      <div class="col-lg-6">
+        <div class="content">
+          <p class="lead editable">Bittercube was founded by Nicholas Kosevich and Ira Koplowitz in 2009. After successful stints at Town Talk Diner (Nick) in Minneapolis and The Violet Hour (Ira) in Chicago, they began developing, formulating, and tweaking the lineup that is now the six varieties of Bittercube Bitters.</p>
+          <p class="editable">The first larger batches began maceration in July of 2010, and since then the business has grown to distributed in more than 25 states around the country. Beyond bitters, Bittercube consults with a number of restaurants and bars, creating unique cocktail programs throughout the country. Bittercube has a team of dedicated cocktail craftsmen and lend its spirited prowess to trade shows, cocktail classes, events, weddings and cocktail dinners.</p>
+          <p class="editable">Bittercube has been featured in Martha Stewart’s Everyday Food, Playboy, Imbibe Magazine, Timeout, Chicago Tribune, New York Times, Bloomberg BusinessWeek, GO – AirTran Inflight Magazine, Milwaukee Journal-Sentinel, NPR, and Daily Candy, among other publications.</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <div class="content">
-          <img src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" class="img-fluid editable" alt="">
+          <img src="/assets/img/about/our-story.jpg" class="img-fluid editable" alt="Nicholas Kosevich and Ira Koplowitz Image">
         </div>
       </div>
     </div>
@@ -63,7 +64,7 @@ permalink: /about
           <div class="card-grid">
             {% for staff in site.data.team %}
             <div class="card team-member">
-              <img class="card-img-top" src="{{ staff.image | prepend: site.baseurl }}" alt="{{ staff.name }} Image">
+              <img class="card-img-top" src="{{ staff.image | prepend: site.baseurl }}" alt="{{ staff.name }} Image" />
               <div class="card-body">
                 <h4 class="card-title">{{ staff.name }}</h4>
                 <span>{{ staff.role }}</span>
@@ -77,7 +78,7 @@ permalink: /about
   </div>
 </section>
 
-<section class="bg-yellow">
+<section class="bg-yellow bg-pattern">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -88,15 +89,11 @@ permalink: /about
     </div>
     <div class="row">
       <div class="col-md-6">
-        <div class="editable content">
-          <p>Our apothecary is housed on the 2nd floor of the Lincoln Warehouse in Milwaukee.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam mauris, facilisis consectetur tortor sed, tincidunt faucibus sapien. Aenean porta leo nec velit pulvinar, et cursus ante tristique. Curabitur blandit viverra est, at condimentum mi volutpat at. Nulla a tortor felis. Mauris at interdum dui. Duis molestie nisl sed sollicitudin hendrerit. Aenean eu lorem ultricies, tristique est nec, aliquet ipsum.</p>
-          <p>On the first floor of the warehouse, is Dock 18­—our experimental cocktail lab where we’ve partnered with Twisted Path Distillery to create truly exceptional cocktails on our ever-changing menu.</p>
-        </div>
+        <div class="editable content"><p>The MKE Apothecary is located in Bayview on Milwaukee&rsquo;s Southside. We produce and ship all varieties of Bittercube Bitters at this location. The Apothecary is also a hub for R&amp;D and marketing efforts. The MSP Apothecary is located in the Seward neighborhood in Minneapolis and is the consulting and events hub for Bittercube.</p></div>
       </div>
       <div class="col-md-6">
         <div class="content">
-          <img src="/assets/img/about/apothecary.jpg" class="img-fluid editable" alt="Apothecary Image">
+          <img src="/assets/img/about/apothecary.jpg" class="img-fluid editable" alt="Apothecary Image" />
         </div>
       </div>
     </div>
@@ -118,7 +115,7 @@ permalink: /about
           <div class="partners">
             {% for partner in site.data.partners %}
               <a href="{{ partner.url }}">
-                <img src="{{ partner.image }}" class="img-fluid" alt="{{ partner.title }}">
+                <img src="{{ partner.image }}" class="img-fluid" alt="{{ partner.title }}" />
               </a>
             {% endfor %}
           </div>
