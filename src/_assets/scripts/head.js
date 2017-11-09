@@ -12,7 +12,7 @@ WebFont.load({
   },
   active: function() {
     console.log('ACTIVE FONTS');
-    // $('.navbar-brand, #mainnav .navbar-nav').addClass('animated fadeIn');
+    $('.navbar-brand, #mainnav .navbar-nav, .hero-caption').addClass('animated fadeIn');
   },
   inactive: function() {},
   fontloading: function(familyName, fvd) {},

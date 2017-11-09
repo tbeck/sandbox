@@ -6,7 +6,7 @@
 
   .navbar-nav {
     margin-top: 20px;
-    //opacity: 0;
+    opacity: 0;
     &.animated {
       animation-delay: 1s;
       animation-duration: 1s;
@@ -45,7 +45,7 @@
     width: 55px;
     //opacity: 0;
     &.animated {
-      -webkit-animation-duration: 1s;
+      animation-delay: .5s;
       animation-duration: 1s;
     }
   }
