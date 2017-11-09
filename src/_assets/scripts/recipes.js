@@ -1,3 +1,7 @@
+// var request = require('request');
+var rp = require('request-promise');
+
+
 var items = [
 
   {
@@ -70,6 +74,15 @@ var items = [
 
 module.exports = {
   get: function() {
-    return items;
+    var recipes = rp('http://localhost:9999/api/recipes.json')
+        .then(function (response) {
+            // Process html...
+            console.log("SUCCESS");
+        })
+        .catch(function (err) {
+            // Crawling failed...
+        });
+
+    return recipes;
   }
 };

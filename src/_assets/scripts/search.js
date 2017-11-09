@@ -1,5 +1,13 @@
 var mixitup = require('mixitup');
+// var recipes = require('request-promise');
 var Recipes = require('./recipes');
+
+// Recipes.get()
+//   .then(recipes => {
+//     console.log("FOUND: ",recipes.length);
+//   });
+
+console.log(Recipes.get());
 
 var container = document.querySelector('[data-ref="container"]');
 var inputSearch = document.querySelector('[data-ref="input-search"]');
@@ -19,14 +27,16 @@ var config = {
   render: { // We must provide a target render function incase we need to render new items not in the initial dataset (not used in this demo)
       target: function(recipe) {
           var html = `
-            <div class='row item ${recipe.tags}' data-ref='item'>
-              <div class="card-img-wrapper" style="background-image: url(${recipe.image});">
-                <a href="#" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
-              </div>
-              <div class="card-body text-center">
-                <h2 class="card-title">${recipe.name}</h2>
-                <p>${recipe.description}</p>
-                <a href="${recipe.url}" class="button inline">View Recipe</a>
+            <div class="recipe ${recipe.tags}" data-ref='item'>
+              <div class="content">
+                <div class="recipe-image" style="background-image: url(${recipe.image});">
+                  <a href="${recipe.pinterest}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
+                </div>
+                <div class="recipe-body">
+                  <h2 class="recipe-title">${recipe.name}</h2>
+                  <p class="recipe-description">${recipe.description}</p>
+                  <a href="${recipe.url}" class="button inline">View Recipe</a>
+                </div>
               </div>
             </div>
           `
@@ -44,35 +54,47 @@ var config = {
     }
   }
 };
-var mixer = mixitup(container, config);
 
-mixer.dataset(Recipes.get())
-  .then(function(state) {
-    console.log('loaded ' + state.activeDataset.length + ' items');
+if(container) {
+  var mixer = mixitup(container, config);
+  // recipes('http://localhost:9999/api/recipes.json')
+  //     .then(function (response) {
+  //         // Process html...
+  //         console.log(response);
+  //         mixer.dataset(response)
+  //           .then(function(state) {
+  //             console.log('loaded ' + state.activeDataset.length + ' items');
+  //           });
+  //     })
+  //     .catch(function (err) {
+  //         // Crawling failed...
+  //     });
+}
+
+if(inputSearch) {
+  // Set up a handler to listen for "keyup" events from the search input
+  inputSearch.addEventListener('keyup', function() {
+      var searchValue;
+
+      if (inputSearch.value.length < 1) {
+          // If the input value is less than 3 characters, don't send
+
+          searchValue = '';
+      } else {
+          searchValue = inputSearch.value.toLowerCase().trim();
+      }
+
+      // Very basic throttling to prevent mixer thrashing. Only search
+      // once 350ms has passed since the last keyup event
+
+      clearTimeout(keyupTimeout);
+
+      keyupTimeout = setTimeout(function() {
+          this.filterByString(searchValue);
+      }, 350);
   });
+}
 
-// Set up a handler to listen for "keyup" events from the search input
-
-inputSearch.addEventListener('keyup', function() {
-    var searchValue;
-
-    if (inputSearch.value.length < 1) {
-        // If the input value is less than 3 characters, don't send
-
-        searchValue = '';
-    } else {
-        searchValue = inputSearch.value.toLowerCase().trim();
-    }
-
-    // Very basic throttling to prevent mixer thrashing. Only search
-    // once 350ms has passed since the last keyup event
-
-    clearTimeout(keyupTimeout);
-
-    keyupTimeout = setTimeout(function() {
-        this.filterByString(searchValue);
-    }, 350);
-});
 
 filterByString = function(searchValue) {
   if (searchValue) {

@@ -8,8 +8,10 @@ permalink: /recipes/
 
 {% include recipe-search.html %}
 
-<section class="hide">
-  <div data-ref="container" class="container"></div>
+<section class="bg-yellow">
+  <div class="container">
+    <div class="row recipes-list" data-ref="container"></div>
+  </div>
 </section>
 <!-- 
 <div class="card w-50">
@@ -30,23 +32,7 @@ permalink: /recipes/
   <div class="container">
     <div class="row recipes-list">
       {% for recipe in site.recipes %}
-        {% if recipe.image %}
-          {% assign featured_image = recipe.image %}
-        {% else %}
-          {% assign featured_image = "http://via.placeholder.com/600x600/000000/333333?text=placeholder" %}
-        {% endif %}
-        <div class="recipe">
-          <div class="content">
-            <div class="recipe-image" style="background-image: url({{ featured_image }});">
-              <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ recipe.title | xml_escape }}"target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
-            </div>
-            <div class="recipe-body">
-              <h2 class="recipe-title">{{ recipe.title }}</h2>
-              <p class="recipe-description">{{ recipe.description }}</p>
-              <a href="{{ recipe.url }}" class="button inline">View Recipe</a>
-            </div>
-          </div>
-        </div>
+        {% include recipe.html %}
       {% endfor %}
     </div>
   </div>
