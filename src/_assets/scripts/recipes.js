@@ -1,75 +1,20 @@
-var items = [
-
-  {
-    'slug': 'jack-rose',
-    'name': 'Jack Rose',
-    'description': '',
-    'url': '/recipes/jack-rose',
-    'image': 'http://via.placeholder.com/1250x600/000000/333333?text=placeholder',
-    'ingredients': 'Lemon Juice,Grenadine,Copper Kings American Apple Brandy,Bittercube Bolivar Bitters',
-    'tags': 'Daisy Brandy',
-    'products': [
-      
-      {
-        'name': '',
-        'url': ''
-      }
-      
-      
-    ]
-  },
-  {
-    'slug': 'lime-strength-celery-juice',
-    'name': 'Lime Strength Celery Juice',
-    'description': '',
-    'url': '/recipes/lime-strength-celery-juice',
-    'image': 'http://via.placeholder.com/1250x600/000000/333333?text=placeholder',
-    'ingredients': 'Celery Juice,Citric Acid,Malic Acid',
-    'tags': '',
-    'products': [
-      
-    ]
-  },
-  {
-    'slug': 'two-inch-punch',
-    'name': 'Two Inch Punch',
-    'description': '',
-    'url': '/recipes/one-inch-punch',
-    'image': 'http://via.placeholder.com/1250x600/000000/333333?text=placeholder',
-    'ingredients': 'Lime strength Celery Juice,Simple Syrup,Twisted Path Gin,Bittercube Cherry Bark Vanilla Bitters',
-    'tags': 'blue red orange',
-    'products': [
-      
-      {
-        'name': '',
-        'url': ''
-      }
-      
-      
-    ]
-  },
-  {
-    'slug': 'one-inch-punch',
-    'name': 'One Inch Punch',
-    'description': '',
-    'url': '/recipes/one-inch-punch',
-    'image': 'http://via.placeholder.com/1250x600/000000/333333?text=placeholder',
-    'ingredients': 'Lime strength Celery Juice,Simple Syrup,Twisted Path Gin,Bittercube Cherry Bark Vanilla Bitters',
-    'tags': 'blue',
-    'products': [
-      
-      {
-        'name': '',
-        'url': ''
-      }
-
-    ]
-  }
-
-];
+var rp = require('request-promise');
 
 module.exports = {
   get: function() {
-    return items;
+    var recipes = rp('http://localhost:9999/api/recipes.json')
+        .then(function (response) {
+          // console.log("SUCCESS", response);
+          // Process JSON...
+          var recipes = JSON.parse(response);
+
+          return recipes;
+        })
+        .catch(function (err) {
+            // Request failed...
+            console.error("Failed!", error);
+        });
+
+    return recipes;
   }
 };
