@@ -1,6 +1,6 @@
 require('jquery');
 // require('typeahead');
-var search = require('./search');
+// var search = require('./search');
 
 $(function() {
   console.log("HELLO jQuery loaded");
