@@ -1,6 +1,7 @@
 require('jquery');
 // require('typeahead');
 // var search = require('./search');
+require('bootstrap');
 
 $(function() {
   console.log("HELLO jQuery loaded");
@@ -54,7 +55,7 @@ $(document).ready(function() {
 
    $('#no').on('click', function(){
     window.console.log('no clicked');
-    $('.age-message').text('Message for when a user clicks no');
+    $('.age-message').text('Sorry! Our website is only available to users who are of legal drinking age.');
     $('.confirm-age button').remove();
    });
 

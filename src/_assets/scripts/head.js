@@ -1,5 +1,6 @@
 // require('modernizr');
 var WebFont = require('webfontloader');
+var jquery = require('jquery');
 
 WebFont.load({
   google: {
@@ -11,6 +12,7 @@ WebFont.load({
   },
   active: function() {
     console.log('ACTIVE FONTS');
+    // $('.navbar-brand, #mainnav .navbar-nav').addClass('animated fadeIn');
   },
   inactive: function() {},
   fontloading: function(familyName, fvd) {},
