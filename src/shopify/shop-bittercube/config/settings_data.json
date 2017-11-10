@@ -27,6 +27,8 @@
     "checkout_accent_color": "#1990c6",
     "checkout_button_color": "#1990c6",
     "checkout_error_color": "#ff6d6d",
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   }
 }

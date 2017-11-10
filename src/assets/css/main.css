@@ -2636,7 +2636,8 @@ h5 {
       letter-spacing: 3px; }
   #page-header .navbar-brand {
     padding: 0;
-    width: 55px; }
+    width: 55px;
+    opacity: 0; }
     #page-header .navbar-brand.animated {
       -webkit-animation-delay: .5s;
               animation-delay: .5s;
