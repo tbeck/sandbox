@@ -1,8 +1,8 @@
 #page-footer {
   color: $white;
   padding: 100px 0 50px;
-  background: url(/assets/img/backgrounds/bg-footer.jpg);
-
+  background-color: $brand-primary;
+  background: url('/assets/img/backgrounds/bg-footer.jpg');
   .nav {
     margin: 2rem 0 1rem;
   }

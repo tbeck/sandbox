@@ -2721,7 +2721,7 @@ h5 {
 #page-footer {
   color: #ffffff;
   padding: 100px 0 50px;
-  background: url(/assets/img/backgrounds/bg-footer.jpg); }
+  background-color: #18374b; }
   #page-footer .nav {
     margin: 2rem 0 1rem; }
   #page-footer a {

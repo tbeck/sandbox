@@ -1,9 +1,7 @@
 require('jquery');
-
-// require('typeahead');
-// var search = require('./search');
 require('bootstrap');
 require('./search');
+var Cookies = require('js-cookie');
 
 $(function() {
   console.log("HELLO jQuery loaded");

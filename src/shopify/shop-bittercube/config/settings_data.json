@@ -1,6 +1,7 @@
 {
   "current": {
     "baseurl": "\/\/fluent-skunk.cloudvent.net",
+    "analytics_code": "UA-16640117-2",
     "test": "blah",
     "share_facebook": true,
     "share_twitter": true,
