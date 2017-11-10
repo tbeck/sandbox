@@ -6,10 +6,10 @@
   image: /uploads/ira-koplowitz2x.jpg
 - name: Brendan Benham
   role: Director of Apothecary Operations
-  image: /uploads/brendan-benham2x.jpg
+  image:
 - name: Brandon Sass
   role: Training Manager
-  image: 'https://unsplash.it/300/300/?random'
+  image: /uploads/brendan-benham2x.jpg
 - name: Paul Fredrich
   role: Marketing & Events Manager
   image: 'https://unsplash.it/300/300/?random'
@@ -20,7 +20,7 @@
   role: Account Manager
   image: /uploads/duston-nguyen2x.jpg
 - name: Louie LaFleur
-  role:
+  role: Emissary
   image: /uploads/louie2x.jpg
 - name: Brandon Reyes
   role: R&D Coordinator
@@ -32,14 +32,14 @@
   role: Apothecary Supervisor
   image: 'https://unsplash.it/300/300/?random'
 - name: Conor Benham
-  role: Apothecary Crew
+  role: Production Assistant
   image: 'https://unsplash.it/300/300/?random'
 - name: John Griffin
-  role: Apothecary Crew
+  role: Production Assistant
   image: 'https://unsplash.it/300/300/?random'
 - name: Jeff Othman
-  role: Apothecary Crew
+  role: Production Assistant
   image: 'https://unsplash.it/300/300/?random'
 - name: TJ Ochs
-  role: Apothecary Crew
+  role: Kitchen Coordinator
   image: 'https://unsplash.it/300/300/?random'

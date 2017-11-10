@@ -1,84 +1,82 @@
 - country: United States
   distributors:
-    - name:     'International Wines & Craft Beer'
-      location: 'Alabama'
-      link: 
-    - name:     'Pacific Edge Wine & Spirits'
-      location: 'Arizona'
+    - name: International Wines & Craft Beer
+      location: Alabama
       link:
-    - name:     'Pacific Edge Wine & Spirits'
-      location: 'California'
+    - name: Pacific Edge Wine & Spirits
+      location: Arizona
       link:
-    - name:     'Estate Brands'
-      location: 'Colorado'
-      link:    
-    - name:     'Ledroit Brands'
-      location: 'Washington DC'
+    - name: Pacific Edge Wine & Spirits
+      location: California
       link:
-    - name:     'Prestige Beverage Group'
-      location: 'Delaware'
+    - name: Estate Brands
+      location: Colorado
       link:
-    - name:     'Stacole Fine Wines'
-      location: 'Florida'
+    - name: Ledroit Brands
+      location: Washington DC
       link:
-    - name:     'Quality Wine & Spirits'
-      location: 'Georgia'
+    - name: Prestige Beverage Group
+      location: Delaware
       link:
-    - name:     'BC Merchants'
-      location: 'Illinois'
+    - name: Stacole Fine Wines
+      location: Florida
       link:
-    - name:     'Indiana Wholesale Wine & Liquor, Inc.'
-      location: 'Indiana'
+    - name: Quality Wine & Spirits
+      location: Georgia
       link:
-    - name:     'MS Walker'
-      location: 'Massachusetts'
+    - name: BC Merchants
+      location: Illinois
       link:
-    - name:     'Prestige Beverage Group'
-      location: 'Maryland'
+    - name: 'Indiana Wholesale Wine & Liquor, Inc.'
+      location: Indiana
       link:
-    - name:     'Great Lakes Wine & Spirits'
-      location: 'Michigan'
+    - name: MS Walker
+      location: Massachusetts
       link:
-    - name:     'Vinocopia'
-      location: 'Minnesota'
+    - name: Prestige Beverage Group
+      location: Maryland
       link:
-    - name:     'Pacific Edge Wine & Spirits'
-      location: 'Nevada'
+    - name: Great Lakes Wine & Spirits
+      location: Michigan
       link:
-    - name:     'Gotham Artisanal'
-      location: 'New York'
+    - name: Vinocopia
+      location: Minnesota
       link:
-    - name:     'MS Walker'
-      location: 'Rhode Island'
+    - name: Pacific Edge Wine & Spirits
+      location: Nevada
       link:
-    - name:     'Advintage Wine Distributing'
-      location: 'South Carolina'
+    - name: Gotham Artisanal
+      location: New York
       link:
-    - name:     'Victory Wine Group'
-      location: 'Texas'
+    - name: MS Walker
+      location: Rhode Island
       link:
-    - name:     'The Country Vintner'
-      location: 'Virginia'
+    - name: Advintage Wine Distributing
+      location: South Carolina
       link:
-    - name:     'Milepost 65'
-      location: 'Washington'
+    - name: Victory Wine Group
+      location: Texas
       link:
-    - name:     'Badger Liquor'
-      location: 'Wisconsin'
+    - name: The Country Vintner
+      location: Virginia
       link:
-    - name:     'Frank Liquor'
-      location: 'Madison & Western Wisconsin'
+    - name: Milepost 65
+      location: Washington
       link:
-- country: Canada
-  distributors:  
-    - name:     'Crafty Bartender'
-      location: 'Ontario'
+    - name: Badger Liquor
+      location: Wisconsin
       link:
-    - name:     'Alambika (Jesemi)'
-      location: 'Quebec'
+    - name: Frank Liquor
+      location: Madison & Western Wisconsin
       link:
-- country: Italy
+- country: International
   distributors:
-    - name:     'Vino e Design'
-      location: 'Italy'
-      link:                          
+    - name: Crafty Bartender
+      location: Ontario
+      link:
+    - name: Alambika (Jesemi)
+      location: Quebec
+      link:
+    - name: Vino e Design
+      location: Italy
+      link:
