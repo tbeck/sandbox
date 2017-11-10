@@ -6,7 +6,7 @@ require('bootstrap');
 require('./search');
 
 $(function() {
-  console.log("HELLO jQuery loaded");
+  console.log('HELLO jQuery loaded');
 });
 
 $(window).scroll(function(){
