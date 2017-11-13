@@ -1,6 +1,6 @@
 ---
 layout: page
-name: Washington Island Bitters
+name: Jamaican No. 1
 recipes:
 tags:
 shop_url:
