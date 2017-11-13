@@ -14,12 +14,18 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange disc
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Sidecar.jpg
 tags:
+  - Dry
+  - Citrusy
+  - Crisp
 products:
+  - orange-bitters
 featured: false
 ---
 
