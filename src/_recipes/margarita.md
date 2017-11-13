@@ -14,12 +14,18 @@ ingredients:
     quantity: 1/2 oz
   - name: 1 dropper/dash
     quantity: Bittercube Orange Bitters
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Thin lime wheel (salted rim optional)
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Margarita.jpg
 tags:
+  - Crisp
+  - Citrusy
+  - Savory
 products:
+  - orange-bitters
 featured: false
 ---
 
