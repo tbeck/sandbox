@@ -12,12 +12,18 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon disc
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Celebration_Sour.jpg
 tags:
+  - Citrusy
+  - Crisp
+  - Herbaceous
 products:
+  - jamaican-no--2
 featured: false
 ---
 
