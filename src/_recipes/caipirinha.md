@@ -12,12 +12,20 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Spent lime shell
+glass: Rocks
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and pour into glass without
+  straining.</p><p>Adjustments: Use cinnamon syrup instead of simple syrup for a
+  fall/winter twist.</p>
+image: /uploads/recipes/Caipirinha.jpg
 tags:
+  - Citrusy
+  - Crisp
+  - Tropical
 products:
+  - orange-bitters
 featured: false
 ---
 
