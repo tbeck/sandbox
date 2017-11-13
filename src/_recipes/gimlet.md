@@ -19,7 +19,7 @@ instructions_html: >-
   Shake with a</p><p>fluid, strong motion and strain into cocktail
   glass.</p><p>Adjustment: Swap simple syrup for raspberry syrup for a unique
   twist.</p>
-image:
+image: /uploads/recipes/Gimlet.jpg
 tags:
   - Citrusy
   - Crisp
