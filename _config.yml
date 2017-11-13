@@ -40,11 +40,11 @@ facebook:
   title: "Bittercube Bitters"
   appid: "261325721045749"
   description: "Our Goal is Simple: To make drinks come true."
-  featured_image:
+  featured_image: "/1200.jpg"
 twitter:
   username: "bittercube"
   title: "Bittercube Bitters"
-  featured_image:
+  featured_image: "/280.jpg"
   image_alt_text: "Bittercube Bitters"
   description: "Our Goal is Simple: To make drinks come true."
 
