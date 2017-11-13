@@ -18,18 +18,35 @@ input[type="submit"] {
 }
 
 .select {
+  position: relative;
   border: 1px solid $brand-primary;
   height: 42px;
   line-height: 42px;
-  padding: 0 17px;
   font-family: $font-family-sans-serif;
   text-align: center;
   color: $brand-primary;
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid $brand-primary;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    pointer-events: none;
+  }
   select {
     background: transparent;
     border: 0;
-    height: 22px;
-    line-height: 1;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    padding: 0px 27px 0 17px;
     -webkit-appearance: none;
   }
 }

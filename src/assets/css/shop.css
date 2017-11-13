@@ -256,21 +256,6 @@
   border: 1px solid #18374b;
   border-radius: 0; }
 
-.select {
-  border: 1px solid #18374b;
-  height: 42px;
-  line-height: 42px;
-  padding: 0 10px;
-  text-align: center;
-  color: #18374b;
-  margin: 8px 0; }
-  .select select {
-    background: transparent;
-    border: 0;
-    line-height: 1;
-    -webkit-appearance: none;
-    width: 100%; }
-
 input[type="checkbox"] {
   width: auto; }
 
