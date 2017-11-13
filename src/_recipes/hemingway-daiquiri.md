@@ -16,12 +16,18 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Grapefruit disc
+glass: Coupe or Martini
+instructions_html: >-
+  <p>dd all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Hemingway_Daiquiri.jpg
 tags:
+  - Tropical
+  - Citrusy
+  - Crisp
 products:
+  - jamaican-no--2
 featured: false
 ---
 
