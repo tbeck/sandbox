@@ -20,12 +20,20 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: 'Pineapple chunk, Filthy Red Cherry and cocktail umbrella'
+glass: Hurricane glass with crushed ice
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass. Fill with
+  crushed ice.</p>
+image: /uploads/recipes/Singapore_Sling.jpg
 tags:
+  - Citrusy
+  - Tropical
+  - Fruity
+  - Herbaceous
 products:
+  - trinity-bitters
 featured: false
 ---
 
