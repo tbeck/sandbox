@@ -2,7 +2,7 @@
 layout: recipe
 name: Baker Rifle
 bartender:
-description:
+description: A great drink for summertime.  Citrusy and bright flavors.
 ingredients:
   - name: Lime-strength grapefruit juice
     quantity: 3/4 oz
