@@ -18,12 +18,19 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Mint bouquet and Filthy Red Cherry
+glass: Rocks with crushed ice
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass. Fill with
+  crushed ice.</p>
+image: /uploads/recipes/Mai_Tai.jpg
 tags:
+  - Tropical
+  - Fruity
 products:
+  - jamaican-no--1
+  - jamaican-no--2
 featured: false
 ---
 
