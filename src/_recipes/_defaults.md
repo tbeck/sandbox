@@ -7,6 +7,7 @@ ingredients:
   - 
     name:
     quantity:
+    units:
 garnish:
 glass:
 instructions_html:
