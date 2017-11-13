@@ -16,8 +16,6 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-  - name:
-    quantity:
 garnish:
 glass:
 instructions_html:
