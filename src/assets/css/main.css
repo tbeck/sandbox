@@ -720,7 +720,8 @@ blockquote {
     padding: 20px 0; }
   .card .hover-overlay {
     border: 1px solid #d3b262;
-    position: relative; }
+    position: relative;
+    padding: 8px; }
     .card .hover-overlay:hover .overlay-text {
       opacity: 1;
       visibility: visible; }
@@ -737,6 +738,7 @@ blockquote {
       display: flex;
       font-family: "proxima-nova", sans-serif;
       height: 100%;
+      width: 100%;
       left: 0;
       opacity: 0;
       padding: 10px;

@@ -251,7 +251,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .products .card {
-      width: 23%; } }
+      width: 23%; }
+      .products .card::last-child {
+        margin-right: auto;
+        margin-left: 2.5%; } }
 .form-group .form-control {
   border: 1px solid #18374b;
   border-radius: 0; }

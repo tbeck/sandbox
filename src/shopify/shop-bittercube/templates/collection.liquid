@@ -14,7 +14,7 @@
             {% for product in collection.products %}
               <div class="card">
                   <div class="hover-overlay">
-                    <img class="card-img-top" src="https://unsplash.it/300/300/?random" alt="Card image cap">
+                    <img class="card-img-top" src="{{ product.images.first.src | img_url: 'large_cropped' }}" alt="{{ product.title }}">
                     <p class="overlay-text">{{ product.tags }}</p>
                   </div>
                   <div class="card-body">

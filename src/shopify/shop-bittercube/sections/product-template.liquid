@@ -7,8 +7,8 @@
     <div class="row product">
       <div class="col-md-6">
         <div class="content">
-          {% if product.featured_image %}
-          <img src="{{ product.featured_image }}" class="img-fluid" alt="{{ product.title }} image">
+          {% if product.images.first %}
+          <img src="{{ product.images.first.src | img_url: 'large' }}" class="img-fluid" alt="{{ product.title }} image">
           {% else %}
           <img class="img-fluid" src="http://via.placeholder.com/500x500/000/fff?text=Placeholder+Image" alt="Card image cap">
           {% endif %}
