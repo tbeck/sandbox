@@ -12,11 +12,16 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Thin lime wheel
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Daiquiri.jpg
 tags:
+  - Crisp
+  - Citrusy
+  - Tropical
 products:
 featured: false
 ---
