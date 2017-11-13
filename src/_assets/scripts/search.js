@@ -48,7 +48,7 @@ var config = {
                 </div>
               </div>
             </div>
-          `
+          `;
 
           return html;
       }

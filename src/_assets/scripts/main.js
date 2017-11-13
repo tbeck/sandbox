@@ -36,7 +36,7 @@ $(document).ready(function() {
 
    function checkCookie() {
       var age = Cookies.get('age');
-      if(age == 'verified') {
+      if(age === 'verified') {
         window.console.log('age is', age);
         $('#age-verification').remove();
 

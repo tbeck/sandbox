@@ -11,10 +11,13 @@ WebFont.load({
     console.log('LOADING FONTS');
   },
   active: function() {
-    console.log('ACTIVE FONTS');
+    console.log('FONTS ARE ACTIVE');
     $('.navbar-brand, #mainnav .navbar-nav, .hero-caption').addClass('animated fadeIn');
   },
-  inactive: function() {},
+  inactive: function() {
+    console.log('FONTS ARE NOT ACTIVE');
+    $('.navbar-brand, #mainnav .navbar-nav, .hero-caption').addClass('animated fadeIn');
+  },
   fontloading: function(familyName, fvd) {},
   fontactive: function(familyName, fvd) {},
   fontinactive: function(familyName, fvd) {},
