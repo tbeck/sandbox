@@ -14,12 +14,18 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon twist inserted
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
+image: /uploads/recipes/Champs_Elysee.jpg
 tags:
+  - Herbaceous
+  - Citrusy
+  - Crisp
 products:
+  - blackstrap-bitters
 featured: false
 ---
 
