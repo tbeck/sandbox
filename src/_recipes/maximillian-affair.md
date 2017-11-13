@@ -18,10 +18,20 @@ ingredients:
     quantity: 2 dropper/dash
 garnish:
 glass:
-instructions_html:
-image:
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion. Strain and remove ice. Return drink to
+  cocktail shaker and shake with a fluid, strong motion and strain into cocktail
+  glass.</p>
+image: /uploads/recipes/Maximillian_Affair.jpg
 tags:
+  - Creamy
+  - Citrusy
+  - Savory
+  - Fall
+  - Winter
 products:
+  - corazon-bitters
 featured: false
 ---
 
