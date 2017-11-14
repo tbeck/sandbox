@@ -17,7 +17,9 @@ ingredients:
     quantity: 982 g
   - name: Granulated sugar
     quantity: 982 g
-instructions_html:
+instructions_html: >-
+  <p><strong>Use fresh herbs.</strong> Steep herbs in 982 g of boiling water for
+  ten minutes. Strain of herbs, amalgamate sugar.</p>
 ---
 
 
