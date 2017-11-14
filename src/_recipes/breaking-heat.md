@@ -16,12 +16,21 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Cilantro bouquet
+glass: Collins with ice
+instructions_html: >-
+  <p>Add all of the ingredients except seltzer to a cocktail shaker, muddle
+  jalapeno and then fill with ice. Shake with a fluid, strong motion. Add
+  seltzer to shaker and strain into collins glass. Fill glass with ice.</p>
+image: /uploads/recipes/Breaking_Heat.jpg
 tags:
+  - Crisp
+  - Spicy
+  - Refreshing
+  - Herbaceous
+  - Savory
 products:
+  - jamaican-no--2
 featured: false
 ---
 
