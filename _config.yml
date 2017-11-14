@@ -26,6 +26,10 @@ collections:
     output: true
     layout: recipe
     permalink: /recipes/:name
+  syrup_recipes:
+    output: false
+    layout: syrup_recipe
+    permalink: /recipes/syrup/:name
   bartenders:
     output: true
     layout: bartender
