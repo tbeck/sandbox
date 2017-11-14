@@ -20,9 +20,17 @@ instructions_html: >-
   <p>Add all of the ingredients except sparkling wine to a cocktail shaker and
   then fill with ice. Shake briefly with a fluid, strong motion. Add sparkling
   wine to shaker and strain into glass.</p>
-image:
+image: /uploads/recipes/Sweet_Life_by_Frank_Ocean-2.jpg
 tags:
+  - Effervescent
+  - Citrusy
+  - Crisp
+  - Refreshing
+  - Fruity
+  - Tropical
+  - Summer
 products:
+  - jamaican-no--2
 featured: false
 ---
 
