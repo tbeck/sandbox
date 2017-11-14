@@ -34,7 +34,7 @@ tags:
   - Winter
 products:
   - cherry-bark-vanilla-bitters
-featured: true
+featured: false
 ---
 
 
