@@ -23,11 +23,20 @@ ingredients:
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
 garnish:
-glass:
-instructions_html:
-image:
+glass: Collins
+instructions_html: >-
+  <p>Add all of the ingredients except seltzer to a cocktail shaker and then
+  fill with ice. Shake with a fluid, strong motion. Strain and remove ice.
+  Return drink to cocktail shaker and shake with a fluid, strong motion. Strain
+  cocktail into glass and add seltzer.<br />&nbsp;</p>
+image: /uploads/recipes/Ramos_Gin_Fizz.jpg
 tags:
+  - Creamy
+  - Refreshing
+  - Floral
+  - Brunch
 products:
+  - trinity-bitters
 featured: false
 ---
 
