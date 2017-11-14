@@ -16,12 +16,20 @@ ingredients:
     quantity: 2 dropper/dash
   - name: Light Mexican Lager
     quantity: 3 oz
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Grapefruit peel
+glass: Collins with ice
+instructions_html: >-
+  <p>Add all of the ingredients except beer to a cocktail shaker and then fill
+  with ice. Shake with a fluid, strong motion. Add beer to shaker and strain
+  into collins glass. Fill glass with ice.</p>
+image: /uploads/recipes/The_Bluejay.JPG
 tags:
+  - Citrusy
+  - Smoky
+  - Refreshing
+  - Crisp
 products:
+  - jamaican-no--2
 featured: false
 ---
 
