@@ -10,12 +10,18 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Three Filthy Black Cherries
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/Rob_Roy.jpg
 tags:
+  - Spirit Forward
+  - Smoky
+  - Aromatic
 products:
+  - blackstrap-bitters
 featured: false
 ---
 
