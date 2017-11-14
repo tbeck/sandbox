@@ -14,12 +14,17 @@ ingredients:
     quantity: 1 oz
   - name: 2 dropper/dash
     quantity: Bittercube Orange Bitters
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange peel
+glass: Collins
+instructions_html: '<p>Build in glass, add ice, garnish.</p>'
+image: /uploads/recipes/Bicicleta.jpg
 tags:
+  - Effervescent
+  - Refreshing
+  - Aperitif
+  - Brunch
 products:
+  - orange-bitters
 featured: false
 ---
 
