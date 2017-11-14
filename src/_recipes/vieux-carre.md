@@ -16,12 +16,19 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Marvel Bar Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon disc
+glass: Mini rocks
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/Vieux_Carre.jpg
 tags:
+  - Spirit Forward
+  - Herbaceous
+  - Aromatic
 products:
+  - trinity-bitters
+  - marvel-bar-bitters
 featured: false
 ---
 
