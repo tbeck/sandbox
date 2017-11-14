@@ -14,12 +14,17 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Corazon Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Grated chocolate
+glass: Coupe or Martini
+instructions_html: '<p>Shake, strain.</p>'
+image: /uploads/recipes/Chocolate_Martini.jpg
 tags:
+  - After Dinner
+  - Chocolate
+  - Creamy
+  - Liquid Dessert
 products:
+  - corazon-bitters
 featured: false
 ---
 
