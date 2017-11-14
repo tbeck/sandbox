@@ -16,12 +16,20 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon twist
+glass: Collins with ice
+instructions_html: >-
+  <p>Add all of the ingredients except seltzer to a cocktail shaker and then
+  fill with ice. Shake with a fluid, strong motion. Add seltzer to shaker and
+  strain into collins glass. Fill glass with ice.</p>
+image: /uploads/recipes/Batida_Rosa.jpg
 tags:
+  - Citrusy
+  - Fruity
+  - Refreshing
+  - Tropical
 products:
+  - bolivar-bitters
 featured: false
 ---
 
