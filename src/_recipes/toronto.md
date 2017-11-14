@@ -12,12 +12,18 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange disc
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/Toronto.jpg
 tags:
+  - Spirit Forward
+  - Bitter
+  - Herbaceous
 products:
+  - cherry-bark-vanilla-bitters
 featured: false
 ---
 
