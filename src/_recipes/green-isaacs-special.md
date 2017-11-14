@@ -12,11 +12,19 @@ ingredients:
     quantity: 4 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Cocktail umbrella dripped with Cherry Bark Vanilla Bitters
+glass: Collins with crushed ice
+instructions_html: >-
+  <p>Add all of the ingredients in a cocktail glass and half-fill with crushed
+  ice. Immerse a swizzle stick, place the stick between the palms of both hands
+  and rotate rapidly by sliding your hands back and forth against it. If you
+  don&rsquo;t have a swizzle stick, use a bar spoon in the same manner. Top with
+  more crushed ice.</p>
+image: /uploads/recipes/Green_Isaacs_Special.jpg
 tags:
+  - Tropical
+  - Refreshing
+  - Nutty
 products:
 featured: false
 ---
