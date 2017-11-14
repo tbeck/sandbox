@@ -209,7 +209,13 @@
       -ms-flex-pack: start;
           justify-content: flex-start; }
   .products .card {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 75px; }
+    .products .card .hover-overlay {
+      border-width: 2px; }
+    .products .card .button {
+      border-width: 2px;
+      margin-top: 0; }
   .products h4 {
     font-family: "Alegreya", serif;
     letter-spacing: 0;

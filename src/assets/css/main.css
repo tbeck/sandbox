@@ -428,8 +428,7 @@ h5 {
       letter-spacing: 3px; }
   #page-header .navbar-brand {
     padding: 0;
-    width: 55px;
-    opacity: 0; }
+    width: 55px; }
     #page-header .navbar-brand.animated {
       -webkit-animation-delay: .5s;
               animation-delay: .5s;
@@ -509,7 +508,7 @@ h5 {
       margin-top: 0; }
     #page-header.home-header .navbar-brand,
     #page-header.home-header .socialnav {
-      opacity: 0; } }
+      opacity: 0 !important; } }
 #page-footer {
   color: #ffffff;
   padding: 100px 0 50px;

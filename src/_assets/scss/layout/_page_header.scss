@@ -43,7 +43,6 @@
   .navbar-brand {
     padding: 0;
     width: 55px;
-    opacity: 0;
     &.animated {
       animation-delay: .5s;
       animation-duration: 1s;
@@ -161,7 +160,6 @@
     &.home-header {
       background-color: transparent;
       border-bottom: 0;
-
       #mainnav {
         justify-content: center;
       }

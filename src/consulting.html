@@ -85,11 +85,11 @@ permalink: /consulting
 
 <section id="testimonials">
   <div class="container">
-    <div id="testimonials-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="testimonials-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="12000">
       <ol class="carousel-indicators">
-        <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#testimonials-carousel" data-slide-to="1"></li>
-        <li data-target="#testimonials-carousel" data-slide-to="2"></li>
+        {% for testimonial in site.data.testimonials %}
+        <li data-target="#testimonials-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+        {% endfor %}
       </ol>
       <div class="carousel-inner">
         {% for testimonial in site.data.testimonials %}
