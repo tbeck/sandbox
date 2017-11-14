@@ -26,6 +26,7 @@ tags:
   - Refreshing
   - Nutty
 products:
+  - cherry-bark-vanilla-bitters
 featured: false
 ---
 
