@@ -2,7 +2,9 @@
 layout: recipe
 name: Oaxacan Old Fashioned
 bartender:
-description:
+description: >-
+  Tequila and mezcal take whiskey's place in this south of the border twist on a
+  classic.
 ingredients:
   - name: Simple syrup
     quantity: 1/4 oz
