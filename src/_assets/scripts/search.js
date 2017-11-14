@@ -11,6 +11,7 @@
 //     }
 // });
 
+var hash = require('./hash');
 var mixitup = require('mixitup');
 var mixitupMultifilter = require('./vendor/mixitup-multifilter');
 
@@ -60,13 +61,15 @@ var config = {
   callbacks: {
     onMixClick: function() {
       // Reset the search if a filter is clicked
-
       if (this.matches('[data-filter]')) {
           inputSearch.value = '';
       }
     }
   }
 };
+
+
+
 
 if(container) {
   var recipes = Recipes.get();
@@ -105,11 +108,13 @@ if(inputSearch) {
           this.filterByString(searchValue);
       }, 350);
   });
+
+  inputSearch.addEventListener('submit', function() {
+    console.log('SUBMIT');
+  });
 }
 
-
-
-filterByString = function(searchValue) {
+var filterByString = function(searchValue) {
   if (searchValue) {
       // Use an attribute wildcard selector to check for matches
       mixer.filter('[class*="' + searchValue + '"]');
@@ -119,30 +124,4 @@ filterByString = function(searchValue) {
   }
 };
 
-module.exports = {
-  deserializeHash: function() {
-    var hash    = window.location.hash.replace(/^#/g, '');
-    var obj     = null;
-    var groups  = [];
-
-    if (!hash) return obj;
-
-    obj = {};
-    groups = hash.split('&');
-
-    groups.forEach(function(group) {
-      var pair = group.split('=');
-      window.console.log('DESERIALIZE HASH: ', pair);
-      var groupName = pair[0];
-      // TODO - Avoiding errors on simple anchors - Needs refactor
-      if(pair[1]) {
-        obj[groupName] = pair[1].split(',');
-      }
-    });
-
-    return obj;
-  }
-};
-
-
-
+module.exports = {};

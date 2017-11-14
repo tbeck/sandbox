@@ -2,7 +2,7 @@ var rp = require('request-promise');
 
 module.exports = {
   get: function() {
-    var recipes = rp('http://localhost:9999/api/recipes.json')
+    var recipes = rp('/api/recipes.json')
         .then(function (response) {
           // console.log("SUCCESS", response);
           // Process JSON...
@@ -12,7 +12,7 @@ module.exports = {
         })
         .catch(function (err) {
             // Request failed...
-            console.log('Failed!', error);
+            console.log('Failed!', err);
         });
 
     return recipes;

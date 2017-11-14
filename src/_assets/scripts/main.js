@@ -3,9 +3,6 @@ require('bootstrap');
 require('./search');
 var Cookies = require('js-cookie');
 
-$(function() {
-  console.log('HELLO jQuery loaded');
-});
 
 $(window).scroll(function(){
   if ($(window).scrollTop() >= 250) {

@@ -1241,6 +1241,7 @@ blockquote {
     width: auto;
     padding: 20px 7px; } }
 #syrup-recipes .recipe-instructions {
+  height: 100%;
   margin-top: 0; }
 
 input,
