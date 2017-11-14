@@ -6,10 +6,9 @@ summary: >-
   Brandon has been bartending for 4 years. He was a barback at The Hamilton for
   a bit before beginning his training with Bittercube at Blue Jacket.
 employer: Bittercube Bitters
-image: /uploads/Screen-Shot-2017-11-14-at-1.04.46-PM.png
-featured_recipe: based-gods-curse
+image: /uploads/brandon-reyes.jpg
+featured_recipe: labradoodle
 recipes:
-  - based-gods-curse
 featured: true
 ---
 
