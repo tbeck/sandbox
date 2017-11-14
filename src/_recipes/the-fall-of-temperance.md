@@ -38,7 +38,7 @@ tags:
 products:
   - jamaican-no--1
   - blackstrap-bitters
-featured: false
+featured: true
 ---
 
 
