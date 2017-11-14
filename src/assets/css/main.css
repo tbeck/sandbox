@@ -996,6 +996,15 @@ blockquote {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch; }
+  .recipes-list.recipes-featured {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse; }
+    .recipes-list.recipes-featured .recipe::first-child .content {
+      height: 100%; }
+      .recipes-list.recipes-featured .recipe::first-child .content .recipe-body {
+        height: 100%; }
   .recipes-list .recipe {
     position: relative;
     width: 100%;
@@ -1231,6 +1240,9 @@ blockquote {
   .partners a {
     width: auto;
     padding: 20px 7px; } }
+#syrup-recipes .recipe-instructions {
+  margin-top: 0; }
+
 input,
 textarea {
   border: 0;

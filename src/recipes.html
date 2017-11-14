@@ -10,24 +10,43 @@ permalink: /recipes/
 
 <section id="recipes" class="bg-yellow">
   <div class="container">
-    <div class="row recipes-list" data-ref="container"></div>
-  </div>
-</section>
-<!-- 
-<div class="card w-50">
-  <div class="card-body text-center">
-    <h2 class="editable">Featured Recipes</h2>
-    <p class="editable">Our short list of must-trys for the season.</p>
-    <ul class="nav flex-column">
+    <div class="row recipes-list recipes-featured">
+      <div class="recipe">
+        <div class="content">
+          <div class="recipe-body">
+            <h2 class="editable">Featured Recipes</h2>
+            <p class="editable">Our short list of must-trys for the season.</p>
+            <ul class="nav flex-column">
+              {% for recipe in site.recipes %}
+                {% if recipe.featured %}
+                <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
       {% for recipe in site.recipes %}
         {% if recipe.featured %}
-        <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
+
+          <div class="recipe">
+            <div class="content">
+              <div class="recipe-image" style="background-image: url({{recipe.image}});">
+                <a href="{{recipe.pinterest}}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
+              </div>
+              <div class="recipe-body">
+                <h2 class="recipe-title">{{recipe.name}}</h2>
+                <p class="recipe-description">{{recipe.description}}</p>
+                <a href="{{recipe.url}}" class="button inline">View Recipe</a>
+              </div>
+            </div>
+          </div>
         {% endif %}
       {% endfor %}
-    </ul>
+    </div>
+    <div class="row recipes-list hide" data-ref="container"></div>
   </div>
-</div>
--->
+</section>
 
 <section id="dealers-choice">
   <div class="container">

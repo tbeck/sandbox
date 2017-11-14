@@ -3,19 +3,10 @@
 
 <script src="{{ '/assets/js/vendor/jquery.autocomplete.js' | prepend: site.baseurl }}"></script>
 <script>
-  // var countries = [
-  //    { value: 'Andorra', data: 'AD' },
-  //    { value: 'Zimbabwe', data: 'ZZ' }
-  // ];
-
-  // $('#autocomplete').autocomplete({
-  //     lookup: countries,
-  //     onSelect: function (suggestion) {
-  //         alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
-  //     }
-  // });
-  $('#autocomplete').autocomplete({
+  $('[data-ref="input-search"]').autocomplete({
       serviceUrl: '/api/autocomplete.json',
+      maxHeight: 250,
+      autoSelectFirst: true,
       onSelect: function (suggestion) {
           console.log('Filtering by: ' + suggestion.value + ', ' + suggestion.data);
       }

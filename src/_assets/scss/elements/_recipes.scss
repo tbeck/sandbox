@@ -68,9 +68,19 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  // flex-direction: row-reverse;
   justify-content: space-between;
   align-items: stretch;
+  &.recipes-featured {
+    flex-direction: row-reverse;
+    .recipe::first-child {
+      .content {
+        height: 100%;
+        .recipe-body {
+          height: 100%;
+        }
+      }
+    }
+  }
   .recipe {
     position: relative;
     width: 100%;

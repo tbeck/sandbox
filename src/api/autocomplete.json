@@ -4,9 +4,9 @@ layout: null
 {
   "suggestions": [
     {% for recipe in site.recipes %}
-      "{{ recipe.name | replace: "’", "'" }}",
+      "{{ recipe.name | replace: "’", "'" | downcase }}",
       {% for ingredient in recipe.ingredients %}
-        "{{ ingredient.name | replace: "’", "'" }}",
+        "{{ ingredient.name | replace: "’", "'" | downcase }}",
       {% endfor %}
       {% for tag in recipe.tags %}
         "{{ tag | downcase }}",
