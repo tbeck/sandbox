@@ -7,8 +7,9 @@ summary: >-
   a bit before beginning his training with Bittercube at Blue Jacket.
 employer: Bittercube Bitters
 image: /uploads/brandon-reyes.jpg
-featured_recipe: captain-truman
+featured_recipe: based-gods-curse
 recipes:
+  - based-gods-curse
 featured: true
 ---
 
