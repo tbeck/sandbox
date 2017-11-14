@@ -16,12 +16,21 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Thin lemon wheel
+glass: Collins with ice
+instructions_html: >-
+  <p>Add all of the ingredients except ginger beer to a cocktail shaker and then
+  fill with ice. Shake with a fluid, strong motion. Add ginger beer to shaker
+  and strain into collins glass. Fill glass with ice.</p>
+image: /uploads/recipes/Untitled_Unmastered_Track_2.jpg
 tags:
+  - Herbaceous
+  - Savory
+  - Citrusy
+  - Refreshing
+  - Bitter
 products:
+  - jamaican-no--1
 featured: false
 ---
 
