@@ -18,12 +18,20 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Expressed flamed orange and discarded
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/Irish_Rook.jpg
 tags:
+  - Spirit Forward
+  - Bitter
+  - Herbaceous
+  - Aromatic
 products:
+  - orange-bitters
+  - blackstrap-bitters
 featured: false
 ---
 
