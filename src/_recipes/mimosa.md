@@ -12,12 +12,16 @@ ingredients:
     quantity: 3 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Long orange peel
+glass: Flute
+instructions_html: '<p>Build cocktail in Flute, garnish.</p>'
+image: /uploads/recipes/Mimosa.jpg
 tags:
+  - Brunch
+  - Citrusy
+  - Refreshing
 products:
+  - orange-bitters
 featured: false
 ---
 
