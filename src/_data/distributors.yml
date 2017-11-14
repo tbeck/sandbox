@@ -73,10 +73,10 @@
   distributors:
     - name: Crafty Bartender
       location: Ontario
-      link:
+      link: 'https://thecraftybartender.com/'
     - name: Alambika (Jesemi)
       location: Quebec
-      link:
+      link: 'https://alambika.ca/'
     - name: Vino e Design
       location: Italy
-      link:
+      link: 'http://www.vinoedesign.it/'
