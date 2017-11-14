@@ -2,81 +2,81 @@
   distributors:
     - name: International Wines & Craft Beer
       location: Alabama
-      link:
+      link: 'http://www.iwinebeer.com/'
     - name: Pacific Edge Wine & Spirits
       location: Arizona
-      link:
+      link: 'http://www.pacificedgesales.com/'
     - name: Pacific Edge Wine & Spirits
       location: California
-      link:
+      link: 'http://www.pacificedgesales.com/'
     - name: Estate Brands
       location: Colorado
-      link:
+      link: 'http://estatebrandsco.com/'
     - name: Ledroit Brands
       location: Washington DC
-      link:
+      link: 'https://www.yellowpages.com/washington-dc/mip/ledroit-brands-17417336'
     - name: Prestige Beverage Group
       location: Delaware
-      link:
+      link: 'https://www.prestige-beverage-group.com/'
     - name: Stacole Fine Wines
       location: Florida
-      link:
+      link: 'https://www.thewinebowgroup.com/our-companies/stacole-fine-wines/fl'
     - name: Quality Wine & Spirits
       location: Georgia
-      link:
+      link: 'https://www.thewinebowgroup.com/our-companies/quality-wine-spirits/ga'
     - name: BC Merchants
       location: Illinois
-      link:
+      link: 'http://www.bcmerchants.com/'
     - name: 'Indiana Wholesale Wine & Liquor, Inc.'
       location: Indiana
-      link:
+      link: 'http://johnsonbrothersofin.com/'
     - name: MS Walker
       location: Massachusetts
-      link:
+      link: 'http://www.mswalker.com/'
     - name: Prestige Beverage Group
       location: Maryland
-      link:
+      link: 'https://www.prestige-beverage-group.com/'
     - name: Great Lakes Wine & Spirits
       location: Michigan
-      link:
+      link: 'https://www.glwas.com/'
     - name: Vinocopia
       location: Minnesota
-      link:
+      link: 'https://www.vinocopia.com/'
     - name: Pacific Edge Wine & Spirits
       location: Nevada
-      link:
+      link: 'http://www.pacificedgesales.com/'
     - name: Gotham Artisanal
       location: New York
-      link:
+      link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
     - name: MS Walker
       location: Rhode Island
-      link:
+      link: 'http://www.mswalker.com/'
     - name: Advintage Wine Distributing
       location: South Carolina
-      link:
+      link: 'https://www.advintagedistributing.com/'
     - name: Victory Wine Group
       location: Texas
-      link:
+      link: 'http://www.victorywinegroup.com/'
     - name: The Country Vintner
       location: Virginia
-      link:
+      link: 'https://www.thewinebowgroup.com/our-companies/the-country-vintner/'
     - name: Milepost 65
       location: Washington
-      link:
+      link: 'http://www.milepost65.com/'
     - name: Badger Liquor
       location: Wisconsin
-      link:
+      link: 'http://badgerliquor.com/'
     - name: Frank Liquor
       location: Madison & Western Wisconsin
-      link:
+      link: 'https://frankbeveragegroup.com/'
 - country: International
   distributors:
     - name: Crafty Bartender
       location: Ontario
-      link:
+      link: 'https://thecraftybartender.com/'
     - name: Alambika (Jesemi)
       location: Quebec
-      link:
+      link: 'https://alambika.ca/'
     - name: Vino e Design
       location: Italy
-      link:
+      link: 'http://www.vinoedesign.it/'
