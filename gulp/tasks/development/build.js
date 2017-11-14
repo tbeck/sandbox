@@ -8,6 +8,7 @@ gulp.task('build', function(callback) {
     'jekyll',
     'sass',
     'scripts',
+    'scripts:vendor',
     'images',
     'copy:fonts',
     'cloudcannon:assets',

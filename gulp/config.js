@@ -80,6 +80,10 @@ module.exports = {
     cascade: true
   },
   browserify: {
+    vendor: {
+      src: srcAssets + '/scripts/vendor/*',
+      dest: buildAssets + '/js/vendor'
+    },
     // Enable source maps
     debug: true,
     // Additional file extensions to make optional
@@ -131,15 +135,7 @@ module.exports = {
   },
   shopify: {
     src: buildAssets + '/**/*',
-    assets: shopifyTheme + '/assets',
-    // src: shopify + '/{layout,config,snippets,templates,locales}/**/*.*',
-    config: {
-      api_key: "8a1a2001d06ff…",
-      password: "51f8c8de49ee28…",
-      shared_secret: "51f8c8de49ee51…",
-      shop_name: "bittercube.myshopify.com",
-      theme_id: "184072917"
-    }
+    assets: shopifyTheme + '/assets'
   },
   cloudcannon: {
     src: buildAssets + '/**/*',

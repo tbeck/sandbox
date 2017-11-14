@@ -36,7 +36,7 @@ var config = {
   render: { // We must provide a target render function incase we need to render new items not in the initial dataset (not used in this case)
       target: function(recipe) {
           var html = `
-            <div class="recipe ${recipe.tags} ${recipe.slug}" data-ref='item'>
+            <div class="recipe ${recipe.tags} ${recipe.ingredients} ${recipe.slug}" data-ref='item'>
               <div class="content">
                 <div class="recipe-image" style="background-image: url(${recipe.image});">
                   <a href="${recipe.pinterest}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
@@ -81,26 +81,26 @@ if(container) {
 
 if(inputSearch) {
   // Set up a handler to listen for "keyup" events from the search input
-  inputSearch.addEventListener('keyup', function() {
-      var searchValue;
+  // inputSearch.addEventListener('keyup', function() {
+  //     var searchValue;
 
-      if (inputSearch.value.length < 1) {
-          // If the input value is less than 3 characters, don't send
+  //     if (inputSearch.value.length < 1) {
+  //         // If the input value is less than 3 characters, don't send
 
-          searchValue = '';
-      } else {
-          searchValue = inputSearch.value.toLowerCase().trim();
-      }
+  //         searchValue = '';
+  //     } else {
+  //         searchValue = inputSearch.value.toLowerCase().trim();
+  //     }
 
-      // Very basic throttling to prevent mixer thrashing. Only search
-      // once 350ms has passed since the last keyup event
+  //     // Very basic throttling to prevent mixer thrashing. Only search
+  //     // once 350ms has passed since the last keyup event
 
-      clearTimeout(keyupTimeout);
+  //     clearTimeout(keyupTimeout);
 
-      keyupTimeout = setTimeout(function() {
-          this.filterByString(searchValue);
-      }, 350);
-  });
+  //     keyupTimeout = setTimeout(function() {
+  //         this.filterByString(searchValue);
+  //     }, 350);
+  // });
 }
 
 

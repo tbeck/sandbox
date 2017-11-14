@@ -1069,6 +1069,30 @@ blockquote {
       width: 200px;
       margin: 50px auto 25px; }
 
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #FFF;
+  overflow: auto; }
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.autocomplete-selected {
+  background: #F0F0F0; }
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399FF; }
+
+.autocomplete-group {
+  padding: 2px 5px; }
+
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000; }
+
 .banner-desktop {
   display: block; }
 
@@ -1253,7 +1277,7 @@ input[type="submit"] {
     height: 42px;
     line-height: 42px;
     width: 100%;
-    padding: 0px 27px 0 17px;
+    padding: 0px 32px 0 17px;
     -webkit-appearance: none; }
 
 .cognito .c-forms-form {

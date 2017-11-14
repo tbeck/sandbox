@@ -5,6 +5,7 @@
 @import 'animations';
 
 @import 'store/products';
+@import 'store/cart';
 
 
 .form-group {
@@ -25,43 +26,3 @@ input[type="checkbox"] {
   }
 }
 
-.cart-qty-input {
-  border: 1px solid $brand-primary;
-  width: 75px;
-}
-
-.cart-table {
-  margin-bottom: 20px;
-  td {
-    vertical-align: middle;
-    &.cart-product-image,
-    &.remove-item {
-      width: 100px;
-    }
-  }
-  tfoot {
-    border: 1px solid $brand-primary;
-    td {
-      border-top: 0;
-    }
-  }
-}
-
-@media (max-width: 767px){
-  .cart-table {
-    td {
-      font-size: 14px;
-      &.cart-product-image {
-        width: 10%;
-        padding: 0;
-      }
-      &.product-title {
-        width: 30%;
-      }
-    }
-  }
-  .cart-qty-input {
-    width: 50px;
-    padding: 5px;
-  }
-}

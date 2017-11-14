@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{
+  "suggestions": [
+    {% for recipe in site.recipes %}
+      "{{ recipe.name | replace: "’", "'" }}",
+      {% for ingredient in recipe.ingredients %}
+        "{{ ingredient.name | replace: "’", "'" }}",
+      {% endfor %}
+      {% for tag in recipe.tags %}
+        "{{ tag | downcase }}",
+      {% endfor %}
+    {% endfor %}"Bittercube"
+  ]
+}

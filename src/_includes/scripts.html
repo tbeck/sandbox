@@ -1,6 +1,27 @@
 <!-- Javascript -->
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
 
+<script src="{{ '/assets/js/vendor/jquery.autocomplete.js' | prepend: site.baseurl }}"></script>
+<script>
+  // var countries = [
+  //    { value: 'Andorra', data: 'AD' },
+  //    { value: 'Zimbabwe', data: 'ZZ' }
+  // ];
+
+  // $('#autocomplete').autocomplete({
+  //     lookup: countries,
+  //     onSelect: function (suggestion) {
+  //         alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+  //     }
+  // });
+  $('#autocomplete').autocomplete({
+      serviceUrl: '/api/autocomplete.json',
+      onSelect: function (suggestion) {
+          console.log('Filtering by: ' + suggestion.value + ', ' + suggestion.data);
+      }
+  });
+</script>
+
 <!-- Analytics -->
 {% include analytics.html %}
 
