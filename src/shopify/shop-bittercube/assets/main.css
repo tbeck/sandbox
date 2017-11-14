@@ -1001,9 +1001,9 @@ blockquote {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
-    .recipes-list.recipes-featured .recipe::first-child .content {
+    .recipes-list.recipes-featured .recipe:first-child .content {
       height: 100%; }
-      .recipes-list.recipes-featured .recipe::first-child .content .recipe-body {
+      .recipes-list.recipes-featured .recipe:first-child .content .recipe-body {
         height: 100%; }
   .recipes-list .recipe {
     position: relative;

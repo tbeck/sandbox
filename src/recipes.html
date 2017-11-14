@@ -20,7 +20,7 @@ permalink: /recipes/
               {% for recipe in site.recipes %}
                 {% capture tags %}{{ recipe.tags | downcase }} {% endcapture %}
                 {% if tags contains "winter" || tags contains "fall" %}
-                <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
+                  <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
