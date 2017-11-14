@@ -20,12 +20,20 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Cherry and orange slice on toothpick
+glass: Rocks
+instructions_html: >-
+  <p>Add ingredients except Sprite to glass, muddle orange and cherry, add ice
+  and stir to combine. Top with Sprite and ice.</p>
+image: /uploads/recipes/Wisconsin_Old_Fashioned.jpg
 tags:
+  - Wisconsin
+  - Fruity
+  - Supper Club
 products:
+  - bolivar-bitters
+  - orange-bitters
+  - blackstrap-bitters
 featured: false
 ---
 
