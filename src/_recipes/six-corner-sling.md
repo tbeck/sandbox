@@ -2,7 +2,10 @@
 layout: recipe
 name: Six Corner Sling
 bartender:
-description:
+description: >-
+  This drink is a riff on the Bittered Gin Sling found in Eric Felton’s 'How’s
+  Your Drink?'. This is one of the first cocktail's Ira was really proud of and
+  is still a Bittercube favorite.
 ingredients:
   - name: Fresh lemon juice
     quantity: 3/4 oz
@@ -36,7 +39,7 @@ tags:
 products:
   - blackstrap-bitters
   - orange-bitters
-featured: false
+featured: true
 ---
 
 

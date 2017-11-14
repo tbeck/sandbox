@@ -2,7 +2,10 @@
 layout: recipe
 name: Jackson Pollock
 bartender:
-description:
+description: >-
+  Nick created this cocktail for the 2nd Bombay Sapphire Cocktail Competition in
+  Minneapolis circa 2007. Although the cocktail is a winner, Nick went home
+  empty handed that year.
 ingredients:
   - name: Fresh lime juice
     quantity: 1/4 oz
@@ -32,7 +35,7 @@ tags:
   - Herbaceous
 products:
   - jamaican-no--2
-featured: false
+featured: true
 ---
 
 

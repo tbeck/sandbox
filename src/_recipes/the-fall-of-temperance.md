@@ -2,7 +2,10 @@
 layout: recipe
 name: The Fall of Temperance
 bartender:
-description:
+description: >-
+  Created during the Speakeasy pop-up days at Bryant’s in Milwaukee, the Fall of
+  Temperance is a daiquiri with a blend of two rums and a punch of bitters to
+  the face.
 ingredients:
   - name: Fresh lime juice
     quantity: 3/4 oz
@@ -32,7 +35,7 @@ tags:
 products:
   - jamaican-no--1
   - blackstrap-bitters
-featured: false
+featured: true
 ---
 
 
