@@ -5,10 +5,7 @@ bartender:
 description: >-
   This earthy, spicy concoction is a perfect drink for fall. Created during the
   Speakeasy pop-up days at Bryant’s in Milwaukee, the Fall of Temperance is a
-  daiquiri with a blend of two rums and a punch of bitters to the face. The
-  Cruzan Blackstrap Rum adds a surprising amount of depth with deep, earthy
-  blackstrap notes to accompany the sarsaparilla and allspice notes of the
-  bitters blend.
+  daiquiri with a blend of two rums and a punch of bitters to the face.
 ingredients:
   - name: Fresh lime juice
     quantity: 3/4 oz
