@@ -1,31 +1,33 @@
 ---
 layout: recipe
-name: Champs Elysee
+name: Cosmopolitan
 bartender:
 description:
 ingredients:
-  - name: Fresh lemon juice
-    quantity: 1/2 oz
+  - name: Fresh lime juice
+    quantity: 3/4 oz
+  - name: Pure cranberry juice
+    quantity: 1/3 oz
   - name: Simple syrup
     quantity: 1/2 oz
-  - name: Pierre Ferrand 1840 Cognac
+  - name: Modest Vodka
     quantity: 1 1/2 oz
-  - name: Green Chartreuse
+  - name: Pierre Ferrand Dry Curacao
     quantity: 1/2 oz
-  - name: Bittercube Blackstrap Bitters
+  - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish: Lemon twist inserted
+garnish: Thin lime wheel
 glass: Coupe or Martini
 instructions_html: >-
   <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
   Shake with a fluid, strong motion and strain into cocktail glass.</p>
-image: /uploads/recipes/Champs_Elysee.jpg
+image: /uploads/recipes/Cosmopolitan.jpg
 tags:
-  - Herbaceous
   - Citrusy
   - Crisp
+  - Fruity
 products:
-  - blackstrap-bitters
+  - orange-bitters
 featured: false
 ---
 
