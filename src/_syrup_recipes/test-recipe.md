@@ -1,9 +1,11 @@
 ---
 layout: syrup_recipe
 name: Test recipe
-description:
+description: Blah blah
 ingredients:
-  - name:
-    quantity:
-instructions_html:
+  - name: Sugar
+    quantity: 10 cups
+instructions_html: <p>Add sugar... stir</p>
 ---
+
+
