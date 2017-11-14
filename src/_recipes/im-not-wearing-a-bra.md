@@ -12,12 +12,20 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Grapefruit peel
+glass: Rocks with large chunk of ice
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/I'm_Not_Wearing_A_Bra.jpg
 tags:
+  - Spirit Forward
+  - Dry
+  - Bitter
+  - Tropical
 products:
+  - blackstrap-bitters
+  - jamaican-no--1
 featured: false
 ---
 
