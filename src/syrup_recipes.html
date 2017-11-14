@@ -13,13 +13,7 @@ permalink: /recipes/syrup/
           <h1 class="recipe-title">{{ recipe.title }}</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
-          <div class="recipe-instructions">
-           <h5>Instructions</h5>
-           {{ recipe.instructions_html }}
-          </div>
-        </div>
+      <div id="{{ recipe.title | slugify }}" class="row">
         <div class="col-sm">
           <div class="recipe-ingredients">
             <h5>Ingredients</h5>
@@ -31,6 +25,12 @@ permalink: /recipes/syrup/
               </li>
               {% endfor %}
             </ul>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="recipe-instructions">
+           <h5>Instructions</h5>
+           {{ recipe.instructions_html }}
           </div>
         </div>
       </div>
