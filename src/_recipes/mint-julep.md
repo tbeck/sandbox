@@ -12,12 +12,22 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: 3 sprigs of mint
+glass: Julep or rocks with crushed ice
+instructions_html: >-
+  <p>Draw mint up the sides of the glass with a bar spoon being cautious not to
+  over muddle.</p><p>Add Bourbon, Demerara and fill cup 3/4 of the way with
+  crushed ice. Swizzle to incorporate ingredients and top with crushed ice.</p>
+image: /uploads/recipes/Mint_Julep.jpg
 tags:
+  - Spirit Forward
+  - Dry
+  - Herbaceous
+  - Bitter
+  - Whiskey
+  - Whisky
 products:
+  - trinity-bitters
 featured: false
 ---
 
