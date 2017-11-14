@@ -12,12 +12,20 @@ ingredients:
     quantity: 1 dropper/dash
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon twist
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/La_Vicuna.jpg
 tags:
+  - Spirit Forward
+  - Floral
+  - Aromatic
+  - Dry
 products:
+  - trinity-bitters
+  - jamaican-no--2
 featured: false
 ---
 
