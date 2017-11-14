@@ -12,12 +12,21 @@ ingredients:
     quantity: 3 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange twist
+glass: Flute
+instructions_html: >-
+  <p>Add all of the ingredients except sparkling wine to a cocktail shaker and
+  then fill with ice. Shake briefly with a fluid, strong motion. Add sparkling
+  wine to shaker and strain into glass.</p>
+image: /uploads/recipes/Death_in_the_Afternoon.jpg
 tags:
+  - Effervescent
+  - Citrusy
+  - Crisp
+  - Refreshing
+  - Herbaceous
 products:
+  - orange-bitters
 featured: false
 ---
 
