@@ -22,12 +22,19 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Lemon wedge
+glass: Soda fountain with ice
+instructions_html: >-
+  <p>Add all of the ingredients except cola to a cocktail shaker and then fill
+  with ice. Shake with a fluid, strong motion. Add cola to shaker and strain
+  into collins glass. Fill glass with ice.</p>
+image: /uploads/recipes/Long_Island_Iced_Tea.jpg
 tags:
+  - Spirit Forward
+  - Citrusy
+  - Crisp
 products:
+  - cherry-bark-vanilla-bitters
 featured: false
 ---
 
