@@ -72,11 +72,13 @@
   align-items: stretch;
   &.recipes-featured {
     flex-direction: row-reverse;
-    .recipe::first-child {
-      .content {
-        height: 100%;
-        .recipe-body {
+    .recipe {
+      &:first-child {
+        .content {
           height: 100%;
+          .recipe-body {
+            height: 100%;
+          }
         }
       }
     }

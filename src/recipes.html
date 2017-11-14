@@ -18,7 +18,8 @@ permalink: /recipes/
             <p class="editable">Our short list of must-trys for the season.</p>
             <ul class="nav flex-column">
               {% for recipe in site.recipes %}
-                {% if recipe.featured %}
+                {% capture tags %}{{ recipe.tags | downcase }} {% endcapture %}
+                {% if tags contains "winter" || tags contains "fall" %}
                 <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
                 {% endif %}
               {% endfor %}
