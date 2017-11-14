@@ -1,17 +1,14 @@
 ---
 layout: default
-name: Annie Pierce
-first_name: Annie
+name: Brandon Reyes
+first_name: Brandon
 summary: >-
-  Annie received this year’s "Most Imaginative Bartender" title lorem ipsum
-  dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis turpis, sed
-  tristique orci sollicitudin ut.
-employer: Bombay Sapphire
-image:
+  Brandon has been bartending for 4 years. He was a barback at The Hamilton for
+  a bit before beginning his training with Bittercube at Blue Jacket.
+employer: Bittercube Bitters
+image: /uploads/brandon-reyes.jpg
 featured_recipe: captain-truman
 recipes:
-  - captain-truman
-  - habana-libre
 featured: true
 ---
 
