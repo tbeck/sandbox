@@ -1,45 +1,70 @@
-- name: Nick Kosevich
-  role: Proprietor
-  image: /uploads/nick-kosevich2x.jpg
-- name: Ira Koplowitz
-  role: Proprietor
-  image: /uploads/ira-koplowitz2x.jpg
-- name: Brendan Benham
-  role: Director of Apothecary Operations
-  image:
-- name: Brandon Sass
-  role: Training Manager
-  image: /uploads/brendan-benham2x.jpg
-- name: Paul Fredrich
-  role: Marketing & Events Manager
-  image: 'https://unsplash.it/300/300/?random'
-- name: Maggie Winter
-  role: PR Emissary
-  image: 'https://unsplash.it/300/300/?random'
-- name: Dustin Nguyen
-  role: Account Manager
-  image: /uploads/duston-nguyen2x.jpg
-- name: Louie LaFleur
-  role: Emissary
-  image: /uploads/louie2x.jpg
-- name: Brandon Reyes
-  role: R&D Coordinator
-  image: 'https://unsplash.it/300/300/?random'
-- name: Cameron Mckenzie
-  role: Emissary
-  image: 'https://unsplash.it/300/300/?random'
-- name: Becky Brown
-  role: Apothecary Supervisor
-  image: 'https://unsplash.it/300/300/?random'
-- name: Conor Benham
-  role: Production Assistant
-  image: 'https://unsplash.it/300/300/?random'
-- name: John Griffin
-  role: Production Assistant
-  image: 'https://unsplash.it/300/300/?random'
-- name: Jeff Othman
-  role: Production Assistant
-  image: 'https://unsplash.it/300/300/?random'
-- name: TJ Ochs
-  role: Kitchen Coordinator
-  image: 'https://unsplash.it/300/300/?random'
+- 
+  title: Founders
+  staff:
+    - name: Nick Kosevich
+      role: Proprietor
+      image: /uploads/nick-kosevich2x.jpg
+    - name: Ira Koplowitz
+      role: Proprietor
+      image: /uploads/ira-koplowitz2x.jpg
+
+- 
+  title: Apothecary
+  staff:
+    - name: Brendan Benham
+      role: Director of Apothecary Operations
+      image:
+    - name: Becky Brown
+      role: Apothecary Supervisor
+      image:
+    - name: TJ Ochs
+      role: Kitchen Coordinator
+      image:
+    - name: Conor Benham
+      role: Production Assistant
+      image:
+    - name: John Griffin
+      role: Production Assistant
+      image: 
+    - name: Jeff Othman
+      role: Production Assistant
+      image:
+    - name: Juan Miguel Martinez
+      role: Production Assistant
+      image:
+
+-
+  title: Marketing
+  staff:
+    - name: Paul Fredrich
+      role: Marketing & Events Manager
+      image:
+    - name: Matt Young
+      role: Design Emissary
+      image:
+    - name: Maggie Winter
+      role: PR Emissary
+      image:
+
+- 
+  title: Consulting / R&D
+  staff:
+    - name: Dustin Nguyen
+      role: Account Manager
+      image: /uploads/duston-nguyen2x.jpg
+    - name: Brandon Sass
+      role: Training Manager
+      image: /uploads/brendan-benham2x.jpg
+    - name: Brandon Reyes
+      role: R&D Coordinator
+      image:
+    - name: Cameron Mckenzie
+      role: Emissary
+      image:
+    - name: Kylen Eberlein
+      role: Emissary
+      image:
+    - name: Louie LaFleur
+      role: Emissary
+      image: /uploads/louie2x.jpg
+

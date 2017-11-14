@@ -58,23 +58,22 @@ permalink: /about
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="content">
-          <div class="card-grid">
-            {% for staff in site.data.team %}
+    {% for category in site.data.team %}
+      <h3>{{ category.title }}</h3>
+      <div class="row">
+        {% for member in category.staff %}
+          <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card team-member">
-              <img class="card-img-top" src="{{ staff.image | prepend: site.baseurl }}" alt="{{ staff.name }} Image" />
+              <img class="card-img-top" src="{{ member.image | prepend: site.baseurl }}" alt="{{ member.name }} Image" />
               <div class="card-body">
-                <h4 class="card-title">{{ staff.name }}</h4>
-                <span>{{ staff.role }}</span>
+                <h4 class="card-title">{{ member.name }}</h4>
+                <span>{{ member.role }}</span>
               </div>
             </div>
-            {% endfor %}
           </div>
-        </div>
+        {% endfor %}
       </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 
