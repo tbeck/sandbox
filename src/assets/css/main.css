@@ -7,9 +7,9 @@
     clear: both; }
 
 .hide {
-  display: none;
-  visibility: hidden;
-  pointer-events: none; }
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important; }
 
 .content {
   padding: 20px;
