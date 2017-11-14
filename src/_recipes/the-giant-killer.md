@@ -25,7 +25,13 @@ instructions_html: >-
   glass.</p>
 image: /uploads/recipes/The_Giant_Killer.jpg
 tags:
+  - Citrusy
+  - Herbaceous
+  - Savory
+  - Spring
+  - Summer
 products:
+  - blackstrap-bitters
 featured: false
 ---
 
