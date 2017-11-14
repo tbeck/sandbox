@@ -14,12 +14,18 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Filthy Black Cherry & lemon peel
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a stirring vessel and then fill with ice.
+  Stir with a bar spoon until chilled and strain into cocktail glass.</p>
+image: /uploads/recipes/El_Presidente.jpg
 tags:
+  - Spirit Forward
+  - Tropical
+  - Aromatic
 products:
+  - orange-bitters
 featured: false
 ---
 
