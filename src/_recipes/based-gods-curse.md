@@ -12,12 +12,17 @@ ingredients:
     quantity: 1/3 oz
   - name: Bittercube Corazon Bitters
     quantity: 2 droppers/dashes
-garnish:
-glass:
-instructions_html:
+garnish: Pickled baby corn
+glass: Coupe or Martini
+instructions_html: >-
+  <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
+  Shake with a fluid, strong motion and strain into cocktail glass.</p>
 image:
 tags:
+  - Whisky
+  - Whiskey
 products:
+  - corazon-bitters
 featured: false
 ---
 
