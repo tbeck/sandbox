@@ -12,12 +12,18 @@ ingredients:
     quantity: 4 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange wheel
+glass: Collins
+instructions_html: '<p>Build in glass, add ice. Garnish.</p>'
+image: /uploads/recipes/Americano.jpg
 tags:
+  - Effervescent
+  - Bitter
+  - Refreshing
+  - Aperitif
+  - Brunch
 products:
+  - trinity-bitters
 featured: false
 ---
 
