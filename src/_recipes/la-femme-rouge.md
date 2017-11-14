@@ -14,12 +14,16 @@ ingredients:
     quantity: 3/4 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Orange wheel
+glass: Rocks
+instructions_html: '<p>Long shake, dump, dirty ice, garnish.</p>'
+image: /uploads/recipes/La_Femme_Rouge.jpg
 tags:
+  - Creamy
+  - Bitter
+  - Herbaceous
 products:
+  - orange-bitters
 featured: false
 ---
 
