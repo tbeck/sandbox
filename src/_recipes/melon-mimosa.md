@@ -16,12 +16,22 @@ ingredients:
     quantity: 4 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-garnish:
-glass:
-instructions_html:
-image:
+garnish: 3 small watermelon balls and orange twist
+glass: Flute
+instructions_html: >-
+  <p>Pour all ingredients into glass and garnish.</p><p>Adjustments: Makes a
+  great punch. Simply convert ounces to cups. Add all ingredients in a punch
+  bowl.</p>
+image: /uploads/recipes/Melon_Mimosa.jpg
 tags:
+  - Fruity
+  - Effervescent
+  - Crisp
+  - Citrusy
+  - Punch
+  - Brunch
 products:
+  - orange-bitters
 featured: false
 ---
 
