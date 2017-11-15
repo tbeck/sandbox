@@ -39,12 +39,29 @@ if(container) {
     var productRecipes = obj.filter(function(recipe) {
       return recipe.products.indexOf(handle) > -1;
     });
-    var randomRecipes = getUnique(4, productRecipes);
-    console.log("Random recipes:", randomRecipes);
-    
-    randomRecipes.forEach(function(recipe){
-      addRecipe(recipe);
-    });
+    // console.log("Product recipes:", productRecipes.length);
+    // var randomRecipes = getUnique(4, productRecipes);
+    // console.log("Random recipes:", randomRecipes);
+    // randomRecipes.forEach(function(recipe){
+    //   addRecipe(recipe);
+    // });
+
+    if(productRecipes.length >= 4) {
+      var randomRecipes = getUnique(4, productRecipes);
+      console.log("Random product recipes:", randomRecipes);
+      randomRecipes.forEach(function(recipe){
+        addRecipe(recipe);
+      });
+    } else {
+      var randomRecipes = getUnique(4, obj);
+      $('[data-ref="product_recipes-heading"]').text('Recipes Using Bittercube Bitters');
+      console.log("Random recipes:", randomRecipes);
+      randomRecipes.forEach(function(recipe){
+        addRecipe(recipe);
+      });
+    }
+
+
     $('.loading-recipes').fadeOut();
   });
 

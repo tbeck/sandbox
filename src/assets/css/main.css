@@ -1022,7 +1022,7 @@ blockquote {
       margin-right: auto; }
 
 @media (min-width: 768px) {
-  .recipe-ingredients li {
+  .recipe-ingredients .ingredients-list li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
