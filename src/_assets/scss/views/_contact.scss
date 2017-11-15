@@ -9,7 +9,7 @@
   address {
     border-bottom: 0;
     font-family: $font-family-serif;
-    font-size: 1.8rem;
+    font-size: 20px;
     text-transform: none;
   }
 
@@ -44,23 +44,6 @@
 
 .bordered {
   position: relative;
-
-  &::before,
-  &::after {
-    content: '';
-    width: 30%;
-    border-top: 1px solid $yellow;
-    position: absolute;
-    top: 50%;
-  }
-
-  &::before {
-    left: 0;
-  }
-
-  &::after {
-    right: 0;
-  }
 }
 
 // Media Queries
@@ -75,9 +58,33 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: $screen-md-min) {
+  #contact-info {
+    a,
+    address {
+      font-size: 1.8rem;
+    }
+  }
   .distributors {
     .distributor {
       width: 30%;
+    }
+  }
+  .bordered {
+    &::before,
+    &::after {
+      content: '';
+      width: 30%;
+      border-top: 1px solid $yellow;
+      position: absolute;
+      top: 50%;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
     }
   }
 }

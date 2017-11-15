@@ -1157,6 +1157,14 @@ blockquote {
 
 .bordered {
   position: relative; }
+
+@media (min-width: 576px) {
+  .distributors .distributor {
+    width: 47%; } }
+@media (min-width: 768px) {
+  .distributors .distributor {
+    width: 30%; }
+
   .bordered::before, .bordered::after {
     content: '';
     width: 30%;
@@ -1166,14 +1174,7 @@ blockquote {
   .bordered::before {
     left: 0; }
   .bordered::after {
-    right: 0; }
-
-@media (min-width: 576px) {
-  .distributors .distributor {
-    width: 47%; } }
-@media (min-width: 768px) {
-  .distributors .distributor {
-    width: 30%; } }
+    right: 0; } }
 #consulting img {
   width: 125px; }
 
