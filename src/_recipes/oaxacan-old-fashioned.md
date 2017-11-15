@@ -4,7 +4,8 @@ name: Oaxacan Old Fashioned
 bartender:
 description: >-
   Tequila and mezcal take whiskey's place in this south of the border twist on a
-  classic.
+  classic." It should now read "Mezcal provides a smokey finish to this spirit
+  forward classic.
 ingredients:
   - name: Simple syrup
     quantity: 1/4 oz
