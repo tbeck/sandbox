@@ -65,7 +65,7 @@ permalink: /recipes/
           <div class="card-grid">
             {% for category in site.data.drink_categories %}
             <div class="card">
-              <a href="/recipes#term={{ category.title }}">
+              <a href="/recipes#term={{ category.title | downcase }}" onclick="window.location.reload()">
                 {% if category.image %}
                   <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
                 {% else %}
