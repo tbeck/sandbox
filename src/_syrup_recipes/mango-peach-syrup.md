@@ -1,11 +1,13 @@
 ---
 layout: syrup_recipe
-name: Easy Peach Syrup
+name: Mango-Peach Syrup
 description:
 ingredients:
-  - name: Large peaches finely diced
-    quantity: '2'
-  - name: Fresh Lemon Juice
+  - name: Small Mango finely diced
+    quantity: '1'
+  - name: Large peach finely diced
+    quantity: '1'
+  - name: Fresh lemon Juice
     quantity: 1/4 tsp
   - name: Granulated Sugar
     quantity:

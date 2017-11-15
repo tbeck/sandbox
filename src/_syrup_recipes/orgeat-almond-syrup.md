@@ -1,6 +1,6 @@
 ---
 layout: syrup_recipe
-name: Easy Orgeat (Almond Syrup)
+name: Orgeat (Almond Syrup)
 description:
 ingredients:
   - name: Raw almonds (Or nut of choice)
