@@ -1,16 +1,3 @@
-// require('autocomplete');
-// var countries = [
-//    { value: 'Andorra', data: 'AD' },
-//    { value: 'Zimbabwe', data: 'ZZ' }
-// ];
-
-// $('#search').autocomplete({
-//     lookup: countries,
-//     onSelect: function (suggestion) {
-//         alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
-//     }
-// });
-
 var hash = require('./hash');
 var mixitup = require('mixitup');
 var mixitupMultifilter = require('./vendor/mixitup-multifilter');
@@ -85,6 +72,20 @@ if(container) {
 
   });
 
+  if(hash) {
+    var obj = hash.get();
+    // Check to see if keyterm is defined
+    var keyterm = obj.term[0];
+    if(keyterm) {
+      clearTimeout(keyupTimeout);
+
+      keyupTimeout = setTimeout(function() {
+        $('.recipes-featured').fadeOut();
+        $(container).fadeIn();
+        this.filterByString(keyterm);
+      }, 350);
+    }
+  }
 }
 
 

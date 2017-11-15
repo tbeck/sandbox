@@ -17,7 +17,7 @@ glass: Rocks with large chunk of ice
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
-image: /uploads/recipes/I'm_Not_Wearing_A_Bra.jpg
+image: /uploads/recipes/Not_Wearing_A_Bra.jpg
 tags:
   - Spirit Forward
   - Dry
