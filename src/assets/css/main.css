@@ -615,8 +615,7 @@ blockquote {
     text-align: center;
     width: 100%;
     padding: 20px;
-    z-index: 5;
-    opacity: 0; }
+    z-index: 5; }
     .hero .hero-caption.animated {
       -webkit-animation-delay: 1.5s;
               animation-delay: 1.5s;

@@ -29,7 +29,7 @@ var config = {
         var recipeName = recipe.name.toLowerCase();
 
         var html = `
-          <div class="recipe ${recipeTags} ${recipeIngredients} ${recipeName}" data-ref='item'>
+          <div class="recipe" data-ref='item' data-filter='${recipeTags} ${recipeIngredients} ${recipeName}'>
             <div class="content">
               <div class="recipe-image" style="background-image: url(${recipe.image});">
                 <a href="${recipe.pinterest}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
@@ -140,7 +140,7 @@ if(inputSearch) {
 filterByString = function(searchValue) {
   if (searchValue) {
       // Use an attribute wildcard selector to check for matches
-      mixer.filter('[class*="' + searchValue + '"]');
+      mixer.filter('[data-filter*="' + searchValue + '"]');
   } else {
       // If no searchValue, treat as filter('all')
       mixer.filter('all');
