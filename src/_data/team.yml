@@ -44,19 +44,19 @@
   staff:
     - name: Dustin Nguyen
       role: Account Manager
-      image: /uploads/duston-nguyen2x.jpg
+      image: /uploads/Dustin-Nguyen.jpg
     - name: Brandon Sass
       role: Training Manager
-      image: /uploads/brendan-benham2x.jpg
+      image: /uploads/brandon.jpg
     - name: Brandon Reyes
       role: R&D Coordinator
-      image:
+      image: /uploads/brandon-reyes.jpg
     - name: Cameron Mckenzie
       role: Emissary
-      image:
+      image: /uploads/cameron.jpg
     - name: Kylen Eberlein
       role: Emissary
-      image:
+      image: /uploads/Kylen_Eberlien.jpg
     - name: Louie LaFleur
       role: Emissary
       image: /uploads/louie2x.jpg
