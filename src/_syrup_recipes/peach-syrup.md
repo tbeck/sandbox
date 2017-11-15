@@ -1,6 +1,6 @@
 ---
 layout: syrup_recipe
-name: Easy Peach Syrup
+name: Peach Syrup
 description:
 ingredients:
   - name: Large peaches finely diced
