@@ -24,17 +24,19 @@
     list-style-type: none;
     padding-left: 0;
     li {
-      display: flex;
+      display: block;
       font-family: $font-family-sans-serif;
       line-height: 1.4;
       padding: 10px 0;
     }
   }
   .ingredient-quantity {
-    width: 35%;
+    display: block;
+    width: 100%;
   }
   .ingredient-name {
-    width: 80%;
+    display: block;
+    width: 100%;
   }
 }
 .recipe-instructions {
@@ -105,6 +107,19 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: $screen-md-min) {
+  .recipe-ingredients {
+    .ingredients-list {
+      li {
+        display: flex;
+      }
+    }
+    .ingredient-quantity {
+      width: 35%;
+    }
+    .ingredient-name {
+      width: 80%;
+    }
+  }
   .recipes-list {
     .recipe {
       width: 50%;

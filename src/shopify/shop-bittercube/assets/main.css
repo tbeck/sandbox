@@ -947,16 +947,16 @@ blockquote {
     list-style-type: none;
     padding-left: 0; }
     .recipe-ingredients .ingredients-list li {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+      display: block;
       font-family: "proxima-nova", sans-serif;
       line-height: 1.4;
       padding: 10px 0; }
   .recipe-ingredients .ingredient-quantity {
-    width: 35%; }
+    display: block;
+    width: 100%; }
   .recipe-ingredients .ingredient-name {
-    width: 80%; }
+    display: block;
+    width: 100%; }
 
 .recipe-instructions {
   padding: 50px;
@@ -1022,6 +1022,15 @@ blockquote {
       margin-right: auto; }
 
 @media (min-width: 768px) {
+  .recipe-ingredients li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .recipe-ingredients .ingredient-quantity {
+    width: 35%; }
+  .recipe-ingredients .ingredient-name {
+    width: 80%; }
+
   .recipes-list .recipe {
     width: 50%;
     -ms-flex-preferred-size: 50%;
