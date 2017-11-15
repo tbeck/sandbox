@@ -1,6 +1,6 @@
 ---
 layout: syrup_recipe
-name: Easy Mango-Peach Syrup
+name: Mango-Peach Syrup
 description:
 ingredients:
   - name: Small Mango finely diced
