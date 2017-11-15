@@ -55,7 +55,7 @@ permalink: /contact
           <div class="content">
             <div class="distributors">
               {% for distributor in object.distributors %}
-                <a href="#" class="distributor">
+                <a href="{{ distributor.link }}" class="distributor">
                   <h4>{{ distributor.location }}</h4>
                   <p>{{ distributor.name }}</p>
                 </a>
