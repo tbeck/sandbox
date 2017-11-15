@@ -40,8 +40,7 @@
   {{ 'main.css' | asset_url | stylesheet_tag }}
   {{ 'shop.css' | asset_url | stylesheet_tag }}
 
-  <script src="{{ 'head.js' | asset_url }}" defer="defer"></script>
-
+  {{ 'head.js' | asset_url | script_tag }}
   <script>
     var theme = {
       strings: {

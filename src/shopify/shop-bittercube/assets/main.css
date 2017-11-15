@@ -1197,6 +1197,9 @@ blockquote {
   font-size: 17px;
   line-height: 27px; }
 
+#team h3 {
+  margin-top: 50px; }
+
 .team-member h4 {
   font-size: 22px;
   font-family: "Alegreya", serif;

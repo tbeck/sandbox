@@ -12,15 +12,7 @@ layout: null
     "ingredients": "{% for ingredient in recipe.ingredients %}{{ ingredient.name | replace: "’", "'" }}{% unless forloop.last %},{% endunless %}{% endfor %}",
     "tags": "{% for tag in recipe.tags %}{{ tag | replace: "’", "'" }}{% unless forloop.last %},{% endunless %}{% endfor %}",
     "pinterest": "https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ recipe.title | xml_escape }}",
-    "products": [
-      {% for product in recipe.products %}
-      {
-        "name": "{{ product.name }}",
-        "url": "{{ product.url }}"
-      }
-      {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
+    "products": [{% for product in recipe.products %}"{{ product }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

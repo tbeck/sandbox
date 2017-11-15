@@ -98,6 +98,10 @@ module.exports = {
       entries:    './' + srcAssets + '/scripts/head.js',
       dest:       buildAssets + '/js',
       outputName: 'head.js'
+    }, {
+      entries:    './' + srcAssets + '/scripts/shop.js',
+      dest:       buildAssets + '/js',
+      outputName: 'shop.js'
     }]
   },
   images: {

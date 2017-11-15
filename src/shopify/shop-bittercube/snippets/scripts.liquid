@@ -1,5 +1,15 @@
 <!-- Javascript -->
-<script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
+{{ 'main.js' | asset_url | script_tag }}
+
+{% if template contains 'product' %}
+  {{ 'shop.js' | asset_url | script_tag }}
+  <script>
+  $('.product-select').on('change', function() {
+    var price = $(this).find(':selected').data('price');
+    $('.price').text(price);
+  });
+  </script>
+{% endif %}
 
 <!-- Analytics -->
 {% include 'analytics' %}
