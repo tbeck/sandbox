@@ -39,12 +39,6 @@ if(container) {
     var productRecipes = obj.filter(function(recipe) {
       return recipe.products.indexOf(handle) > -1;
     });
-    // console.log("Product recipes:", productRecipes.length);
-    // var randomRecipes = getUnique(4, productRecipes);
-    // console.log("Random recipes:", randomRecipes);
-    // randomRecipes.forEach(function(recipe){
-    //   addRecipe(recipe);
-    // });
 
     if(productRecipes.length >= 4) {
       var randomRecipes = getUnique(4, productRecipes);
