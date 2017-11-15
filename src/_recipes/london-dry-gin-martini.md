@@ -21,7 +21,7 @@ tags:
   - Herbaceous
   - Aromatic
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

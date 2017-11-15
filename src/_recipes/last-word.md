@@ -27,7 +27,7 @@ tags:
   - Citrusy
   - Crisp
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

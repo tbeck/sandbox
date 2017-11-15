@@ -1,0 +1,27 @@
+- name: Cherry Bark Vanilla
+  handle: cherry-bark-vanilla
+  shop_url: /products/cherry-bark-vanilla
+- name: Bolivar
+  handle: bolivar
+  shop_url: /products/bolivar
+- name: Blackstrap
+  handle: blackstrap
+  shop_url: /products/blackstrap
+- name: Orange
+  handle: orange
+  shop_url: /products/orange
+- name: Trinity
+  handle: trinity
+  shop_url: /products/trinity
+- name: Jamaican No. 1
+  handle: jamaican-1
+  shop_url: /products/jamaican-1
+- name: Jamaican No. 2
+  handle: jamaican-2
+  shop_url: /products/jamaican-2
+- name: Corazón
+  handle: corazon
+  shop_url: /products/corazon
+- name: Marvel Bar
+  handle: marvel-bar
+  shop_url: /products/marvel-bar

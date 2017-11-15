@@ -26,7 +26,7 @@ tags:
   - Smoky
   - Bitter
 products:
-  - jamaican-no--2
+  - jamaican-2
 featured: false
 ---
 

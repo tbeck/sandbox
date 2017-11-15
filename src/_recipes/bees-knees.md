@@ -23,7 +23,7 @@ tags:
   - Crisp
   - Herbaceous
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

@@ -27,7 +27,7 @@ tags:
   - Whiskey
   - Whisky
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

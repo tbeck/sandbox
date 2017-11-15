@@ -26,7 +26,7 @@ tags:
   - Fruity
   - Herbaceous
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

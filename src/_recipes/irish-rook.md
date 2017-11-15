@@ -30,8 +30,8 @@ tags:
   - Herbaceous
   - Aromatic
 products:
-  - orange-bitters
-  - blackstrap-bitters
+  - orange
+  - blackstrap
 featured: false
 ---
 

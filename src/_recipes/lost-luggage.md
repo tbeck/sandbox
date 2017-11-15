@@ -26,7 +26,7 @@ tags:
   - Fall
   - Aromatic
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

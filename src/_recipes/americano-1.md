@@ -23,7 +23,7 @@ tags:
   - Aperitif
   - Brunch
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

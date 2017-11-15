@@ -35,8 +35,8 @@ tags:
   - Punch
   - Tropical
 products:
-  - bolivar-bitters
-  - blackstrap-bitters
+  - bolivar
+  - blackstrap
 featured: false
 ---
 

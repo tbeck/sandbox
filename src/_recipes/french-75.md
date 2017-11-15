@@ -27,7 +27,7 @@ tags:
   - Crisp
   - Refreshing
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

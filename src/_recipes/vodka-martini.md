@@ -16,7 +16,7 @@ tags:
   - Spirit Forward
   - Dry
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

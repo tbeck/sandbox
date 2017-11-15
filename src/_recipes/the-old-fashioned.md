@@ -24,7 +24,7 @@ tags:
   - Bitter
   - Dry
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

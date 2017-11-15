@@ -33,7 +33,7 @@ tags:
   - Fruity
   - Herbaceous
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

@@ -34,7 +34,7 @@ tags:
   - Savory
   - Herbaceous
 products:
-  - jamaican-no--2
+  - jamaican-2
 featured: true
 ---
 

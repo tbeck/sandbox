@@ -23,7 +23,7 @@ tags:
   - Bitter
   - Herbaceous
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

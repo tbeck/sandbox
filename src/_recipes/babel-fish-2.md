@@ -27,7 +27,7 @@ tags:
   - Summer
   - Fall
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

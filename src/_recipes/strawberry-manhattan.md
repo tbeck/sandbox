@@ -21,7 +21,7 @@ tags:
   - Aromatic
   - Fruity
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

@@ -33,7 +33,7 @@ tags:
   - Fall
   - Winter
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

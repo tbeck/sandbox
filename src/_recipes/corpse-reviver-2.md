@@ -27,7 +27,7 @@ tags:
   - Crisp
   - Herbaceous
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

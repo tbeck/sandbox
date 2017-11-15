@@ -29,7 +29,7 @@ tags:
   - Refreshing
   - Tropical
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

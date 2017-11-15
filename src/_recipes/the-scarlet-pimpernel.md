@@ -25,7 +25,7 @@ tags:
   - Aromatic
   - Floral
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

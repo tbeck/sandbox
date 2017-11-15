@@ -24,8 +24,8 @@ tags:
   - Bitter
   - Herbaceous
 products:
-  - marvel-bar-bitters
-  - orange-bitters
+  - marvel-bar
+  - orange
 featured: false
 ---
 

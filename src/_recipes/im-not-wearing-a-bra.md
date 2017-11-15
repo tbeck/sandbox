@@ -24,8 +24,8 @@ tags:
   - Bitter
   - Tropical
 products:
-  - blackstrap-bitters
-  - jamaican-no--1
+  - blackstrap
+  - jamaican-1
 featured: false
 ---
 

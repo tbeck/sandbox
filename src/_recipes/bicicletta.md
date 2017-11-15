@@ -24,7 +24,7 @@ tags:
   - Aperitif
   - Brunch
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

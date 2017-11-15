@@ -32,7 +32,7 @@ tags:
   - Refreshing
   - Summer
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

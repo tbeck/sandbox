@@ -31,7 +31,7 @@ tags:
   - Spring
   - Summer
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

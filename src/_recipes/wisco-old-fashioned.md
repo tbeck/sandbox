@@ -31,9 +31,9 @@ tags:
   - Fruity
   - Supper Club
 products:
-  - bolivar-bitters
-  - orange-bitters
-  - blackstrap-bitters
+  - bolivar
+  - orange
+  - blackstrap
 featured: false
 ---
 

@@ -25,7 +25,7 @@ tags:
   - Tropical
   - Aromatic
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

@@ -21,7 +21,7 @@ tags:
   - Smoky
   - Aromatic
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

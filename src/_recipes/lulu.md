@@ -33,7 +33,7 @@ tags:
   - Spring
   - Summer
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

@@ -25,7 +25,7 @@ tags:
   - Crisp
   - Tropical
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

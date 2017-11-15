@@ -27,7 +27,7 @@ tags:
   - Crisp
   - Refreshing
 products:
-  - jamaican-no--1
+  - jamaican-1
 featured: false
 ---
 

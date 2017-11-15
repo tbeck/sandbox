@@ -33,7 +33,7 @@ tags:
   - Fall
   - Winter
 products:
-  - cherry-bark-vanilla-bitters
+  - cherry-bark-vanilla
 featured: false
 ---
 

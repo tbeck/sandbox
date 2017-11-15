@@ -25,7 +25,7 @@ tags:
   - Citrusy
   - Crisp
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

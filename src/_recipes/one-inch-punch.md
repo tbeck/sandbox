@@ -23,7 +23,7 @@ tags:
   - Herbaceous
   - Savory
 products:
-  - cherry-bark-vanilla-bitters
+  - cherry-bark-vanilla
 featured: false
 ---
 

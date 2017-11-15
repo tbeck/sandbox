@@ -29,8 +29,8 @@ tags:
   - Tropical
   - Fruity
 products:
-  - jamaican-no--1
-  - jamaican-no--2
+  - jamaican-1
+  - jamaican-2
 featured: false
 ---
 

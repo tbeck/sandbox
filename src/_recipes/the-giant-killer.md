@@ -31,7 +31,7 @@ tags:
   - Spring
   - Summer
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

@@ -26,7 +26,7 @@ tags:
   - Crisp
   - Refreshing
 products:
-  - cherry-bark-vanilla-bitters
+  - cherry-bark-vanilla
 featured: false
 ---
 

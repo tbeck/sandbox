@@ -37,8 +37,8 @@ tags:
   - Fall
   - Summer
 products:
-  - blackstrap-bitters
-  - orange-bitters
+  - blackstrap
+  - orange
 featured: true
 ---
 

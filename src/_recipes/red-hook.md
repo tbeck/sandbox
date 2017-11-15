@@ -23,7 +23,7 @@ tags:
   - Bitter
   - Aromatic
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

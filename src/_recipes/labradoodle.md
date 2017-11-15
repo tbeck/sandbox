@@ -34,8 +34,8 @@ tags:
   - Spicy
   - Creamy
 products:
-  - marvel-bar-bitters
-  - blackstrap-bitters
+  - marvel-bar
+  - blackstrap
 featured: false
 ---
 

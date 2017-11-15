@@ -22,7 +22,7 @@ tags:
   - Herbaceous
   - Aromatic
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

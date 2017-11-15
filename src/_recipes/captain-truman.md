@@ -33,7 +33,7 @@ tags:
   - Fall
   - Winter
 products:
-  - jamaican-no--1
+  - jamaican-1
 featured: false
 ---
 

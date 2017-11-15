@@ -31,7 +31,7 @@ tags:
   - Whiskey
   - Whisky
 products:
-  - corazon-bitters
+  - corazon
 featured: false
 ---
 

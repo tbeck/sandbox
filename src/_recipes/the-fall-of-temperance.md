@@ -33,8 +33,8 @@ tags:
   - Fall
   - Summer
 products:
-  - jamaican-no--1
-  - blackstrap-bitters
+  - jamaican-1
+  - blackstrap
 featured: true
 ---
 

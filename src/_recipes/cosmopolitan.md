@@ -27,7 +27,7 @@ tags:
   - Crisp
   - Fruity
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

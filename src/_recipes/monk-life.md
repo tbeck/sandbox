@@ -31,7 +31,7 @@ tags:
   - Summer
   - Fall
 products:
-  - marvel-bar-bitters
+  - marvel-bar
 featured: false
 ---
 

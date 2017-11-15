@@ -25,7 +25,7 @@ tags:
   - Citrusy
   - Creamy
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

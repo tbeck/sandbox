@@ -26,7 +26,7 @@ tags:
   - Refreshing
   - Herbaceous
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

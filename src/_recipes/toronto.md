@@ -23,7 +23,7 @@ tags:
   - Bitter
   - Herbaceous
 products:
-  - cherry-bark-vanilla-bitters
+  - cherry-bark-vanilla
 featured: false
 ---
 

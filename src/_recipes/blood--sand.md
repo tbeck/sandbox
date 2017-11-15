@@ -30,7 +30,7 @@ tags:
   - Spring
   - Summer
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 

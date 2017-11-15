@@ -24,8 +24,8 @@ tags:
   - Smoky
   - Bitter
 products:
-  - blackstrap-bitters
-  - orange-bitters
+  - blackstrap
+  - orange
 featured: false
 ---
 

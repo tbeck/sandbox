@@ -31,7 +31,7 @@ tags:
   - Citrusy
   - Herbaceous
 products:
-  - jamaican-no--2
+  - jamaican-2
 featured: false
 ---
 

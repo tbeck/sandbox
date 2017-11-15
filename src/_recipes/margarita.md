@@ -25,7 +25,7 @@ tags:
   - Citrusy
   - Savory
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

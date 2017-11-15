@@ -24,7 +24,7 @@ tags:
   - Creamy
   - Liquid Dessert
 products:
-  - corazon-bitters
+  - corazon
 featured: false
 ---
 

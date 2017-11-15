@@ -25,7 +25,7 @@ tags:
   - Crisp
   - Herbaceous
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

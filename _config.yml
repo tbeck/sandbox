@@ -2,7 +2,7 @@
 title: Bittercube
 email: dev@ocupop.com
 description: ''
-url: "http://fluent-skunk.cloudvent.net"
+url: "https://fluent-skunk.cloudvent.net"
 permalink: /:title
 
 analytics_code: UA-16640117-2 # accessible via dev@ocupop.com
@@ -34,9 +34,6 @@ collections:
     output: true
     layout: bartender
     permalink: /bartenders/:name
-  products:
-    output: false
-
 
 store: "https://bittercube.myshopify.com"
 products_url: "/admin/products.json?fields=handle,image,title,tags"

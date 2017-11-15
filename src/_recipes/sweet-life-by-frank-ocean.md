@@ -30,7 +30,7 @@ tags:
   - Tropical
   - Summer
 products:
-  - jamaican-no--2
+  - jamaican-2
 featured: false
 ---
 

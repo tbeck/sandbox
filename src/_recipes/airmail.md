@@ -28,7 +28,7 @@ tags:
   - Refreshing
   - Tropical
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

@@ -27,7 +27,7 @@ tags:
   - Fall
   - Nutty
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

@@ -21,7 +21,7 @@ tags:
   - Dry
   - Aromatic
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

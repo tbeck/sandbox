@@ -23,7 +23,7 @@ tags:
   - Aromatic
   - Bitter
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

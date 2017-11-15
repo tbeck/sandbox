@@ -31,7 +31,7 @@ tags:
   - Fall
   - Summer
 products:
-  - bolivar-bitters
+  - bolivar
 featured: false
 ---
 

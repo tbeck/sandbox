@@ -30,8 +30,8 @@ tags:
   - Spicy
   - Refreshing
 products:
-  - blackstrap-bitters
-  - jamaican-no--2
+  - blackstrap
+  - jamaican-2
 featured: false
 ---
 

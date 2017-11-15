@@ -25,7 +25,7 @@ tags:
   - Hot
   - Winter
 products:
-  - blackstrap-bitters
+  - blackstrap
 featured: false
 ---
 

@@ -27,8 +27,8 @@ tags:
   - Herbaceous
   - Aromatic
 products:
-  - trinity-bitters
-  - marvel-bar-bitters
+  - trinity
+  - marvel-bar
 featured: false
 ---
 

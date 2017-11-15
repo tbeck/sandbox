@@ -31,7 +31,7 @@ tags:
   - Fall
   - Winter
 products:
-  - corazon-bitters
+  - corazon
 featured: false
 ---
 

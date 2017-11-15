@@ -24,8 +24,8 @@ tags:
   - Aromatic
   - Dry
 products:
-  - trinity-bitters
-  - jamaican-no--2
+  - trinity
+  - jamaican-2
 featured: false
 ---
 

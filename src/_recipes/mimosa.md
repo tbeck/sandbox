@@ -21,7 +21,7 @@ tags:
   - Citrusy
   - Refreshing
 products:
-  - orange-bitters
+  - orange
 featured: false
 ---
 

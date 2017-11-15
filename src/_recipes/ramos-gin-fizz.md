@@ -36,7 +36,7 @@ tags:
   - Floral
   - Brunch
 products:
-  - trinity-bitters
+  - trinity
 featured: false
 ---
 
