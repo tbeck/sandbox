@@ -75,8 +75,9 @@ if(container) {
   if(hash) {
     var obj = hash.get();
     // Check to see if keyterm is defined
-    var keyterm = obj.term[0];
-    if(keyterm) {
+    if(obj.term) {
+      var keyterm = obj.term[0];
+      
       clearTimeout(keyupTimeout);
 
       keyupTimeout = setTimeout(function() {
