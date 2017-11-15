@@ -27,11 +27,12 @@ function addRecipe(recipe) {
       </div>
     </div>
   `;
-  console.log("ADDING:", html);
+
   $(container).append(html);
 }
 
 if(container) {
+  $('.loading-recipes').fadeIn();
   var handle = window.location.href.split("/").pop();
   var recipes = Recipes.getTemp();
   recipes.then(function(obj) {
@@ -43,7 +44,7 @@ if(container) {
     randomRecipes.forEach(function(recipe){
       addRecipe(recipe);
     });
-
+    $('.loading-recipes').fadeOut();
   });
 
 }

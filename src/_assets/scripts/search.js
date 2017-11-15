@@ -21,6 +21,7 @@ mixitup.use(mixitupMultifilter);
 
 var container = document.querySelector('[data-ref="container"]');
 var inputSearch = document.querySelector('[data-ref="input-search"]');
+var searchForm = document.querySelector('[data-ref="search-form"]');
 var activeTerm = '';
 var keyupTimeout;
 
@@ -86,6 +87,7 @@ if(container) {
 
 }
 
+
 if(inputSearch) {
   // Set up a handler to listen for "keyup" events from the search input
   inputSearch.addEventListener('keyup', function() {
@@ -105,16 +107,35 @@ if(inputSearch) {
       clearTimeout(keyupTimeout);
 
       keyupTimeout = setTimeout(function() {
-          this.filterByString(searchValue);
+        $('.recipes-featured').fadeOut();
+        $(container).fadeIn();
+        this.filterByString(searchValue);
       }, 350);
   });
 
-  inputSearch.addEventListener('submit', function() {
-    console.log('SUBMIT');
+  searchForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    var searchValue;
+
+    if (inputSearch.value.length < 3) {
+        // If the input value is less than 3 characters, don't send
+
+        searchValue = '';
+    } else {
+        searchValue = inputSearch.value.toLowerCase().trim();
+    }
+    $('.recipes-featured').fadeOut();
+    $('[data-ref="container"]').fadeIn();
+
+    clearTimeout(keyupTimeout);
+
+    keyupTimeout = setTimeout(function() {
+        this.filterByString(searchValue);
+    }, 350);
   });
 }
 
-var filterByString = function(searchValue) {
+filterByString = function(searchValue) {
   if (searchValue) {
       // Use an attribute wildcard selector to check for matches
       mixer.filter('[class*="' + searchValue + '"]');

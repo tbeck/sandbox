@@ -1078,24 +1078,29 @@ blockquote {
       margin: 50px auto 25px; }
 
 .autocomplete-suggestions {
-  border: 1px solid #999;
+  border: 1px solid #d3b262;
   background: #FFF;
-  overflow: auto; }
+  overflow: auto;
+  font-family: "proxima-nova", sans-serif; }
 
 .autocomplete-suggestion {
   padding: 2px 5px;
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+  text-transform: capitalize; }
 
 .autocomplete-selected {
   background: #F0F0F0; }
 
 .autocomplete-suggestions strong {
-  font-weight: normal;
-  color: #3399FF; }
+  font-weight: 700;
+  color: #d3b262; }
 
 .autocomplete-group {
-  padding: 2px 5px; }
+  padding: 2px 5px;
+  font-weight: 400;
+  background-color: #eeeeee;
+  color: #757575; }
 
 .autocomplete-group strong {
   display: block;
