@@ -7,6 +7,16 @@
     margin-bottom: 75px;
     .hover-overlay {
       border-width: 2px;
+      &:hover {
+        .overlay-text {
+          padding-top: 35%;
+        }
+      }
+    }
+    .overlay-text {
+      display: block;
+      text-align: center;
+      margin-bottom: 0;
     }
     .button {
       border-width: 2px;

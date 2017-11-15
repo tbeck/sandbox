@@ -21,7 +21,7 @@
                 <a href="{{ product.url }}">
                   <div class="hover-overlay">
                     <img class="card-img-top" src="{{ product.images.first.src | img_url: 'large_cropped' }}" alt="{{ product.title }}">
-                    <p class="overlay-text">{{ product.tags }}</p>
+                    <p class="overlay-text">{% for tag in product.tags %}{{ tag }}<br>{% endfor %}</p>
                   </div>
                 </a>  
                   <div class="card-body">

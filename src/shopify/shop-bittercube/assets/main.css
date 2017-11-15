@@ -508,7 +508,7 @@ h5 {
       margin-top: 0; }
     #page-header.home-header .navbar-brand,
     #page-header.home-header .socialnav {
-      opacity: 0 !important; } }
+      opacity: 0; } }
 #page-footer {
   color: #ffffff;
   padding: 100px 0 50px;
