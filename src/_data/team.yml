@@ -33,13 +33,13 @@
   staff:
     - name: Paul Fredrich
       role: Marketing & Events Manager
-      image:
+      image: /uploads/paul.jpg
     - name: Matt Young
       role: Design Emissary
-      image:
+      image: /uploads/placeholder.jpg
     - name: Maggie Winter
       role: PR Emissary
-      image:
+      image: /uploads/maggie.jpg
 - title: Consulting / R&D
   staff:
     - name: Dustin Nguyen
