@@ -10,25 +10,25 @@
   staff:
     - name: Brendan Benham
       role: Director of Apothecary Operations
-      image: /uploads/brendan.jpg
+      image: /uploads/brendan-benham.jpg
     - name: Becky Brown
       role: Apothecary Supervisor
-      image: /uploads/becky.jpg
+      image: /uploads/becky-1.jpg
     - name: TJ Ochs
       role: Kitchen Coordinator
-      image:
+      image: /uploads/placeholder.jpg
     - name: Conor Benham
       role: Production Assistant
-      image:
+      image: /uploads/conor-benham.jpg
     - name: John Griffin
       role: Production Assistant
-      image:
+      image: /uploads/placeholder.jpg
     - name: Jeff Othman
       role: Production Assistant
-      image:
+      image: /uploads/placeholder.jpg
     - name: Juan Miguel Martinez
       role: Production Assistant
-      image:
+      image: /uploads/Juan_Miguel_Martinez.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
