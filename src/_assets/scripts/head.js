@@ -1,6 +1,4 @@
-// require('modernizr');
 var WebFont = require('webfontloader');
-var jquery = require('jquery');
 
 WebFont.load({
   google: {
