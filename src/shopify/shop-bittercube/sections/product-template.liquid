@@ -29,7 +29,7 @@
                 <input type="number" id="Quantity" name="quantity" value="1" min="1" pattern="[0-9]*" style="border: 1px solid #18374b; width: 75px;">
               </div>
               <div class="select mr-3">
-                <select name="variant-select" id="ProductSelect-{{ section.id }}" data-section="{{ section.id }}" class="product-select no-js">
+                <select name="id" id="ProductSelect-{{ section.id }}" data-section="{{ section.id }}" class="product-select no-js">
                   {% for variant in product.variants %}
                     {% if variant.available %}
                       <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}" data-price="{{ variant.price | money_without_trailing_zeros }}">
