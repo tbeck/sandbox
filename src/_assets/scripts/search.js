@@ -72,8 +72,8 @@ if(container) {
 
   });
 
-  if(hash) {
-    var obj = hash.get();
+  var obj = hash.get();
+  if(obj) {
     // Check to see if keyterm is defined
     if(obj.term !== null) {
       var keyterm = obj.term[0];
