@@ -34,13 +34,14 @@ function addRecipe(recipe) {
 if(container) {
   $('.loading-recipes').fadeIn();
   var handle = window.location.href.split("/").pop();
-  var recipes = Recipes.getTemp();
+  var recipes = Recipes.get();
   recipes.then(function(obj) {
     var productRecipes = obj.filter(function(recipe) {
       return recipe.products.indexOf(handle) > -1;
     });
     var randomRecipes = getUnique(4, productRecipes);
-
+    console.log("Random recipes:", randomRecipes);
+    
     randomRecipes.forEach(function(recipe){
       addRecipe(recipe);
     });
