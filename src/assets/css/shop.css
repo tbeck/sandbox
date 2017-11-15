@@ -213,9 +213,10 @@
     margin-bottom: 75px; }
     .products .card .hover-overlay {
       border-width: 2px; }
+      .products .card .hover-overlay:hover .overlay-text {
+        padding-top: 35%; }
     .products .card .overlay-text {
       display: block;
-      padding-top: 35%;
       text-align: center;
       margin-bottom: 0; }
     .products .card .button {
