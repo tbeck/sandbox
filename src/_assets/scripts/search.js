@@ -165,7 +165,7 @@ filterByTag = function(searchValue) {
 filterByString = function(searchValue) {
   if (searchValue) {
       // Use an attribute wildcard selector to check for matches
-      mixer.filter('[data-filter*="' + searchValue + '"]');
+      mixer.filter('[data-filters*="' + searchValue + '"]');
       $('.recipes-featured').fadeOut();
       $(container).fadeIn();
       $('.filter-stats').show();
