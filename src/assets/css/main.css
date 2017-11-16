@@ -1122,6 +1122,8 @@ blockquote {
 #instagram-feed .button.inline {
   color: #ffffff;
   border-color: #ffffff; }
+  #instagram-feed .button.inline:hover {
+    border-color: #d3b262; }
 
 @media (max-width: 767px) {
   .banner-desktop {
