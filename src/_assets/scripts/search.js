@@ -145,6 +145,7 @@ filterByString = function(searchValue) {
       // If no searchValue, treat as filter('all')
       mixer.filter('all');
   }
+  $("html, body").animate({ scrollTop: 0 }, "slow");
 };
 
 module.exports = {};
