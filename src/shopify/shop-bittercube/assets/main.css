@@ -1119,6 +1119,10 @@ blockquote {
 .banner-mobile {
   display: none; }
 
+#instagram-feed .button.inline {
+  color: #ffffff;
+  border-color: #ffffff; }
+
 @media (max-width: 767px) {
   .banner-desktop {
     display: none; }

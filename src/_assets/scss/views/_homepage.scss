@@ -6,6 +6,16 @@
   display: none;
 }
 
+#instagram-feed {
+  .button.inline {
+    color: $white;
+    border-color: $white;
+    &:hover {
+      border-color: $yellow;
+    }
+  }
+}
+
 @media (max-width: $screen-sm-max) {
   .banner-desktop {
     display: none;
