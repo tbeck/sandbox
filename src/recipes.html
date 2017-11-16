@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Recipes
-
 permalink: /recipes/
-
 ---
 
 {% include recipe-search.html %}
@@ -67,9 +65,9 @@ permalink: /recipes/
             <div class="card">
               <a href="/recipes#term={{ category.title | downcase }}" onclick="window.location.reload()">
                 {% if category.image %}
-                  <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
+                  <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}" />
                 {% else %}
-                  <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+                  <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}" />
                 {% endif %}
               </a>
               <div class="card-body text-center">
@@ -114,20 +112,14 @@ permalink: /recipes/
           <div class="tab-content">
             <div class="tab-pane fade show active text-center" id="making-syrup" role="tabpanel">
               <p><em>Our recipes use 1:1 (one-to-one) syrups, meaning equal parts sugar and water by weight. The easiest of these is Simple Syrup.</em></p>
-              <p class="lead">Combine equal parts of granulated sugar and boiling water removed from heat.<br>
-              Stir until dissolved, let cool before using.<br>
+              <p class="lead">Combine equal parts of granulated sugar and boiling water removed from heat.<br />
+              Stir until dissolved, let cool before using.<br />
               Keep covered and refrigerated for up to 2 weeks.</p>
               <p><small>Be creative! Use botanical tea instead of plain water to create a flavored syrup. For a more robust syrup, try turbinado sugar.</small></p>
               <a href="/recipes/syrup/" class="button inline editable">More Syrup Recipes</a>
             </div>
             <div class="tab-pane fade" id="shaking-stirring" role="tabpanel">
-              <div class="editable text-center">
-                <p><em>Shaking and stirring each have particular effects on a cocktail. Some basics of these techniques:</em></p>
-                <h5>Shaking</h5>
-                <p >Aims to chill, aerate, and add water to a cocktail. The ingredients to be shaken are combined (almost always with ice) in your preferred cocktail shaker. The shake should be firm and energetic, and the ice should strike each end of the tin as the shaker moves back and forth. "Double strain" with a hawthorne strainer and a tea strainer after shaking to catch tiny ice chips.</p>
-                <h5>Stirring</h5>
-                <p>Is used to amalgamate, chill, and add water to a cocktail <em>without</em> aeration. This is done in a stirring vessel with a bar spoon. Proper stirring technique is difficult to master, but don’t be afraid to try. The aim is to smoothly spin the ingredients—without causing air bubbles—until proper dilution and temperature are achieved. Strain with a julep strainer, but if you don’t have one a hawthorne can be substituted.</p>
-              </div>
+              <div class="editable text-center"><p><em>Shaking and stirring each have particular effects on a cocktail. Some basics of these techniques:</em></p><h5>Shaking</h5><p>Aims to chill, aerate, and add water to a cocktail. The ingredients to be shaken are combined (almost always with ice) in your preferred cocktail shaker. The shake should be firm and energetic, and the ice should strike each end of the tin as the shaker moves back and forth. "Double strain" with a hawthorne strainer and a tea strainer after shaking to catch tiny ice chips.</p><h5>Stirring</h5><p>Is used to amalgamate, chill, and add water to a cocktail <em>without</em> aeration. This is done in a stirring vessel with a bar spoon. The aim is to smoothly spin the ingredients&mdash;without causing air bubbles&mdash;until proper dilution and temperature are achieved. Strain with a julep strainer, but if you don&rsquo;t have one a hawthorne strainer can be substituted.</p></div>
             </div>
             <div class="tab-pane fade" id="dropper-dash" role="tabpanel">
               <div class="editable text-center">
@@ -176,9 +168,9 @@ permalink: /recipes/
         <div class="content">
           <a href="{{ bartender.url }}" title="See {{ bartneder.first_name }}'s full profile">
             {% if bartender.image %}
-              <img class="img-fluid" src="{{ bartender.image }}" alt="{{ bartender.name }}">
+              <img class="img-fluid" src="{{ bartender.image }}" alt="{{ bartender.name }}" />
             {% else %}
-              <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+              <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}" />
             {% endif %}
           </a>
         </div>
