@@ -15,6 +15,7 @@ var keyupTimeout;
 var config = {
   selectors: {
     target: '[data-ref="item"]' // Query targets with an attribute selector to keep our JS and styling classes seperate
+    // elementPageList: 'pagination-info'
   },
   multifilter: {
     enable: true // enable the multifilter extension for the mixer
@@ -29,7 +30,7 @@ var config = {
         var recipeName = recipe.name.toLowerCase();
 
         var html = `
-          <div class="recipe" data-ref='item' data-filter='${recipeTags} ${recipeIngredients} ${recipeName}'>
+          <div class="recipe" data-ref='item' data-filters='${recipeIngredients} ${recipeName}' data-tags='${recipeTags}'>
             <div class="content">
               <div class="recipe-image" style="background-image: url(${recipe.image});">
                 <a href="${recipe.pinterest}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
@@ -49,9 +50,14 @@ var config = {
   callbacks: {
     onMixClick: function() {
       // Reset the search if a filter is clicked
-      if (this.matches('[data-filter]')) {
+      if (this.matches('[data-filters]')) {
           inputSearch.value = '';
       }
+    },
+    onMixStart: function() {},
+    onMixEnd: function(state, mixer) {
+      $('.filter-results').text(state.show.length);
+      $('.filter-total').text(state.targets.length);
     }
   }
 };
@@ -95,7 +101,7 @@ if(inputSearch) {
   inputSearch.addEventListener('keyup', function() {
       var searchValue;
 
-      if (inputSearch.value.length < 1) {
+      if (inputSearch.value.length < 3) {
           // If the input value is less than 3 characters, don't send
 
           searchValue = '';
@@ -109,8 +115,6 @@ if(inputSearch) {
       clearTimeout(keyupTimeout);
 
       keyupTimeout = setTimeout(function() {
-        $('.recipes-featured').fadeOut();
-        $(container).fadeIn();
         this.filterByString(searchValue);
       }, 350);
   });
@@ -137,15 +141,40 @@ if(inputSearch) {
   });
 }
 
+$('[data-filter-by-tag]').on('click', function() {
+  var tag = $(this).data('filter-by-tag');
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  filterByTag(tag);
+});
+
+filterByTag = function(searchValue) {
+  if (searchValue) {
+      // Use an attribute wildcard selector to check for matches
+      mixer.filter('[data-tags*="' + searchValue + '"]');
+      $('.recipes-featured').fadeOut();
+      $(container).fadeIn();
+      $('.filter-stats').show();
+      $('.filter-term').text(searchValue);
+  } else {
+      // If no searchValue, treat as filter('all')
+      mixer.filter('all');
+      $('.filter-stats').hide();
+  }
+};
+
 filterByString = function(searchValue) {
   if (searchValue) {
       // Use an attribute wildcard selector to check for matches
       mixer.filter('[data-filter*="' + searchValue + '"]');
+      $('.recipes-featured').fadeOut();
+      $(container).fadeIn();
+      $('.filter-stats').show();
+      $('.filter-term').text(searchValue);
   } else {
       // If no searchValue, treat as filter('all')
       mixer.filter('all');
+      $('.filter-stats').hide();
   }
-  $("html, body").animate({ scrollTop: 0 }, "slow");
 };
 
 module.exports = {};

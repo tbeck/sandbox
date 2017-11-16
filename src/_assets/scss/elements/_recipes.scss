@@ -98,6 +98,12 @@
     &:last-of-type {
       margin-right: auto;
     }
+    .content {
+      height: 100%;
+      padding: 0;
+      margin: 20px;
+      background-color: $white;
+    }
   }
 }
 

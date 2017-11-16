@@ -2,7 +2,7 @@ var rp = require('request-promise');
 
 module.exports = {
   get: function() {
-    var recipes = rp('https://fluent-skunk.cloudvent.net/api/recipes.json')
+    var recipes = rp('https://bittercube.com/api/recipes.json')
         .then(function (response) {
           // console.log("SUCCESS", response);
           // Process JSON...

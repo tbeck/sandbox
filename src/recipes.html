@@ -3,6 +3,7 @@ layout: page
 title: Recipes
 
 permalink: /recipes/
+include_search: true
 
 ---
 
@@ -10,6 +11,7 @@ permalink: /recipes/
 
 <section id="recipes" class="bg-yellow">
   <div class="container">
+    <h2 class="filter-stats" style="display:none;">Search for: "<strong class="filter-term">term</strong>" has returned <span class="filter-results">0</span> results</h2>
     <div class="row recipes-list recipes-featured">
       <div class="recipe">
         <div class="content">
@@ -64,14 +66,12 @@ permalink: /recipes/
         <div class="content">
           <div class="card-grid">
             {% for category in site.data.drink_categories %}
-            <div class="card">
-              <a href="/recipes#term={{ category.title | downcase }}" onclick="window.location.reload()">
-                {% if category.image %}
-                  <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
-                {% else %}
-                  <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
-                {% endif %}
-              </a>
+            <div class="card" data-filter-by-tag="{{ category.title | downcase }}">
+              {% if category.image %}
+                <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
+              {% else %}
+                <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+              {% endif %}
               <div class="card-body text-center">
                 <p class="lead">{{ category.title }}</p>
               </div>

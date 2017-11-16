@@ -11,6 +11,7 @@
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
 
 <script src="{{ '/assets/js/vendor/jquery.autocomplete.js' | prepend: site.baseurl }}"></script>
+{% if page.include_search %}
 <script>
   var keyterms = [
     {% for recipe in site.recipes %}
@@ -34,7 +35,7 @@
       }
   });
 </script>
-
+{% endif %}
 <!-- Analytics -->
 {% include analytics.html %}
 

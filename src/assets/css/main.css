@@ -1020,6 +1020,11 @@ blockquote {
     background-color: transparent; }
     .recipes-list .recipe:last-of-type {
       margin-right: auto; }
+    .recipes-list .recipe .content {
+      height: 100%;
+      padding: 0;
+      margin: 20px;
+      background-color: #ffffff; }
 
 @media (min-width: 768px) {
   .recipe-ingredients .ingredients-list li {
