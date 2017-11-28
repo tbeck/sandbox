@@ -8,10 +8,12 @@ ingredients:
     quantity: 2 oz
   - name: Demerara syrup
     quantity: 1/2 oz
+    link:
   - name: Coconut water
     quantity: 4 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Cocktail umbrella dripped with Cherry Bark Vanilla Bitters
 glass: Collins with crushed ice
 instructions_html: >-

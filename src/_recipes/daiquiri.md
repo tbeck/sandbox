@@ -8,10 +8,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Bacardi Superior Rum
     quantity: 2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Thin lime wheel
 glass: Coupe or Martini
 instructions_html: >-

@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Demerara syrup
     quantity: 3/4 oz
+    link:
   - name: Rujero Singani
     quantity: 1 1/2 oz
   - name: Frangelico
     quantity: 3/4 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: 'Lime wheel, grated nutmeg and cocktail umbrella'
 glass: Hurricane or double rocks with crushed ice
 instructions_html: >-

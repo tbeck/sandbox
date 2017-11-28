@@ -20,6 +20,7 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish: 'Pineapple chunk, Filthy Red Cherry and cocktail umbrella'
 glass: Hurricane glass with crushed ice
 instructions_html: >-

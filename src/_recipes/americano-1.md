@@ -12,6 +12,7 @@ ingredients:
     quantity: 4 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish: Orange wheel
 glass: Collins
 instructions_html: '<p>Build in glass, add ice. Garnish.</p>'

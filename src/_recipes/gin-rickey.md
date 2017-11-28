@@ -8,12 +8,14 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/8 oz
+    link:
   - name: Citadelle Gin
     quantity: 1 1/2 oz
   - name: Seltzer
     quantity: 4 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Vertically slit lime wedge
 glass: Collins with ice
 instructions_html: >-

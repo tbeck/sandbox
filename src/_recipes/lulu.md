@@ -8,6 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Lavender syrup
     quantity: 1/2 oz
+    link:
   - name: Laird’s Apple Brandy
     quantity: 1 oz
   - name: Mathilde Cassis Liqueur
@@ -16,6 +17,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lavender sprig
 glass: Flute
 instructions_html: >-

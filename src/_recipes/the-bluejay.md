@@ -10,10 +10,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Fidencio Classico Mezcal
     quantity: 3/4 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-2
   - name: Light Mexican Lager
     quantity: 3 oz
 garnish: Grapefruit peel

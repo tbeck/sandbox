@@ -10,10 +10,12 @@ ingredients:
     quantity: 1/4 oz
   - name: Peach syrup
     quantity: 1 1/4 oz
+    link: http://bittercube.com/recipes/syrup/peach-syrup
   - name: Citadelle Gin
     quantity: 1 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Lemon twist
 glass: Bittercube Bolivar Bitters rinsed Flute
 instructions_html: >-

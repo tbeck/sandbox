@@ -8,14 +8,17 @@ ingredients:
     quantity: 3/4 oz
   - name: '2:1 Demerara syrup'
     quantity: 1/2 oz
+    link:
   - name: Cacao Butter Washed Old Forester 100 Proof
     quantity: 1 1/2 oz
   - name: Rujero Singani
     quantity: 1/3 oz
   - name: Bittercube Marvel Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/marvel-bar
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Grated nutmeg and a Filthy Red Cherry
 glass: Etched rocks filled with crushed ice
 instructions_html: >-

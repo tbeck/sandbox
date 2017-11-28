@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Green Tea Honey syrup
     quantity: 3/4 oz
+    link:
   - name: Sake
     quantity: 3/4 oz
   - name: Bombay Sapphire East
@@ -16,6 +17,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: >-
   Pineapple frond sprinkled with a dash of Bittercube Cherry Bark Vanilla
   Bitters

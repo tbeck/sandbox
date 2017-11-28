@@ -8,12 +8,14 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
+    link:
   - name: Broker’s Gin
     quantity: 1 oz
   - name: Sparkling wine
     quantity: 3 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon Twist
 glass: Flute
 instructions_html: >-

@@ -12,6 +12,7 @@ ingredients:
     quantity: 3 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Long orange peel
 glass: Flute
 instructions_html: '<p>Build cocktail in Flute, garnish.</p>'

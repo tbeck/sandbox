@@ -12,6 +12,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Orange disc
 glass: Rocks rinsed with Amerique 1912 Absinthe Verte
 instructions_html: >-

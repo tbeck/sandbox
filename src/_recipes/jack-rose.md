@@ -12,6 +12,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon disc
 glass: Coupe or Martini
 instructions_html: >-

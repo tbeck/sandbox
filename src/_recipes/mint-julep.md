@@ -8,10 +8,12 @@ ingredients:
     quantity: '5'
   - name: Demerara syrup
     quantity: 1/4 oz
+    link:
   - name: Johnny Drum Private Stock Bourbon
     quantity: 2 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish: 3 sprigs of mint
 glass: Julep or rocks with crushed ice
 instructions_html: >-

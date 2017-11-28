@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1 oz
+    link:
   - name: Broker’s Gin
     quantity: 2 oz
   - name: Seltzer
     quantity: 2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Lemon peel
 glass: Collins with ice
 instructions_html: >-

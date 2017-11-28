@@ -10,10 +10,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Almond syrup
     quantity: 2/3 oz
+    link:
   - name: Lawless Greenway Gin
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Edible micro orchids or a Filthy Red Cherry
 glass: Coupe or Martini
 instructions_html: >-

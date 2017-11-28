@@ -10,12 +10,15 @@ ingredients:
     quantity: 3/4 oz
   - name: Herbs De Provence syrup
     quantity: 1 oz
+    link:
+    link: http://bittercube.com/recipes/syrup/herbs-de-provence-syrup
   - name: Bombay Sapphire East Gin
     quantity: 1 3/4 oz
   - name: Green Chartreuse
     quantity: 1/4 oz
-  - name: 1 dropper/dash
-    quantity: Bittercube Blackstrap Bitters
+  - name: Bittercube Blackstrap Bitters
+    quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Swirled Bittercube Cherry Bark Vanilla Bitters & thyme sprig
 glass: Coupe or Martini
 instructions_html: >-

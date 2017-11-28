@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/3 oz
+    link:
   - name: Don Fulano Blanco Tequila
     quantity: 1 1/2 oz
   - name: Pierre Ferrand Dry Curacao
     quantity: 1/2 oz
   - name: 1 dropper/dash
     quantity: Bittercube Orange Bitters
+    link: https://store.bittercube.com/products/orange
 garnish: Thin lime wheel (salted rim optional)
 glass: Coupe or Martini
 instructions_html: >-

@@ -6,10 +6,12 @@ description:
 ingredients:
   - name: Demerara syrup
     quantity: 1/4 oz
+    link:
   - name: Willett Family Estate Bourbon
     quantity: 2 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish: Orange peel expressed and inserted
 glass: Rocks with large chunk of ice
 instructions_html: >-

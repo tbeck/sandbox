@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1 oz
+    link:
   - name: Plantation 3 Stars Rum
     quantity: 1 1/2 oz
   - name: Top Note Ginger Beer
     quantity: 2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Lime wedge and float of 1/2 oz Cruzan Blackstrap Rum
 glass: Collins with ice
 instructions_html: >-

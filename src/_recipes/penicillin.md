@@ -8,14 +8,17 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey-Ginger syrup
     quantity:
+    link: http://bittercube.com/recipes/syrup/honey-ginger-syrup
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 1 3/4 oz
   - name: Laphroaig 10 Year Single Malt Scotch Whisky
     quantity: 1/4 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Candied ginger
 glass: Coupe or Martini
 instructions_html: >-

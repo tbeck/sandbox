@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/8 oz
+    link:
   - name: Bombay Dry Gin
     quantity: 1 oz
   - name: Green Chartreuse
@@ -16,6 +17,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish:
 glass: Coupe or Martini
 instructions_html: >-

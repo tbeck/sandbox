@@ -16,8 +16,10 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Expressed flamed orange and discarded
 glass: Coupe or Martini
 instructions_html: >-

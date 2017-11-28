@@ -8,12 +8,14 @@ ingredients:
     quantity: 1/2 oz
   - name: Allspice syrup
     quantity: 1/2 oz
+    link:
   - name: Norseman Strawberry Rhubarb Gin
     quantity: 1 oz
   - name: Sparkling wine
     quantity: 3 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon twist
 glass: Flute
 instructions_html: >-

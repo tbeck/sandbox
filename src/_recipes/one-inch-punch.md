@@ -8,10 +8,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Bombay Sapphire East Gin
     quantity: 2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Fresh celery leaf
 glass: Coupe or Martini
 instructions_html: >-

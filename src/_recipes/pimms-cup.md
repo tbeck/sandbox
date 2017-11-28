@@ -10,6 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Bombay Sapphire Gin
     quantity: 1 1/2 oz
   - name: Pimm’s No.1 Cup
@@ -18,6 +19,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Cucumber slice and seasonal berries
 glass: Collins with ice
 instructions_html: >-
