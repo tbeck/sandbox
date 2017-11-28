@@ -26,6 +26,8 @@ collections:
     output: true
     layout: recipe
     permalink: /recipes/:name
+  _comments: 
+    link: 'Instructions for link go here...'  
   syrup_recipes:
     output: false
     layout: syrup_recipe
