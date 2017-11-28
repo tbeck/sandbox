@@ -10,7 +10,6 @@ ingredients:
     quantity: 3/4 oz
   - name: Cucumber syrup
     quantity: 1 oz
-    syrup_recipe: cucumber-syrup
   - name: Bombay Sapphire East Gin
     quantity: 2 oz
   - name: Seltzer

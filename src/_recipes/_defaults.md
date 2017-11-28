@@ -4,10 +4,12 @@ name:
 bartender:
 description:
 ingredients:
-  - 
+  -
     name:
     quantity:
-    link:
+    link: 
+  _comments:
+    link: 'instructions for link here...'
 garnish:
 glass:
 instructions_html:
