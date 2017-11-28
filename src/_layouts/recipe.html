@@ -28,7 +28,13 @@ layout: default
             {% for ingredient in page.ingredients %}
             <li>
               <span class="ingredient-quantity">{{ ingredient.quantity }}</span>
-              <span class="ingredient-name">{{ ingredient.name }}</span>
+              <span class="ingredient-name">
+                {% if ingredient.link %}
+                  <a href="{{ ingredient.link }}">{{ ingredient.name }}</a>
+                {% else %}
+                  {{ ingredient.name }}
+                {% endif %}
+              </span>
             </li>
             {% endfor %}
           </ul>

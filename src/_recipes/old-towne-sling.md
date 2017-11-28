@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Herbs de Provence syrup
     quantity: 3/4 oz
+    link: /recipes/syrup/herbs-de-provence-syrup
   - name: Lawless Vodka
     quantity: 1 1/2 oz
   - name: Dolin Dry Vermouth
