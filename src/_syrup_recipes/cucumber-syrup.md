@@ -3,18 +3,15 @@ layout: syrup_recipe
 name: Cucumber Syrup
 description:
 ingredients:
-  - name: Cucumber
-    quantity: 1600 g
+  - name: 'Cucumber, diced'
+    quantity: 2 cups
   - name: Granulated sugar
-    quantity: 1600 g
-  - name: Pectic enzyme
-    quantity: 4 g
-  - name: Water
-    quantity: 50 g
+    quantity: 2 cups
 instructions_html: >-
-  <p>Blend sugar and cucumber flesh in a large airtight container. Add pectin
-  enzyme. Let sit overnight. Add water, mix to amalgamate all sugar, strain
-  solids. Bottle and refrigerate for up to a month.</p>
+  <p>Combine ingredients in an airtight container, shake until cucumber is
+  completely covered in sugar and refrigerate overnight. Shake ingredients again
+  until sugar has completely dissolved then strain. Bottle and refrigerate for
+  up to one month.</p>
 ---
 
 
