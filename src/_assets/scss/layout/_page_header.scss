@@ -18,6 +18,7 @@
         color: $white;
         padding-left: 1rem;
         padding-right: 1rem;
+        font-size: 14px;
       }
     }
   }
@@ -176,7 +177,17 @@
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: $screen-lg-min) {}
+@media (min-width: $screen-lg-min) {
+  #page-header {
+    .navbar-nav {
+      li {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: $screen-xl-min) {}
