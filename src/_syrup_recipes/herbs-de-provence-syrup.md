@@ -4,23 +4,23 @@ name: Herbs De Provence Syrup
 description:
 ingredients:
   - name: Sage
-    quantity: 1 3/4 g
+    quantity: 1/4 tsp
   - name: Marjoram
-    quantity: 1 3/4 g
+    quantity: 1/4 tsp
   - name: Tarragon
-    quantity: 1 3/4 g
+    quantity: 1/4 tsp
   - name: Thyme
-    quantity: 5 1/4 g
+    quantity: 1/2 tsp
   - name: Rosemary
-    quantity: 5 1/4 g
+    quantity: 1/2 tsp
   - name: Water
-    quantity: 982 g
+    quantity: 4 1/2 cups
   - name: Granulated sugar
-    quantity: 982 g
+    quantity: 4 cups
 instructions_html: >-
-  <p><strong>Use fresh herbs.</strong></p><p>Bring water to a boil. Take off
-  heat and add herbs and steep for ten minutes. Strain out herbs. Whisk in
-  sugar, bottle and refrigerate for up to a month.</p>
+  <p>Bring water to a boil. Add herbs, remove from heat, cover and let steep for
+  ten minutes. Strain out herbs. Whisk in sugar until fully dissolved. Bottle
+  and refrigerate for up to a month.</p>
 ---
 
 
