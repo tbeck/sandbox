@@ -14,7 +14,7 @@ ingredients:
     quantity: 3 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-garnish: Mint Leaf
+garnish: Mint leaf
 glass: Flute
 instructions_html: >-
   <p>Add all of the ingredients except sparkling wine to a cocktail shaker and
