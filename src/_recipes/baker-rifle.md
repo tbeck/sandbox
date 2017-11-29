@@ -2,7 +2,7 @@
 layout: recipe
 name: Baker Rifle
 bartender:
-description: This is here
+description:
 ingredients:
   - name: Lime-strength grapefruit juice
     quantity: 3/4 oz
