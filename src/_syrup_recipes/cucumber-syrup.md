@@ -12,9 +12,9 @@ ingredients:
   - name: Water
     quantity: 50 g
 instructions_html: >-
-  <p>Blend sugar, cucumber flesh, in a large cambro. Add 4g pectin enzyme to
-  cambro. Let sit overnight. Add 50g of water, mix to amalgamate all sugar,
-  strain solids.</p>
+  <p>Blend sugar and cucumber flesh in a large airtight container. Add pectin
+  enzyme. Let sit overnight. Add water, mix to amalgamate all sugar, strain
+  solids. Bottle and refrigerate for up to a month.</p>
 ---
 
 
