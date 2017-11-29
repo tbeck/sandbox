@@ -11,7 +11,7 @@ ingredients:
   - name: Seltzer
     quantity: 4 oz
   - name: Bittercube Trinity Bitters
-    quantity: 2 droppers/dashes
+    quantity: 2 dropper/dash
 garnish: Orange wheel
 glass: Collins
 instructions_html: '<p>Build in glass, add ice. Garnish.</p>'
