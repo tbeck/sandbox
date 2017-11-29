@@ -4,9 +4,9 @@ name: Orgeat
 description:
 ingredients:
   - name: Raw almonds (Or nut of choice)
-    quantity: 1 part
+    quantity: 1 cup
   - name: Boiling water
-    quantity: 2 parts
+    quantity: 2 cups
   - name: Granulated sugar
     quantity:
 instructions_html: >-
