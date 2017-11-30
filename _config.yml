@@ -27,13 +27,21 @@ collections:
     layout: recipe
     permalink: /recipes/:name
   syrup_recipes:
-    output: false
+    output: true
     layout: syrup_recipe
     permalink: /recipes/syrup/:name
   bartenders:
     output: true
     layout: bartender
     permalink: /bartenders/:name
+
+defaults:
+  - 
+    scope: 
+      type: 'recipe'
+    values:
+      _comments:
+        link: 'This should be the link text'   
 
 store: "https://bittercube.myshopify.com"
 products_url: "/admin/products.json?fields=handle,image,title,tags"

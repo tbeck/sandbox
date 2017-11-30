@@ -14,6 +14,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1 oz
+    link:
   - name: Broker's Gin
     quantity: 2 oz
   - name: Seltzer
@@ -22,6 +23,7 @@ ingredients:
     quantity: 4 drops
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish:
 glass: Collins
 instructions_html: >-

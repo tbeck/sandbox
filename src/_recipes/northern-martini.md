@@ -10,6 +10,7 @@ ingredients:
     quantity: 1 oz
   - name: Rosemary infused Bittercube Orange Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Rosemary sprig or fennel frond
 glass: Coupe or Martini
 instructions_html: >-

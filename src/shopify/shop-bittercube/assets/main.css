@@ -1274,6 +1274,10 @@ blockquote {
   height: 100%;
   margin-top: 0; }
 
+.syrup_recipe-layout .recipe-instructions {
+  height: 100%;
+  margin-top: 0; }
+
 input,
 textarea {
   border: 0;

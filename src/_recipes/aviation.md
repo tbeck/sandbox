@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/2 oz
+    link: 
   - name: Broker’s Gin
     quantity: 1 3/4 oz
   - name: Luxardo Maraschino Liqueur
     quantity: 1/4 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish:
 glass: Coupe or Martini rinsed with Creme de Violette
 instructions_html: >-

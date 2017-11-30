@@ -10,12 +10,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Saffron syrup
     quantity: 3/4 oz
+    link:
   - name: Pierre Ferrand 1840 Cognac
     quantity: 1 1/2 oz
   - name: Licor 43
     quantity: 1/2 oz
   - name: Bittercube Corazon Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/corazon
 garnish:
 glass:
 instructions_html: >-

@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Jim Beam Prohibition Rye Whiskey
     quantity: 1 1/2 oz
   - name: Cocchi Vermouth di Torino
@@ -16,6 +17,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Orange peel
 glass: Collins with ice
 instructions_html: >-

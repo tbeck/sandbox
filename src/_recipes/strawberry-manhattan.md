@@ -10,6 +10,7 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Lavender sprig
 glass: Coupe or Martini
 instructions_html: >-

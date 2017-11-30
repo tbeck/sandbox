@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Dutch chocolate syrup
     quantity: 1/4 oz
+    link:
   - name: Modest Vodka
     quantity: 1 oz
   - name: Creme de Cacao
     quantity: 1 oz
   - name: Bittercube Corazon Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/corazon
 garnish: Grated chocolate
 glass: Coupe or Martini
 instructions_html: '<p>Shake, strain.</p>'

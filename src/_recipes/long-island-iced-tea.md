@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Modest Vodka
     quantity: 1/2 oz
   - name: Bombay Sapphire Gin
@@ -22,6 +23,7 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Lemon wedge
 glass: Soda fountain with ice
 instructions_html: >-

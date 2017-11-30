@@ -9,13 +9,15 @@ ingredients:
   - name: Fresh lime juice
     quantity: 3/4 oz
   - name: Cucumber syrup
-    quantity: 1 oz
+    quantity: 1 oz 
+    link: http://bittercube.com/recipes/syrup/cucumber-syrup
   - name: Bombay Sapphire East Gin
     quantity: 2 oz
   - name: Seltzer
     quantity: 2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-2
 garnish: Cilantro bouquet
 glass: Collins with ice
 instructions_html: >-

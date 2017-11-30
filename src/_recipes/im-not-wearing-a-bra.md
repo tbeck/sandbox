@@ -6,12 +6,15 @@ description:
 ingredients:
   - name: Pineapple-Vanilla syrup
     quantity: 1/4 oz
+    link:
   - name: Rehorst Barrel Select Gin
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Grapefruit peel
 glass: Rocks with large chunk of ice
 instructions_html: >-

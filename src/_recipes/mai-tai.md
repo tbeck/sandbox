@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Orgeat
     quantity: 1/2 oz
+    link: http://bittercube.com/recipes/syrup/orgeat-almond-syrup
   - name: Plantation 3 Stars Rum
     quantity: 3/4 oz
   - name: Smith & Cross Rum
@@ -16,8 +17,10 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-2
 garnish: Mint bouquet and Filthy Red Cherry
 glass: Rocks with crushed ice
 instructions_html: >-

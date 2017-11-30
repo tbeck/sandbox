@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Knob Creek Bourbon
     quantity: 1 1/2 oz
   - name: Top Note Ginger Beer
     quantity: 2 oz
   - name: Bittercube Corazon Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/corazon
 garnish: Cedar smoked Collins with ice
 glass: Lime wedge
 instructions_html: >-

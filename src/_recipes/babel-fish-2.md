@@ -14,6 +14,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Swirled Bittercube Orange Bitters
 glass: Coupe or Martini
 instructions_html: >-

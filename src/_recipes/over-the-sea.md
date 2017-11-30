@@ -8,6 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
+    link:
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 3/4 oz
   - name: St. George Spiced Pear Liqueur
@@ -16,6 +17,7 @@ ingredients:
     quantity: 3 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Lemon twist or pear slice
 glass: Flute
 instructions_html: >-

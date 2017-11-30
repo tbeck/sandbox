@@ -10,10 +10,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1 oz
+    link:
   - name: Barsol Quebranta Pisco
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Swirled Bittercube Blackstrap Bitters
 glass: Coupe or Martini
 instructions_html: >-

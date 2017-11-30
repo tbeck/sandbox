@@ -8,12 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Demerara syrup
     quantity: 1 oz
+    link:
   - name: Paul Masson Brandy
     quantity: 2 oz
   - name: Hot water
     quantity: 5 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 2 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Lemon wheel studded with clove
 glass: Glass mug
 instructions_html: >-

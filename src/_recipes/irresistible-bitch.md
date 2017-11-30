@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
+    link:
   - name: Lawless Vodka
     quantity: 1 1/4 oz
   - name: Briottet Rose Liqueur
@@ -16,6 +17,8 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-2
+
 garnish: Mini rose or rose petal
 glass: Collins with ice
 instructions_html: >-

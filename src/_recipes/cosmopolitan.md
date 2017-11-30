@@ -10,12 +10,14 @@ ingredients:
     quantity: 1/3 oz
   - name: Simple syrup
     quantity: 1/2 oz
+    link:
   - name: Modest Vodka
     quantity: 1 1/2 oz
   - name: Pierre Ferrand Dry Curacao
     quantity: 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Thin lime wheel
 glass: Coupe or Martini
 instructions_html: >-

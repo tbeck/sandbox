@@ -16,6 +16,7 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon twist
 glass: Collins with ice
 instructions_html: >-

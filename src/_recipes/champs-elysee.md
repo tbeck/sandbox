@@ -8,12 +8,14 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
+    link:
   - name: Pierre Ferrand 1840 Cognac
     quantity: 1 1/2 oz
   - name: Green Chartreuse
     quantity: 1/2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Lemon twist inserted
 glass: Coupe or Martini
 instructions_html: >-

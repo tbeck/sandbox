@@ -12,12 +12,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Celery syrup
     quantity: 1 oz
+    link:
   - name: Modest Vodka
     quantity: 1 1/2 oz
   - name: Domaine de Canton Ginger Liqueur
     quantity: 1/2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Swirled Bittercube Blackstrap Bitters
 glass: Coupe or Martini
 instructions_html: >-

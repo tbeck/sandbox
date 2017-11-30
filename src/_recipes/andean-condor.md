@@ -12,6 +12,7 @@ ingredients:
     quantity: 1/4 oz
   - name: Simple syrup
     quantity: 1 oz
+    link:
   - name: Rujero Singani
     quantity: 1 1/2 oz
   - name: Campari
@@ -20,8 +21,10 @@ ingredients:
     quantity: 3 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Pineapple chunk and Filthy Red Cherry
 glass: Collins
 instructions_html: >-

@@ -12,6 +12,7 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/trinity
 garnish: Orange disc
 glass: Coupe or Martini
 instructions_html: >-

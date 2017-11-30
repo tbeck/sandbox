@@ -8,10 +8,12 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey syrup
     quantity: 3/4 oz
+    link:
   - name: Bombay Sapphire
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
 garnish: Lemon disc
 glass: Coupe or Martini
 instructions_html: >-

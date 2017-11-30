@@ -10,16 +10,20 @@ ingredients:
     quantity: '1'
   - name: Demerara syrup
     quantity: 1/4 oz
+    link:
   - name: Korbel Brandy
     quantity: 2 oz
   - name: Sprite
     quantity: 2 1/2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/orange
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Cherry and orange slice on toothpick
 glass: Rocks
 instructions_html: >-

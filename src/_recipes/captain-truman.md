@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
+    link:
   - name: Copper & Kings American Brandy
     quantity: 1 oz
   - name: Domaine De Canton Ginger Liqueur
@@ -16,6 +17,7 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Shaved ginger
 glass: Flute
 instructions_html: >-

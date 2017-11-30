@@ -1,13 +1,12 @@
 ---
 layout: recipe
-name:
+name: Test
 bartender:
 description:
 ingredients:
-  -
-    name:
+  - name:
     quantity:
-    link: 
+    link:
 garnish:
 glass:
 instructions_html:

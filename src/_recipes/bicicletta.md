@@ -6,6 +6,7 @@ description:
 ingredients:
   - name: Simple syrup
     quantity: 1/3 oz
+    link:
   - name: Campari
     quantity: 1/2 oz
   - name: Pinot Grigio
@@ -14,6 +15,7 @@ ingredients:
     quantity: 1 oz
   - name: 2 dropper/dash
     quantity: Bittercube Orange Bitters
+    link: https://store.bittercube.com/products/orange
 garnish: Orange peel
 glass: Collins
 instructions_html: '<p>Build in glass, add ice, garnish.</p>'

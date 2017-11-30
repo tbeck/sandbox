@@ -8,12 +8,14 @@ ingredients:
     quantity: 1/2 oz
   - name: Mango-Peach syrup
     quantity: 2/3 oz
+    link: http://bittercube.com/recipes/syrup/mango-peach-syrup
   - name: Bombay Sapphire Gin
     quantity: 1 oz
   - name: Sparkling wine
     quantity: 3 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/jamaican-2
 garnish: Lemon Twist
 glass: Flute
 instructions_html: >-
