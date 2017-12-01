@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/8 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Bombay Dry Gin
     quantity: 1 oz
   - name: Green Chartreuse

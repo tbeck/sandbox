@@ -10,7 +10,6 @@ ingredients:
     quantity: 3/4 oz
   - name: Herbs De Provence syrup
     quantity: 1 oz
-    link:
     link: http://bittercube.com/recipes/syrup/herbs-de-provence-syrup
   - name: Bombay Sapphire East Gin
     quantity: 1 3/4 oz

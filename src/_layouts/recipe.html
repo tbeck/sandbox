@@ -30,7 +30,7 @@ layout: default
               <span class="ingredient-quantity">{{ ingredient.quantity }}</span>
               <span class="ingredient-name">
                 {% if ingredient.link %}
-                  <a href="{{ ingredient.link }}">{{ ingredient.name }}</a>
+                  <a href="{{ ingredient.link }}" class="underline">{{ ingredient.name }}</a>
                 {% else %}
                   {{ ingredient.name }}
                 {% endif %}

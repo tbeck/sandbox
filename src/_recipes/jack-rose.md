@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Grenadine
     quantity: 3/4 oz
+    link: http://bittercube.com/recipes/syrup/grenadine
   - name: Copper & Kings American Apple Brandy
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters

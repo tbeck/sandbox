@@ -10,7 +10,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/3 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Plantation 3 Stars Rum
     quantity: 1 3/4 oz
   - name: Luxardo Maraschino

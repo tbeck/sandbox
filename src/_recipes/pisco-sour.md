@@ -10,7 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Barsol Quebranta Pisco
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters

@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: Bombay Sapphire
     quantity: 2 oz
   - name: Bittercube Orange Bitters

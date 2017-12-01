@@ -6,7 +6,7 @@ description:
 ingredients:
   - name: Pineapple-Vanilla syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/pineapple-vanilla-syrup
   - name: Rehorst Barrel Select Gin
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters

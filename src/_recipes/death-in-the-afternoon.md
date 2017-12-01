@@ -6,7 +6,7 @@ description:
 ingredients:
   - name: Simple syrup
     quantity: 1/2 oz
-    link: 
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Copper & Kings Absinthe Blanche
     quantity: 1 oz
   - name: Sparkling wine

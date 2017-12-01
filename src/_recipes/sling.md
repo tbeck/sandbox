@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Jim Beam Prohibition Rye Whiskey
     quantity: 1 1/2 oz
   - name: Cocchi Vermouth di Torino

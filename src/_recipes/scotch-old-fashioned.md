@@ -6,7 +6,7 @@ description:
 ingredients:
   - name: Honey Syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters

@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Lavender syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/lavender-syrup
   - name: Laird’s Apple Brandy
     quantity: 1 oz
   - name: Mathilde Cassis Liqueur

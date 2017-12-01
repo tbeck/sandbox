@@ -414,7 +414,8 @@ h5 {
       border-bottom: 0;
       color: #ffffff;
       padding-left: 1rem;
-      padding-right: 1rem; }
+      padding-right: 1rem;
+      font-size: 14px; }
   #page-header .socialnav {
     position: absolute;
     right: 30px;
@@ -508,6 +509,9 @@ h5 {
     #page-header.home-header .navbar-brand,
     #page-header.home-header .socialnav {
       opacity: 0; } }
+@media (min-width: 992px) {
+  #page-header .navbar-nav li a {
+    font-size: 16px; } }
 #page-footer {
   color: #ffffff;
   padding: 100px 0 50px;
@@ -1274,7 +1278,7 @@ blockquote {
   height: 100%;
   margin-top: 0; }
 
-.syrup_recipe-layout .recipe-instructions {
+#syrup-recipe .recipe-instructions {
   height: 100%;
   margin-top: 0; }
 

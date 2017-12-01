@@ -10,7 +10,7 @@ ingredients:
     quantity: 1 oz
   - name: Watermelon syrup
     quantity: 1 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/watermelon-syrup
   - name: Rujero Singani
     quantity: 1/4 oz
   - name: Sparkling wine

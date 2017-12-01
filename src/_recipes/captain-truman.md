@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Copper & Kings American Brandy
     quantity: 1 oz
   - name: Domaine De Canton Ginger Liqueur

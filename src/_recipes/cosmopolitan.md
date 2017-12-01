@@ -10,7 +10,7 @@ ingredients:
     quantity: 1/3 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Modest Vodka
     quantity: 1 1/2 oz
   - name: Pierre Ferrand Dry Curacao

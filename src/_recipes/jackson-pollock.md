@@ -13,7 +13,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Bombay Sapphire Gin
     quantity: 1 1/2 oz
   - name: Sparkling wine

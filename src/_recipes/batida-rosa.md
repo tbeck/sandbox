@@ -10,6 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Grenadine
     quantity: 1 oz
+    link: http://bittercube.com/recipes/syrup/grenadine
   - name: Yaguara Cachaca Branca
     quantity: 2 oz
   - name: Seltzer

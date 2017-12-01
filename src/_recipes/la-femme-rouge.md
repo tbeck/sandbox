@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: 1912 Amerique Absinthe Rouge
     quantity: 1 oz
   - name: Pierre Ferrand Dry Curacao

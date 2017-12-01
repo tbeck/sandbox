@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Lawless Vodka
     quantity: 1 1/4 oz
   - name: Briottet Rose Liqueur

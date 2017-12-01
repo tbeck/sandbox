@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Allspice syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/allspice-syrup
   - name: Norseman Strawberry Rhubarb Gin
     quantity: 1 oz
   - name: Sparkling wine

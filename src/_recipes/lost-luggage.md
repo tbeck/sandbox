@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey Syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: The Glenlivet Founder’s Reserve
     quantity: 1 1/2 oz
   - name: Kronan Swedish Punsch

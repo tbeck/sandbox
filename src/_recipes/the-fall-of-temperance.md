@@ -11,7 +11,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Plantation 3 Stars Rum
     quantity: 1 1/2 oz
   - name: Cruzan Blackstrap Rum

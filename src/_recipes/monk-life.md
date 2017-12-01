@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: Gamle Ode Celebration on Rye Aquavit
     quantity: 1 3/4 oz
   - name: Yellow Chartreuse

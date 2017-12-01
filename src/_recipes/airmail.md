@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Honey syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: Plantation 3 Stars White Rum
     quantity: 1 oz
   - name: Sparkling wine

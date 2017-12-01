@@ -12,7 +12,7 @@ ingredients:
     quantity: 1/4 oz
   - name: Simple syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Rujero Singani
     quantity: 1 1/2 oz
   - name: Campari

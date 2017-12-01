@@ -10,7 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Raspberry syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/raspberry-syrup
   - name: Broker’s Gin
     quantity: 2 oz
   - name: Bittercube Trinity Bitters

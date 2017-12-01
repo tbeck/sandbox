@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Bombay Sapphire East Gin
     quantity: 2 oz
   - name: Bittercube Cherry Bark Vanilla Bitters

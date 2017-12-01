@@ -10,7 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Saffron syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/saffron-syrup
   - name: Pierre Ferrand 1840 Cognac
     quantity: 1 1/2 oz
   - name: Licor 43

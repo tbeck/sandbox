@@ -6,6 +6,7 @@ description:
 ingredients:
   - name: Grenadine
     quantity: 1/8 oz
+    link: http://bittercube.com/recipes/syrup/grenadine
   - name: Plantation 3 Star Rum
     quantity: 1 3/4 oz
   - name: Cocchi Di Torino

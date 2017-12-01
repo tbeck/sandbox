@@ -6,7 +6,7 @@ description: Mezcal provides a smokey finish to this spirit forward classic.
 ingredients:
   - name: Simple syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Cazadores Reposado Tequila
     quantity: 1 1/2 oz
   - name: Sombra Mezcal

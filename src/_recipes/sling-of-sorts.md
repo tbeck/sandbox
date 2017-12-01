@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Gamle Ode Dill Aquavit
     quantity: 1 3/4 oz
   - name: Ruby Port Wine

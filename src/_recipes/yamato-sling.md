@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Green Tea Honey syrup
     quantity: 3/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/green-tea-honey-syrup
   - name: Sake
     quantity: 3/4 oz
   - name: Bombay Sapphire East

@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Bombay Sapphire Gin
     quantity: 3/4 oz
   - name: Pierre Ferrand Dry Curacao

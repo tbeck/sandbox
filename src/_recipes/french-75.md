@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Broker’s Gin
     quantity: 1 oz
   - name: Sparkling wine

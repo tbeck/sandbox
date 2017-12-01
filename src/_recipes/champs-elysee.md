@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Pierre Ferrand 1840 Cognac
     quantity: 1 1/2 oz
   - name: Green Chartreuse

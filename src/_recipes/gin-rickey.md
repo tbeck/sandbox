@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/8 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Citadelle Gin
     quantity: 1 1/2 oz
   - name: Seltzer

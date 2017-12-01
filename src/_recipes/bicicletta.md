@@ -6,7 +6,7 @@ description:
 ingredients:
   - name: Simple syrup
     quantity: 1/3 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Campari
     quantity: 1/2 oz
   - name: Pinot Grigio

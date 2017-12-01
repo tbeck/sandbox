@@ -10,6 +10,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Pineapple Vanilla syrup
     quantity: 1 oz
+    link: http://bittercube.com/recipes/syrup/pineapple-vanilla-syrup
   - name: Plantation Pineapple Rum
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters

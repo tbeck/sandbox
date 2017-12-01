@@ -8,7 +8,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 3/4 oz
   - name: St. George Spiced Pear Liqueur

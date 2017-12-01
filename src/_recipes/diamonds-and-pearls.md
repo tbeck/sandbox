@@ -12,7 +12,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Celery syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/celery-syrup
   - name: Modest Vodka
     quantity: 1 1/2 oz
   - name: Domaine de Canton Ginger Liqueur

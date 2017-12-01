@@ -8,7 +8,7 @@ ingredients:
     quantity: '2'
   - name: Simple syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Yaguara Cachaca Branca
     quantity: 2 oz
   - name: Bittercube Orange Bitters

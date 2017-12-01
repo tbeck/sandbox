@@ -10,6 +10,7 @@ ingredients:
     quantity: 2 oz
   - name: Grenadine
     quantity: 1/3 oz
+    link: http://bittercube.com/recipes/syrup/grenadine
   - name: Broker’s Gin
     quantity: 1 1/4 oz
   - name: Cherry Heering

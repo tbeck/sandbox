@@ -8,6 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/3 oz
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Plantation 3 Stars White Rum
     quantity: 3/4 oz
   - name: Pierre Ferrand 1840 Cognac

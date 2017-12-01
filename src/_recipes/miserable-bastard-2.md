@@ -12,7 +12,7 @@ ingredients:
     quantity: 1 oz
   - name: Simple syrup
     quantity: 1 oz
-    link:
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Top Note Ginger Beer
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters

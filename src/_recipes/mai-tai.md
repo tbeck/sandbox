@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Orgeat
     quantity: 1/2 oz
-    link: http://bittercube.com/recipes/syrup/orgeat-almond-syrup
+    link: http://bittercube.com/recipes/syrup/orgeat
   - name: Plantation 3 Stars Rum
     quantity: 3/4 oz
   - name: Smith & Cross Rum
