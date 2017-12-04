@@ -6,7 +6,7 @@ description:
 ingredients:
   - name: Heavy cream
     quantity: 3/4 oz
-  - name: Dutch chocolate syrup
+  - name: Chocolate syrup
     quantity: 1/4 oz
     link:
   - name: Modest Vodka
@@ -15,7 +15,7 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Corazon Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/corazon
+    link: 'https://store.bittercube.com/products/corazon'
 garnish: Grated chocolate
 glass: Coupe or Martini
 instructions_html: '<p>Shake, strain.</p>'
