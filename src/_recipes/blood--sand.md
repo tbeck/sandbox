@@ -10,7 +10,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Demerara syrup
     quantity: 1/4 oz
-    link:
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 1 1/2 oz
   - name: Cocchi di Torino Sweet Vermouth
@@ -19,7 +19,7 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/trinity
+    link: 'https://store.bittercube.com/products/trinity'
 garnish: Filthy Black Cherry
 glass: Coupe or Martini
 instructions_html: >-
