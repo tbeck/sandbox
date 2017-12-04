@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Chocolate syrup
     quantity: 1/4 oz
-    link:
+    link: 'http://bittercube.com/recipes/syrup/chocolate-syrup'
   - name: Modest Vodka
     quantity: 1 oz
   - name: Creme de Cacao
