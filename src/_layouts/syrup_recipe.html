@@ -11,12 +11,6 @@ layout: default
     </div>
     <div class="row">
       <div class="col-sm">
-        <div class="recipe-instructions">
-         <h5>Instructions</h5>
-         {{ page.instructions_html }}
-        </div>
-      </div>
-      <div class="col-sm">
         <div class="recipe-ingredients">
           <h5>Ingredients</h5>
           <ul class="ingredients-list">
@@ -27,6 +21,12 @@ layout: default
             </li>
             {% endfor %}
           </ul>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="recipe-instructions">
+         <h5>Instructions</h5>
+         {{ page.instructions_html }}
         </div>
       </div>
     </div>
