@@ -31,6 +31,7 @@ tags:
   - Spicy
   - Fall
   - Winter
+  - Sour
 products:
   - jamaican-1
   - blackstrap
