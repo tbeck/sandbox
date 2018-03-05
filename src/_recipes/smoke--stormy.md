@@ -8,14 +8,17 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Knob Creek Bourbon
     quantity: 1 1/2 oz
   - name: Top Note Ginger Beer
     quantity: 2 oz
   - name: Bittercube Corazon Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/corazon
+    link: 'https://store.bittercube.com/products/corazon'
+  - name: Cocktail Cedar
+    quantity: '1'
+    link: 'https://store.bittercube.com/products/cocktail-cedars'
 garnish: Cedar smoked Collins with ice
 glass: Lime wedge
 instructions_html: >-
@@ -32,9 +35,9 @@ tags:
   - Refreshing
   - Whiskey
   - Whisky
+  - Cocktail Cedar
 products:
   - corazon
 featured: false
 ---
-
 
