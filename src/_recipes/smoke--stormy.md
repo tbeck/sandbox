@@ -19,8 +19,8 @@ ingredients:
   - name: Cocktail Cedar
     quantity: '1'
     link: 'https://store.bittercube.com/products/cocktail-cedars'
-garnish: Cedar smoked Collins with ice
-glass: Lime wedge
+garnish: Lime wedge
+glass: Cedar smoked Collins with ice
 instructions_html: >-
   <p>Ignite a Bittercube cocktail cedar stick and fill the glass with the smoke.
   Place glass on table/bar inverted.</p><p>Add all of the ingredients except
