@@ -53,14 +53,11 @@
   image: /uploads/copy-of-rujerologocircle2.png
   url: 'http://www.chufly.com/rujerosingani/'
 - title: Dock 18
-  image: /uploads/dock18.png
+  image:
   url: 'http://www.dock18mke.com'
 - title: Yaguara Cachaca
   image: /uploads/yaguara.png
   url: 'http://www.cachacayaguara.com/'
-- title: Crooked Water Spirits
-  image: /uploads/crooked.png
-  url: 'https://www.crookedwaterspirits.com/'
 - title: Tailor Made Tonics
   image: /uploads/tailormade.png
   url: 'http://bittercube.com/consulting'
