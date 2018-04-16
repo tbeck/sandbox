@@ -38,7 +38,7 @@
   staff:
     - name: Brandon Sass
       role: Training Manager
-      image: /uploads/brandon.jpg
+      image: /uploads/sass.jpg
     - name: Brandon Reyes
       role: R&D Coordinator
       image: /uploads/brandon-reyes.jpg
@@ -47,4 +47,4 @@
       image: /uploads/Kylen_Eberlien.jpg
     - name: Louie LaFleur
       role: Emissary
-      image: /uploads/louie2x.jpg
+      image: /uploads/louie2.jpg
