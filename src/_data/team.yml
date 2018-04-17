@@ -19,18 +19,18 @@
       image: /uploads/tj-ochs-1.jpg
     - name: Conor Benham
       role: Production Assistant
-      image: /uploads/conor-benham.jpg
+      image: /uploads/connor-bittercube.jpg
     - name: John Griffin
       role: Production Assistant
       image: /uploads/john-1.jpg
     - name: Jeff Othman
       role: Production Assistant
-      image: /uploads/jeff-othman.jpg
+      image: /uploads/jeff-bittercube.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
       role: Marketing Manager
-      image: /uploads/paul.jpg
+      image: /uploads/paul-bittercube.jpg
     - name: Matt Young
       role: Design Emissary
       image: /uploads/matt-young.jpg
