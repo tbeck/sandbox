@@ -1,66 +1,66 @@
 - title: Bombay Sapphire
   image: /uploads/bombay.png
   url: 'https://www.bombaysapphire.com'
-- title: The Oxford
-  image: /uploads/oxford.png
-  url: 'http://www.theoxfordca.com'
 - title: Alma
   image: /uploads/alma.png
   url: 'https://www.almampls.com'
-- title: The Iron Horse Hotel
-  image: /uploads/ironhorse.png
-  url: 'http://www.theironhorsehotel.com'
-- title: Lawless Distilling Company
-  image: /uploads/lawless.png
-  url: 'http://www.lawlessdistillingcompany.com'
-- title: Curry Up Now Indian Street Food
-  image: /uploads/curry-up.png
-  url: 'https://www.curryupnow.com'
-- title: Mortar & Pestle
-  image: /uploads/mortar.png
-  url: 'http://www.curryupnow.com/mortarandpestlebar/'
-- title: Hewing Hotel
-  image: /uploads/hewing.png
-  url: 'http://www.hewinghotel.com'
-- title: Can Can Wonderland
-  image: /uploads/cancan.png
-  url: 'https://www.cancanwonderland.com'
-- title: Hotel Covington
-  image: /uploads/hotel-cov.png
-  url: 'http://hotelcovington.com'
-- title: Charmant
-  image: /uploads/charmant.png
-  url: 'http://www.thecharmanthotel.com'
-- title: Foundation Hotel
-  image: /uploads/foundation.png
-  url: 'http://www.detroitfoundationhotel.com/'
-- title: Red Bone Alley
-  image: /uploads/red-bone.png
-  url: 'http://www.redbonealley.com'
-- title: Scratch
-  image: /uploads/scratch.png
-  url: 'http://www.scratchnorman.com'
 - title: The Beach House Kitchen & Cocktails
   image: /uploads/beach.png
   url: 'http://www.beachhousegs.com/'
-- title: Gamle Ode
-  image: /uploads/gamle.jpg
-  url: 'http://www.gamleode.com'
-- title: The Lynhall
-  image: /uploads/lynhall.png
-  url: 'http://www.thelynhall.com'
-- title: Rujero
-  image: /uploads/copy-of-rujerologocircle2.png
-  url: 'http://www.chufly.com/rujerosingani/'
-- title: Yaguara Cachaca
-  image: /uploads/yaguara.png
-  url: 'http://www.cachacayaguara.com/'
-- title: Kimo Sabe
-  image: /uploads/kimosabe.jpg
-  url: 'http://www.kimosabemezcal.com/'
+- title: Can Can Wonderland
+  image: /uploads/cancan.png
+  url: 'https://www.cancanwonderland.com'
+- title: Charmant
+  image: /uploads/charmant.png
+  url: 'http://www.thecharmanthotel.com'
+- title: Curry Up Now Indian Street Food
+  image: /uploads/curry-up.png
+  url: 'https://www.curryupnow.com'
 - title: Drake's Organic Spirits
   image: /uploads/drakes-websitelogo.png
   url: 'https://www.drakesorganicspirits.com/'
+- title: Foundation Hotel
+  image: /uploads/foundation.png
+  url: 'http://www.detroitfoundationhotel.com/'
+- title: Gamle Ode
+  image: /uploads/gamle.jpg
+  url: 'http://www.gamleode.com'
+- title: Hewing Hotel
+  image: /uploads/hewing.png
+  url: 'http://www.hewinghotel.com'
+- title: Hotel Covington
+  image: /uploads/hotel-cov.png
+  url: 'http://hotelcovington.com'
+- title: The Iron Horse Hotel
+  image: /uploads/ironhorse.png
+  url: 'http://www.theironhorsehotel.com'
+- title: Kimo Sabe
+  image: /uploads/kimosabe.jpg
+  url: 'http://www.kimosabemezcal.com/'
+- title: Lawless Distilling Company
+  image: /uploads/lawless.png
+  url: 'http://www.lawlessdistillingcompany.com'
+- title: The Lynhall
+  image: /uploads/lynhall.png
+  url: 'http://www.thelynhall.com'
+- title: Mortar & Pestle
+  image: /uploads/mortar.png
+  url: 'http://www.curryupnow.com/mortarandpestlebar/'
+- title: The Oxford
+  image: /uploads/oxford.png
+  url: 'http://www.theoxfordca.com'
+- title: Red Bone Alley
+  image: /uploads/red-bone.png
+  url: 'http://www.redbonealley.com'
+- title: Rujero
+  image: /uploads/copy-of-rujerologocircle2.png
+  url: 'http://www.chufly.com/rujerosingani/'
+- title: Scratch
+  image: /uploads/scratch.png
+  url: 'http://www.scratchnorman.com'
+- title: Yaguara Cachaca
+  image: /uploads/yaguara.png
+  url: 'http://www.cachacayaguara.com/'
 - title: Dock 18
   image: /uploads/d18-bittercubesite.png
   url: 'http://www.dock18mke.com'
