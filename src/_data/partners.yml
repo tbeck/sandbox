@@ -58,9 +58,9 @@
 - title: Yaguara Cachaca
   image: /uploads/yaguara.png
   url: 'http://www.cachacayaguara.com/'
-- title: Tailor Made Tonics
-  image: /uploads/tailormade.png
-  url: 'http://bittercube.com/consulting'
 - title: Drake's Organic Spirits
   image: /uploads/drakes-websitelogo.png
   url: 'https://www.drakesorganicspirits.com/'
+- title: Tailor Made Tonics
+  image: /uploads/tailormade.png
+  url: 'http://bittercube.com/consulting'
