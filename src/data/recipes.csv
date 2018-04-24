@@ -1,0 +1,5 @@
+---
+layout: null
+---
+message,link
+{% for recipe in site.recipes %}Check out our latest cocktail recipe #bittercube #drinkoftheday,{{ recipe.url | prepend: site.url }}{% endfor %}
