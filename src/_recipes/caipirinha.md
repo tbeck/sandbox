@@ -11,9 +11,9 @@ ingredients:
     link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Yaguara Cachaca Branca
     quantity: 2 oz
-  - name: Bittercube Orange Bitters
+  - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/orange'
+    link: 'https://store.bittercube.com/products/trinity'
 garnish: Spent lime shell
 glass: Rocks
 instructions_html: >-
