@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: 'Miserable Bastard #2'
+name: Miserable Bastard No.2
 bartender:
 description:
 ingredients:
@@ -12,15 +12,15 @@ ingredients:
     quantity: 1 oz
   - name: Simple syrup
     quantity: 1 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Top Note Ginger Beer
     quantity: 2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/blackstrap
+    link: 'https://store.bittercube.com/products/blackstrap'
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/jamaican-2
+    link: 'https://store.bittercube.com/products/jamaican-2'
 garnish: Spanked mint sprig
 glass: Collins with ice
 instructions_html: >-
@@ -37,5 +37,4 @@ products:
   - jamaican-2
 featured: false
 ---
-
 
