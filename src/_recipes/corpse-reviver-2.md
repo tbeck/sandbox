@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: 'Corpse Reviver #2'
+name: Corpse Reviver No.2
 bartender:
 description:
 ingredients:
@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Bombay Sapphire Gin
     quantity: 3/4 oz
   - name: Pierre Ferrand Dry Curacao
@@ -17,13 +17,13 @@ ingredients:
     quantity: 3/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/trinity
+    link: 'https://store.bittercube.com/products/trinity'
 garnish:
 glass: Coupe or Martini rinsed with Amerique 1912 Absinthe Verte
 instructions_html: >-
   <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
   Shake with a fluid, strong motion and strain into cocktail glass.</p>
-image: '/uploads/recipes/Corpse_Reviver.jpg'
+image: /uploads/recipes/Corpse_Reviver.jpg
 tags:
   - Citrusy
   - Crisp
@@ -32,5 +32,4 @@ products:
   - trinity
 featured: false
 ---
-
 
