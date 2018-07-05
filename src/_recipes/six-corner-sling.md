@@ -11,7 +11,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Old Overholt Rye Whiskey
     quantity: 3/4 oz
   - name: Punt e Mes
@@ -20,10 +20,10 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/blackstrap
+    link: 'https://store.bittercube.com/products/blackstrap'
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/orange
+    link: 'https://store.bittercube.com/products/orange'
 garnish: Orange and lemon peels
 glass: Green Chartreuse rinsed Collins with ice
 instructions_html: >-
@@ -42,7 +42,6 @@ tags:
 products:
   - blackstrap
   - orange
-featured: true
+featured: false
 ---
-
 
