@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: 'Americano #1'
+name: Americano No.1
 bartender:
 description:
 ingredients:
