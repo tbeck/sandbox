@@ -10,14 +10,14 @@ ingredients:
     quantity: 1 oz
   - name: Watermelon syrup
     quantity: 1 1/2 oz
-    link: http://bittercube.com/recipes/syrup/watermelon-syrup
+    link: 'http://bittercube.com/recipes/syrup/watermelon-syrup'
   - name: Rujero Singani
     quantity: 1/4 oz
   - name: Sparkling wine
     quantity: 4 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/orange
+    link: 'https://store.bittercube.com/products/orange'
 garnish: 3 small watermelon balls and orange twist
 glass: Flute
 instructions_html: >-
@@ -34,7 +34,6 @@ tags:
   - Brunch
 products:
   - orange
-featured: false
+featured: true
 ---
-
 
