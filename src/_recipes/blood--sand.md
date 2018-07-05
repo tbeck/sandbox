@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Blood & Sand
+name: Blood and Sand
 bartender:
 description:
 ingredients:
@@ -35,5 +35,4 @@ products:
   - trinity
 featured: false
 ---
-
 
