@@ -8,12 +8,12 @@ ingredients:
     quantity: '2'
   - name: Simple syrup
     quantity: 1 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Yaguara Cachaca Branca
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/orange
+    link: 'https://store.bittercube.com/products/orange'
 garnish: Spent lime shell
 glass: Rocks
 instructions_html: >-
@@ -28,7 +28,6 @@ tags:
   - Tropical
 products:
   - orange
-featured: false
+featured: true
 ---
-
 
