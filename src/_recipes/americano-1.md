@@ -14,7 +14,7 @@ ingredients:
     quantity: 2 dropper/dash
     link: 'https://store.bittercube.com/products/trinity'
 garnish: Orange wheel
-glass: Collins
+glass: Collins or Rocks
 instructions_html: '<p>Build in glass, add ice. Garnish.</p>'
 image: /uploads/recipes/Americano.jpg
 tags:
