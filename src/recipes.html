@@ -2,7 +2,7 @@
 layout: page
 title: Recipes
 permalink: /recipes/
-
+season: summer
 include_search: true
 ---
 
@@ -20,7 +20,7 @@ include_search: true
             <ul class="nav flex-column">
               {% for recipe in site.recipes %}
                 {% capture tags %}{{ recipe.tags | downcase }} {% endcapture %}
-                {% if tags contains "spring" or tags contains "summer" %}
+                {% if tags contains page.season %}
                   <li class="nav-item"><a href="{{ recipe.url }}" class="nav-link" title="{{ recipe.title }}">{{ recipe.title }}</a></li>
                 {% endif %}
               {% endfor %}
