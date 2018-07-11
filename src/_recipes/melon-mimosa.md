@@ -32,6 +32,7 @@ tags:
   - Citrusy
   - Punch
   - Brunch
+  - Summer
 products:
   - orange
 featured: false
