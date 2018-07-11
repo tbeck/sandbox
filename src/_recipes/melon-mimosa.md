@@ -34,6 +34,6 @@ tags:
   - Brunch
 products:
   - orange
-featured: true
+featured: false
 ---
 
