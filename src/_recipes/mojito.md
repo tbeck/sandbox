@@ -35,6 +35,6 @@ tags:
   - Summer
 products:
   - jamaican-2
-featured: false
+featured: true
 ---
 
