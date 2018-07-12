@@ -28,6 +28,7 @@ tags:
   - Citrusy
   - Crisp
   - Herbaceous
+  - Summer
 products:
   - trinity
 featured: false
