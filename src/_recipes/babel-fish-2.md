@@ -26,7 +26,6 @@ tags:
   - Citrusy
   - Creamy
   - Fruity
-  - Summer
   - Fall
 products:
   - blackstrap
