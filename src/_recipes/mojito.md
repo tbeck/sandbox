@@ -32,7 +32,6 @@ tags:
   - Crisp
   - Citrusy
   - Herbaceous
-  - Summer
 products:
   - jamaican-2
 featured: false
