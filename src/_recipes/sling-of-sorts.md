@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Gamle Ode Dill Aquavit
     quantity: 1 3/4 oz
   - name: Ruby Port Wine
@@ -17,7 +17,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/bolivar
+    link: 'https://store.bittercube.com/products/bolivar'
 garnish: Fennel frond
 glass: Collins with ice
 instructions_html: >-
@@ -34,7 +34,6 @@ tags:
   - Summer
 products:
   - bolivar
-featured: false
+featured: true
 ---
-
 
