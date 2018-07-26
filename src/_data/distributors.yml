@@ -12,12 +12,12 @@
     - name: Estate Brands
       location: Colorado
       link: 'http://estatebrandsco.com/'
-    - name: Ledroit Brands
+    - name: Prestige-Ledroit Distributing
       location: Washington DC
-      link: 'https://www.yellowpages.com/washington-dc/mip/ledroit-brands-17417336'
-    - name: Prestige Beverage Group
+      link: 'http://prestigeledroit.com/'
+    - name: Prestige-Ledroit Distributing
       location: Delaware
-      link: 'https://www.prestige-beverage-group.com/'
+      link: 'http://prestigeledroit.com/'
     - name: Stacole Fine Wines
       location: Florida
       link: 'https://www.thewinebowgroup.com/our-companies/stacole-fine-wines/fl'
@@ -33,9 +33,9 @@
     - name: MS Walker
       location: Massachusetts
       link: 'http://www.mswalker.com/'
-    - name: Prestige Beverage Group
+    - name: Prestige-Ledroit Distributing
       location: Maryland
-      link: 'https://www.prestige-beverage-group.com/'
+      link: 'http://prestigeledroit.com/'
     - name: Great Lakes Wine & Spirits
       location: Michigan
       link: 'https://www.glwas.com/'
