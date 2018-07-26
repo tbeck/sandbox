@@ -48,7 +48,7 @@
     - name: Gotham Artisanal
       location: New York
       link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
-    - name: The Country Vintner - The Winebow Group
+    - name: The Country Vintner
       location: North Carolina
       link: 'https://www.thewinebowgroup.com/distribution-markets/nc/'
     - name: MS Walker
@@ -60,7 +60,7 @@
     - name: Victory Wine Group
       location: Texas
       link: 'http://www.victorywinegroup.com/'
-    - name: The Country Vintner - The Winebow Group
+    - name: The Country Vintner
       location: Virginia
       link: 'https://www.thewinebowgroup.com/distribution-markets/va/'
     - name: Milepost 65
