@@ -48,6 +48,9 @@
     - name: Gotham Artisanal
       location: New York
       link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
+    - name: The Country Vintner - The Winebow Group
+      location: North Carolina
+      link: 'https://www.thewinebowgroup.com/distribution-markets/nc/'
     - name: MS Walker
       location: Rhode Island
       link: 'http://www.mswalker.com/'
@@ -57,9 +60,15 @@
     - name: Victory Wine Group
       location: Texas
       link: 'http://www.victorywinegroup.com/'
+    - name: The Country Vintner - The Winebow Group
+      location: Virginia
+      link: 'https://www.thewinebowgroup.com/distribution-markets/va/'
     - name: Milepost 65
       location: Washington
       link: 'http://www.milepost65.com/'
+    - name: Prime Wine & Spirits Washington
+      location: Washington
+      link: 'http://www.primewineandspirits.com/'
     - name: Badger Liquor
       location: Wisconsin
       link: 'http://badgerliquor.com/'
