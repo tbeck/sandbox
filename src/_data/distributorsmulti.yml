@@ -1,6 +1,6 @@
 - country: United States
   states:
-    - Alabama:
+    Alabama:
       distributors:
         - name: International Wines & Craft Beer
           location: Alabama
