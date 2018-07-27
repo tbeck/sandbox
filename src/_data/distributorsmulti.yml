@@ -1,27 +1,27 @@
 - country: United States
   states:
     Alabama:
-      distributors:
+      - distributors:
         - name: International Wines & Craft Beer
           location: Alabama
           link: 'http://www.iwinebeer.com/'
     Arizona:
-      distributors:
+      - distributors:
         - name: Pacific Edge Wine & Spirits
           location: Arizona
           link: 'http://www.pacificedgesales.com/'
     California:
-      distributors:         
+      - distributors:         
         - name: Pacific Edge Wine & Spirits
           location: California
           link: 'http://www.pacificedgesales.com/'
     Colorado:
-      distributors:           
+      - distributors:           
         - name: Estate Brands
           location: Colorado
           link: 'http://estatebrandsco.com/'
     Delaware:
-      distributors:           
+      - distributors:           
         - name: Prestige-Ledroit Distributing
           location: Delaware
           link: 'http://prestigeledroit.com/'
