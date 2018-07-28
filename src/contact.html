@@ -41,7 +41,7 @@ permalink: /contact
       </div>
     </div>
    
-    {% for object in site.data.distributors %}
+    {% for object in site.data.distributors.countries %}
       <div class="row">
         <div class="col">
           <div class="content text-center">
@@ -54,10 +54,11 @@ permalink: /contact
         <div class="col">
           <div class="content">
             <div class="distributors">
-              {% for distributor in object.distributors %}
-                <a href="{{ distributor.link }}" class="distributor">
-                  <h4>{{ distributor.location }}</h4>
-                  <p>{{ distributor.name }}</p>
+              {% for obj in object.regions %}
+                  <h4>{{ obj.region }}</h4>
+                  {% for d in region.distributors %}
+                  <p><a href="{{ d.link }}" class="distributor">{{ d.distributor }}</a></p>
+                  {% endfor %}
                 </a>
               {% endfor %}
             </div>
