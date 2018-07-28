@@ -5,10 +5,6 @@ countries:
         distributors:
           - distributor: International Wines & Craft Beer
             link: 'http://www.iwinebeer.com/'
-      - region: Alabama
-        distributors:
-          - distributor: International Wines & Craft Beer
-            link: 'http://www.iwinebeer.com/'
       - region: Arizona
         distributors:
           - distributor: Pacific Edge Wine & Spirits
@@ -26,7 +22,7 @@ countries:
           - distributor: Prestige-Ledroit Distributing
             link: 'http://prestigeledroit.com/'
       - region: District of Columbia
-        - distributors:           
+        distributors:           
           - distributor: Prestige-Ledroit Distributing
             link: 'http://prestigeledroit.com/'
       - region: Florida

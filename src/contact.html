@@ -55,11 +55,12 @@ permalink: /contact
           <div class="content">
             <div class="distributors">
               {% for obj in object.regions %}
+                  <div class="distributor">
                   <h4>{{ obj.region }}</h4>
                   {% for d in obj.distributors %}
-                  <p><a href="{{ d.link }}" class="distributor">{{ d.distributor }}</a></p>
+                  <p><a href="{{ d.link }}">{{ d.distributor }}</a></p>
                   {% endfor %}
-                </a>
+                  </div>
               {% endfor %}
             </div>
           </div>
