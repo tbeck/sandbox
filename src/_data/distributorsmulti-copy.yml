@@ -5,3 +5,8 @@
         - name: International Wines & Craft Beer
           location: Alabama
           link: 'http://www.iwinebeer.com/'
+    - name: Alaska
+      distributors:
+        - name: Test
+          location: Alaska
+          link: www.test.com
