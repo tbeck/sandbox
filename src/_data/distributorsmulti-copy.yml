@@ -1,7 +1,7 @@
 countries: 
   - country: United States
-  regions:
-    - region: Alabama
-      distributors:
-        - distributor: International Wines & Craft Beer
-          link: 'http://www.iwinebeer.com/'
+    regions:
+      - region: Alabama
+        distributors:
+          - distributor: International Wines & Craft Beer
+            link: 'http://www.iwinebeer.com/'
