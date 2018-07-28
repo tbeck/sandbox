@@ -1,5 +1,5 @@
 countries: 
-  name: United States
+  - country: United States
   regions:
     - region: Alabama
       distributors:
