@@ -17,15 +17,18 @@
     - name: TJ Ochs
       role: Kitchen Coordinator
       image: /uploads/tj-ochs-1.jpg
-    - name: Conor Benham
-      role: Production Assistant
-      image: /uploads/connor-bittercube.jpg
     - name: John Griffin
       role: Production Assistant
       image: /uploads/john-1.jpg
     - name: Jeff Othman
       role: Production Assistant
       image: /uploads/jeff-bittercube.jpg
+    - name: Conor Benham
+      role: Production Assistant
+      image: /uploads/connor-bittercube.jpg
+    - name: Suzie Melendez
+      role: Production Assistant
+      image: /uploads/suzie.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
