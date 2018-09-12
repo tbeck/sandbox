@@ -80,6 +80,12 @@ keywords:
   - Savory
   - Nutty
 
+liqueurs:
+  - Alchermes
+  - Creme De Flora
+  - Genepy
+  - Pineapple Amaro  
+
 # Archives / API
 jekyll-archives:
   enabled: []
