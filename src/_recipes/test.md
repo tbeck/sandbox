@@ -2,7 +2,7 @@
 layout: recipe
 name: Test
 bartender:
-description:
+description: Description...
 ingredients:
   - name:
     quantity:
@@ -13,6 +13,7 @@ instructions_html:
 image:
 tags:
 products:
-liqueur:
+liqueur: Alchermes
 featured: false
 ---
+
