@@ -2,7 +2,7 @@
 layout: page
 title: Recipes
 permalink: /recipes/
-season: summer
+season: fall
 include_search: true
 ---
 
@@ -67,9 +67,9 @@ include_search: true
             {% for category in site.data.drink_categories %}
             <div class="card" data-filter-by-tag="{{ category.title | downcase }}">
               {% if category.image %}
-                <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}">
+                <img class="img-fluid" src="{{ category.image }}" alt="{{ category.title }}" />
               {% else %}
-                <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}">
+                <img class="img-fluid" src="http://via.placeholder.com/550x550/000000/333333?text=placeholder" alt="{{ category.title }}" />
               {% endif %}
               <div class="card-body text-center">
                 <p class="lead">{{ category.title }}</p>
