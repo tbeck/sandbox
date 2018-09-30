@@ -29,7 +29,7 @@ instructions_html: >-
   not to over muddle. Add all of the ingredients to a stirring vessel and then
   fill with ice. Stir with a bar spoon until chilled and strain into cocktail
   glass.</p>
-image: /uploads/stinger.jpg
+image: /uploads/stinger-1.jpg
 tags:
   - Genepy
   - Heirloom Liqueurs
