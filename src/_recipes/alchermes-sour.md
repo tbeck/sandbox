@@ -4,10 +4,10 @@ name: Alchermes Sour
 bartender:
 description:
 ingredients:
-  - name: Fresh Lemon Juice
+  - name: Fresh lemon juice
     quantity: 3/4 oz
     link:
-  - name: Simple Syrup
+  - name: Simple syrup
     quantity: 1/2 oz
     link:
   - name: Heirloom Alchermes
