@@ -25,6 +25,7 @@ image: /uploads/alchermes-sour.jpg
 tags:
   - Heirloom Liqueurs
   - Alchermes
+  - Sour
 products:
 liqueur: Alchermes
 featured: false
