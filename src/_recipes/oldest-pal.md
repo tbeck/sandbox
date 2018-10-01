@@ -18,7 +18,7 @@ glass: Coupe or Martini
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
-image: /uploads/old-pal.jpg
+image: /uploads/old-pal-1.jpg
 tags:
   - Alchermes
   - Heirloom Liqueurs
