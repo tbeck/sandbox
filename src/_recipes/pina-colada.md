@@ -25,13 +25,18 @@ ingredients:
   - name: Crushed ice
     quantity: 1/2 cup
     link:
-garnish:
-glass:
-instructions_html:
-image:
+garnish: Mint sprig and a pineapple and cherry skewer
+glass: Hurricane with crushed ice
+instructions_html: >-
+  <p>Combine ingredients in a blender and blend until ice is pulverized. Pour
+  into glass and top with crushed ice.</p>
+image: /uploads/pinacolada.jpg
 tags:
+  - Pineapple Amaro
+  - Heirloom Liqueurs
+  - Tropical
 products:
-liqueur:
+liqueur: Pineapple Amaro
 featured: false
 ---
 
