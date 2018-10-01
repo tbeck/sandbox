@@ -35,7 +35,7 @@ instructions_html: >-
   ingredients except seltzer to a cocktail shaker and then fill with ice. Shake
   with a fluid, strong motion. Remove ice from wine glass, add seltzer to shaker
   and strain into wine glass and garnish. Fill glass with ice.</p>
-image: /uploads/smoky-laflare.jpg
+image: /uploads/smoky-laflare-1.jpg
 tags:
   - Creme de Flora
   - Heirloom Liqueurs
