@@ -27,7 +27,7 @@ glass: Martini or Coupe
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
-image: /uploads/vesper-sparrow.jpg
+image: /uploads/vesper-sparrow-1.jpg
 tags:
   - Creme de Flora
   - Heirloom Liqueurs
