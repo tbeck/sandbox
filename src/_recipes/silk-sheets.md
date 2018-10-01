@@ -27,7 +27,7 @@ glass: Coupe
 instructions_html: >-
   <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
   Shake with a fluid, strong motion and strain into cocktail glass.</p>
-image: /uploads/silk-sheets.jpg
+image: /uploads/silk-sheets-1.jpg
 tags:
   - Alchermes
   - Heirloom Liqueurs
