@@ -23,7 +23,8 @@ tags:
   - Creme de Flora
   - Heirloom Liqueurs
 products:
-liqueur: Creme De Flora
+liqueurs: 
+  - Creme De Flora
 featured: false
 ---
 

@@ -31,7 +31,8 @@ image: /uploads/cast-away1.jpg
 tags:
   - Alchermes
 products:
-liqueur: Alchermes
+liqueurs: 
+  - Alchermes
 featured: false
 ---
 

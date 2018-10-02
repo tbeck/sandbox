@@ -23,7 +23,8 @@ tags:
   - Alchermes
   - Heirloom Liqueurs
 products:
-liqueur: Alchermes
+liqueurs: 
+  - Alchermes
 featured: false
 ---
 

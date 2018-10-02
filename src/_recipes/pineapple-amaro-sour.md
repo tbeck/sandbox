@@ -24,7 +24,8 @@ tags:
   - Heirloom Liqueurs
   - Sour
 products:
-liqueur: Pineapple Amaro
+liqueurs: 
+  - Pineapple Amaro
 featured: false
 ---
 

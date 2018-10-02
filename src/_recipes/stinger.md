@@ -34,7 +34,8 @@ tags:
   - Genepy
   - Heirloom Liqueurs
 products:
-liqueur: Genepy
+liqueurs: 
+  - Genepy
 featured: false
 ---
 

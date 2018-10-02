@@ -14,6 +14,6 @@ instructions_html:
 image:
 tags:
 products:
-liqueur:
+liqueurs:
 featured: false
 ---

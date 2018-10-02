@@ -16,7 +16,7 @@ layout: null
     "instructions": "{{ recipe.instructions_html | strip_html }}",
     "tags": "{% for tag in recipe.tags %}{{ tag | replace: "’", "'" }}{% unless forloop.last %},{% endunless %}{% endfor %}",
     "pinterest": "https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ recipe.title | xml_escape }}",
-    "liqueur": "{{ recipe.liqueur }}",
+    "liqueurs": "{% for liqueur in recipe.liqueurs %}{{ liqueur }}{% unless forloop.last %},{% endunless %}{% endfor %}",
     "products": [{% for product in recipe.products %}"{{ product }}"{% unless forloop.last %},{% endunless %}{% endfor %}]  
   }
   {% unless forloop.last %},{% endunless %}
