@@ -33,7 +33,8 @@ tags:
   - Heirloom Liqueurs
   - Tropical
 products:
-liqueur: Pineapple Amaro
+liqueurs: 
+  - Pineapple Amaro
 featured: false
 ---
 

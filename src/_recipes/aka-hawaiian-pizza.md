@@ -26,7 +26,8 @@ tags:
   - Pineapple Amaro
   - Heirloom Liqueurs
 products:
-liqueur: Pineapple Amaro
+liqueurs: 
+  - Pineapple Amaro
 featured: false
 ---
 
