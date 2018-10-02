@@ -24,7 +24,7 @@ tags:
   - Heirloom Liqueurs
   - Sour
 products:
-liqueur: 
+liqueurs: 
   - Genepy
 featured: false
 ---
