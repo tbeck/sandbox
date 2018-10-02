@@ -2,7 +2,7 @@
 layout: null
 ---
 [
-{% assign recipes = site.recipes | where_exp: "recipe", "recipe.liqueur != null" %}
+{% assign recipes = site.recipes | where_exp: "recipes", "recipe.liqueur != null" %}
 {% for recipe in recipes %}
   {
     "slug": "{{ recipe.name | slugify }}",
