@@ -34,11 +34,11 @@ $(document).ready(function() {
    function checkCookie() {
       var age = Cookies.get('age');
       if(age === 'verified') {
-        window.console.log('age is', age);
+        // window.console.log('age is', age);
         $('#age-verification').remove();
 
       }else {
-        window.console.log('age is not verified');
+        // window.console.log('age is not verified');
         $('#age-verification').addClass('active');
       }
    }
