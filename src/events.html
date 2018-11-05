@@ -1,0 +1,46 @@
+---
+layout: default
+title: Event Brite Test
+---
+
+<section class="d-none hide">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>EventBrite Widgets</h1>
+        <hr>
+      </div>
+      <div class="col-4">
+        <h3>Calendar Widget</h3>
+        <iframe  src="https://www.eventbrite.com/calendar-widget?eid=50884201015" frameborder="0" height="526"></iframe>
+      </div>
+      <div class="col-4">
+        <h3>Countdown Widget</h3>
+        <iframe  src="https://www.eventbrite.com/countdown-widget?eid=50884201015" frameborder="0" height="526"></iframe>
+      </div>
+      <div class="col-4">
+        <h3>Registration Widget</h3>
+        <div id="eventbrite-widget-container-50884201015"></div>
+
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                // Required
+                widgetType: 'checkout',
+                eventId: '50884201015',
+                iframeContainerId: 'eventbrite-widget-container-50884201015',
+
+                // Optional
+                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+            });
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
