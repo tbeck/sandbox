@@ -51,3 +51,8 @@
     - name: Louie LaFleur
       role: Account Manager
       image: /uploads/louie2.jpg
+- title: Bar & Bazaar
+  staff:
+    - name:
+      role:
+      image:
