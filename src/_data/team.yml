@@ -53,6 +53,6 @@
       image: /uploads/louie2.jpg
 - title: Bar & Bazaar
   staff:
-    - name:
-      role:
-      image:
+    - name: Brandon Reyes
+      role: 'Manager of R&D, Bar Manager'
+      image: /uploads/brandon-reyes.jpg
