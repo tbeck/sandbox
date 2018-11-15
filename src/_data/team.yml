@@ -42,9 +42,6 @@
     - name: Brandon Sass
       role: Training Manager
       image: /uploads/sass.jpg
-    - name: Kylen Eberlein
-      role: Retail Manager
-      image: /uploads/kylen-bittercube.jpg
     - name: Louie LaFleur
       role: Account Manager
       image: /uploads/louie2.jpg
