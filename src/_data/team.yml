@@ -42,9 +42,6 @@
     - name: Brandon Sass
       role: Training Manager
       image: /uploads/sass.jpg
-    - name: Brandon Reyes
-      role: 'Manager of R&D, Bar Manager'
-      image: /uploads/brandon-reyes.jpg
     - name: Kylen Eberlein
       role: Retail Manager
       image: /uploads/kylen-bittercube.jpg
@@ -56,3 +53,6 @@
     - name: Brandon Reyes
       role: 'Manager of R&D, Bar Manager'
       image: /uploads/brandon-reyes.jpg
+    - name: Kylen Eberlein
+      role: Retail Manager
+      image: /uploads/kylen-bittercube.jpg
