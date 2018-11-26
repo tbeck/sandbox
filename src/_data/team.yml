@@ -37,17 +37,19 @@
     - name: Matt Young
       role: Design Emissary
       image: /uploads/matt-bittercube.jpg
-- title: Consulting / R&D
+- title: Consulting
   staff:
     - name: Brandon Sass
       role: Training Manager
       image: /uploads/sass.jpg
+    - name: Louie LaFleur
+      role: Account Manager
+      image: /uploads/louie2.jpg
+- title: Bar & Bazaar
+  staff:
     - name: Brandon Reyes
-      role: R&D Coordinator
+      role: 'Manager of R&D, Bar Manager'
       image: /uploads/brandon-reyes.jpg
     - name: Kylen Eberlein
-      role: Emissary
+      role: Retail Manager
       image: /uploads/kylen-bittercube.jpg
-    - name: Louie LaFleur
-      role: Emissary
-      image: /uploads/louie2.jpg
