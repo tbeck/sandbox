@@ -86,6 +86,26 @@ ul.no-bullets {
   background-image: url('/assets/img/backgrounds/bg-pattern.png');
 }
 
+.bg-image {
+  display: block;
+  height: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &.aspect-5x7 {
+    padding-top: 120%;
+  }
+  &.aspect-1x1 {
+    padding-top: 100%;
+  }
+  &.aspect-4x3 {
+    padding-top: 75%;
+  }
+  &.aspect-16x9 {
+    padding-top: 56.25%;
+  }
+}
+
 .pinterest-share {
   border-bottom: 0;
   padding: 5px 7px;

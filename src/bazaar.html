@@ -3,3 +3,98 @@ layout: page
 title: Bazaar
 permalink: /visit/bazaar
 ---
+
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/consulting/hero-consulting.jpg)">
+  <div class="hero-caption">
+    <h1 class="editable">Bittercube Bazaar</h1>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content editable">
+          <p>An eclectic storefront with knowledgeable staff, the Bittercube Bazaar is stocked with new and vintage bar tools,
+          reference books, and a curated selection of our favorite spirits and liqueurs. In addition, we feature Bittercube
+          Bitters and a rotating selection of seasonal Tailor Made tonics, ginger beers and On the Fly cocktail elixirs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-center text-uppercase mb-0">Mon-Sat</p>
+          <p>11AM-9PM</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-center text-uppercase mb-0">Sun</p>
+          <p>11AM-5PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-yellow bg-pattern">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <div class="content">
+          <div class="bg-image aspect-1x1" style="background-image:url(https://via.placeholder.com/768x768)"></div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="content editable">
+          <h2>Featured Special</h2>
+          <p>Featured Special lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis turpis,
+          sed tristique orci sollicitudin ut, consectetur adipiscing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials">
+  <div class="container">
+    <div id="demo-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="12000">
+      <ol class="carousel-indicators">
+        {% for demo in (1..4) %}
+        <li data-target="#demo-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"
+          {% endif %}></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        {% for demo in (1..4) %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <div class="content">
+                <div class="bg-image aspect-1x1" style="background-image: url(https://via.placeholder.com/768x768)"></div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="content">
+                <h2>Featured In-Store Demo</h2>
+                <p>Featured in-store demo lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis turpis turpis,
+                sed tristique orci sollicitudin ut, consectetur adipiscing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-yellow bg-pattern">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <h1>Events Placeholder</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include stop-by.html %}

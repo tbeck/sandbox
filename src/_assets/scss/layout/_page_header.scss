@@ -95,11 +95,7 @@
 @media (max-width: $screen-sm-max) {
   #page-header {
 
-    .container {
-      width: 100%;
-      max-width: 100%;
-      padding: 0;
-    }
+    
 
     #mainnav {
       padding: 0;
@@ -150,6 +146,16 @@
     .button {
       display: block;
       width: 100%;
+    }
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  #page-header {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
     }
   }
 }

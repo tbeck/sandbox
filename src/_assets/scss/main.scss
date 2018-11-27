@@ -31,6 +31,7 @@
 @import 'elements/recipes';
 @import 'elements/age_verification';
 @import 'elements/autocomplete';
+@import 'elements/venobox';
 
 // Page specific styles
 @import "views/homepage";
@@ -39,6 +40,7 @@
 @import 'views/about';
 @import 'views/syrup_recipes';
 @import 'views/syrup_recipe';
+@import 'views/visit';
 
 // Forms
 @import 'base/forms';

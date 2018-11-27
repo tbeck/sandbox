@@ -3,7 +3,6 @@ require('bootstrap');
 require('./search');
 var Cookies = require('js-cookie');
 
-
 $(window).scroll(function(){
   if ($(window).scrollTop() >= 250) {
     $('.homepage-layout #page-header').removeClass('home-header');
@@ -56,4 +55,7 @@ $(document).ready(function() {
     $('.confirm-age button').remove();
    });
 
+   $('.venobox').venobox();
+
+  
 });
