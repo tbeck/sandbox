@@ -1,8 +1,10 @@
 <header id="page-header" class="fixed-top {% if page.url == '/' %}home-header{% endif %}">
   <div class="container">
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/img/logo.svg' | prepend: site.baseurl }}" alt="Bittercube Logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/img/logo.svg' | prepend: site.baseurl }}"
+          alt="Bittercube Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="bar close-one"></span>
         <span class="bar close-two"></span>
@@ -23,8 +25,17 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="{{ '/visit' | prepend: site.baseurl }}">Visit</a>
+          </li>
+          <li id="visitnav-mobile" class="nav-item d-block d-md-none">
+            <a class="nav-link border-0" href="{{ '/visit' | prepend: site.baseurl }}">Visit</a>
+            <ul class="nav flex-column">
+              <li><a href="/visit/bar">Bar</a></li>
+              <li><a href="/visit/bazaar">Bazaar</a></li>
+              <li><a href="/visit/take-a-tour">Take a Tour</a></li>
+              <li><a href="/visit/events">Events</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
@@ -34,4 +45,7 @@
       </div>
     </nav>
   </div>
+  {% if page.url contains 'visit' %}
+  {% include navigation/visitnav.html %}
+  {% endif %}
 </header>

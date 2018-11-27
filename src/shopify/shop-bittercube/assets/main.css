@@ -45,6 +45,9 @@ ul.no-bullets {
 .bg-blue {
   background-color: #18374b; }
 
+.bg-brand-light {
+  background-color: #24516b; }
+
 .bg-yellow {
   background-color: #d3b262; }
   .bg-yellow .button.inline:hover {
@@ -2053,6 +2056,28 @@ img.figlio {
     -webkit-transform: perspective(140px) rotateY(180deg);
     transform: perspective(140px) rotateY(180deg);
     opacity: 0; } }
+.visitnav {
+  padding: 5px 10px; }
+  .visitnav li a {
+    color: #e9e9e3;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-family: "proxima-nova", sans-serif;
+    letter-spacing: 3px;
+    font-size: 14px; }
+
+#visitnav-mobile .nav li:last-of-type {
+  border-bottom: 1px solid #ffffff; }
+  #visitnav-mobile .nav li:last-of-type a {
+    padding-bottom: 20px; }
+#visitnav-mobile .nav li a {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: none; }
+
 .banner-desktop {
   display: block; }
 
@@ -2217,7 +2242,7 @@ img.figlio {
 #visit-overview .card {
   height: 100%; }
 #visit-overview .card-body {
-  padding: 20px; }
+  padding: 0 20px; }
 
 input,
 textarea {
