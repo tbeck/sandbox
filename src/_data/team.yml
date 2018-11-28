@@ -17,6 +17,9 @@
     - name: TJ Ochs
       role: Kitchen Coordinator
       image: /uploads/tj-ochs-1.jpg
+    - name: Staci Nielsen
+      role: Kitchen Coordinator
+      image: /uploads/staci.jpg
     - name: John Griffin
       role: Shipping Coordinator
       image: /uploads/john-1.jpg
