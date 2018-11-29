@@ -10,7 +10,7 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper / dash
-    link: https://store.bittercube.com/products/trinity
+    link: 'https://store.bittercube.com/products/trinity'
 garnish: Filthy Black Cherry and/or grapefruit  disc
 glass: Coupe or Martini
 instructions_html: >-
@@ -22,9 +22,9 @@ tags:
   - Bitter
   - Herbaceous
   - Aromatic
+  - Winter
 products:
   - trinity
 featured: false
 ---
-
 
