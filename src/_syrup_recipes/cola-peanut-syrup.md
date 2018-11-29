@@ -11,8 +11,7 @@ ingredients:
     quantity: 700 g
 instructions_html: >-
   <p>Bring cola and peanuts to a boil in a pot. Blend with immersion blender or
-  stand blender. Strain to remove solids. Weigh liquid and add ~70% of that
-  weight in demerara sugar. Whisk until dissolved. Bottle and refrigerate for up
-  to one month.</p>
+  stand blender. Strain to remove solids. Add demerara sugar and whisk until
+  dissolved. Pour into a clean bottle and refrigerate for up to one month.</p>
 ---
 
