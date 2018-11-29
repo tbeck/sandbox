@@ -22,11 +22,16 @@ ingredients:
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 2 dropper/dash
     link:
-garnish:
-glass:
+garnish: red & white paper straw
+glass: Collins
 instructions_html:
 image:
 tags:
+  - Brunch
+  - Bitter
+  - Effervescent
+  - Nutty
+  - Refreshing
 products:
 liqueurs:
 featured: false
