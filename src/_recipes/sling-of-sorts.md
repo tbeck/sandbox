@@ -34,6 +34,6 @@ tags:
   - Summer
 products:
   - bolivar
-featured: true
+featured: false
 ---
 
