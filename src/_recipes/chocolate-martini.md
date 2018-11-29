@@ -25,9 +25,9 @@ tags:
   - Chocolate
   - Creamy
   - Liquid Dessert
+  - Winter
 products:
   - corazon
 featured: false
 ---
-
 
