@@ -4,15 +4,15 @@ name: The Boulevardier
 bartender:
 description:
 ingredients:
-  - name: Redemption Rye
-    quantity: 1 1/2 oz
-  - name: Cocchi Vermouth di Torino
+  - name: Old Grand Dad Bonded Bourbon
     quantity: 1 oz
-  - name: Campari
-    quantity: 1/2 oz
+  - name: Cocchi Rosa
+    quantity: 1 oz
+  - name: Amaro Meletti
+    quantity: 1 oz
   - name: Bittercube Orange Bitters
-    quantity: 1 dropper / dash
-    link: https://store.bittercube.com/products/orange
+    quantity: 2 dropper / dash
+    link: 'https://store.bittercube.com/products/orange'
 garnish: Orange disc
 glass: Coupe or Martini
 instructions_html: >-
@@ -27,5 +27,4 @@ products:
   - orange
 featured: false
 ---
-
 
