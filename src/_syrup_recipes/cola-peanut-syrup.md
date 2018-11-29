@@ -8,7 +8,7 @@ ingredients:
   - name: Mexican Coca-cola
     quantity: 1150 g
   - name: Demerara sugar
-    quantity:
+    quantity: 700 g
 instructions_html: >-
   <p>Bring cola and peanuts to a boil in a pot. Blend with immersion blender or
   stand blender. Strain to remove solids. Weigh liquid and add ~70% of that
