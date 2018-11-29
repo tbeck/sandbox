@@ -28,6 +28,6 @@ tags:
   - Tropical
 products:
   - orange
-featured: true
+featured: false
 ---
 
