@@ -25,7 +25,7 @@ ingredients:
 garnish: Lime wheel and/or peanuts
 glass: Collins
 instructions_html: <p>Add all ingredients in glass. Add ice and garnish.</p>
-image:
+image: /uploads/mason-dixon.jpg
 tags:
   - Brunch
   - Bitter
