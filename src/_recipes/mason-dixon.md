@@ -21,10 +21,10 @@ ingredients:
     link:
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 2 dropper/dash
-    link:
-garnish: red & white paper straw
+    link: 'https://store.bittercube.com/products/jamaican-1'
+garnish: Lime wheel and/or peanuts
 glass: Collins
-instructions_html:
+instructions_html: <p>Add all ingredients in glass. Add ice and garnish.</p>
 image:
 tags:
   - Brunch
