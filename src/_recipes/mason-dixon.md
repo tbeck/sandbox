@@ -7,7 +7,7 @@ ingredients:
   - name: Fresh lime juice
     quantity: 1/4 oz
     link:
-  - name: Cola Peanut Syrup
+  - name: Cola peanut syrup
     quantity: 1 oz
     link:
   - name: Peanut butter infused Plantation OFTD Rum
