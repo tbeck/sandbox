@@ -3,7 +3,7 @@ layout: syrup_recipe
 name: Cola Peanut Syrup
 description:
 ingredients:
-  - name: 'Roasted, salted peanuts'
+  - name: Shelled roasted and salted peanuts
     quantity: 500 g
   - name: Mexican Coca-cola
     quantity: 1150 g
