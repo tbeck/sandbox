@@ -9,7 +9,7 @@ ingredients:
     link:
   - name: Cola peanut syrup
     quantity: 1 oz
-    link:
+    link: 'https://bittercube.com/recipes/syrup/cola-peanut-syrup'
   - name: Peanut butter infused Plantation OFTD Rum
     quantity: 1 1/2 oz
     link:
