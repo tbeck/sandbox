@@ -32,8 +32,9 @@ image: /uploads/iroquois1.jpg
 tags:
   - Creme de Flora
   - Heirloom Liqueurs
+  - Winter
 products:
-liqueurs: 
+liqueurs:
   - Creme De Flora
 featured: false
 ---
