@@ -28,8 +28,9 @@ image: /uploads/alaska-2.jpg
 tags:
   - Genepy
   - Heirloom Liqueurs
+  - Winter
 products:
-liqueurs: 
+liqueurs:
   - Genepy
 featured: false
 ---
