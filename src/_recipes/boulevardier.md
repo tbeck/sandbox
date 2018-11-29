@@ -26,6 +26,6 @@ tags:
   - Winter
 products:
   - orange
-featured: false
+featured: true
 ---
 
