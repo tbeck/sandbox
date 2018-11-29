@@ -23,8 +23,9 @@ tags:
   - Refreshing
   - Aperitif
   - Brunch
+  - Summer
 products:
   - trinity
-featured: true
+featured: false
 ---
 
