@@ -9,6 +9,6 @@ employer: Bittercube Bitters
 image: /uploads/brandon-reyes-1.jpg
 featured_recipe: labradoodle
 recipes:
-featured: true
+featured: false
 ---
 
