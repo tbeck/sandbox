@@ -1,5 +1,5 @@
 ---
-layout: bartender
+layout: default
 title: Nate Beske
 bio:
 employer: Hewing Hotel
