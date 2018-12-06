@@ -3,7 +3,15 @@ layout: page
 title: Take a Tour
 permalink: /visit/take-a-tour
 gallery_images:
-  - image:
+  - image: /uploads/dsc02386.JPG
+  - image: /uploads/dsc02436.JPG
+  - image: /uploads/dsc02448.JPG
+  - image: /uploads/dsc02443.JPG
+  - image: /uploads/p1010604.JPG
+  - image: /uploads/p1010687.JPG
+  - image: /uploads/tour2.jpg
+  - image: /uploads/tour3.jpg
+  - image: /uploads/touralbum1.jpg
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/Tour_banner.jpg)">
@@ -43,8 +51,7 @@ gallery_images:
       {% for image in page.gallery_images %}
       <div class="col-md-3">
         <div class="content">
-          <a href="{{ image.image }}" class="venobox bg-image aspect-1x1" style="background-image: url({{ image.image }})"
-            data-gall="gallery">
+          <a href="{{ image.image }}" class="venobox bg-image aspect-1x1" style="background-image: url({{ image.image }})" data-gall="gallery">
           </a>
         </div>
       </div>
