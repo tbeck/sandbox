@@ -6,7 +6,7 @@ gallery_images:
   - image:
 ---
 
-<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/consulting/hero-consulting.jpg)">
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/Tour_banner.jpg)">
   <div class="hero-caption">
     <h1 class="editable">Take a Tour</h1>
   </div>
@@ -40,10 +40,10 @@ gallery_images:
       </div>
     </div>
     <div class="row">
-      {% for image in (1..12) %}
+      {% for image in page.gallery_images %}
       <div class="col-md-3">
         <div class="content">
-          <a href="https://via.placeholder.com/768x768" class="venobox bg-image aspect-1x1" style="background-image: url(https://via.placeholder.com/768x768)"
+          <a href="{{ image.image }}" class="venobox bg-image aspect-1x1" style="background-image: url({{ image.image }})"
             data-gall="gallery">
           </a>
         </div>
