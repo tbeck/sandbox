@@ -1,6 +1,6 @@
 ---
 layout: event
-event_type:
+event_type: workshop
 event_date_: 'February 2, 2019 4:00 pm'
 location: Bar
 price: $5
