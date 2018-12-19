@@ -1,7 +1,6 @@
 ---
 layout: event
 event_tags:
-event_name:
 event_date_:
 location:
 price:
