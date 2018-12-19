@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name: Tea Time
 event_type: workshop
 event_date_: 'January 12, 2019 4:00 pm'
 location: Bar
@@ -10,7 +11,7 @@ description: >-
   and a ½ cocktail.
 image: /uploads/tea-time.jpg
 reservation_link: 'https://bittercubebar-teatimeworkshop-tickets.eventbrite.com'
-facebook-event_link:
+facebook_event_link:
 featured: false
 ---
 

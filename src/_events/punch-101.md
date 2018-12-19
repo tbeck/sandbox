@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name: Punch 101
 event_type: workshop
 event_date_: 'February 2, 2019 4:00 pm'
 location: Bar
@@ -11,7 +12,7 @@ description: >-
   included.
 image: /uploads/punch.jpg
 reservation_link:
-facebook-event_link:
+facebook_event_link:
 featured: false
 ---
 

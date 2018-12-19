@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name: '#GarnishGame'
 event_type: workshop
 event_date_: 'January 26, 2019 4:00 pm'
 location: Bar

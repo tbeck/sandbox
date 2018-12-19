@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name:
 event_type:
 event_date_:
 location:

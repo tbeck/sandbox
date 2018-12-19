@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name: Stir Your Cocktail Like a Pro!
 event_type: workshop
 event_date_: 'January 19, 2019 4:00 pm'
 location: Bazaar
@@ -11,7 +12,7 @@ description: >-
   tools and ingredients for your perfect Old Fashioned.
 image: /uploads/stir-like-a-pro.jpg
 reservation_link: 'https://bittercubebar-howtostir.eventbrite.com'
-facebook-event_link:
+facebook_event_link:
 featured: false
 ---
 

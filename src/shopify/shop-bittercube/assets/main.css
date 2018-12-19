@@ -736,6 +736,12 @@ blockquote {
   .button.button-bordered {
     border: 2px solid #d3b262;
     color: #ffffff; }
+  .button.button-blue {
+    background-color: #18374b;
+    color: #ffffff; }
+    .button.button-blue:hover {
+      background-color: transparent;
+      color: #18374b; }
 
 .card {
   border: 0;
@@ -2195,7 +2201,7 @@ img.figlio {
   -webkit-transition: 0.3s opacity ease-in-out;
   transition: 0.3s opacity ease-in-out; }
   .events-row .no-events p {
-    font-size: 40px; }
+    font-size: 20px; }
 .events-row.mixitup-container-failed .no-events {
   opacity: 1;
   visibility: visible;
@@ -2205,6 +2211,9 @@ img.figlio {
   background-color: #ffffff;
   border: 0; }
 
+@media (min-width: 992px) {
+  .events-row .no-events p {
+    font-size: 40px; } }
 #about-story .lead {
   font-size: 23px;
   line-height: 31px; }

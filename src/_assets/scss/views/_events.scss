@@ -8,6 +8,14 @@
   }
 }
 
+.events-nav {
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .events-row {
   .no-events {
     opacity: 0;

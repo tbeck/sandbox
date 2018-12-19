@@ -1,5 +1,6 @@
 ---
 layout: event
+event_name: Cognac is for Lovers
 event_type: workshop
 event_date_: 'February 9, 2019 4:00 pm'
 location: Bazaar

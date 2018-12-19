@@ -51,4 +51,12 @@
     border: 2px solid $yellow;
     color: $white;
   }
+  &.button-blue {
+    background-color: $brand-primary;
+    color: $white;
+    &:hover {
+      background-color: transparent;
+      color: $brand-primary;
+    }
+  }
 }
