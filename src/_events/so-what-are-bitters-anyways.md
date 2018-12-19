@@ -10,7 +10,7 @@ description: >-
   learning tips and tricks for using them in cocktails and cooking. We will also
   sample a cocktail that effectively showcases bitters. Plus receive 10% off all
   Bittercube Bitters.
-image: /uploads/what-are-bitters.jpg
+image: /uploads/what-are-bitters-crop.jpg
 reservation_link: 'https://bittercubebar-bitters101.eventbrite.com'
 facebook-event_link:
 featured: false
