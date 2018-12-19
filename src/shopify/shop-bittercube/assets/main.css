@@ -2194,6 +2194,11 @@ img.figlio {
   padding: 20px;
   height: 100%; }
 
+.events-nav a:hover {
+  cursor: pointer; }
+.events-nav a.mixitup-control-active {
+  border-bottom: 1px solid #18374b; }
+
 .events-row .no-events {
   opacity: 0;
   visibility: hidden;
