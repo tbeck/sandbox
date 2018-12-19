@@ -24,11 +24,21 @@ permalink: /visit/events
       {% for event in site.events %}
         <div class="col-lg-6">
           <div class="content">
-            <div class="card text-center">
+            <div class="card event-card text-center">
               <div class="bg-image aspect-16x9" style="background-image: url({{ event.image }})"></div>
               <div class="card-body">
-                <p>{{ event.event_tags }}</p>
-                <h2 class=" editable card-title"></h2>
+                <p class="event-type">{{ event.event_tags }}</p>
+                <div class="event-details">
+                  <p>{{ event.date }}</p>
+                  {% if event.price %}
+                    <p>{{ event.price }}</p>
+                  {% endif %}
+                  {% if event.location %}
+                    <p>{{ event.location }}</p>
+                  {% endif %}
+                </div>
+                <h2 class="card-title text-center">{{ event.title }}</h2>
+
                 <div class="editable">
                   <p>{{ event.event_description }}</p>
                 </div>
