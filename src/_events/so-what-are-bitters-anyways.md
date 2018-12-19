@@ -1,6 +1,6 @@
 ---
 layout: event
-event_tags: Workshop
+tags: Workshop
 event_date_: 'January 5, 2019 4:00 pm'
 location: Bazaar
 price: Free
