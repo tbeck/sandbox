@@ -13,35 +13,47 @@ permalink: /visit/events
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="d-flex justify-content-center">
-          <ul class="nav events-nav">
+        <div class="content d-none d-lg-block">
+          <ul class="nav events-nav justify-content-between">
             <li class="nav-item">
-              <a href="" class="nav-link">All Events</a>
+              <a class="nav-link" data-filter="all">All Events</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Bar Classes</a>
+              <a class="nav-link" data-filter=".bar-class">Bar Classes</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Workshops</a>
+              <a class="nav-link" data-filter=".workshop">Workshops</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Tastings</a>
+              <a class="nav-link" data-filter=".tasting">Tastings</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Pop Up Events</a>
+              <a class="nav-link" data-filter=".pop-up">Pop Up Events</a>
             </li>
           </ul>
         </div>
+        <div class="content d-block d-lg-none">
+          <div class="select event-select">
+            <select name="event-filter-select" id="event-filter-select">
+              <option value="all">All</option>
+              <option value=".bar-class">Bar Classes</option>
+              <option value=".workshop">Workshops</option>
+              <option value=".tasting">Tastings</option>
+              <option value=".pop-up">Pop Up Events</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      {% for event in site.events %}
-        <div class="col-lg-6">
+    <div class="row events-row">
+      {% for object in site.data.event_order.events %}
+        {% assign event = site.events | where: "slug", object | first %}
+        <div class="col-lg-6 mix {{ event.event_type }}">
           <div class="content h-100">
             <div class="card event-card h-100">
               <div class="bg-image aspect-16x9" style="background-image: url({{ event.image }})"></div>
               <div class="card-body">
-                <p class="event-type mb-0 sans-serif text-uppercase text-center font-weight-bold">{{ event.event_tags }}</p>
+                <p class="event-type mb-0 sans-serif text-uppercase text-center font-weight-bold">{{ event.event_type }}</p>
                 <h2 class="card-title text-center text-dark mt-0">{{ event.title }}</h2>
                 <div class="event-details sans-serif font-weight-bold">
                   <p class="mb-0">{{ event.event_date_ }}</p>
@@ -63,6 +75,11 @@ permalink: /visit/events
           </div>
         </div>
       {% endfor %}
+      <div class="col-12 no-events">
+        <div class="d-flex text-center align-items-center justify-content-center p-5">
+          <p class="mb-0">Nothing currently scheduled but check back often as we're always adding new events</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -7,3 +7,39 @@
     height: 100%;
   }
 }
+
+.events-row {
+  .no-events {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    @include transition(opacity, .3s);
+    p {
+      font-size: 20px;
+    }
+  }
+  &.mixitup-container-failed {
+    .no-events {
+      opacity: 1;
+      visibility: visible;
+      height: auto;
+    }
+  }
+}
+
+.select {
+  &.event-select {
+    background-color: $white;
+    border: 0;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .events-row {
+    .no-events {
+      p {
+        font-size: 40px;
+      }
+    }
+  }
+}

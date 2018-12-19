@@ -2185,7 +2185,25 @@ img.figlio {
 .event-card .bg-image {
   background-color: #e9e9e3; }
 .event-card .card-body {
-  padding: 20px; }
+  padding: 20px;
+  height: 100%; }
+
+.events-row .no-events {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  -webkit-transition: 0.3s opacity ease-in-out;
+  transition: 0.3s opacity ease-in-out; }
+  .events-row .no-events p {
+    font-size: 40px; }
+.events-row.mixitup-container-failed .no-events {
+  opacity: 1;
+  visibility: visible;
+  height: auto; }
+
+.select.event-select {
+  background-color: #ffffff;
+  border: 0; }
 
 #about-story .lead {
   font-size: 23px;
