@@ -24,28 +24,25 @@ permalink: /visit/events
       {% for event in site.events %}
         <div class="col-lg-6">
           <div class="content">
-            <div class="card event-card text-center">
+            <div class="card event-card">
               <div class="bg-image aspect-16x9" style="background-image: url({{ event.image }})"></div>
               <div class="card-body">
-                <p class="event-type">{{ event.event_tags }}</p>
-                <div class="event-details">
-                  <p>{{ event.date }}</p>
+                <p class="event-type mb-0 sans-serif text-uppercase text-center font-weight-bold">{{ event.event_tags }}</p>
+                <h2 class="card-title text-center text-dark mt-0">{{ event.title }}</h2>
+                <div class="event-details sans-serif font-weight-bold">
+                  <p>{{ event.event_date_ }}</p>
                   {% if event.price %}
-                    <p>{{ event.price }}</p>
+                    <p>Price: {{ event.price }}</p>
                   {% endif %}
                   {% if event.location %}
-                    <p>{{ event.location }}</p>
+                    <p>Location: {{ event.location }}</p>
                   {% endif %}
                 </div>
-                <h2 class="card-title text-center">{{ event.title }}</h2>
-
-                <div class="editable">
-                  <p>{{ event.event_description }}</p>
-                </div>
+                <p>{{ event.description }}</p>
               </div>
-              <div class="card-footer">
+              <div class="card-footer text-center">
                 {% if event.reservation_link %}
-                <a href="{{ event.reservation_link }}">RSVP at Eventbrite</a>
+                <a href="{{ event.reservation_link }}" class="button inline">RSVP at Eventbrite</a>
                 {% endif %}
               </div>
             </div>
