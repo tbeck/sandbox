@@ -1,13 +1,16 @@
 ---
 layout: event
-event_tags:
+event_tags: Pop-up
 event_name:
-event_date_:
+event_date_: Dec 13-15 and 20-22 5 pm - close
 location:
 price:
-description:
-image:
-reservation_link:
-facebook-event_link:
+description: >-
+  Celebrate the holidays with your family and friends at Bittercube! Free
+  admission, cocktails start at $8. No reservations necessary.
+image: /uploads/holiday-cheer.png
+reservation_link: 'https://bittercubebar-holidaycheer.eventbrite.com'
+facebook-event_link: 'https://www.facebook.com/events/1913961075367423/?ti=ia'
 featured: false
 ---
+
