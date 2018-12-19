@@ -1,7 +1,6 @@
 ---
 layout: event
-tags:
-  - Workshop
+event_type:
 event_date_: 'January 19, 2019 4:00 pm'
 location: Bazaar
 price: Free

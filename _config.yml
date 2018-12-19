@@ -90,6 +90,14 @@ liqueurs:
   - Genepy
   - Pineapple Amaro  
 
+event_types:
+  bar-classes: Bar Class
+  workshop: Workshop
+  tasting: Tasting
+  pop-up: Pop-Up
+
+
+
 # Archives / API
 jekyll-archives:
   enabled: []

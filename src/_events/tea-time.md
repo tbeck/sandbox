@@ -1,7 +1,6 @@
 ---
 layout: event
-tags:
-  - Workshop
+event_type:
 event_date_: 'January 12, 2019 4:00 pm'
 location: Bar
 price: $5

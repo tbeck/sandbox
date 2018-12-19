@@ -1,6 +1,6 @@
 ---
 layout: event
-tags: Pop-up
+event_type:
 event_date_: Dec 13-15 and 20-22 5 pm - close
 location:
 price:

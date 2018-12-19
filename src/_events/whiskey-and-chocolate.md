@@ -1,7 +1,6 @@
 ---
 layout: event
-tags:
-  - Tasting
+event_type:
 event_date_: 'February 14, 2019 8:00 pm'
 location: Bar
 price:
