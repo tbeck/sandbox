@@ -17,6 +17,7 @@
     &:hover {
       cursor: pointer;
     }
+    &:hover,
     &.mixitup-control-active {
       border-bottom: 1px solid $brand-primary;
     }

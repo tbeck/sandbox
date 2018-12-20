@@ -2199,7 +2199,7 @@ img.figlio {
 
 .events-nav a:hover {
   cursor: pointer; }
-.events-nav a.mixitup-control-active {
+.events-nav a:hover, .events-nav a.mixitup-control-active {
   border-bottom: 1px solid #18374b; }
 
 .events-row .no-events {
@@ -2221,7 +2221,7 @@ img.figlio {
 
 @media (min-width: 992px) {
   .events-row .no-events p {
-    font-size: 40px; } }
+    font-size: 27px; } }
 #about-story .lead {
   font-size: 23px;
   line-height: 31px; }
