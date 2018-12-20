@@ -8,6 +8,10 @@
   }
 }
 
+.event-description {
+  line-height: 1.7;
+}
+
 .events-nav {
   a {
     &:hover {
@@ -49,7 +53,7 @@
   .events-row {
     .no-events {
       p {
-        font-size: 40px;
+        font-size: 27px;
       }
     }
   }

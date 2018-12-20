@@ -2194,6 +2194,9 @@ img.figlio {
   padding: 20px;
   height: 100%; }
 
+.event-description {
+  line-height: 1.7; }
+
 .events-nav a:hover {
   cursor: pointer; }
 .events-nav a.mixitup-control-active {
