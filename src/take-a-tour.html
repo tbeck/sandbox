@@ -1,0 +1,65 @@
+---
+layout: page
+title: Take a Tour
+permalink: /visit/take-a-tour
+gallery_images:
+  - image: /uploads/dsc02386.JPG
+  - image: /uploads/dsc02436.JPG
+  - image: /uploads/dsc02448.JPG
+  - image: /uploads/dsc02443.JPG
+  - image: /uploads/p1010604.JPG
+  - image: /uploads/p1010687.JPG
+  - image: /uploads/tour2.jpg
+  - image: /uploads/tour3.jpg
+  - image: /uploads/touralbum1.jpg
+---
+
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/Tour_banner.jpg)">
+  <div class="hero-caption">
+    <h1 class="editable">Take a Tour</h1>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center intro">
+          <p class="editable lead">Join us for a 30 minute tour through our entire facility.</p> 
+          <p class="editable">Featuring a walk through of the Bazaar, a behind the scenes look into the R&amp;D lab, and culminating in the production facility where we will navigate the entire bitters-making process from raw botanicals to bottling. Tours finish in the Bitter-cube Bazaar with a cocktail.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-uppercase mb-0 h3">Sun</p>
+          <p class="mb-0">On the hour</p>
+          <p>11AM-5PM</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-uppercase mb-0">By Appointment</p>
+          <p class="mb-0">email</p>
+          <p><a href="mailto:visit@bittercube.com">visit@bittercube.com</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {% for image in page.gallery_images %}
+      <div class="col-md-3">
+        <div class="content">
+          <a href="{{ image.image }}" class="venobox bg-image aspect-1x1" style="background-image: url({{ image.image }})" data-gall="gallery">
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="bg-yellow">
+  {% include carousel-testimonials.html %}
+</section>
+{% include stop-by.html %}

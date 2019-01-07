@@ -222,6 +222,9 @@
     .products .card .button {
       border-width: 2px;
       margin-top: 0; }
+    .products .card:last-child {
+      margin-right: 0;
+      padding-left: 2.66%; }
   .products h4 {
     font-family: "Alegreya", serif;
     letter-spacing: 0;

@@ -34,6 +34,10 @@ collections:
     output: true
     layout: bartender
     permalink: /bartenders/:name
+  events:
+    output: true
+    layout: event
+    permalink: /event/:name  
 
 defaults:
   - 
@@ -86,6 +90,14 @@ liqueurs:
   - Genepy
   - Pineapple Amaro  
 
+event_types:
+  bar-classes: Bar Class
+  workshop: Workshop
+  tasting: Tasting
+  pop-up: Pop-Up
+
+
+
 # Archives / API
 jekyll-archives:
   enabled: []
@@ -96,3 +108,6 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+_comments:
+  event_tags: 'This is the event type'    

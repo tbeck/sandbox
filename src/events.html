@@ -1,9 +1,138 @@
 ---
 layout: default
-title: Event Brite Test
+title: Events
+permalink: /visit/events
 ---
 
-<section class="d-none hide">
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/events_banner.jpg)">
+  <div class="hero-caption">
+    <h1 class="editable">Bittercube Events</h1>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center intro">
+          <p class="editable lead">
+            We host educational classes, themed cocktail events, plus we can host private intimate gatherings of close friends or
+            mid-sized events up to 45 people.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content d-none d-lg-block">
+          <ul class="nav events-nav justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link" data-filter="all" class="active">All Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-filter=".bar-class">Bar Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-filter=".workshop">Workshops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-filter=".tasting">Tastings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-filter=".pop-up">Pop Up Events</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content d-block d-lg-none">
+          <div class="select event-select">
+            <select name="event-filter-select" id="event-filter-select">
+              <option value="all">All</option>
+              <option value=".bar-class">Bar Classes</option>
+              <option value=".workshop">Workshops</option>
+              <option value=".tasting">Tastings</option>
+              <option value=".pop-up">Pop Up Events</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row events-row">
+      {% for object in site.data.event_order.events %}
+        {% assign event = site.events | where: "slug", object | first %}
+        <div class="col-lg-6 mix {{ event.event_type }}">
+          <div class="content h-100">
+            <div class="card event-card h-100">
+              <div class="bg-image aspect-16x9" style="background-image: url({{ event.image | default: '/assets/img/placeholder.png' }})"></div>
+              <div class="card-body">
+                <p class="event-type mb-0 sans-serif text-uppercase text-center font-weight-bold">{{ event.event_type }}</p>
+                <h2 class="card-title text-center mt-0">{{ event.event_name }}</h2>
+                <div class="event-details sans-serif font-weight-bold my-4">
+                  <p class="mb-0">{{ event.event_date_ }}</p>
+                  {% if event.price %}
+                    <p class="mb-0">Price: {{ event.price }}</p>
+                  {% endif %}
+                  {% if event.location %}
+                    <p class="mb-0">Location: {{ event.location }}</p>
+                  {% endif %}
+                </div>
+                <p class="mt-3 event-description">{{ event.description }}</p>
+                {% if event.facebook_event_link %}
+                <p><a href="{{ event.facebook_event_link }}" target="_blank"><i class="icon-facebook"></i></a></p>
+                {% endif %}
+              </div>
+              <div class="card-footer text-center">
+                
+                {% if event.reservation_link %}
+                  <a href="{{ event.reservation_link }}" class="button inline" target="_blank">RSVP at Eventbrite</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="col-12 no-events">
+        <div class="d-flex text-center align-items-center justify-content-center p-5">
+          <p class="my-lg-5">Nothing currently scheduled but check back often as we're always adding new events</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <h1>Host an Event</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/p1010604.JPG)"></div>
+          <h2>Corporate Events</h2>
+          <p>Team building exercises designed for collaboration and teamwork. Small groups are given a restaurant concept and must
+          work together to create a bespoke tonic tailored to the clientele and cuisine. Each small group presents their creation
+          to the larger group. Private Happy Hour for networking</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/privateevent1.jpg)"></div>
+          <h2>Private Events</h2>
+          <p>Host your wedding, birthday party, anniversary party.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include stop-by.html %}
+
+<!-- <section class="d-none hide">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -43,4 +172,4 @@ title: Event Brite Test
       </div>
     </div>
   </div>
-</section>
+</section> -->

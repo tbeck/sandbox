@@ -1,0 +1,133 @@
+---
+layout: page
+title: Bazaar
+permalink: /visit/bazaar
+---
+
+<div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/bazaar_banner.jpg)">
+  <div class="hero-caption">
+    <h1 class="editable">Bittercube Bazaar</h1>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center intro">
+          <p class="editable lead">An eclectic storefront with knowledgeable staff, the Bittercube Bazaar is stocked with new and vintage bar tools,
+          reference books, and a curated selection of our favorite spirits and liqueurs.</p>
+          <p class="editable">In addition, we feature Bittercube Bitters and a rotating selection of seasonal Tailor Made tonics, ginger beers and On the Fly cocktail elixirs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-center text-uppercase mb-0">Mon-Sat</p>
+          <p>11AM-9PM</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="content text-center">
+          <p class="text-center text-uppercase mb-0">Sun</p>
+          <p>11AM-5PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-yellow bg-pattern">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-5">
+        <div class="content">
+          <a href="https://store.bittercube.com/products/ginger-spiced-cherry-bark-vanilla-bitters-limited-edition" class="bg-image aspect-1x1" style="background-image:url(https://cdn.shopify.com/s/files/1/2296/0755/products/cbv_large.jpg?v=1510701204)"></a>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="content editable">
+          <h2>Featured Special</h2>
+          <h4>Ginger Spiced Cherry Bark Vanilla Bitters</h4>
+          <p class="mb-0">Limited release Ginger spiced Cherry Bark Vanilla Bitters are available.</p>
+          <a href="https://store.bittercube.com/products/ginger-spiced-cherry-bark-vanilla-bitters-limited-edition" class="button">View Product</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials">
+  <div class="container">
+    <div id="demo-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="12000">
+      <!-- <ol class="carousel-indicators">
+        <li data-target="#demo-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"
+          {% endif %}></li>
+      </ol> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-5">
+              <div class="content">
+                <div class="bg-image aspect-1x1" style="background-image: url(/uploads/stir-like-a-pro.jpg)"></div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="content">
+                <h2>Featured Demo</h2>
+                <h4>Stir Your Cocktail Like a Pro!</h4>
+                <p>Familiarize yourself with the tools and learn the techniques to properly stir a cocktail in this hands-on demo. As a
+                bonus, learn the golden ratio for and taste a sample of a classic Old Fashioned. Plus, receive 10% of stirring tools
+                and ingredients for your perfect Old Fashioned.</p>
+                <a href="https://www.eventbrite.com/e/stir-your-cocktail-like-a-pro-tickets-53653605378" class="button inline" target="_blank">RSVP at Eventbrite</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-yellow bg-pattern">
+  <div class="container">
+    <div class="row events-row">
+      {% for object in site.data.event_order.events %}
+      {% assign event = site.events | where: "slug", object | first %}
+        {% if event.featured == true %}
+        <div class="col-lg-6 mix {{ event.event_type }}">
+          <div class="content h-100">
+            <div class="card event-card h-100">
+              <div class="bg-image aspect-16x9" style="background-image: url({{ event.image }})"></div>
+              <div class="card-body">
+                <p class="event-type mb-0 sans-serif text-uppercase text-center font-weight-bold">{{ event.event_type }}</p>
+                <h2 class="card-title text-center text-dark mt-0">{{ event.event_name }}</h2>
+                <div class="event-details sans-serif font-weight-bold">
+                  <p class="mb-0">{{ event.event_date_ }}</p>
+                  {% if event.price %}
+                  <p class="mb-0">Price: {{ event.price }}</p>
+                  {% endif %}
+                  {% if event.location %}
+                  <p class="mb-0">Location: {{ event.location }}</p>
+                  {% endif %}
+                </div>
+                <p class="mt-3">{{ event.description }}</p>
+              </div>
+              <div class="card-footer text-center">
+                {% if event.reservation_link %}
+                <a href="{{ event.reservation_link }}" class="button inline">RSVP at Eventbrite</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <a href="/visit/events" class="button button-blue">View All Events</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include stop-by.html %}
