@@ -3,7 +3,7 @@ layout: event
 event_name: Stir Your Cocktail Like a Pro!
 event_type: workshop
 event_date_: 'January 19, 2019 4:00 pm'
-location: Bazaar
+location: Bar
 price: Free
 description: >-
   Familiarize yourself with the tools and learn the techniques to properly stir
