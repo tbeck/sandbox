@@ -11,7 +11,7 @@ description: >-
   and two half cocktails.
 image: /uploads/tea-time.jpg
 reservation_link: 'https://bittercubebar-teatimeworkshop-tickets.eventbrite.com'
-facebook_event_link:
+facebook_event_link: 'https://www.facebook.com/events/2091016427608296/'
 featured: false
 ---
 
