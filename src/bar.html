@@ -2,10 +2,10 @@
 layout: page
 title: Bar
 permalink: /visit/bar
-bar_menu:
-  - left_image: /assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-1.jpg
-  - right_image: /assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-2.jpg
-  - downloadable_menu_document: /assets/img/Bar-Bazaar-Menu-12-13-Holiday-Menu.pdf
+
+left_image: /assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-1.jpg
+right_image: /assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-2.jpg
+downloadable_menu_document: /assets/img/Bar-Bazaar-Menu-12-13-Holiday-Menu.pdf
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/bar_banner.jpg)">
@@ -56,15 +56,15 @@ bar_menu:
     <div class="row">
       <div class="col-12 col-lg-6">
         <div class="content text-center">
-          <a href="/assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-1.jpg" class="venobox">
-            <img src="/assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-1.jpg" class="img-fluid" alt="Bittercube Bar & Bazaar Menu Image" />
+          <a href="{{ page.left_image }}" class="venobox">
+            <img src="{{ page.left_image }}" class="img-fluid" alt="Bittercube Bar & Bazaar Menu Image">
           </a>
         </div>
       </div>
       <div class="col-12 col-lg-6">
         <div class="content text-center">
-          <a href="/assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-2.jpg" class="venobox">
-            <img src="/assets/img/Bar-&-Bazaar-Menu-12-13-Holiday-Menu-2.jpg" class="img-fluid" alt="Bittercube Bar & Bazaar Menu Image" />
+          <a href="{{ page.right_image }}" class="venobox">
+            <img src="{{ page.right_image }}" class="img-fluid" alt="Bittercube Bar & Bazaar Menu Image">
           </a>
         </div>
       </div>
@@ -72,7 +72,7 @@ bar_menu:
     <div class="row">
       <div class="col-12">
         <div class="content text-center">
-          <p><a class="button inline" href="/assets/img/Bar-Bazaar-Menu-12-13-Holiday-Menu.pdf" target="_blank">Download Menu</a></p>
+          <p><a class="button inline" href="{{ page.downloadable_menu_document }}" target="_blank">Download Menu</a></p>
         </div>
       </div>
     </div>
