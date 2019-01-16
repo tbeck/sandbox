@@ -111,4 +111,4 @@ jekyll-archives:
 
 _comments:
   event_tags: 'This is the event type'  
-  hours: 'If no hours are present, this section will default to show "By Appointment" notification'  
+  hours: 'If none present, section shows default "Appointment" notification'  
