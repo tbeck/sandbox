@@ -222,9 +222,6 @@
     .products .card .button {
       border-width: 2px;
       margin-top: 0; }
-    .products .card:last-child {
-      margin-right: 0;
-      padding-left: 2.66%; }
   .products h4 {
     font-family: "Alegreya", serif;
     letter-spacing: 0;
@@ -266,7 +263,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .products .card {
-      width: 23%; } }
+      width: 23%; }
+      .products .card:last-child {
+        margin-right: auto;
+        padding-left: 2.66%; } }
 .cart-contents {
   list-style: none;
   padding: 0; }

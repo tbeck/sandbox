@@ -5,6 +5,15 @@ permalink: /visit/bar
 left_image: /assets/img/Bar-&-Bazaar-Menu-01_03-1.jpg
 right_image: /assets/img/Bar-&-Bazaar-Menu-01_03-2.jpg
 downloadable_menu_document: /assets/img/Bar & Bazaar Menu 01_03.pdf
+hours:
+  - label: Thurs
+    times: 5PM-Midnight
+  - label: Fri
+    times: 5PM-2AM
+  - label: Sat
+    times: 11AM-2AM
+  - label: Sun
+    times: 11AM-5PM
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/bar_banner.jpg)">
@@ -26,7 +35,7 @@ downloadable_menu_document: /assets/img/Bar & Bazaar Menu 01_03.pdf
         </div>
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-3">
         <div class="content text-center">
           <p class="text-center text-uppercase mb-0">Thurs</p>
@@ -51,6 +60,26 @@ downloadable_menu_document: /assets/img/Bar & Bazaar Menu 01_03.pdf
           <p>11AM-5PM</p>
         </div>
       </div>
+    </div> -->
+    <div class="row justify-content-center">
+      {% if page.hours.first.label != null %}
+        {% for item in page.hours %}
+          <div class="col col-md-auto col-hours">
+            <div class="content text-center">
+              <p class="text-uppercase mb-0">{{ item.label }}</p>
+              <p>{{ item.times }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <div class="col mx-auto">
+          <div class="content text-center">
+            <p class="text-uppercase mb-0">By Appointment</p>
+            <p class="mb-0">email</p>
+            <p><a href="mailto:visit@bittercube.com">visit@bittercube.com</a></p>
+          </div>
+        </div>
+      {% endif %}
     </div>
     <div class="row">
       <div class="col-12 col-lg-6">

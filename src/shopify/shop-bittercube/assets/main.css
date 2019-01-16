@@ -2281,6 +2281,11 @@ img.figlio {
 #visit-overview .card-body {
   padding: 0 20px; }
 
+@media (max-width: 991px) {
+  .col-hours {
+    width: 100%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto; } }
 input,
 textarea {
   border: 0;
