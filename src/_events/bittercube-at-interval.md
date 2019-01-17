@@ -10,7 +10,7 @@ description: >-
   a unique cocktail pairing pop-up!
 
   More details coming soon.
-image:
+image: /uploads/placeholder.jpg
 reservation_link:
 facebook-event_link:
 featured: true
