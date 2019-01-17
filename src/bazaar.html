@@ -2,6 +2,11 @@
 layout: page
 title: Bazaar
 permalink: /visit/bazaar
+hours:
+- label: Mon-Sat
+  times: 11AM-9PM
+- label: Sun
+  times: 11AM-5PM
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/bazaar_banner.jpg)">
@@ -20,7 +25,7 @@ permalink: /visit/bazaar
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
       <div class="col-md-3">
         <div class="content text-center">
           <p class="text-center text-uppercase mb-0">Mon-Sat</p>
@@ -33,6 +38,26 @@ permalink: /visit/bazaar
           <p>11AM-5PM</p>
         </div>
       </div>
+    </div> -->
+    <div class="row justify-content-center">
+      {% if page.hours.first.label != null %}
+      {% for item in page.hours %}
+      <div class="col col-md-auto col-hours">
+        <div class="content text-center">
+          <p class="text-uppercase mb-0">{{ item.label }}</p>
+          <p>{{ item.times }}</p>
+        </div>
+      </div>
+      {% endfor %}
+      {% else %}
+      <div class="col mx-auto">
+        <div class="content text-center">
+          <p class="text-uppercase mb-0">By Appointment</p>
+          <p class="mb-0">email</p>
+          <p><a href="mailto:visit@bittercube.com">visit@bittercube.com</a></p>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
