@@ -12,9 +12,10 @@ summary: >-
   creations from the company. I now have a bar and two restaurants and use
   Bittercube, religiously, as often as I can."
 employer: 'Boombox, Beaker & Gray and Mason Eatery'
-image:
-featured_recipe:
+image: /uploads/BenPotts.jpg
+featured_recipe: black-manhattan-copy
 recipes:
+  - black-manhattan-copy
 featured: false
 ---
 
