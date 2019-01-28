@@ -13,9 +13,9 @@ summary: >-
   Bittercube, religiously, as often as I can."
 employer: 'Boombox, Beaker & Gray and Mason Eatery'
 image: /uploads/BenPotts.jpg
-featured_recipe: black-manhattan-copy
+featured_recipe: a-better-manhattan
 recipes:
-  - black-manhattan-copy
+  - a-better-manhattan
 featured: true
 ---
 
