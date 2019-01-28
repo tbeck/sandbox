@@ -1,16 +1,25 @@
 ---
 layout: recipe
-name: Black Manhattan
-bartender:
+name: A Better Manhattan
+bartender: brandon-reyes-copy
 description:
 ingredients:
-  - name: Redemption Rye
-    quantity: 2 oz
-  - name: Averna Amaro
-    quantity: 1 oz
-  - name: Bittercube Trinity Bitters
+  - name: Rittenhouse Rye Whiskey
+    quantity: 1 1/2 oz
+  - name: Cocchi di Torino Vermouth
+    quantity: 1/2 oz
+  - name: Carpano Antica Formula Vermouth
+    quantity: 1/2 oz
+    link:
+  - name: Bittercube Orange Bitters
     quantity: 2 dropper / dash
-    link: 'https://store.bittercube.com/products/trinity'
+    link: 'https://store.bittercube.com/products/orange'
+  - name: Bittercube Cherry Bark Vanilla Bitters
+    quantity: 2 dropper/dash
+    link: 'https://store.bittercube.com/products/cherry-bark-vanilla'
+  - name: Angostura Bitters
+    quantity: 2 dashes
+    link:
 garnish: Filthy Black Cherry and/or grapefruit  disc
 glass: Coupe or Martini
 instructions_html: >-
