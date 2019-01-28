@@ -16,6 +16,6 @@ image: /uploads/BenPotts.jpg
 featured_recipe: black-manhattan-copy
 recipes:
   - black-manhattan-copy
-featured: false
+featured: true
 ---
 
