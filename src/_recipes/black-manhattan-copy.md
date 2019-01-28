@@ -20,12 +20,12 @@ ingredients:
   - name: Angostura Bitters
     quantity: 2 dashes
     link:
-garnish: Filthy Black Cherry and/or grapefruit  disc
-glass: Coupe or Martini
+garnish: Flamed orange peel and an Amarena cherry
+glass: Nick & Nora
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
-image: /uploads/black-manhattan.jpg
+image: /uploads/what-are-bitters.jpg
 tags:
   - Spirit Forward
   - Bitter
