@@ -7,6 +7,6 @@ employer: Hewing Hotel
 image: /uploads/nate-1.jpg
 featured_recipe: mason-dixon
 recipes:
-featured: true
+featured: false
 ---
 
