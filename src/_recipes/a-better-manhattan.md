@@ -12,7 +12,7 @@ ingredients:
     quantity: 1/2 oz
     link:
   - name: Bittercube Orange Bitters
-    quantity: 2 dropper / dash
+    quantity: 2 dropper/dash
     link: 'https://store.bittercube.com/products/orange'
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 2 dropper/dash
