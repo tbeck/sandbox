@@ -1,7 +1,7 @@
 ---
 layout: recipe
 name: A Better Manhattan
-bartender: brandon-reyes-copy
+bartender: ben-potts
 description:
 ingredients:
   - name: Rittenhouse Rye Whiskey
@@ -25,7 +25,7 @@ glass: Nick & Nora
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
-image: /uploads/what-are-bitters.jpg
+image: /uploads/recipes/Better_Manhattan.jpg
 tags:
   - Spirit Forward
   - Bitter
