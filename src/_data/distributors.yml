@@ -95,8 +95,6 @@ countries:
             link: 'http://www.primewineandspirits.com/'
       - region: Wisconsin
         distributors:
-          - distributor: Frank Liquor
-            link: 'https://frankbeveragegroup.com/'
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
   - country: International
