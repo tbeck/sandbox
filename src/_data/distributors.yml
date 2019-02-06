@@ -1,4 +1,4 @@
-countries: 
+countries:
   - country: United States
     regions:
       - region: Alabama
@@ -10,93 +10,95 @@ countries:
           - distributor: Pacific Edge Wine & Spirits
             link: 'http://www.pacificedgesales.com/'
       - region: California
-        distributors:         
+        distributors:
           - distributor: Pacific Edge Wine & Spirits
             link: 'http://www.pacificedgesales.com/'
       - region: Colorado
-        distributors:           
+        distributors:
           - distributor: Estate Brands
             link: 'http://estatebrandsco.com/'
       - region: Delaware
-        distributors:           
+        distributors:
           - distributor: Prestige-Ledroit Distributing
             link: 'http://prestigeledroit.com/'
       - region: District of Columbia
-        distributors:           
+        distributors:
           - distributor: Prestige-Ledroit Distributing
             link: 'http://prestigeledroit.com/'
       - region: Florida
-        distributors:          
+        distributors:
           - distributor: Stacole Fine Wines
-            link: 'https://www.thewinebowgroup.com/our-companies/stacole-fine-wines/fl'
+            link: >-
+              https://www.thewinebowgroup.com/our-companies/stacole-fine-wines/fl
       - region: Georgia
-        distributors:          
+        distributors:
           - distributor: Quality Wine & Spirits
-            link: 'https://www.thewinebowgroup.com/our-companies/quality-wine-spirits/ga'
+            link: >-
+              https://www.thewinebowgroup.com/our-companies/quality-wine-spirits/ga
       - region: Illinois
-        distributors:          
+        distributors:
           - distributor: BC Merchants
             link: 'http://www.bcmerchants.com/'
       - region: Indiana
-        distributors:          
+        distributors:
           - distributor: 'Indiana Wholesale Wine & Liquor, Inc.'
             link: 'http://johnsonbrothersofin.com/'
       - region: Massachusetts
-        distributors:          
+        distributors:
           - distributor: MS Walker
             link: 'http://www.mswalker.com/'
       - region: Maryland
-        distributors:            
+        distributors:
           - distributor: Prestige-Ledroit Distributing
             link: 'http://prestigeledroit.com/'
       - region: Michigan
-        distributors:              
+        distributors:
           - distributor: Great Lakes Wine & Spirits
             link: 'https://www.glwas.com/'
       - region: Minnesota
-        distributors:              
+        distributors:
           - distributor: Vinocopia
             link: 'https://www.vinocopia.com/'
       - region: Nevada
-        distributors:              
+        distributors:
           - distributor: Pacific Edge Wine & Spirits
             link: 'http://www.pacificedgesales.com/'
       - region: New York
-        distributors:              
+        distributors:
           - distributor: Gotham Artisanal
             link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
       - region: North Carolina
-        distributors:    
+        distributors:
           - distributor: The Country Vintner
             link: 'https://www.thewinebowgroup.com/distribution-markets/nc/'
       - region: Rhode Island
-        distributors:              
+        distributors:
           - distributor: MS Walker
             link: 'http://www.mswalker.com/'
       - region: South Carolina
-        distributors:              
+        distributors:
           - distributor: Advintage Wine Distributing
             link: 'https://www.advintagedistributing.com/'
       - region: Texas
-        distributors:              
+        distributors:
           - distributor: Victory Wine Group
             link: 'http://www.victorywinegroup.com/'
       - region: Virgina
-        distributors:              
+        distributors:
           - distributor: The Country Vintner
             link: 'https://www.thewinebowgroup.com/distribution-markets/va/'
       - region: Washington
-        distributors:              
+        distributors:
           - distributor: Milepost 65
             link: 'http://www.milepost65.com/'
           - distributor: Prime Wine & Spirits Washington
             link: 'http://www.primewineandspirits.com/'
       - region: Wisconsin
-        distributors:      
-          - distributor: Badger Liquor
-            link: 'http://badgerliquor.com/'
+        distributors:
           - distributor: Frank Liquor
             link: 'https://frankbeveragegroup.com/'
+          - distributor: Left Bank Wine and Spirits
+            link: 'https://www.leftbankwine.com/'
   - country: International
     regions:
       - region: Ontario
@@ -111,5 +113,3 @@ countries:
         distributors:
           - distributor: Vino e Design
             link: 'http://www.vinoedesign.it/'
-
-
