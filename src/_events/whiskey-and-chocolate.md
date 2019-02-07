@@ -24,7 +24,7 @@ description: >-
   Cafe Venus: Heirloom espresso martini liqueur, cacao butter washed Akashi
   whiskey, de-oaked Sherry, Cherry Bark Vanilla bitters - Indulgence Honey
   Vanilla Latte truffle
-image:
+image: /uploads/cocktail-chocolate.jpg
 reservation_link:
 facebook_event_link:
 featured: false
