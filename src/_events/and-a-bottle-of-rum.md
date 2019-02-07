@@ -1,7 +1,7 @@
 ---
 layout: event
 event_name: And a Bottle of Rum
-event_type: workshop
+event_type: tasting
 event_date_: 'February 16, 2019 4:00 pm'
 location: Bazaar
 price: Free
@@ -10,7 +10,7 @@ description: >-
   history and production methods, plus taste a classic Daiquiri seasoned with
   Bittercube Bitters and learn how to replicate this cocktail at home. And enjoy
   10% off all bottles of rum.
-image:
+image: /uploads/bottle-rum.jpg
 reservation_link:
 facebook-event_link:
 featured: false
