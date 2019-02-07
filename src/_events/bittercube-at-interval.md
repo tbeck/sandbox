@@ -9,8 +9,8 @@ description: >-
   We're driving across town to spend a few days with our friends at Interval for
   a unique cocktail pairing pop-up!
 
-  More details coming soon.
-image: /uploads/placeholder.jpg
+  6 cocktails available with a food pairing from Interval.
+image: /uploads/img-3864.JPG
 reservation_link:
 facebook-event_link:
 featured: true
