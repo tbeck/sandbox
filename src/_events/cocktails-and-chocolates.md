@@ -11,24 +11,6 @@ description: >-
 
 
   Each pairing is $12.
-
-
-  Cocktail & Chocolate menu:
-
-
-  Casanova: orange juice, ginger syrup, brandy, Cappelletti, cayenne, Jamaican
-  No.1 bitters - Indulgence Pomegranate Mango Chipotle truffle
-
-
-
-  Cupid’s Elixir: Rujero Singani, cranberry, rosemary, chocolate, Bolivar
-  bitters - Indulgence Raspberry Earl Grey truffle 
-
-
-
-  Cafe Venus: Heirloom espresso martini liqueur, cacao butter washed Akashi
-  whiskey, de-oaked Sherry, Cherry Bark Vanilla bitters - Indulgence Honey
-  Vanilla Latte truffle
 image: /uploads/cocktail-chocolate.jpg
 reservation_link:
 facebook_event_link:
