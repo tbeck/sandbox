@@ -2,7 +2,7 @@
 layout: event
 event_name: And a Bottle of Rum
 event_type: tasting
-event_date_: 'February 16, 2019 4:00 pm'
+event_date_: 'February 9, 2019 4:00 pm'
 location: Bazaar
 price: Free
 description: >-
