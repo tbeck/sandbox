@@ -20,9 +20,6 @@
     - name: Staci Nielsen
       role: Kitchen Coordinator
       image: /uploads/staci.jpg
-    - name: John Griffin
-      role: Shipping Coordinator
-      image: /uploads/john-1.jpg
     - name: Jeff Othman
       role: Production Assistant
       image: /uploads/jeff-bittercube.jpg
