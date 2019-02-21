@@ -13,6 +13,6 @@ description: >-
 image: /uploads/img-3864.JPG
 reservation_link:
 facebook-event_link: 'https://www.facebook.com/events/316016982361015/'
-featured: true
+featured: false
 ---
 
