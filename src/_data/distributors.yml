@@ -97,6 +97,10 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
+      - region: Tennesssee
+        distributors:
+          - distributor:
+            link:
   - country: International
     regions:
       - region: Ontario
