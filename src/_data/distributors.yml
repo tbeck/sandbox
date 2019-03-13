@@ -65,8 +65,8 @@ countries:
             link: 'http://www.pacificedgesales.com/'
       - region: New York
         distributors:
-          - distributor: Gotham Artisanal
-            link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
+          - distributor: Oliver McCrum Wines
+            link: 'http://omwines.com/'
       - region: North Carolina
         distributors:
           - distributor: Advintage
