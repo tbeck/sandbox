@@ -77,7 +77,7 @@ countries:
             link: 'http://www.mswalker.com/'
       - region: South Carolina
         distributors:
-          - distributor: Advintage Wine Distributing
+          - distributor: Advintage Distributing
             link: 'https://www.advintagedistributing.com/'
       - region: Tennesssee
         distributors:
