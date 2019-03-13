@@ -69,8 +69,8 @@ countries:
             link: 'http://www.gothamartisanal.com/Gotham_Artisanal/Home.html'
       - region: North Carolina
         distributors:
-          - distributor: The Country Vintner
-            link: 'https://www.thewinebowgroup.com/distribution-markets/nc/'
+          - distributor: Advintage
+            link: 'https://www.advintagedistributing.com/'
       - region: Rhode Island
         distributors:
           - distributor: MS Walker
