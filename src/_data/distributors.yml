@@ -79,6 +79,10 @@ countries:
         distributors:
           - distributor: Advintage Wine Distributing
             link: 'https://www.advintagedistributing.com/'
+      - region: Tennesssee
+        distributors:
+          - distributor: Ajax Turner
+            link: 'https://ajaxturner.com/'
       - region: Texas
         distributors:
           - distributor: Victory Wine Group
@@ -97,10 +101,6 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Tennesssee
-        distributors:
-          - distributor:
-            link:
   - country: International
     regions:
       - region: Ontario
