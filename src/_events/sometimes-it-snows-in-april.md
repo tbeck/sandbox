@@ -27,7 +27,7 @@ description: >-
   Bursters and other surprises.
 
   Don't forget to take a selfie in The Prince Room!
-image: /uploads/fb-header.jpg
+image: /uploads/web-header.jpg
 reservation_link:
 facebook-event_link:
 featured: true
