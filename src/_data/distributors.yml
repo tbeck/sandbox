@@ -59,6 +59,10 @@ countries:
         distributors:
           - distributor: Vinocopia
             link: 'https://www.vinocopia.com/'
+      - region: Missouri
+        distributors:
+          - distributor: Vintegrity Wines and Spirits
+            link: 'http://www.vintegritywine.com/'
       - region: Nevada
         distributors:
           - distributor: Pacific Edge Wine & Spirits
@@ -101,7 +105,7 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Missouri
+      - region: Kansas
         distributors:
           - distributor: Vintegrity Wines and Spirits
             link: 'http://www.vintegritywine.com/'
