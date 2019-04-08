@@ -101,6 +101,10 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
+      - region: Missouri
+        distributors:
+          - distributor: Vintegrity Wines and Spirits
+            link: 'http://www.vintegritywine.com/'
   - country: International
     regions:
       - region: Ontario
