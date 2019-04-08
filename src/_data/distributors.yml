@@ -43,6 +43,10 @@ countries:
         distributors:
           - distributor: 'Indiana Wholesale Wine & Liquor, Inc.'
             link: 'http://johnsonbrothersofin.com/'
+      - region: Kansas
+        distributors:
+          - distributor: Vintegrity Wines and Spirits
+            link: 'http://www.vintegritywine.com/'
       - region: Massachusetts
         distributors:
           - distributor: MS Walker
@@ -105,10 +109,6 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Kansas
-        distributors:
-          - distributor: Vintegrity Wines and Spirits
-            link: 'http://www.vintegritywine.com/'
   - country: International
     regions:
       - region: Ontario
