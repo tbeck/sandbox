@@ -1,7 +1,7 @@
 ---
 layout: event
 event_name: 'Cocktail Syrups: Patio Vibes'
-event_type: workshop
+event_type: bar-classes
 event_date_: 'May 11, 2019 4:00PM'
 location: Bar
 price: $15
