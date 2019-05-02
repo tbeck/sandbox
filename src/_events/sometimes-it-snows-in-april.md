@@ -2,7 +2,7 @@
 layout: event
 event_name: Sometimes it Snows in April
 event_type: pop-up
-event_date_: 'April 4 - 27, 2019'
+event_date_: 'April 4 - May 4, 2019'
 location: Bittercube Bar & Bazaar
 price: $9 - $12 cocktails
 description: >-
