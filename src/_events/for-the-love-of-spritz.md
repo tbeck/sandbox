@@ -6,7 +6,7 @@ event_date_: 'May 25, 2019 4:00PM'
 location: Bar
 price: $15
 description: >-
-  It’s time to pop the bubbly and hang with friends outside! In this workshop we
+  It’s time to pop the bubbly and hang with friends outside! In this class we
   will discuss the history of  the Italian Spritz, sample a few variations and
   provide a basic formula to make easy and refreshing drinks at home. Plus, we
   will taste through the complete Heirloom Liqueurs line up.
