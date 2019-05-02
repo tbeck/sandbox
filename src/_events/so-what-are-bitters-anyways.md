@@ -1,15 +1,18 @@
 ---
 layout: event
-event_name: So What Are Bitters Anyways?
+event_name: 'Facility Tour (aka, So What Are Bitters Anyways?)'
 event_type: workshop
-event_date_: 'March 2, 2019 4:00 pm'
-location: Bar
-price: Free
+event_date_: 'June 15, 2019 4:00 pm'
+location: Bar & Bazaar
+price: $15
 description: >-
-  Ever wonder how to effectively use bitters in cocktails? In this workshop we
-  will explain how our bitters are made as well as taste and smell each of them,
-  learning tips and tricks for using them in cocktails and cooking. We will also
-  sample a cocktail that effectively showcases bitters. Plus receive 10% off all
+  Ever wonder how bitters are made and how to effectively use them? This
+  interactive facility tour starts with a welcome drink in the Bazaar. We will
+  go behind the scenes in the production facility, where we will navigate the
+  entire bitters-making process from raw botanicals to bottling. Next, we will
+  make a stop at the R&D lab and taste something that we are currently working
+  on. The tour finishes in The Conference Room with a bitters demonstration and
+  a cocktail of your choice from the Bazaar. Plus, receive 10% off all
   Bittercube Bitters.
 image: /uploads/what-are-bitters-crop.jpg
 reservation_link: 'https://bittercubebar-bitters101.eventbrite.com'
