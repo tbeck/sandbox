@@ -26,6 +26,9 @@
     - name: Conor Benham
       role: Production Assistant
       image: /uploads/connor-bittercube.jpg
+    - name: Nathan Toth
+      role: Production Assistant
+      image: /uploads/nathantoth.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
