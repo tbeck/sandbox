@@ -35,7 +35,6 @@ tags:
   - Heirloom Liqueurs
   - Herbaceous
   - Refreshing
-  - Summer
 products:
 liqueurs:
   - Genepy
