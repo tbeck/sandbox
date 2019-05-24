@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey syrup
     quantity: 3/4 oz
-    link: http://bittercube.com/recipes/syrup/honey-syrup
+    link: 'http://bittercube.com/recipes/syrup/honey-syrup'
   - name: Gamle Ode Celebration on Rye Aquavit
     quantity: 1 3/4 oz
   - name: Yellow Chartreuse
@@ -17,7 +17,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Marvel Bar Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/marvel-bar
+    link: 'https://store.bittercube.com/products/marvel-bar'
 garnish: Rosemary sprig
 glass: Collins with ice
 instructions_html: >-
@@ -36,5 +36,4 @@ products:
   - marvel-bar
 featured: false
 ---
-
 
