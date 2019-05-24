@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/3 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Plantation 3 Stars White Rum
     quantity: 3/4 oz
   - name: Pierre Ferrand 1840 Cognac
@@ -17,7 +17,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/orange
+    link: 'https://store.bittercube.com/products/orange'
 garnish: Thin lime wheel
 glass: Coupe or Martini
 instructions_html: >-
@@ -29,10 +29,8 @@ tags:
   - Citrusy
   - Tropical
   - Spring
-  - Summer
 products:
   - orange
 featured: false
 ---
-
 
