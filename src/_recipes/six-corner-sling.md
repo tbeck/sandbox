@@ -38,7 +38,6 @@ tags:
   - Bitter
   - Refreshing
   - Fall
-  - Summer
 products:
   - blackstrap
   - orange
