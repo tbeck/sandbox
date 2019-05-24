@@ -34,7 +34,6 @@ tags:
   - Spicy
   - Tropical
   - Fall
-  - Summer
 products:
   - jamaican-1
   - blackstrap
