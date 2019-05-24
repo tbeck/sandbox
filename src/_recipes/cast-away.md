@@ -30,8 +30,11 @@ instructions_html: >-
 image: /uploads/cast-away1.jpg
 tags:
   - Alchermes
+  - Heirloom Liqueurs
+  - Summer
+  - Tropical
 products:
-liqueurs: 
+liqueurs:
   - Alchermes
 featured: false
 ---
