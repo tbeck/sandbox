@@ -28,6 +28,6 @@ tags:
 products:
 liqueurs:
   - Creme De Flora
-featured: true
+featured: false
 ---
 
