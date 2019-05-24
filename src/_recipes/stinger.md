@@ -33,6 +33,9 @@ image: /uploads/stinger-2.jpg
 tags:
   - Genepy
   - Heirloom Liqueurs
+  - Herbaceous
+  - Refreshing
+  - Summer
 products:
 liqueurs:
   - Genepy
