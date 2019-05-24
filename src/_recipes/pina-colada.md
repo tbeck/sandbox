@@ -35,7 +35,6 @@ tags:
   - Pineapple Amaro
   - Heirloom Liqueurs
   - Tropical
-  - Summer
 products:
 liqueurs:
   - Pineapple Amaro
