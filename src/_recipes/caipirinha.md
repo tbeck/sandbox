@@ -26,8 +26,9 @@ tags:
   - Citrusy
   - Crisp
   - Tropical
+  - Summer
 products:
   - orange
-featured: false
+featured: true
 ---
 
