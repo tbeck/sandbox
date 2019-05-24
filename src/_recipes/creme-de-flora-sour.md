@@ -22,9 +22,12 @@ image: /uploads/cdf-sour2.jpg
 tags:
   - Creme de Flora
   - Heirloom Liqueurs
+  - Floral
+  - Spring
+  - Summer
 products:
-liqueurs: 
+liqueurs:
   - Creme De Flora
-featured: false
+featured: true
 ---
 
