@@ -26,7 +26,6 @@ image: /uploads/recipes/Rocket_Squirrel.jpg
 tags:
   - Citrusy
   - Tropical
-  - Summer
   - Fall
   - Nutty
 products:
