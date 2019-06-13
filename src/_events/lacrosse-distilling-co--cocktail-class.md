@@ -10,8 +10,7 @@ description: >-
   friends at La Crosse Distillery Co.
 
   We will taste through their different spirit expressions and demonstrate 3
-  different cocktails - one shaken (Daisy), one stirred (Negroni) and one
-  highball.
+  different cocktails - Hodag Margarita, Tropical Negroni and High Rye Highball.
 
   This class includes 3 cocktail samples. All guests must be 21+.
 image: /uploads/lcdc.png
