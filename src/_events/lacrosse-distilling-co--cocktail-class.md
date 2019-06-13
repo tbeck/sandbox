@@ -13,7 +13,7 @@ description: >-
   different cocktails - Hodag Margarita, Tropical Negroni and High Rye Highball.
 
   This class includes 3 cocktail samples. All guests must be 21+.
-image: /uploads/lcdc.png
+image: /uploads/lcdc2.png
 reservation_link:
 facebook-event_link:
 featured: false
