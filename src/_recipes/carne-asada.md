@@ -71,6 +71,8 @@ image: /uploads/carneasada---copy.jpg
 tags:
   - Marinade
   - Cooking
+  - Grill
+  - Steak
 products:
 liqueurs:
 featured: false
