@@ -26,7 +26,7 @@ instructions_html: >-
   for a different flavor profile!</li><li>This vinaigrette is delicious with
   fruit. Chop apples, pears, or throw in some blueberries or
   blackberries</li></ul>
-image:
+image: /uploads/mark.jpg
 tags:
   - Cooking
   - Salad
