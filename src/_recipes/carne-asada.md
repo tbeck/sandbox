@@ -3,8 +3,8 @@ layout: recipe
 name: Carne Asada
 bartender:
 description: >-
-  Bittercube Bitters are great to enhance marinades, dressings, soups & chilis,
-  baking and more!
+  Bittercube Bitters are great way to enhance your cooking. Use them in
+  marinades, dressings, soups & chilis, baking and more!
 ingredients:
   - name: 'garlic cloves, minced'
     quantity: '4'
