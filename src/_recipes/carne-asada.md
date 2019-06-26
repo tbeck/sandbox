@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Carne Asada
+name: Carne Asada Marinade
 bartender:
 description: >-
   Bittercube Bitters are great way to enhance your cooking. Use them in
