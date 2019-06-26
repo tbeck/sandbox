@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Jerk Chicken
+name: Jerk Chicken Marinade
 bartender:
 description:
 ingredients:
