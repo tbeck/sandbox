@@ -79,6 +79,10 @@ countries:
         distributors:
           - distributor: Advintage
             link: 'https://www.advintagedistributing.com/'
+      - region: Ohio
+        distributors:
+          - distributor: Cavalier Distributing
+            link: 'https://cavbeer.com/ohio/?state=2'
       - region: Oklahoma
         distributors:
           - distributor: Artisan Fine Wine & Spirits
@@ -113,12 +117,10 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Ohio
+      - region: Louisiana
         distributors:
-          - distributor:
-            link:
-          - distributor: Cavalier Distributing
-            link: 'https://cavbeer.com/ohio/?state=2'
+          - distributor: Uncorked
+            link: 'https://www.uncorkednola.com/'
   - country: International
     regions:
       - region: Ontario
