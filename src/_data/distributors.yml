@@ -15,8 +15,8 @@ countries:
             link: 'http://www.pacificedgesales.com/'
       - region: Colorado
         distributors:
-          - distributor: Estate Brands
-            link: 'http://estatebrandsco.com/'
+          - distributor: European Wine & Spirits
+            link: 'https://www.europeanwinesandspirits.net/'
       - region: Delaware
         distributors:
           - distributor: Prestige-Ledroit Distributing
