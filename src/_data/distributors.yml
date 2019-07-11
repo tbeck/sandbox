@@ -79,6 +79,10 @@ countries:
         distributors:
           - distributor: Advintage
             link: 'https://www.advintagedistributing.com/'
+      - region: Oklahoma
+        distributors:
+          - distributor: Artisan Fine Wine & Spirits
+            link: 'http://www.artisanfinewineandspirits.com/'
       - region: Rhode Island
         distributors:
           - distributor: MS Walker
@@ -109,10 +113,12 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Oklahoma
+      - region: Ohio
         distributors:
-          - distributor: Artisan Fine Wine & Spirits
-            link: 'http://www.artisanfinewineandspirits.com/'
+          - distributor:
+            link:
+          - distributor: Cavalier Distributing
+            link: 'https://cavbeer.com/ohio/?state=2'
   - country: International
     regions:
       - region: Ontario
