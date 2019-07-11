@@ -47,6 +47,10 @@ countries:
         distributors:
           - distributor: Vintegrity Wines and Spirits
             link: 'http://www.vintegritywine.com/'
+      - region: Louisiana
+        distributors:
+          - distributor: Uncorked
+            link: 'https://www.uncorkednola.com/'
       - region: Massachusetts
         distributors:
           - distributor: MS Walker
@@ -117,10 +121,6 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
-      - region: Louisiana
-        distributors:
-          - distributor: Uncorked
-            link: 'https://www.uncorkednola.com/'
   - country: International
     regions:
       - region: Ontario
