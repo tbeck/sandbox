@@ -109,6 +109,10 @@ countries:
         distributors:
           - distributor: Left Bank Wine and Spirits
             link: 'https://www.leftbankwine.com/'
+      - region: Oklahoma
+        distributors:
+          - distributor: Artisan Fine Wine & Spirits
+            link: 'http://www.artisanfinewineandspirits.com/'
   - country: International
     regions:
       - region: Ontario
