@@ -28,8 +28,7 @@ countries:
       - region: Florida
         distributors:
           - distributor: Stacole Fine Wines
-            link: >-
-              https://www.thewinebowgroup.com/our-companies/stacole-fine-wines/fl
+            link: 'https://www.winebow.com/wholesale/fl/'
       - region: Georgia
         distributors:
           - distributor: Quality Wine & Spirits
