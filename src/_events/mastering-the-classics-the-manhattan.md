@@ -1,6 +1,6 @@
 ---
 layout: event
-event_name: Mastering the Classics The Manhattan
+event_name: 'Mastering the Classics: The Manhattan'
 event_type: bar-classes
 event_date_: 'September 5, 2019 4:00 PM'
 location: Bittercube Bar
