@@ -2,7 +2,7 @@
 layout: event
 event_name: 'Mastering the Classics: The Manhattan'
 event_type: bar-classes
-event_date_: 'September 5, 2019 4:00 PM'
+event_date_: 'September 5, 2019 4:00PM'
 location: Bittercube Bar
 price: $15.00
 description: >-
