@@ -1,6 +1,6 @@
 ---
 layout: event
-event_name: How do you like them apples?
+event_name: How Do You Like Them Apples?
 event_type: bar-classes
 event_date_: 'September 28, 2019 4:00 PM'
 location: Bittercube Bar
