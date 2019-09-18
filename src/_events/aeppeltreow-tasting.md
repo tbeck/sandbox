@@ -9,7 +9,6 @@ description: >-
   Join us on Saturday, September 28 from 2-4 PM for a free tasting of
   AEppelTreow products.
 
-  They will have samples of ciders, wines and spirits available!
 
   Plus enjoy $5 cocktail specials!
 image: /uploads/appleclass-1.jpg
