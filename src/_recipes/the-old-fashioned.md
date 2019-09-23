@@ -11,7 +11,7 @@ ingredients:
     quantity: 2 oz
   - name: Bittercube Trinity Bitters
     quantity: 2 dropper/dash
-    link: https://store.bittercube.com/products/trinity
+    link: 'https://store.bittercube.com/products/trinity'
 garnish: Orange peel expressed and inserted
 glass: Rocks with large chunk of ice
 instructions_html: >-
@@ -20,14 +20,14 @@ instructions_html: >-
   glass.</p><p>Adjustment: Try a different spirit or combination of spirits.
   Demerara is best with brown spirits and simple syrup is recommended for clear
   spirits.</p>
-image: /uploads/recipes/Old_Fashioned.jpg
+image: /uploads/img-5230.JPG
 tags:
   - Spirit Forward
   - Bitter
   - Dry
+  - Fall
 products:
   - trinity
 featured: false
 ---
-
 
