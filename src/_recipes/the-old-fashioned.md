@@ -28,6 +28,6 @@ tags:
   - Fall
 products:
   - trinity
-featured: false
+featured: true
 ---
 
