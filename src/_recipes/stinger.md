@@ -38,6 +38,6 @@ tags:
 products:
 liqueurs:
   - Genepy
-featured: true
+featured: false
 ---
 
