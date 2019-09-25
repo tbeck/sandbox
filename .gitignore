@@ -3,10 +3,15 @@
 .bundle
 .jekyll-metadata
 
-_site
-build
+# Site build & Distribution
+dist
+
+# Logs
+*.log
 
 # Packages
-bower_components
 node_modules
 
+vendor/**/*
+
+notes.txt
