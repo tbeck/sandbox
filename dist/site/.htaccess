@@ -1,5 +1,0 @@
-# Add specific settings - Does not work on Cloudcannon hosting
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
