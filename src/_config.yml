@@ -25,19 +25,19 @@ collections:
   recipes:
     output: true
     layout: recipe
-    permalink: /recipes/:name
+    permalink: /recipes/:name/
   syrup_recipes:
     output: true
     layout: syrup_recipe
-    permalink: /recipes/syrup/:name
+    permalink: /recipes/syrup/:name/
   bartenders:
     output: true
     layout: bartender
-    permalink: /bartenders/:name
+    permalink: /bartenders/:name/
   events:
     output: true
     layout: event
-    permalink: /event/:name  
+    permalink: /event/:name/
 
 defaults:
   - 
