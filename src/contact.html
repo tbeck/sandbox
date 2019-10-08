@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-permalink: /contact
 ---
 
 <div class="hero" style="background-image: url(/assets/img/contact/contact-header.jpg)">
@@ -33,39 +32,5 @@ permalink: /contact
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <div class="content text-center">
-          <h2 class="editable" href="tel:414-3674477">Distributors</h2>
-        </div>
-      </div>
-    </div>
-   
-    {% for object in site.data.distributors.countries %}
-      <div class="row">
-        <div class="col">
-          <div class="content text-center">
-            <h3 class="bordered">{{ object.country }}</h3>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col">
-          <div class="content">
-            <div class="distributors">
-              {% for obj in object.regions %}
-                  <div class="distributor">
-                  <h4>{{ obj.region }}</h4>
-                  {% for d in obj.distributors %}
-                  <p><a href="{{ d.link }}">{{ d.distributor }}</a></p>
-                  {% endfor %}
-                  </div>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
   </div>
 </section>
