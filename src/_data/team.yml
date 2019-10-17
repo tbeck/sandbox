@@ -17,6 +17,9 @@
     - name: Staci Nielsen
       role: Order Coordinator
       image: /uploads/staci.jpg
+    - name: David Japke
+      role: Fulfillment/Bartender
+      image: /uploads/japke.jpg
     - name: TJ Ochs
       role: Kitchen Coordinator
       image: /uploads/tj-ochs-1.jpg
@@ -26,9 +29,6 @@
     - name: Nathan Toth
       role: Production Assistant
       image: /uploads/nathantoth.jpg
-    - name: David Japke
-      role: Fulfillment/Bartender
-      image: /uploads/japke.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
@@ -53,9 +53,6 @@
     - name: Kylen Eberlein
       role: Retail Manager
       image: /uploads/kylen-bittercube.jpg
-    - name: David Japke
-      role: Fulfillment/Bartender
-      image: /uploads/japke.jpg
     - name: William Gardiner
       role: Bartender
       image: /uploads/william.jpg
