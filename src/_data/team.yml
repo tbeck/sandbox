@@ -11,21 +11,24 @@
     - name: Brendan Benham
       role: Director of Operations
       image: /uploads/brendan-benham.jpg
-    - name: TJ Ochs
-      role: Kitchen Coordinator
-      image: /uploads/tj-ochs-1.jpg
-    - name: Staci Nielsen
-      role: Order Coordinator
-      image: /uploads/staci.jpg
     - name: Jeff Othman
       role: Bitters Production Specialist
       image: /uploads/jeff-bittercube.jpg
+    - name: Staci Nielsen
+      role: Order Coordinator
+      image: /uploads/staci.jpg
+    - name: TJ Ochs
+      role: Kitchen Coordinator
+      image: /uploads/tj-ochs-1.jpg
     - name: Conor Benham
       role: Production Assistant
       image: /uploads/connor-bittercube.jpg
     - name: Nathan Toth
       role: Production Assistant
       image: /uploads/nathantoth.jpg
+    - name: David Japke
+      role: Fulfillment/Bartender
+      image: /uploads/japke.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
