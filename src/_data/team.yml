@@ -48,8 +48,8 @@
 - title: Bar & Bazaar
   staff:
     - name: Brandon Reyes
-      role: 'Manager of R&D, Bar Manager'
-      image: /uploads/brandon-reyes.jpg
+      role: R&D Manager/Bar Manager
+      image: /uploads/brando.jpg
     - name: Kylen Eberlein
       role: Retail Manager
       image: /uploads/kylen1.jpg
