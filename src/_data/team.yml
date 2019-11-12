@@ -45,6 +45,9 @@
     - name: Louie LaFleur
       role: Account Manager
       image: /uploads/louie2.jpg
+    - name: Jack Tillman
+      role: Emissary
+      image: /uploads/jtillman.jpg
 - title: Bar & Bazaar
   staff:
     - name: Brandon Reyes
