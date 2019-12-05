@@ -1,6 +1,6 @@
 ---
 layout: event
-event_name: 'Cocktail Class: Holiday After Dinner Drinks with Heirloom Liqueurs'
+event_name: 'Holiday Cocktail Class: After Dinner Drinks with Heirloom Liqueurs'
 event_type: bar-classes
 event_date_: 'December 21, 2019 4 PM'
 location: Bittercube Bar
