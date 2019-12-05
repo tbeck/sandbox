@@ -36,6 +36,6 @@ tags:
   - Winter
 products:
   - jamaican-1
-featured: false
+featured: true
 ---
 
