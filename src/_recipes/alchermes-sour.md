@@ -27,8 +27,8 @@ tags:
   - Alchermes
   - Sour
 products:
-liqueurs: 
+liqueurs:
   - Alchermes
-featured: false
+featured: true
 ---
 
