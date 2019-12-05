@@ -2,7 +2,7 @@
 layout: event
 event_name: 'Holiday Cocktail Class: After Dinner Drinks with Heirloom Liqueurs'
 event_type: bar-classes
-event_date_: 'December 21, 2019 4 PM'
+event_date_: 'December 21, 2019 4:00 PM'
 location: Bittercube Bar
 price: $20.00
 description: >-
