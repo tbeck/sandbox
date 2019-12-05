@@ -34,6 +34,7 @@ tags:
   - Compote
   - Fruity
   - Food
+  - Cooking
 products: Bittercube Trinity Bitters
 liqueurs:
 featured: false
