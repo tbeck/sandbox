@@ -31,6 +31,7 @@ tags:
   - Cooking
   - Salad
   - Vinaigrette
+  - Food
 products:
 liqueurs:
 featured: false
