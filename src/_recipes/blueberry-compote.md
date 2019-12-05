@@ -20,7 +20,7 @@ ingredients:
     quantity: 1 pinch
     link:
   - name: Bittercube Trinity Bitters
-    quantity: 30 dashes (2 Tbsp)
+    quantity: 30 dashes
     link: 'https://store.bittercube.com/products/trinity'
 garnish:
 glass:
