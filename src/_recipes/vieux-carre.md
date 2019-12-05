@@ -14,10 +14,10 @@ ingredients:
     quantity: 1/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/trinity
+    link: 'https://store.bittercube.com/products/trinity'
   - name: Bittercube Marvel Bar Bitters
     quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/marvel-bar
+    link: 'https://store.bittercube.com/products/marvel-bar'
 garnish: Lemon disc
 glass: Mini rocks
 instructions_html: >-
@@ -31,7 +31,6 @@ tags:
 products:
   - trinity
   - marvel-bar
-featured: false
+featured: true
 ---
-
 
