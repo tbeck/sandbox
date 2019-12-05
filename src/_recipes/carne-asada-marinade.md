@@ -73,6 +73,7 @@ tags:
   - Cooking
   - Grill
   - Steak
+  - Food
 products:
 liqueurs:
 featured: false
