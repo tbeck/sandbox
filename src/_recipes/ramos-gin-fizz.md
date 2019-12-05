@@ -40,7 +40,6 @@ tags:
   - Effervescent
 products:
   - trinity
-featured: false
+featured: true
 ---
-
 
