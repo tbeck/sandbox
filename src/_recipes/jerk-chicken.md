@@ -79,6 +79,7 @@ tags:
   - Pork
   - Vegetables
   - Grill
+  - Food
 products:
 liqueurs:
 featured: false
