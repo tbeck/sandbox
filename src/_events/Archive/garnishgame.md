@@ -13,5 +13,6 @@ image: /uploads/garnish-game.JPG
 reservation_link: 'https://bittercubebar-garnishgame.eventbrite.com'
 facebook-event_link: 'https://www.facebook.com/events/245773659687549/'
 featured: false
+meta:
 ---
 

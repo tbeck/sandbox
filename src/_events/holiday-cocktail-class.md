@@ -24,5 +24,6 @@ reservation_link: >-
   https://www.exploretock.com/bittercube/event/83306/holiday-after-dinner-drinks-cocktail-class
 facebook-event_link:
 featured: false
+meta:
 ---
 

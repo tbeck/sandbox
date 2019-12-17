@@ -27,5 +27,6 @@ products:
 liqueurs: 
   - Genepy
 featured: false
+meta:
 ---
 

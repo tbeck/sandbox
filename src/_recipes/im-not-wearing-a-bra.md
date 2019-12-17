@@ -30,6 +30,7 @@ products:
   - blackstrap
   - jamaican-1
 featured: false
+meta:
 ---
 
 

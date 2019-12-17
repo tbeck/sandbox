@@ -15,5 +15,6 @@ image: /uploads/appleclass-1.jpg
 reservation_link:
 facebook-event_link:
 featured: false
+meta:
 ---
 

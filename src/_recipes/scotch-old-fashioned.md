@@ -30,6 +30,7 @@ products:
   - blackstrap
   - orange
 featured: false
+meta:
 ---
 
 

@@ -13,5 +13,6 @@ instructions_html: >-
   <p>Bring cola and peanuts to a boil in a pot. Blend with immersion blender or
   stand blender. Strain to remove solids. Add demerara sugar and whisk until
   dissolved. Pour into a clean bottle and refrigerate for up to one month.</p>
+meta:
 ---
 

@@ -18,5 +18,6 @@ image: /uploads/56811313-10161677131385261-4502200520298987520-o.jpg
 reservation_link: 'https://www.eventbrite.com/e/beer-cocktails-workshop-tickets-59738415208'
 facebook-event_link: 'https://www.facebook.com/events/266989234211253'
 featured: false
+meta:
 ---
 

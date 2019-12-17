@@ -10,4 +10,5 @@ image:
 reservation_link:
 facebook-event_link:
 featured: false
+meta:
 ---

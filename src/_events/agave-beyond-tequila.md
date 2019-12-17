@@ -18,5 +18,6 @@ image: /uploads/img-4786.PNG
 reservation_link: 'https://www.eventbrite.com/e/agave-beyond-tequila-tickets-61248389582'
 facebook-event_link: 'https://www.facebook.com/events/651780678601363'
 featured: false
+meta:
 ---
 

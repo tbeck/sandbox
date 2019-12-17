@@ -14,5 +14,6 @@ image: /uploads/50yrstorm.jpg
 reservation_link: 'https://www.eventbrite.com/e/cocktail-syrups-patio-vibes-tickets-61255704461'
 facebook-event_link: 'https://www.facebook.com/events/397458461106287'
 featured: false
+meta:
 ---
 

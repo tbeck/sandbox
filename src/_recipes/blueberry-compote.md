@@ -38,5 +38,6 @@ tags:
 products: Bittercube Trinity Bitters
 liqueurs:
 featured: true
+meta:
 ---
 

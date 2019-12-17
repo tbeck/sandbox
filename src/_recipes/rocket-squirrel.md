@@ -31,5 +31,6 @@ tags:
 products:
   - blackstrap
 featured: false
+meta:
 ---
 

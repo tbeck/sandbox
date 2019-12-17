@@ -15,5 +15,6 @@ image: /uploads/Shaken.jpg
 reservation_link: 'https://masteringclassics-daisy-05042019.eventbrite.com'
 facebook_event_link:
 featured: false
+meta:
 ---
 

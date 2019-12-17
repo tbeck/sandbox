@@ -21,6 +21,7 @@ instructions_html: >-
   <p>Bring water to a boil. Add herbs, remove from heat, cover and let steep for
   ten minutes. Strain out herbs. Whisk in sugar until fully dissolved. Bottle
   and refrigerate for up to a month.</p>
+meta:
 ---
 
 

@@ -20,5 +20,6 @@ reservation_link: >-
   https://www.eventbrite.com/e/behind-the-bar-music-inspiration-tickets-59793899162
 facebook-event_link: 'https://www.facebook.com/events/431192654294848/'
 featured: false
+meta:
 ---
 

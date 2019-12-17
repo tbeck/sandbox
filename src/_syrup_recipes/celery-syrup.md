@@ -12,6 +12,7 @@ instructions_html: >-
   completely covered in sugar and refrigerate overnight. Shake ingredients again
   until sugar has completely dissolved, then strain. Bottle and refrigerate for
   up to one month.</p>
+meta:
 ---
 
 

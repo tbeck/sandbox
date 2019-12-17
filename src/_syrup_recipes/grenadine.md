@@ -10,6 +10,7 @@ ingredients:
 instructions_html: >-
   <p>Whisk ingredients together until the sugar is fully dissolved. Bottle and
   refrigerate for up to one month.</p>
+meta:
 ---
 
 

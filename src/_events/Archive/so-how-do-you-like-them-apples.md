@@ -16,5 +16,6 @@ image: /uploads/appleclass.jpg
 reservation_link: 'https://www.exploretock.com/bittercube/event/69743/how-do-you-like-them-apples'
 facebook-event_link: 'https://www.facebook.com/events/1317009728454006/'
 featured: false
+meta:
 ---
 

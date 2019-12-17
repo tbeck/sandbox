@@ -20,5 +20,6 @@ image: /uploads/thekid.jpg
 reservation_link: 'https://www.eventbrite.com/e/cocktail-syrup-workshop-tickets-57839486461'
 facebook-event_link: 'https://www.facebook.com/events/1233259496836787/'
 featured: false
+meta:
 ---
 

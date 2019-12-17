@@ -16,5 +16,6 @@ reservation_link: >-
   https://www.eventbrite.com/e/tailor-made-apothecary-tonic-lab-tickets-58124590214
 facebook-event_link: 'https://www.facebook.com/events/585417948601043/'
 featured: false
+meta:
 ---
 

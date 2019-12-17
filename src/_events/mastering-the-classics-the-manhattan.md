@@ -17,5 +17,6 @@ reservation_link: >-
   https://www.eventbrite.com/e/mastering-the-classics-the-manhattan-tickets-65193841535
 facebook-event_link: 'https://www.facebook.com/events/732079747247799/'
 featured: false
+meta:
 ---
 

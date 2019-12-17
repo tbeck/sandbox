@@ -29,5 +29,6 @@ tags:
 products:
   - trinity
 featured: true
+meta:
 ---
 

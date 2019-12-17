@@ -14,5 +14,6 @@ image: /uploads/punch.jpg
 reservation_link: 'https://bittercubebar-punch101.eventbrite.com'
 facebook_event_link: 'https://www.facebook.com/events/527132874461584'
 featured: false
+meta:
 ---
 

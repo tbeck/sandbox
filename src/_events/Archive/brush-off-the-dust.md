@@ -21,5 +21,6 @@ image: /uploads/botd-flier-03-01.jpg
 reservation_link: 'https://www.eventbrite.com/e/brush-off-the-dust-tickets-57847485386'
 facebook-event_link: 'https://www.facebook.com/events/553597675161350/'
 featured: false
+meta:
 ---
 

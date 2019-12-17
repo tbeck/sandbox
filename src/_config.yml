@@ -1,7 +1,7 @@
 # Site settings
 title: Bittercube
 email: dev@ocupop.com
-description: ''
+description: 'Our Goal is Simple: To make drinks come true.'
 url: "https://bittercube.com"
 permalink: pretty
 
@@ -119,4 +119,3 @@ _array_structures:
       icon: share
       value:
         description:
-        share_image:

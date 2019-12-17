@@ -10,5 +10,6 @@ image: /uploads/espressomartini.jpg
 reservation_link: 'https://www.eventbrite.com/e/coffee-cocktails-workshop-tickets-58120654442'
 facebook-event_link: 'https://www.facebook.com/events/179105166306254/'
 featured: false
+meta:
 ---
 

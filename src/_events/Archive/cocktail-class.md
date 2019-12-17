@@ -15,5 +15,6 @@ image: /uploads/barandbazaar-logo-lockups-cmyk-page-6.jpg
 reservation_link: 'https://www.eventbrite.com/e/cocktail-class-tickets-57837784370'
 facebook-event_link: 'https://www.facebook.com/events/2333688346956665/'
 featured: true
+meta:
 ---
 

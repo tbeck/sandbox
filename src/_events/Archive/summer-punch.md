@@ -14,5 +14,6 @@ image: /uploads/dsc00432.jpg
 reservation_link: 'https://www.eventbrite.com/e/summer-punch-tickets-62510489557'
 facebook-event_link: 'https://www.facebook.com/events/477387533003223'
 featured: false
+meta:
 ---
 

@@ -29,6 +29,7 @@ products:
   - trinity
   - jamaican-2
 featured: false
+meta:
 ---
 
 

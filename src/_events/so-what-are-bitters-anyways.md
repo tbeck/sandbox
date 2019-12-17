@@ -18,5 +18,6 @@ image: /uploads/bittercube-bottles-2106.jpg
 reservation_link: 'https://www.exploretock.com/bittercube'
 facebook_event_link: 'https://www.facebook.com/events/713109719130512/'
 featured: true
+meta:
 ---
 

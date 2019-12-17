@@ -29,5 +29,6 @@ tags:
 products:
   - corazon
 featured: false
+meta:
 ---
 
