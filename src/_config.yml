@@ -112,3 +112,11 @@ jekyll-archives:
 _comments:
   event_tags: 'This is the event type'  
   hours: 'If none exist, "Appointment" notification shows'  
+
+_array_structures:
+  meta:
+    - label: Meta Data
+      icon: share
+      value:
+        description:
+        share_image:
