@@ -1,7 +1,7 @@
 ---
 layout: event
 event_name: 'Mastering the Classics: Daisy, the Original Margarita'
-event_type: workshop
+event_type: tour
 event_date_: 'May 4, 2019 4:00 pm'
 location: Bar
 price: $15
