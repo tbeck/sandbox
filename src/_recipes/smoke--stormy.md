@@ -37,7 +37,7 @@ tags:
   - Whisky
   - Cocktail Cedar
 products:
-  - corazon
+  - chipotle cacao
 featured: false
 ---
 
