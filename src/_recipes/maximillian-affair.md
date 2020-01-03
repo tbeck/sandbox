@@ -33,7 +33,7 @@ tags:
   - Fall
   - Winter
 products:
-  - corazon
+  - chipotle cacao
 featured: false
 ---
 
