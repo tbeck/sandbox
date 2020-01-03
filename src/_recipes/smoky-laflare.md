@@ -22,7 +22,7 @@ ingredients:
   - name: Seltzer
     quantity: 2 oz
     link:
-  - name: Bittercube Corazón Bitters
+  - name: Bittercube Chipotle Cacao Bitters
     quantity: 1 dash
     link: 'https://store.bittercube.com/products/corazon'
   - name:
@@ -40,7 +40,7 @@ tags:
   - Creme de Flora
   - Heirloom Liqueurs
 products:
-liqueurs: 
+liqueurs:
   - Creme De Flora
 featured: false
 ---
