@@ -14,7 +14,7 @@ ingredients:
   - name: Creme de Cacao
     quantity: 1 oz
   - name: Bittercube Chipotle Cacao Bitters
-    quantity: 1 dropper/dash
+    quantity: 1 dash
     link: 'https://store.bittercube.com/products/corazon'
 garnish: Grated chocolate
 glass: Coupe or Martini
