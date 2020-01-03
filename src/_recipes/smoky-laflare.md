@@ -39,7 +39,7 @@ image: /uploads/smoky-laflare-1.jpg
 tags:
   - Creme de Flora
   - Heirloom Liqueurs
-products:
+products: Chipotle Cacao
 liqueurs:
   - Creme De Flora
 featured: false
