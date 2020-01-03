@@ -13,8 +13,8 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Top Note Ginger Beer
     quantity: 2 oz
-  - name: Bittercube Corazon Bitters
-    quantity: 1 dropper/dash
+  - name: Bittercube Chipotle Cacao Bitters
+    quantity: 1 dash
     link: 'https://store.bittercube.com/products/corazon'
   - name: Cocktail Cedar
     quantity: '1'
