@@ -27,7 +27,7 @@ tags:
   - Liquid Dessert
   - Winter
 products:
-  - Chipotle Cacaco
+  - Chipotle Cacao
 featured: false
 ---
 
