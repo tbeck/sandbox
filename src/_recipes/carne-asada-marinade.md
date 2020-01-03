@@ -33,7 +33,7 @@ ingredients:
   - name: black pepper
     quantity: 1 tsp
     link:
-  - name: Bittercube Corazón Bitters
+  - name: Bittercube Chipotle Cacao Bitters
     quantity: 6 dashes
     link: 'https://store.bittercube.com/products/corazon'
   - name: Bittercube Orange Bitters
