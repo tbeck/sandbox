@@ -28,7 +28,6 @@ tags:
   - Winter
 products:
   - Chipotle Cacaco
-  -
 featured: false
 ---
 
