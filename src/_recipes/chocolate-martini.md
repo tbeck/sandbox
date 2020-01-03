@@ -27,7 +27,8 @@ tags:
   - Liquid Dessert
   - Winter
 products:
-  - corazon
+  - Chipotle Cacaco
+  -
 featured: false
 ---
 
