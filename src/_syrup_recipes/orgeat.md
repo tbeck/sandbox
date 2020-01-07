@@ -15,6 +15,7 @@ instructions_html: >-
   equal parts granulated sugar by weight and whisk until sugar is fully
   dissolved. Add a pinch of salt to enhance the flavor if desired. Bottle and
   refrigerate for up to a month.</p>
+meta:
 ---
 
 

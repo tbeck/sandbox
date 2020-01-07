@@ -32,5 +32,6 @@ products:
   - trinity
   - marvel-bar
 featured: true
+meta:
 ---
 

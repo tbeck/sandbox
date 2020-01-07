@@ -34,5 +34,6 @@ tags:
 products:
   - jamaican-1
 featured: false
+meta:
 ---
 

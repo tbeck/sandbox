@@ -17,5 +17,6 @@ image: /uploads/lcdc2.png
 reservation_link:
 facebook-event_link:
 featured: false
+meta:
 ---
 

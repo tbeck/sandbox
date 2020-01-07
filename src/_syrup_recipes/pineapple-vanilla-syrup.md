@@ -16,6 +16,7 @@ instructions_html: >-
   steep for 10 minutes. Whisk in sugar until completely amalgamated. Let the
   syrup cool. Whisk in pineapple juice and strain. Bottle and refrigerate for up
   to a month.</p>
+meta:
 ---
 
 

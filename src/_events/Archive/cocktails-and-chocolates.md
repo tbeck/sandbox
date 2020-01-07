@@ -15,5 +15,6 @@ image: /uploads/cocktail-chocolate.jpg
 reservation_link:
 facebook_event_link:
 featured: false
+meta:
 ---
 

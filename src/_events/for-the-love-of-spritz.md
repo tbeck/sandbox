@@ -14,5 +14,6 @@ image: /uploads/dsc02723.jpg
 reservation_link: 'https://www.eventbrite.com/e/for-the-love-of-spritz-tickets-61272499696'
 facebook-event_link: 'https://www.facebook.com/events/673726866392692'
 featured: true
+meta:
 ---
 

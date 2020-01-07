@@ -17,5 +17,6 @@ featured_recipe: a-better-manhattan
 recipes:
   - a-better-manhattan
 featured: true
+meta:
 ---
 

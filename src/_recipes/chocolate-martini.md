@@ -29,5 +29,6 @@ tags:
 products:
   - Chipotle Cacao
 featured: false
+meta:
 ---
 

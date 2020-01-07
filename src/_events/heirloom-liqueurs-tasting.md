@@ -15,5 +15,6 @@ image: /uploads/dsc02723-1.jpg
 reservation_link:
 facebook-event_link: 'https://www.facebook.com/events/336348437072610/'
 featured: false
+meta:
 ---
 

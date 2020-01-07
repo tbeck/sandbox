@@ -18,5 +18,6 @@ reservation_link: >-
   https://www.eventbrite.com/e/mastering-the-classics-the-collins-tickets-62516299936
 facebook-event_link: 'https://www.facebook.com/events/2329866833949271'
 featured: false
+meta:
 ---
 

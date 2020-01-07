@@ -2,6 +2,7 @@
 layout: default
 title: Events
 permalink: /visit/events/
+meta:
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/visit/events_banner.jpg)">
@@ -12,6 +13,39 @@ permalink: /visit/events/
   </div>
 </div>
 <section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="content text-center">
+          <h1 class="editable">Host an Event</h1 class="editable">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/p1010604.JPG)"></div>
+          <h2>Corporate Events</h2>
+          <p>Team building exercises designed for collaboration and teamwork. Small groups are given a restaurant concept
+            and must
+            work together to create a bespoke tonic tailored to the clientele and cuisine. Each small group presents their
+            creation
+            to the larger group. Private Happy Hour for networking</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="content text-center">
+          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/privateevent1.jpg)"></div>
+          <h2>Private Events</h2>
+          <p>Host your wedding, birthday party, anniversary party.</p>
+          <script> !function (t, o, c, k) { if (!t.tock) { var e = t.tock = function () { e.callMethod ? e.callMethod.apply(e, arguments) : e.queue.push(arguments) }; t._tock || (t._tock = e), e.push = e, e.loaded = !0, e.version = '1.0', e.queue = []; var f = o.createElement(c); f.async = !0, f.src = k; var g = o.getElementsByTagName(c)[0]; g.parentNode.insertBefore(f, g) } }(window, document, 'script', 'https://www.exploretock.com/tock.js'); tock('init', 'bittercube'); </script>
+          
+          <a href="https://www.exploretock.com/bittercube/private-dining"  class="button" data-tock-reserve=true
+            data-tock-private-dining=true>Inquire About a Private Event</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -37,7 +71,7 @@ permalink: /visit/events/
               <a class="nav-link" data-filter=".bar-class">Bar Classes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-filter=".workshop">Workshops</a>
+              <a class="nav-link" data-filter=".toup">Tour</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-filter=".tasting">Tastings</a>
@@ -87,7 +121,7 @@ permalink: /visit/events/
               <div class="card-footer text-center">
                 
                 {% if event.reservation_link %}
-                  <a href="{{ event.reservation_link }}" class="button inline" target="_blank">RSVP at Eventbrite</a>
+                  <a href="{{ event.reservation_link }}" class="button inline" target="_blank">RSVP Here</a>
                 {% endif %}
               </div>
             </div>
@@ -102,35 +136,7 @@ permalink: /visit/events/
     </div>
   </div>
 </section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="content text-center">
-          <h1>Host an Event</h1>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="content text-center">
-          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/p1010604.JPG)"></div>
-          <h2>Corporate Events</h2>
-          <p>Team building exercises designed for collaboration and teamwork. Small groups are given a restaurant concept and must
-          work together to create a bespoke tonic tailored to the clientele and cuisine. Each small group presents their creation
-          to the larger group. Private Happy Hour for networking</p>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="content text-center">
-          <div class="bg-image aspect-4x3" style="background-image: url(/uploads/privateevent1.jpg)"></div>
-          <h2>Private Events</h2>
-          <p>Host your wedding, birthday party, anniversary party.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 {% include stop-by.html %}
 
 <!-- <section class="d-none hide">

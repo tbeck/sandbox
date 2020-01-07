@@ -29,5 +29,6 @@ products:
 liqueurs:
   - Creme De Flora
 featured: false
+meta:
 ---
 

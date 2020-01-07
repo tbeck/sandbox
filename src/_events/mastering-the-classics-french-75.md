@@ -16,5 +16,6 @@ reservation_link: >-
   https://www.exploretock.com/bittercube/event/69738/mastering-the-classics-french-75
 facebook-event_link: 'https://www.facebook.com/events/2353213744943315/'
 featured: false
+meta:
 ---
 

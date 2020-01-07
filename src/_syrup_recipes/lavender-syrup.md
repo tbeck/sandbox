@@ -13,6 +13,7 @@ instructions_html: >-
   <p>Bring water to a boil. Add lavender, remove from heat and cover. Let steep
   for 10 minutes. Strain and whisk in an equal amount of granulated sugar to
   liquid by weight. Bottle and refrigerate for up to one month.</p>
+meta:
 ---
 
 

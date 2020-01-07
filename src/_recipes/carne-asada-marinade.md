@@ -77,5 +77,6 @@ tags:
 products:
 liqueurs:
 featured: false
+meta:
 ---
 

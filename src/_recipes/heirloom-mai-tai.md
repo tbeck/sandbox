@@ -36,5 +36,6 @@ products:
 liqueurs: 
   - Pineapple Amaro
 featured: false
+meta:
 ---
 

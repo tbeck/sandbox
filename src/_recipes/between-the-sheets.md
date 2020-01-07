@@ -32,5 +32,6 @@ tags:
 products:
   - orange
 featured: false
+meta:
 ---
 

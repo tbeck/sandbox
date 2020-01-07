@@ -17,5 +17,7 @@ reservation_link: >-
   https://www.exploretock.com/bittercube/event/76098/mastering-the-classics-the-sour
 facebook-event_link: 'https://www.facebook.com/events/446204242670443/'
 featured: true
+meta:
 ---
+
 

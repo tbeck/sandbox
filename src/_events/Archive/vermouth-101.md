@@ -16,5 +16,6 @@ image: /uploads/vermouth.jpg
 reservation_link: 'https://www.eventbrite.com/e/vermouth-101-tickets-62516978967'
 facebook-event_link: 'https://www.facebook.com/events/1253736611464210/'
 featured: false
+meta:
 ---
 

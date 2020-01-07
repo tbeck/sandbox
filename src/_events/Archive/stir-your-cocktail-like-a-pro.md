@@ -14,5 +14,6 @@ image: /uploads/stir-like-a-pro.jpg
 reservation_link: 'https://bittercubebar-howtostir.eventbrite.com'
 facebook_event_link: 'https://www.facebook.com/events/609451526171689/'
 featured: false
+meta:
 ---
 

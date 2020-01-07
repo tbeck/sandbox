@@ -40,6 +40,7 @@ products:
   - marvel-bar
   - blackstrap
 featured: false
+meta:
 ---
 
 

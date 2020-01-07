@@ -35,6 +35,7 @@ products:
   - orange
   - blackstrap
 featured: false
+meta:
 ---
 
 

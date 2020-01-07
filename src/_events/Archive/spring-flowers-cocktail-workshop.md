@@ -15,5 +15,6 @@ reservation_link: >-
   https://www.eventbrite.com/e/cocktail-workshop-spring-flowers-tickets-59733002017
 facebook-event_link: 'https://www.facebook.com/events/428102104592042/?active_tab=about'
 featured: false
+meta:
 ---
 

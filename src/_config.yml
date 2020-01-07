@@ -1,7 +1,7 @@
 # Site settings
 title: Bittercube
 email: dev@ocupop.com
-description: ''
+description: 'Our Goal is Simple: To make drinks come true.'
 url: "https://bittercube.com"
 permalink: pretty
 
@@ -112,3 +112,10 @@ jekyll-archives:
 _comments:
   event_tags: 'This is the event type'  
   hours: 'If none exist, "Appointment" notification shows'  
+
+_array_structures:
+  meta:
+    - label: Meta Data
+      icon: share
+      value:
+        description:

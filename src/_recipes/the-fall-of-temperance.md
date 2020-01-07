@@ -38,5 +38,6 @@ products:
   - jamaican-1
   - blackstrap
 featured: false
+meta:
 ---
 

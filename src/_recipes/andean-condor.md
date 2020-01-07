@@ -41,6 +41,7 @@ products:
   - bolivar
   - blackstrap
 featured: false
+meta:
 ---
 
 

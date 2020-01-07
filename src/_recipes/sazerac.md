@@ -30,6 +30,7 @@ products:
   - marvel-bar
   - orange
 featured: false
+meta:
 ---
 
 

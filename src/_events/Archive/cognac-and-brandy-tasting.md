@@ -13,5 +13,6 @@ image: /uploads/cognac.jpg
 reservation_link:
 facebook-event_link:
 featured: false
+meta:
 ---
 

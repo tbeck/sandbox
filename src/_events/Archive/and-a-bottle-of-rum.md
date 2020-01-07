@@ -14,5 +14,6 @@ image: /uploads/bottle-rum.jpg
 reservation_link:
 facebook-event_link:
 featured: false
+meta:
 ---
 
