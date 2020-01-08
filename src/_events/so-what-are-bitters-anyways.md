@@ -1,7 +1,7 @@
 ---
 layout: event
 event_name: 'Facility Tour (aka, So What Are Bitters Anyways?)'
-event_type: tasting
+event_type:
 event_date_: Multiple dates available
 location: Bar & Bazaar
 price: $14
