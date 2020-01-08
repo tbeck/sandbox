@@ -44,5 +44,6 @@ products:
   - trinity
 featured: false
 meta:
+  - description: A Better Manhattan Meta
 ---
 
