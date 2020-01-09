@@ -39,9 +39,13 @@ glass: Tulip or Collins
 instructions_html: >-
   <p>Add all ingredients in measuring glass. Pour into prepared glass and
   garnish.</p>
-image:
+image: /uploads/img-3788.jpg
 tags:
-products:
+  - Citrusy
+  - Crisp
+  - Effervescent
+  - Spring
+products: Bittercube Jamaican No.1 Bitters
 liqueurs:
 featured: false
 meta:
