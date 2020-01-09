@@ -12,7 +12,8 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1 class="recipe-title">{{ page.title }}</h1>
+        <h1 class="recipe-title">{{ page.title }}{% if page.bartender %}<span class="d-block text-center" id="recipe-sub">Recipe by <span
+            class="text-capitalize">{{ page.bartender | replace: '-',' ' }}</span></p>{% endif %}</h1>
       </div>
     </div>
     <div class="row">
