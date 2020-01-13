@@ -100,28 +100,3 @@ meta:
     </div>
   </div>
 </section>
-
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="content text-center">
-          <h2 class="editable">Our Partners</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="content">
-          <div class="partners">
-            {% for partner in site.data.partners %}
-              <a href="{{ partner.url }}">
-                <img src="{{ partner.image }}" class="img-fluid" alt="{{ partner.title }}" />
-              </a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
