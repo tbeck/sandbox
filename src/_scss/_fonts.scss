@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'bittercube';
-  src: url('./bittercube.eot');
-  src: url('./bittercube.eot#iefix') format('embedded-opentype'),
-    url('./bittercube.ttf') format('truetype'),
-    url('./bittercube.woff') format('woff'),
-    url('./bittercube.svg#bittercube') format('svg');
+  src: url('/fonts/bittercube.eot');
+  src: url('/fonts/bittercube.eot#iefix') format('embedded-opentype'),
+    url('/fonts/bittercube.ttf') format('truetype'),
+    url('/fonts/bittercube.woff') format('woff'),
+    url('/fonts/bittercube.svg#bittercube') format('svg');
   font-weight: normal;
   font-style: normal;
 }
