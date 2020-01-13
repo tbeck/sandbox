@@ -6,14 +6,14 @@ description:
 ingredients:
   - name: Simple syrup
     quantity: 1/2 oz
-    link: http://bittercube.com/recipes/syrup/simple-syrup
+    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
   - name: Copper & Kings Absinthe Blanche
     quantity: 1 oz
   - name: Sparkling wine
     quantity: 3 1/2 oz
   - name: Bittercube Orange Bitters
     quantity: 2 dropper/dash
-    link: https://store.bittercube.com/products/orange
+    link: 'https://store.bittercube.com/products/orange'
 garnish: Orange twist
 glass: Flute
 instructions_html: >-
@@ -32,5 +32,4 @@ products:
 featured: false
 meta:
 ---
-
 
