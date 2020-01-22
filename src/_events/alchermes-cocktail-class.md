@@ -14,7 +14,7 @@ description: >-
   Class includes 3 cocktails, an Alchermes tasting, and recipes so you can make
   these drinks at home. Enjoy 10% off all Heirloom Liqueurs in the Bazaar
   immediately following the class!
-image: /uploads/heirloom-color-alchermes-148.jpg
+image: /uploads/dsc00230.jpg
 reservation_link: >-
   https://www.exploretock.com/bittercube/event/92553/heirloom-alchermes-cocktail-class
 facebook-event_link: 'https://www.facebook.com/events/2661675807247293/'
