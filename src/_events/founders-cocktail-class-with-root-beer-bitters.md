@@ -2,7 +2,7 @@
 layout: event
 event_name: Bittercube Founder's Cocktail Class featuring Root Beer Bitters
 event_type: bar-classes
-event_date_: 'Feb 1, 2020 2:00 PM'
+event_date_: 'Feb 1, 2020 3:00 - 4:30 PM'
 location: Bittercube Bar
 price: $20
 description: >-
