@@ -1,7 +1,8 @@
 ---
-layout: bartender
-title: Samantha Goebel
-bio: >-
+layout: default
+name: Samantha Goebel
+first_name: Samantha
+summary: >-
   Samantha “Sam” Goebel has been in the service industry for 13 years now. It
   has had its ups and downs, but she has an appreciation for the experiences
   because it has given her time to identify her strengths, solidify her passions
@@ -19,4 +20,3 @@ recipes:
 featured: true
 meta:
 ---
-
