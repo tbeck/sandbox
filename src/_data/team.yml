@@ -29,6 +29,9 @@
     - name: Nathan Toth
       role: Production Assistant
       image: /uploads/nathantoth.jpg
+    - name: Madelyn Girard
+      role: Production & Fulfillment Assistant
+      image: /uploads/madelyn-girard.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
