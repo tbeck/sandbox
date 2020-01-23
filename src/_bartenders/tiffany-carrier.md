@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Tiffany Carrier
-bio:
+name: Tiffany Carrier
+first_name: Tiffany
+summary: >-
 employer:
 image:
-featured_recipe:
+featured_recipe: 
 recipes:
 featured: false
 meta:
 ---
+
 
