@@ -1,7 +1,8 @@
 ---
-layout: bartender
-title:
-bio:
+layout: default
+name:
+first_name:
+summary:
 employer:
 image:
 featured_recipe:
