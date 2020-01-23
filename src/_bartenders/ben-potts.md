@@ -16,7 +16,7 @@ image: /uploads/BenPotts.jpg
 featured_recipe: a-better-manhattan
 recipes:
   - a-better-manhattan
-featured: true
+featured: false
 meta:
 ---
 
