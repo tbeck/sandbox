@@ -2,7 +2,7 @@
 layout: event
 event_name: 'Wednesday Bazaar Tasting: Gin'
 event_type: tasting
-event_date_: 'Wednesday January 29, 2020 5 PM - 9 PM'
+event_date_: 'Wednesday, January 29, 2020, 5 PM - 9 PM'
 location: Bittercube Bazaar
 price: FREE
 description: >-
