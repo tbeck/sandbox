@@ -114,8 +114,8 @@ countries:
         distributors:
           - distributor: Milepost 65
             link: 'http://www.milepost65.com/'
-          - distributor: Prime Wine & Spirits Washington
-            link: 'http://www.primewineandspirits.com/'
+          - distributor: Pacific Edge Wine & Spirits Washington
+            link: 'https://www.pacificedgesales.com/'
       - region: Wisconsin
         distributors:
           - distributor: Left Bank Wine and Spirits
