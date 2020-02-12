@@ -114,7 +114,7 @@ countries:
         distributors:
           - distributor: Milepost 65
             link: 'http://www.milepost65.com/'
-          - distributor: Pacific Edge Wine & Spirits Washington
+          - distributor: Pacific Edge Wine & Spirits of Washington
             link: 'https://www.pacificedgesales.com/'
       - region: Wisconsin
         distributors:
