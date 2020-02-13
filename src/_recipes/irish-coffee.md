@@ -21,11 +21,12 @@ glass: 'Glass mug, coffee or tea cup'
 instructions_html: >-
   <p>Temper glass by adding hot water to mug and let sit for 2 minutes. Dump
   water and combine ingredients in mug. Stir lightly and top with whipped cream
-  made with Root Beer Bitters.</p><p>Root Beer Whipped Cream</p><p>1 Tbls
-  Bittercube Root Beer Bitter</p><p>1 C Heavy whipping cream</p><p>Powdered
-  sugar to taste</p><p>Combine whipping cream and bitters in a bowl and whisk
-  until soft peaks form. Add powdered sugar and whisk until firm peaks
-  develop.</p>
+  made with Root Beer Bitters.</p><p>Root Beer Whipped Cream</p><p>1 C Heavy
+  cream</p><p>1 Tbls Bittercube Root Beer Bitter</p><p>1 Tbls Powdered
+  sugar</p><p>Using a hand mixer or a stand mixer fitted with a whisk
+  attachment, whip the cream, bitters and sugar on medium-high speed until
+  medium peaks form, about 3-4 minutes. Medium peaks are between soft/loose
+  peaks and stiff peaks.</p>
 image: /uploads/img-1816.JPG
 tags:
   - After Dinner
