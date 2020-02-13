@@ -30,9 +30,22 @@ instructions_html: >-
   to shaker and strain into glass.</p>
 image: /uploads/img-1810.JPG
 tags:
-products:
+  - Brunch
+  - Citrusy
+  - Crisp
+  - Effervescent
+  - Heirloom Liqueurs
+  - Pineapple Amaro
+  - Refreshing
+products: Bittercube Root Beer Bitters
 liqueurs:
+  - Pineapple Amaro
 featured: false
 meta:
+  - description: |-
+      Bittercube Rrot Beer Bitters Cocktail
+      Sparkling wine
+      Heirloom Pineapple Amaro
+      French 75 riff
 ---
 
