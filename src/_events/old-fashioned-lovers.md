@@ -2,7 +2,7 @@
 layout: event
 event_name: Old Fashioned Lovers
 event_type: bar-classes
-event_date_: 'Feb 15, 2020 2:00 PM'
+event_date_: 'Feb 15, 2020 3:30 PM'
 location: Bittercube Bar
 price: $20
 description: >-
@@ -20,7 +20,8 @@ description: >-
 
   - Heirloom Pineapple Old Fashioned
 image: /uploads/of2.JPG
-reservation_link: 'https://www.exploretock.com/bittercube/event/92610/old-fashioned-lovers'
+reservation_link: >-
+  https://www.exploretock.com/bittercube/event/private/db0469fa-174d-4f4b-b01b-6a2bfb212903
 facebook-event_link: 'https://www.facebook.com/events/2608666149364497/'
 featured: false
 meta:
