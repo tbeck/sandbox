@@ -2,7 +2,7 @@
 layout: event
 event_name: Heirloom Alchermes Cocktail Class
 event_type: bar-classes
-event_date_: 'Feb 29, 2020 2:00 PM'
+event_date_: 'February 29, 2020 2:00 PM'
 location: Bittercube Bar
 price: $20
 description: >-
