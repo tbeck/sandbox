@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Boulevardier II
+name: Boulevardier No.2
 bartender:
 description:
 ingredients:
