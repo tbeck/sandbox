@@ -30,9 +30,12 @@ instructions_html: >-
 image: /uploads/img-1816.JPG
 tags:
   - After Dinner
-products:
+products: Bittercube Root Beer Bitters
 liqueurs:
 featured: false
 meta:
+  - description: |-
+      Bittercube Root Beer Bitters Cocktail
+      Irish Coffee
 ---
 
