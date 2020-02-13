@@ -7,6 +7,24 @@ ingredients:
   - name: Heavy cream
     quantity: 1 oz
     link:
+  - name: Fresh lemon juice
+    quantity: 1/2 oz
+    link:
+  - name: Fresh lime juice
+    quantity: 1/2 oz
+    link:
+  - name: Simple syrup
+    quantity: 1 oz
+    link: 'https://bittercube.com/recipes/syrup/simple-syrup'
+  - name: Bombay Sapphire Gin
+    quantity: 2 oz
+    link:
+  - name: Seltzer
+    quantity: 1 1/2 oz
+    link:
+  - name: Bittercube Root Beer Bitters
+    quantity: 4 dashes
+    link: 'https://store.bittercube.com/products/root-beer'
 garnish: 'Orange disc expressed and discarded, ground cinnamon'
 glass: Collins
 instructions_html: >-
