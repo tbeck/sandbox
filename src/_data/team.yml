@@ -65,3 +65,6 @@
     - name: Nick Gomaz
       role: Bartender
       image: /uploads/nick-jr.jpg
+    - name: Ashley Pappalardo
+      role: Bartender
+      image: /uploads/ashley.jpg
