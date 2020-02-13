@@ -32,7 +32,7 @@ instructions_html: >-
   fill with ice. Shake with a fluid, strong motion. Strain and remove ice.
   Return drink to cocktail shaker and shake with a fluid, strong motion. Strain
   into cocktail glass and add seltzer.</p>
-image:
+image: /uploads/img-1800.JPG
 tags:
   - Effervescent
   - Creamy
