@@ -2,7 +2,7 @@
 layout: event
 event_name: Old Fashioned Lovers
 event_type: bar-classes
-event_date_: 'Feb 15, 2020 3:30 PM'
+event_date_: 'February 15, 2020 3:30 PM - 4:30 PM'
 location: Bittercube Bar
 price: $20
 description: >-
