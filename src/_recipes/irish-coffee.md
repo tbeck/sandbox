@@ -30,6 +30,9 @@ instructions_html: >-
 image: /uploads/img-1816.JPG
 tags:
   - After Dinner
+  - Brunch
+  - Hot
+  - Coffee
 products: Bittercube Root Beer Bitters
 liqueurs:
 featured: false
