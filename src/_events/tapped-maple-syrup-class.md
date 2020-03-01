@@ -2,7 +2,7 @@
 layout: event
 event_name: Cocktail Class with Tapped Maple Syrup
 event_type: bar-classes
-event_date_: 'May 23, 2020 2-3:30 PM'
+event_date_: 'May 23, 2020 2:00 - 3:30 PM'
 location: Bittercube Bar
 price: $30
 description: >-
