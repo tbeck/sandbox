@@ -2,7 +2,7 @@
 layout: event
 event_name: Bittercube's Seven Pillars of Classic Cocktails
 event_type: bar-classes
-event_date_: 'May 9, 2020 2 PM'
+event_date_: 'May 9, 2020 2:00 - 4:00 PM'
 location: Bittercube Bar
 price: $60
 description: >-
