@@ -16,7 +16,7 @@ description: >-
   3 cocktails are included.
 image: /uploads/-mg-5038.jpg
 reservation_link: 'https://www.exploretock.com/bittercube/event/97769/a-bubbly-cocktail-class'
-facebook-event_link:
+facebook-event_link: 'https://www.facebook.com/events/168381677918089/'
 featured: false
 meta:
 ---
