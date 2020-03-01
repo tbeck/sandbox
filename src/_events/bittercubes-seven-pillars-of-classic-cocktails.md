@@ -34,7 +34,7 @@ description: >-
 image: /uploads/bittercube-2019-10664.jpg
 reservation_link: >-
   https://www.exploretock.com/bittercube/event/102443/bittercubes-seven-pillars-of-classic-cocktails
-facebook-event_link:
+facebook-event_link: 'https://www.facebook.com/events/2367182800053959/'
 featured: false
 meta:
 ---
