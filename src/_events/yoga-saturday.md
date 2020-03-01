@@ -2,7 +2,7 @@
 layout: event
 event_name: Happy Hour Yoga
 event_type: pop-up
-event_date_: 'Saturday, March 21, 2020 1:00 PM'
+event_date_: 'Saturday, March 21, 2020 1:00 - 3:00 PM'
 location: Bittercube Bazaar
 price: $30
 description: Yoga and cocktails! Ticket includes yoga and 1 drink afterwards.
