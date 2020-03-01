@@ -2,8 +2,8 @@
 layout: event
 event_name: Make it Pop! Using color to create Insta-worthy cocktails
 event_type: bar-classes
-event_date_: 'April 11, 2020 2 PM'
-location: Bar
+event_date_: 'April 11, 2020 2:00 - 3:00 PM'
+location: Bittercube Bar
 price: $20
 description: >-
   Learn how to use natural ingredients to create eye-catching colors and compose
