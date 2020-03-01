@@ -2,8 +2,8 @@
 layout: event
 event_name: Cocktail Class with Tapped Maple Syrup
 event_type: bar-classes
-event_date_: 'May 23, 2020 2 PM'
-location: Bar
+event_date_: 'May 23, 2020 2-3:30 PM'
+location: Bittercube Bar
 price: $30
 description: >-
   Making maple syrup is a Wisconsin spring ritual that deserves celebrating. 
