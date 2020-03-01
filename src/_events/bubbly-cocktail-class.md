@@ -2,8 +2,8 @@
 layout: event
 event_name: A Bubbly Cocktail Class
 event_type: bar-classes
-event_date_: 'April 25, 2020 2 PM'
-location: Bar
+event_date_: 'April 25, 2020 2:00 - 3:00 PM'
+location: Bittercube Bar
 price: $20
 description: >-
   Toasting with an ice cold glass of sparkling wine is synonymous with
