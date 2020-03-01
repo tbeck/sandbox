@@ -16,7 +16,7 @@ description: >-
 image: /uploads/thekid-1.jpg
 reservation_link: >-
   https://www.exploretock.com/bittercube/event/97734/make-it-pop-using-color-to-create-insta-worthy-cocktails
-facebook-event_link:
+facebook-event_link: 'https://www.facebook.com/events/621675225318207/'
 featured: false
 meta:
 ---
