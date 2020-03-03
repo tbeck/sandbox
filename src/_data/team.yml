@@ -42,9 +42,6 @@
       image: /uploads/matt-bittercube.jpg
 - title: Consulting
   staff:
-    - name: Brandon Sass
-      role: Training Manager
-      image: /uploads/sass.jpg
     - name: Louie LaFleur
       role: Account Manager
       image: /uploads/louie2.jpg
