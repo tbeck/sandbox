@@ -32,22 +32,6 @@
     - name: Madelyn Girard
       role: Production & Fulfillment Assistant
       image: /uploads/madelyn-girard.jpg
-- title: Marketing
-  staff:
-    - name: Paul Fredrich
-      role: Marketing Manager
-      image: /uploads/paul-bittercube.jpg
-    - name: Matt Young
-      role: Design Emissary
-      image: /uploads/matt-bittercube.jpg
-- title: Consulting
-  staff:
-    - name: Louie LaFleur
-      role: Account Manager
-      image: /uploads/louie2.jpg
-    - name: Jack Tillman
-      role: Emissary
-      image: /uploads/jtillman.jpg
 - title: Bar & Bazaar
   staff:
     - name: Brandon Reyes
@@ -65,3 +49,19 @@
     - name: Nick Gomaz
       role: Bartender
       image: /uploads/nick-jr1.jpg
+- title: Consulting
+  staff:
+    - name: Louie LaFleur
+      role: Account Manager
+      image: /uploads/louie2.jpg
+    - name: Jack Tillman
+      role: Emissary
+      image: /uploads/jtillman.jpg
+- title: Marketing
+  staff:
+    - name: Paul Fredrich
+      role: Marketing Manager
+      image: /uploads/paul-bittercube.jpg
+    - name: Matt Young
+      role: Design Emissary
+      image: /uploads/matt-bittercube.jpg
