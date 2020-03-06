@@ -7,19 +7,19 @@ location: Bittercube Bar
 price: $25
 description: >-
   Flowers aren't just for looking at, they've played an essential role in some
-  of our favorite bitters, liqueurs and cocktails! Heirloom is proud to
-  contribute to that history with our Creme de Flora Liqueur crafted with a
-  bouquet of vibrant flowers native to five continents including marigold and
-  chamomile.
+  of our favorite bitters, liqueurs and cocktails! Heirloom Liqueurs is proud to
+  contribute to that history with our Creme de Flora, crafted with a bouquet of
+  vibrant flowers native to five continents including marigold and chamomile.
 
 
-  Learn how to use Creme de Flora in classics like the Margarita and Vesper as
-  well as how to unlock it's floral magic to create exciting, new cocktails.
-
+  Learn how to use Creme de Flora in summer time classics like the Margarita and
+  Vesper as well as how to unlock it's floral magic to create exciting, new
+  cocktails that are dripping with patio vibes and perfect to bring to a picnic.
+  We'll also include a cheese and meat board from Village Cheese Shop for you to
+  nibble on during the class!
 
   Class includes 3 cocktails plus a Creme de Flora tasting along with a recipe
-  card to make the drinks at home. We'll also have a cheese and meat board from
-  Village Cheese Shop for you to snack on during the class.
+  card to make the drinks at home.
 
 
   All participants will receive a 10% discount on all Heirloom Liqueurs
