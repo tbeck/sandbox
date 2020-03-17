@@ -13,12 +13,9 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Rujero Singani
     quantity: 1/3 oz
-  - name: Bittercube Marvel Bitters
-    quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/marvel-bar
   - name: Bittercube Blackstrap Bitters
-    quantity: 1 dropper/dash
-    link: https://store.bittercube.com/products/blackstrap
+    quantity: 2 dropper/dash
+    link: 'https://store.bittercube.com/products/blackstrap'
 garnish: Grated nutmeg and a Filthy Red Cherry
 glass: Etched rocks filled with crushed ice
 instructions_html: >-
@@ -42,5 +39,4 @@ products:
 featured: false
 meta:
 ---
-
 
