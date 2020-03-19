@@ -1,6 +1,6 @@
 ---
 layout: event
-event_name: Old Fashioned Lovers
+event_name: Old Fashioned Lovers - 2PM
 event_type: bar-classes
 event_date_: 'March 21st, 2PM'
 location: Your Home!
