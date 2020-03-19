@@ -2,7 +2,7 @@
 layout: event
 event_name: Old Fashioned Lovers - 6PM
 event_type: bar-classes
-event_date_: 'March 21st, 2PM'
+event_date_: 'March 21st, 6PM'
 location: Your Home!
 price: $10
 description: >-
