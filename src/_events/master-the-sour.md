@@ -3,7 +3,7 @@ layout: event
 event_name: 'Mastering the Classics: The Sour - 4PM'
 event_type: bar-classes
 event_date_: 'March 21st, 4PM'
-location: Bittercube Bar
+location: Your Home!
 price: $10.00
 description: >-
   Cooped up at home? We have the perfect cure, an online cocktail class! The
