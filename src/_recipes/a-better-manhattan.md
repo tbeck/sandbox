@@ -41,7 +41,6 @@ tags:
   - Aromatic
 products:
   - trinity
-  - corazon
 featured: false
 meta:
   - description: A Better Manhattan Meta
