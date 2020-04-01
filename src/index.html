@@ -38,10 +38,6 @@ meta:
       </div>
     </div>
     <div class="row">
-        
-        
-        
-        
       <div class="card w-50 p-3 text-center">
         <img class="card-img-top img-fluid editable" src="/assets/img/visit/bar.jpg" alt="Card image cap" />
         <div class="card-body">
@@ -56,8 +52,6 @@ meta:
           <a href="/visit/bar" class="button inline editable">Learn More</a>
         </div>
       </div>
-      
-      
       <div class="card w-50 p-3 text-center">
         <img class="card-img-top img-fluid editable" src="/assets/img/visit/bazaar.jpg" alt="Bittercube Bazaar" />
         <div class="card-body text-center">
@@ -103,6 +97,20 @@ meta:
     </div>
   </div>
 </section>
+<section class="bg-blue">
+  <div class="container-large">
+    <div class="row">
+      {% for product in site.data.products %}
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white">
+          <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }} image">
+          <h4>{{ product.name }}</h4>
+          <hr class="border-top border-white">
+          <p>{{ product.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
 <section id="featured-recipe" class="bg-yellow bg-pattern">
   {% for object in page.recipe %}
@@ -128,7 +136,6 @@ meta:
     </div>
   </div>
 </section>
-
 
 <div id="instagram-feed" class="hero" style="background-image: url(/assets/img/home/hero-instagram.jpg)">
   <div class="hero-caption">
