@@ -39,13 +39,8 @@
   shop_url: /products/jamaican-2
   description: 'Bright, caramelized orange character blends with toasted coriander, cardamom and caraway. Adds dimension and complexity to your repertoire of orange bitters cocktails.'
   image: /assets/img/home/jamaican-no2.png
-- name: Corazón
-  handle: corazon
-  shop_url: /products/corazon
-  description: 
-  image:
 - name: Chipotle Cacao
   handle: corazon
   shop_url: /products/corazon
-  description: 
-  image:
+  description: 'Bright, caramelized orange character blends with toasted coriander, cardamom and caraway. Adds dimension and complexity to your repertoire of orange bitters cocktails.'
+  image: /assets/img/home/chipotle.png

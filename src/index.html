@@ -101,11 +101,13 @@ meta:
   <div class="container-large">
     <div class="row">
       {% for product in site.data.products %}
-        <div class="col-md-6 col-lg-4 col-xl-3 text-white">
-          <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }} image">
-          <h4>{{ product.name }}</h4>
-          <hr class="border-top border-white">
-          <p>{{ product.description }}</p>
+        <div class="col-md-6 col-lg-4">
+          <a href="{{ site.shop_url}}{{product.shop_url }}" class="text-white">
+            <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }} image">
+            <h4>{{ product.name }}</h4>
+            <hr class="border-top border-white">
+            <p>{{ product.description }}</p>
+          </a>
         </div>
       {% endfor %}
     </div>
