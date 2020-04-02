@@ -101,8 +101,8 @@ meta:
   <div class="container">
     <div class="row">
       {% for product in site.data.products %}
-        <div class="col-md-6 col-lg-4">
-          <a href="{{ site.shop_url}}{{product.shop_url }}" class="text-white">
+        <div class="col-md-6 col-lg-4 border border-black">
+          <a href="{{ site.shop_url}}{{product.shop_url }}" class="text-white p-3 d-block">
             <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }} image">
             <h4>{{ product.name }}</h4>
             <hr class="border-top border-white">
