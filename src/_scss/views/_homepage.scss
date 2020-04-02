@@ -24,7 +24,15 @@
     display: block;
   }
 }
-.homepage-layout {}
+
+#home-products {
+  a {
+    @include transition(background-color, 0.4s);
+    &:hover {
+      background-color: $blue-dark;
+    }
+  }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: $screen-sm-min) {}

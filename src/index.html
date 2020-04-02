@@ -97,16 +97,16 @@ meta:
     </div>
   </div>
 </section>
-<section class="bg-blue">
+<section id="home-products" class="bg-blue">
   <div class="container">
-    <div class="row">
+    <div class="row no-gutters border border-black">
       {% for product in site.data.products %}
         <div class="col-md-6 col-lg-4 border border-black">
-          <a href="{{ site.shop_url}}{{product.shop_url }}" class="text-white p-3 d-block">
+          <a href="{{ site.shop_url}}{{product.shop_url }}" class="text-white p-5 d-block h-100">
             <img src="{{ product.image }}" class="img-fluid" alt="{{ product.name }} image">
             <h4>{{ product.name }}</h4>
             <hr class="border-top border-white">
-            <p>{{ product.description }}</p>
+            <p class="mb-0">{{ product.description }}</p>
           </a>
         </div>
       {% endfor %}
