@@ -26,6 +26,10 @@
 }
 
 #home-products {
+  .no-gutters {
+    margin-left: -1px;
+    margin-right: -1px;
+  }
   a {
     @include transition(background-color, 0.4s);
     hr {
