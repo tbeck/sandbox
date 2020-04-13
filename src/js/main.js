@@ -56,11 +56,15 @@ $(document).ready(function() {
 
   $(".venobox").venobox();
 
-  var mixer = mixitup(".events-row", {
-    controls: {
-      toggleLogic: "none"
-    }
-  });
+  
+  if($('.events-row').length) {
+    var mixer = mixitup(".events-row", {
+      controls: {
+        toggleLogic: "none"
+      }
+    });
+  }
+
 
   $(function() {
     var filterSelect = $("#event-filter-select");

@@ -24,7 +24,52 @@
     display: block;
   }
 }
-.homepage-layout {}
+
+#home-products {
+  .no-gutters {
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+  a {
+    @include transition(background-color, 0.4s);
+    hr {
+      border-color: $white;
+      @include transition(border-color, 0.4s);
+    }
+    &:hover {
+      background-color: $blue-dark;
+      hr {
+        &.blackstrap {
+          border-color: $blackstrap;
+        }
+        &.cherry-bark-vanilla {
+          border-color: $cherry-bark;
+        }
+        &.bolivar {
+          border-color: $bolivar;
+        }
+        &.orange {
+          border-color: $orange;
+        }
+        &.trinity {
+          border-color: $trinity;
+        }
+        &.root-beer {
+          border-color: $root-beer;
+        }
+        &.jamaican-1 {
+          border-color: $jamaican1;
+        }
+        &.jamaican-2 {
+          border-color: $jamaican2;
+        }
+        &.corazon {
+          border-color: $chipotle;
+        }
+      }
+    }
+  }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: $screen-sm-min) {}

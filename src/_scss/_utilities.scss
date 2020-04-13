@@ -86,6 +86,10 @@ ul.no-bullets {
   }
 }
 
+.border-black {
+  border-color: $black !important;
+}
+
 .bg-pattern {
   background-image: url('/assets/img/backgrounds/bg-pattern.png');
 }
@@ -133,6 +137,14 @@ ul.no-bullets {
     font-size: 18px;
     line-height: 30px;
   }
+}
+
+.container-large {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Media Queries

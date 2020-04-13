@@ -1,27 +1,46 @@
 - name: Cherry Bark Vanilla
   handle: cherry-bark-vanilla
   shop_url: /products/cherry-bark-vanilla
+  description: 'Woodsy and aromatic, offering lush notes of Indonesian vanilla, fennel and cocoa. Cherry Bark Vanilla surpasses ordinary cherry bitters to add dimension to old fashioneds, rye whiskey cocktails, and with seltzer as a dry soda.'
+  image: /assets/img/home/cherrybark.svg
 - name: Bolivar
   handle: bolivar
   shop_url: /products/bolivar
+  description: 'Versatile and aromatic, with floral aromas of jasmine, clove and dried fruits. Bolivar Bitters collaborate well with
+    champagne, brandy and effervescent craft cocktails.'
+  image: /assets/img/home/bolivar.svg
 - name: Blackstrap
   handle: blackstrap
   shop_url: /products/blackstrap
+  description: 'Woodsy and aromatic, offering lush notes of Indonesian vanilla, fennel and cocoa. Cherry Bark Vanilla surpasses ordinary cherry bitters to add dimension to old fashioneds, rye whiskey cocktails, and with seltzer as a dry soda.' 
+  image: /assets/img/home/blackstrap.svg
 - name: Orange
   handle: orange
   shop_url: /products/orange
+  description: 'Bright, caramelized orange character blends with toaste coriander, cardamom and caraway. Adds dimension and complexity to your repertoire of orange bitters cocktails.'
+  image: /assets/img/home/orange.svg
 - name: Trinity
   handle: trinity
   shop_url: /products/trinity
+  description: 'Woodsy and aromatic, offering lush notes of Indonesian vanilla, fennel and cocoa. Cherry Bark Vanilla surpasses ordinary cherry bitters to add dimension to old fashioneds, rye whiskey cocktails, and with seltzer as a dry soda.'
+  image: /assets/img/home/trinity.svg
+- name: Root Beer
+  handle: root-beer
+  shop_url: /products/root-beer
+  description: 'Versatile and aromatic, with floral aromas of jasmine, clove and dried fruits. Bolivar Bitters collaborate well with champagne, brandy and effervescent craft cocktails.'
+  image: /assets/img/home/rootbeer.svg
 - name: Jamaican No. 1
   handle: jamaican-1
   shop_url: /products/jamaican-1
+  description: 'Versatile and aromatic, with floral aromas of jasmine, clove and dried fruits. Bolivar Bitters collaborate well with champagne, brandy and effervescent craft cocktails.'
+  image: /assets/img/home/jamaican01.svg
 - name: Jamaican No. 2
   handle: jamaican-2
   shop_url: /products/jamaican-2
-- name: Corazón
+  description: 'Bright, caramelized orange character blends with toasted coriander, cardamom and caraway. Adds dimension and complexity to your repertoire of orange bitters cocktails.'
+  image: /assets/img/home/jamaican02.svg
+- name: Chipotle Cacao
   handle: corazon
   shop_url: /products/corazon
-- name: Marvel Bar
-  handle: marvel-bar
-  shop_url: /products/marvel-bar
+  description: 'Bright, caramelized orange character blends with toasted coriander, cardamom and caraway. Adds dimension and complexity to your repertoire of orange bitters cocktails.'
+  image: /assets/img/home/chipotlecacao.svg

@@ -13,7 +13,8 @@
 }
 
 
-.card {
+.card,
+.home-product {
   // Loop through the cards and delay the loading animation.
   @for $i from 1 through 20 {
     &:nth-child(#{$i}) {
