@@ -49,14 +49,6 @@
     - name: Nick Gomaz
       role: Bartender
       image: /uploads/nick-jr1.jpg
-- title: Consulting
-  staff:
-    - name: Louie LaFleur
-      role: Account Manager
-      image: /uploads/img-2139.JPEG
-    - name: Jack Tillman
-      role: Emissary
-      image: /uploads/jtillman.jpg
 - title: Marketing
   staff:
     - name: Paul Fredrich
