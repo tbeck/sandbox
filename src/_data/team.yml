@@ -29,6 +29,9 @@
     - name: Madelyn Girard
       role: Production & Fulfillment Assistant
       image: /uploads/madelyn-girard.jpg
+    - name: Paul Fredrich
+      role: Marketing Manager
+      image: /uploads/paul-bittercube.jpg
 - title: Bar & Bazaar
   staff:
     - name: Brandon Reyes
@@ -46,8 +49,3 @@
     - name: Nick Gomaz
       role: Bartender
       image: /uploads/nick-jr1.jpg
-- title: Marketing
-  staff:
-    - name: Paul Fredrich
-      role: Marketing Manager
-      image: /uploads/paul-bittercube.jpg
