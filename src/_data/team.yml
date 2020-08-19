@@ -11,41 +11,17 @@
     - name: Jeff Othman
       role: Bitters Production Specialist
       image: /uploads/jeff-bittercube.jpg
-    - name: Staci Nielsen
-      role: Order Coordinator
-      image: /uploads/staci.jpg
     - name: David Japke II
       role: Fulfillment/Bartender
       image: /uploads/japke.jpg
-    - name: TJ Ochs
-      role: Kitchen Coordinator
-      image: /uploads/tj-2019.jpg
-    - name: Conor Benham
-      role: Production Assistant
-      image: /uploads/connor-bittercube.jpg
     - name: Nathan Toth
       role: Production Assistant
       image: /uploads/nathantoth.jpg
-    - name: Madelyn Girard
-      role: Production & Fulfillment Assistant
-      image: /uploads/madelyn-girard.jpg
-    - name: Paul Fredrich
-      role: Marketing Manager
-      image: /uploads/paul-bittercube.jpg
 - title: Bar & Bazaar
   staff:
     - name: Brandon Reyes
-      role: R&D Manager/Bar Manager
+      role: R&D Manager
       image: /uploads/brando.jpg
-    - name: Kylen Eberlein
-      role: Retail Manager
-      image: /uploads/kylen1.jpg
-    - name: William Gardiner
-      role: Bartender
-      image: /uploads/william.jpg
     - name: Ashley Pappalardo
       role: Bartender
       image: /uploads/ashley1.jpg
-    - name: Nick Gomaz
-      role: Bartender
-      image: /uploads/nick-jr1.jpg
