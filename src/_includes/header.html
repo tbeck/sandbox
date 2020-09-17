@@ -17,9 +17,6 @@
             <a class="nav-link" href="{{ site.shop_url }}">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/consulting' }}">Consulting</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="{{ '/recipes' | prepend: site.baseurl }}">Recipes</a>
           </li>
           <li class="nav-item">
@@ -48,7 +45,7 @@
       </div>
     </nav>
   </div>
-  {% if page.url contains 'visit' %}
+  <!-- {% if page.url contains 'visit' %}
   {% include navigation/visitnav.html %}
-  {% endif %}
+  {% endif %} -->
 </header>
