@@ -28,7 +28,7 @@ instructions_html: >-
   <p>Carefully add sparkling wine to a chilled vessel, followed by fresh orange
   and carrot juices, then simple syrup, then bitters and Aquavit. Pour
   ingredients from the vessel into a chilled flute glass.</p>
-image: /uploads/carrot-mimosa-craft-cocktail-bitters.jpg
+image: /uploads/carrot-mimosa-craft-cocktail-bitters-1.jpg
 tags:
   - Aperitif
   - Brunch
