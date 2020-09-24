@@ -1,13 +1,8 @@
-- title: Founders
+- title: Staff
   staff:
-    - name: Nick Kosevich
-      role: Proprietor
-      image: /uploads/nick-bio.jpg
     - name: Ira Koplowitz
       role: Proprietor
       image: /uploads/ira-haircut.jpg
-- title: Apothecary
-  staff:
     - name: Jeff Othman
       role: Bitters Production Specialist
       image: /uploads/jeff-bittercube.jpg
@@ -17,8 +12,6 @@
     - name: Nathan Toth
       role: Production Assistant
       image: /uploads/nathantoth.jpg
-- title: Bar & Bazaar
-  staff:
     - name: Brandon Reyes
       role: R&D Manager
       image: /uploads/brando.jpg
