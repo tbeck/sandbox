@@ -43,6 +43,6 @@ products:
   - trinity
 featured: false
 meta:
-  - description: A Better Manhattan Meta
+  - description: 'Manhattan recipe. Craft cocktail recipe. How to make a Manhattan,'
 ---
 
