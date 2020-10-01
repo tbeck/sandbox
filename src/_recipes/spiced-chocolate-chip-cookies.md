@@ -16,6 +16,15 @@ ingredients:
   - name: Granulated Sugar
     quantity: 1/4 cup
     link:
+  - name: Egg
+    quantity: '1'
+    link:
+  - name: Bittercube Cherry Bark Vanilla Bitters
+    quantity: 1 teaspoon
+    link: 'https://store.bittercube.com/products/cherry-bark-vanilla'
+  - name: Bittercube Chipotle Cacao Bitters
+    quantity: 1 teaspoon
+    link: 'https://store.bittercube.com/products/corazon'
   - name: Cinnamon
     quantity: 1/2 teaspoon
     link:
