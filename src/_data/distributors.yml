@@ -76,8 +76,8 @@ countries:
             link: 'http://www.pacificedgesales.com/'
       - region: New York
         distributors:
-          - distributor: Oliver McCrum Wines
-            link: 'http://omwines.com/'
+          - distributor: Pure Goods
+            link: 'https://puregoods.com'
       - region: North Carolina
         distributors:
           - distributor: Advintage
