@@ -46,7 +46,7 @@ tags:
 products: Bittercube Jamaican No. 1 Bitters
 liqueurs:
   - Alchermes
-featured: false
+featured: true
 meta:
   - description: Craft cocktail recipe. Dark & Stormy cocktail variation.
 ---
