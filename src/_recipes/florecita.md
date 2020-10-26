@@ -36,7 +36,7 @@ tags:
 products: Chipotle Cacao Bitters
 liqueurs:
   - Creme De Flora
-featured: true
+featured: false
 meta:
   - description: 'Bittercube Cocktail, Florecita, Heirloom Creme de Flora'
 ---
