@@ -25,7 +25,7 @@ tags:
 products:
 liqueurs:
   - Alchermes
-featured: true
+featured: false
 meta:
 ---
 
