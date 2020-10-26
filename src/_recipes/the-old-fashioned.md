@@ -28,7 +28,7 @@ tags:
   - Fall
 products:
   - trinity
-featured: true
+featured: false
 meta:
 ---
 
