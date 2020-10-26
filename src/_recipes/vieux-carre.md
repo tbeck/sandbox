@@ -31,7 +31,7 @@ tags:
 products:
   - trinity
   - marvel-bar
-featured: true
+featured: false
 meta:
 ---
 
