@@ -28,7 +28,7 @@ instructions_html: >-
   <p>Muddle a quarter of an apple in a cocktail shaker. Add the remaining
   ingredients to a cocktail shaker and then fill with ice. Shake with a fluid,
   strong motion and strain into cocktail glass.</p>
-image: /uploads/insta-story-2.jpg
+image: /uploads/whiskey-sour.jpg
 tags:
   - apple
   - Citrusy
