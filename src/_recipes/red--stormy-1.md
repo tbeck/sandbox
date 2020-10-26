@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Red & Stormy
+name: Red and Stormy
 bartender:
 description: >-
   This play on the Dark & Stormy features corn directly off the cob, bitters
