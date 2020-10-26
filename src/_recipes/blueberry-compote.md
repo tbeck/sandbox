@@ -37,7 +37,7 @@ tags:
   - Cooking
 products: Bittercube Trinity Bitters
 liqueurs:
-featured: true
+featured: false
 meta:
 ---
 
