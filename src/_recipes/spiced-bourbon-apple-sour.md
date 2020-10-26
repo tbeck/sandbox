@@ -35,9 +35,10 @@ tags:
   - Holiday
   - Sour
   - Whiskey
+  - Fall
 products: Bittercube Jamaican No. 1 Bitters
 liqueurs:
-featured: false
+featured: true
 meta:
   - description: Apple cocktail. Fall cocktail recipe. Holiday cocktail recipe.
 ---
