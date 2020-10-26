@@ -34,7 +34,7 @@ tags:
 products: Bittercube Root Beer Bitters
 liqueurs:
   - Alchermes
-featured: true
+featured: false
 meta:
 ---
 
