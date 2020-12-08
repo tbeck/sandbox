@@ -45,7 +45,7 @@ tags:
 products:
 liqueurs:
   - Alchermes
-featured: true
+featured: false
 meta:
   - description: Dark & Stormy cocktail recipe.
 ---
