@@ -41,7 +41,7 @@ tags:
 products:
 liqueurs:
   - Pineapple Amaro
-featured: false
+featured: true
 meta:
   - description: Rum cocktail. Root Beer Bitters. Maple Syrup.
 ---
