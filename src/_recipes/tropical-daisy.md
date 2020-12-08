@@ -46,7 +46,7 @@ tags:
 products: Jamaican No. 1 Bitters
 liqueurs:
   - Pineapple Amaro
-featured: true
+featured: false
 meta:
   - description: Craft cocktail recipe. Ginger Bitters cocktail.
 ---
