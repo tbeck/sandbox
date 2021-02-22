@@ -35,7 +35,7 @@ image: /uploads/dscf0122.jpg
 tags:
 products:
 liqueurs:
-featured: false
+featured: true
 meta:
 ---
 
