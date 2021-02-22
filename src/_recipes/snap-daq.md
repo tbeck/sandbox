@@ -36,7 +36,7 @@ tags:
   - refreshing
 products: cherry bark vanilla bitters
 liqueurs:
-featured: true
+featured: false
 meta:
   - description: >-
       aromatic bitters cocktail recipe. Rum cocktail recipe. Craft cocktail
