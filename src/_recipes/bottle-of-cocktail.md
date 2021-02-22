@@ -6,6 +6,10 @@ description: >-
   Recipe adapted from Tom Bullock's 1917 "The Ideal Bartender", the first
   cocktail book published by an African American author. Bullock is part of a
   rich legacy of Black pre-prohibition bartenders.
+
+
+  This recipe is a batched improved Old Fashioned, and aptly named a bottle of
+  cocktail, as historically the Old Fashioned was the original cocktail.
 ingredients:
   - name: Spirit of Choice (we used Bourbon)
     quantity: 500ml
