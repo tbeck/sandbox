@@ -44,7 +44,7 @@ tags:
 products:
 liqueurs:
   - Alchermes
-featured: true
+featured: false
 meta:
   - description: >-
       peach cocktail recipe. craft cocktail recipe. Heirloom Alchermes cocktail
