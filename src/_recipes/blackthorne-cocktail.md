@@ -33,6 +33,9 @@ instructions_html: >-
   Stir with a bar spoon until chilled and strain into cocktail glass.</p>
 image: /uploads/dscf0122.jpg
 tags:
+  - Brunch
+  - Herbaceous
+  - Winter
 products:
 liqueurs:
 featured: true
