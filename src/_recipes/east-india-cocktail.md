@@ -32,6 +32,9 @@ instructions_html: >-
   Bittercube Orange Bitters</p>
 image: /uploads/dscf0092-1.jpg
 tags:
+  - Alchermes
+  - Spirit Forward
+  - Brandy
 products:
 liqueurs:
   - Alchermes
