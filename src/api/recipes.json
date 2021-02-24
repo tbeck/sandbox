@@ -6,7 +6,7 @@ layout: null
   {
     "slug": "{{ recipe.name | slugify }}",
     "name": "{{ recipe.name }}",
-    "description": "{{ recipe.description }}",
+    "description": {{ recipe.description | jsonify }},
     "url": "{{ recipe.url | prepend: site.url }}",
     "image": "{{ recipe.image | prepend: site.url }}",
     "ingredients": "{% for ingredient in recipe.ingredients %}{{ ingredient.name | replace: "’", "'" }}{% unless forloop.last %},{% endunless %}{% endfor %}",
