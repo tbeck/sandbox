@@ -3,7 +3,7 @@ layout: recipe
 name: House BBQ Sauce
 bartender:
 description: >-
-  This rich, spicy sweet BBQ sauce is a great addition to pulled pork or
+  This rich, spicy sweet barbecue sauce is a great addition to pulled pork or
   jackfruit, or as a burger condiment, or with sweet potato fries.
 ingredients:
   - name: Safflower Oil
