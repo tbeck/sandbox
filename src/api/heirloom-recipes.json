@@ -6,20 +6,20 @@ layout: null
 {% for recipe in recipes %}
   {
     "slug": "{{ recipe.name | slugify }}",
-    "name": "{{ recipe.name }}",
-    "description": "{{ recipe.description }}",
+    "name": {{ recipe.name | jsonify }},
+    "description": {{ recipe.description | jsonify }},
     "url": "{{ recipe.url | prepend: site.url }}",
     "image": "{{ recipe.image | prepend: site.url }}",
     "ingredients": [
       {% for ingredient in recipe.ingredients %}{
-      "name": "{{ ingredient.name | replace: "’", "'" }}",
+      "name": {{ ingredient.name | jsonify }},
       "qty": "{{ ingredient.quantity }}",
       "link": "{{ ingredient.link }}"
       }{% unless forloop.last %},{% endunless %}{% endfor %}
     ],
-    "glass": "{{ recipe.glass}}",
-    "garnish": "{{ recipe.garnish }}",
-    "instructions": "{{ recipe.instructions_html | strip_html }}",
+    "glass": {{ recipe.glass | jsonify }},
+    "garnish": {{ recipe.garnish | jsonify }},
+    "instructions": {{ recipe.instructions_html | strip_html | jsonify }},
     "tags": "{% for tag in recipe.tags %}{{ tag | replace: "’", "'" }}{% unless forloop.last %},{% endunless %}{% endfor %}",
     "pinterest": "https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ recipe.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ recipe.title | xml_escape }}",
     "liqueurs": "{% for liqueur in recipe.liqueurs %}{{ liqueur | slugify }}{% unless forloop.last %},{% endunless %}{% endfor %}",
