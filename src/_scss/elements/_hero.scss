@@ -9,7 +9,7 @@
   position: relative;
 
   &::before {
-    background: linear-gradient(180deg, rgba(24,55,75,1) 0%, rgba(24,55,75,.5) 20%, rgba(0,0,0,0) 100%);
+    background: rgba(0,0,0,0);
     content: '';
     display: block;
     height: 100%;
@@ -19,6 +19,20 @@
     width: 100%;
     z-index: 1;
   }
+
+    &.bazaarhero {
+      &::before {
+        background: none;
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      } 
+    }
 
   .hero-caption {
     text-align: center;
