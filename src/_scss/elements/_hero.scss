@@ -9,7 +9,7 @@
   position: relative;
 
   &::before {
-    background: linear-gradient(180deg, rgba(24,55,75,1) 0%, rgba(24,55,75,.5) 20%, rgba(0,0,0,0) 100%);
+    background: none;
     content: '';
     display: block;
     height: 100%;
