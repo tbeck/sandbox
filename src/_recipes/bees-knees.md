@@ -9,7 +9,7 @@ ingredients:
   - name: Honey syrup
     quantity: 3/4 oz
     link: http://bittercube.com/recipes/syrup/honey-syrup
-  - name: Bombay Sapphire
+  - name: London Dry Gin
     quantity: 2 oz
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
@@ -29,5 +29,4 @@ products:
 featured: false
 meta:
 ---
-
 
