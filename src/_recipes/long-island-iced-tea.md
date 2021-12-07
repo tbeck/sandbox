@@ -13,7 +13,7 @@ ingredients:
     quantity: 1/2 oz
   - name: ' Gin of choice'
     quantity: 1/2 oz
-  - name: Cazadores Blanco Tequila
+  - name: Blanco Tequila
     quantity: 1/2 oz
   - name: Bacardi Superior White Rum
     quantity: 1/2 oz
