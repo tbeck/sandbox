@@ -1,7 +1,7 @@
 ---
 layout: default
 name: Julian Moreno-John
-first_name:
+first_name: Julian
 summary: >-
   Julian has worked behind the pine at Lost Whale for three years, and is now
   the bar manager. When he’s not slinging drinks, you can find him studying for
