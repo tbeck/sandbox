@@ -9,7 +9,7 @@ ingredients:
   - name: Mango-Peach syrup
     quantity: 2/3 oz
     link: http://bittercube.com/recipes/syrup/mango-peach-syrup
-  - name: Bombay Sapphire Gin
+  - name: London Dry Gin
     quantity: 1 oz
   - name: Sparkling wine
     quantity: 3 oz
@@ -36,5 +36,4 @@ products:
 featured: false
 meta:
 ---
-
 
