@@ -22,6 +22,9 @@ ingredients:
   - name:
     quantity:
     link:
+  - name: Bittercube Bolivar Bitters
+    quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Dried Rosebuds
 glass: Coupe
 instructions_html: >-
