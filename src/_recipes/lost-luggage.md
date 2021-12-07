@@ -8,14 +8,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Honey Syrup
     quantity: 1/2 oz
-    link: 'http://bittercube.com/recipes/syrup/honey-syrup'
+    link: http://bittercube.com/recipes/syrup/honey-syrup
   - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
     quantity: 1 1/2 oz
   - name: Kronan Swedish Punsch
     quantity: 1/2 oz
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/blackstrap'
+    link: https://store.bittercube.com/products/blackstrap
 garnish: Orange peel studded with cloves
 glass: Coupe or Martini
 instructions_html: >-
@@ -27,10 +27,10 @@ tags:
   - Spicy
   - Fall
   - Aromatic
+  - Winter
 products:
   - blackstrap
 featured: false
 meta:
 ---
-
 
