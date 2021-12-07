@@ -37,7 +37,7 @@ tags:
   - Herbaceous
 products:
 liqueurs:
-featured: true
+featured: false
 meta:
 ---
 
