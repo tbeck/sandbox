@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Winter Boulevardier
+name: Wintry Boulevardier
 bartender:
 description:
 ingredients:
