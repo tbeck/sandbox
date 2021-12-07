@@ -15,7 +15,7 @@ ingredients:
     quantity: 1/2 oz
   - name: Blanco Tequila
     quantity: 1/2 oz
-  - name: Bacardi Superior White Rum
+  - name: White Rum
     quantity: 1/2 oz
   - name: Pierre Ferrand Dry Curacao
     quantity: 1/4 oz
