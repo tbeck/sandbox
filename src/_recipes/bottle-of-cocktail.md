@@ -22,7 +22,7 @@ ingredients:
     link:
   - name: Cherry Bark Vanilla Bitters
     quantity: 1/2 oz
-    link: 'https://store.bittercube.com/products/cherry-bark-vanilla'
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
 garnish: Citrus peel expressed and inserted
 glass: Decanter or spirit bottle
 instructions_html: >-
@@ -32,7 +32,7 @@ image: /uploads/dscf0149.jpg
 tags:
 products: Cherry Bark Vanilla Bitters
 liqueurs:
-featured: true
+featured: false
 meta:
   - description: Old Fashioned Cocktail. Craft cocktail. Bottled cocktail recipe.
 ---
