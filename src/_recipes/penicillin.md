@@ -35,7 +35,7 @@ tags:
 products:
   - jamaican-1
   - blackstrap
-featured: false
+featured: true
 meta:
 ---
 
