@@ -26,7 +26,6 @@ tags:
   - After Dinner
   - Aromatic
   - Bitter
-  - Fall
   - Winter
   - Spirit Forward
   - Bourbon
