@@ -8,16 +8,16 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 3/4 oz
-    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Broker’s Gin
     quantity: 1 1/2 oz
   - name: John D. Taylor’s Velvet Falernum
     quantity: 3/4 oz
   - name: Seltzer
     quantity: 2 oz
-  - name: Bittercube Corazon Bitters
+  - name: Bittercube Chipotle Cacao Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/corazon'
+    link: https://store.bittercube.com/products/corazon
 garnish: Thin lime wheel
 glass: Collins with ice
 instructions_html: >-
@@ -39,5 +39,4 @@ products:
 featured: false
 meta:
 ---
-
 
