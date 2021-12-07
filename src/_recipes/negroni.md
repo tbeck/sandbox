@@ -4,7 +4,7 @@ name: Negroni
 bartender:
 description:
 ingredients:
-  - name: Bombay Sapphire Gin
+  - name: London Dry Gin
     quantity: 1 1/2 oz
   - name: Cocchi Vermouth di Torino
     quantity: 1 oz
@@ -28,5 +28,4 @@ products:
 featured: false
 meta:
 ---
-
 
