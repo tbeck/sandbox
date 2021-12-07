@@ -11,6 +11,8 @@ employer: Lost Whale
 image: /uploads/unknown.jpeg
 featured_recipe:
 recipes:
+  - did-you-hear-that
 featured: true
 meta:
 ---
+
