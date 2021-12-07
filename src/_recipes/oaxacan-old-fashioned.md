@@ -7,7 +7,7 @@ ingredients:
   - name: Simple syrup
     quantity: 1/4 oz
     link: http://bittercube.com/recipes/syrup/simple-syrup
-  - name: Cazadores Reposado Tequila
+  - name: Reposado Tequila
     quantity: 1 1/2 oz
   - name: Sombra Mezcal
     quantity: 1/2 oz
@@ -30,5 +30,4 @@ products:
 featured: false
 meta:
 ---
-
 
