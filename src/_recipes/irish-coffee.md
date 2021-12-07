@@ -36,7 +36,7 @@ tags:
   - Winter
 products: Bittercube Root Beer Bitters
 liqueurs:
-featured: false
+featured: true
 meta:
   - description: |-
       Bittercube Root Beer Bitters Cocktail
