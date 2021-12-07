@@ -11,7 +11,7 @@ ingredients:
     link: http://bittercube.com/recipes/syrup/green-tea-honey-syrup
   - name: Sake
     quantity: 3/4 oz
-  - name: Bombay Sapphire East
+  - name: Modern American Gin
     quantity: 1 1/2 oz
   - name: Seltzer
     quantity: 2 oz
@@ -37,5 +37,4 @@ products:
 featured: false
 meta:
 ---
-
 
