@@ -9,7 +9,7 @@ ingredients:
     link:
   - name: Cabernet Syrup
     quantity: 1/2 oz
-    link:
+    link: https://bittercube.com/recipes/syrup/cabernet-syrup/
   - name: Fresh Lemon Juice
     quantity: 1/2 oz
     link:
@@ -32,3 +32,4 @@ liqueurs:
 featured: false
 meta:
 ---
+
