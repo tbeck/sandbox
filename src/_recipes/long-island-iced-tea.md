@@ -11,7 +11,7 @@ ingredients:
     link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Modest Vodka
     quantity: 1/2 oz
-  - name: Bombay Sapphire Gin
+  - name: ' Gin of choice'
     quantity: 1/2 oz
   - name: Cazadores Blanco Tequila
     quantity: 1/2 oz
@@ -40,5 +40,4 @@ products:
 featured: false
 meta:
 ---
-
 
