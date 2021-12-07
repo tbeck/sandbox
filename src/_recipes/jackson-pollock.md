@@ -2,10 +2,7 @@
 layout: recipe
 name: Jackson Pollock
 bartender:
-description: >-
-  Nick created this cocktail for the 2nd Bombay Sapphire Cocktail Competition in
-  Minneapolis circa 2007. Although the cocktail is a winner, Nick went home
-  empty handed that year.
+description:
 ingredients:
   - name: Fresh lime juice
     quantity: 1/4 oz
@@ -13,15 +10,15 @@ ingredients:
     quantity: 1/2 oz
   - name: Simple syrup
     quantity: 1/2 oz
-    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
-  - name: Bombay Sapphire Gin
+    link: http://bittercube.com/recipes/syrup/simple-syrup
+  - name: London Dry Gin
     quantity: 1 1/2 oz
   - name: Sparkling wine
     quantity: 1 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/jamaican-2'
-garnish: '6 drops of basil oil, 6 drops of paprika oil'
+    link: https://store.bittercube.com/products/jamaican-2
+garnish: 6 drops of basil oil, 6 drops of paprika oil
 glass: Coupe or Martini
 instructions_html: >-
   <p>Add all of the ingredients except sparkling wine to a cocktail shaker and
