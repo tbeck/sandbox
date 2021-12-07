@@ -9,7 +9,7 @@ ingredients:
     link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Reposado Tequila
     quantity: 1 1/2 oz
-  - name: Sombra Mezcal
+  - name: Mezcal Joven
     quantity: 1/2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 2 dropper/dash
