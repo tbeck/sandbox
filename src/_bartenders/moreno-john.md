@@ -9,7 +9,7 @@ summary: >-
   Sammy (pictured here).
 employer: Lost Whale
 image: /uploads/unknown.jpeg
-featured_recipe:
+featured_recipe: did-you-hear-that
 recipes:
   - did-you-hear-that
 featured: true
