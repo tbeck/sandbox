@@ -11,7 +11,7 @@ ingredients:
     link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: London Dry Gin
     quantity: 1 oz
-  - name: Green Chartreuse
+  - name: Heirloom Genepy Liqueur
     quantity: 3/4 oz
   - name: Luxardo Maraschino Liqueur
     quantity: 1/2 oz
