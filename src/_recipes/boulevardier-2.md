@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Boulevardier No.2
+name: Winter Boulevardier
 bartender:
 description:
 ingredients:
@@ -15,7 +15,7 @@ ingredients:
     link:
   - name: Bittercube Root Beer Bitters
     quantity: 4 dashes
-    link: 'https://store.bittercube.com/products/root-beer'
+    link: https://store.bittercube.com/products/root-beer
 garnish: 'Orange disc expressed and discarded (In photo: root beer leaf)'
 glass: Rocks glass with large ice cube
 instructions_html: >-
@@ -40,4 +40,4 @@ meta:
       Modern classic cocktail
 ---
 
-[...](__notset__)
+[…](__notset__)
