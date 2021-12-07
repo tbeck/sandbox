@@ -9,7 +9,7 @@ ingredients:
   - name: Honey Syrup
     quantity: 1/2 oz
     link: http://bittercube.com/recipes/syrup/honey-syrup
-  - name: The Glenlivet Founder’s Reserve Single Malt Scotch Whisky
+  - name: Scotch
     quantity: 1 1/2 oz
   - name: Kronan Swedish Punsch
     quantity: 1/2 oz
