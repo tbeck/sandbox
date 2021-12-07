@@ -2,7 +2,9 @@
 layout: recipe
 name: Irish Coffee
 bartender:
-description:
+description: >-
+  This riff on Irish Coffee incorporates aromatic Root Beer Bitters and rich,
+  Muscovado Sugar.
 ingredients:
   - name: Muscovado syrup
     quantity: 3/4 oz
