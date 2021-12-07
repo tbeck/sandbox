@@ -15,9 +15,9 @@ ingredients:
     link:
   - name: Bittercube Root Beer Bitters
     quantity: 4 dashes
-    link: 'https://store.bittercube.com/products/root-beer'
+    link: https://store.bittercube.com/products/root-beer
 garnish: Root Beer Bitters Whipped Cream (recipe in the instructions)
-glass: 'Glass mug, coffee or tea cup'
+glass: Glass mug, coffee or tea cup
 instructions_html: >-
   <p>Temper glass by adding hot water to mug and let sit for 2 minutes. Dump
   water and combine ingredients in mug. Stir lightly and top with whipped cream
@@ -33,6 +33,7 @@ tags:
   - Brunch
   - Hot
   - Coffee
+  - Winter
 products: Bittercube Root Beer Bitters
 liqueurs:
 featured: false
