@@ -9,7 +9,7 @@ ingredients:
   - name: Simple syrup
     quantity: 3/4 oz
     link: http://bittercube.com/recipes/syrup/simple-syrup
-  - name: Bacardi Superior Rum
+  - name: White Rum
     quantity: 2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
@@ -29,5 +29,4 @@ products:
 featured: false
 meta:
 ---
-
 
