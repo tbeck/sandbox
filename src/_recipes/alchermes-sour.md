@@ -29,6 +29,7 @@ tags:
   - Heirloom Liqueurs
   - Alchermes
   - Sour
+  - Winter
 products:
 liqueurs:
   - Alchermes
