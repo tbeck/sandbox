@@ -26,7 +26,6 @@ tags:
   - After Dinner
   - Aromatic
   - Bitter
-  - Winter
   - Spirit Forward
   - Bourbon
 products: Bittercube Root Beer Bitters
