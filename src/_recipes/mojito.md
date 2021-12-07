@@ -10,14 +10,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1 oz
-    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
-  - name: Bacardi Superior White Rum
+    link: http://bittercube.com/recipes/syrup/simple-syrup
+  - name: White Rum
     quantity: 2 oz
   - name: Seltzer
     quantity: 2 oz
   - name: Bittercube Jamaican No.2 Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/jamaican-2'
+    link: https://store.bittercube.com/products/jamaican-2
 garnish: Spanked mint sprig
 glass: Collins with ice
 instructions_html: >-
