@@ -8,8 +8,8 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
-  - name: Bombay Sapphire Gin
+    link: http://bittercube.com/recipes/syrup/simple-syrup
+  - name: London Dry Gin
     quantity: 3/4 oz
   - name: Pierre Ferrand Dry Curacao
     quantity: 3/4 oz
@@ -17,7 +17,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Bittercube Trinity Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/trinity'
+    link: https://store.bittercube.com/products/trinity
 garnish:
 glass: Coupe or Martini rinsed with Amerique 1912 Absinthe Verte
 instructions_html: >-
