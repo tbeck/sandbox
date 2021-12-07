@@ -25,6 +25,7 @@ image: /uploads/old-pal-1.jpg
 tags:
   - Alchermes
   - Heirloom Liqueurs
+  - Winter
 products:
 liqueurs:
   - Alchermes
