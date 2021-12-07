@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Pimm’s Cup
+name: Bittercube Pimm’s Cup
 bartender:
 description:
 ingredients:
