@@ -11,7 +11,7 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Mezcal Joven
     quantity: 1/2 oz
-  - name: Bittercube Jamaican No.2 Bitters
+  - name: Bittercube Jamaican No. 2 Bitters
     quantity: 2 dropper/dash
     link: https://store.bittercube.com/products/jamaican-2
 garnish: Grapefruit peel
