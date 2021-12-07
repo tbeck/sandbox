@@ -16,6 +16,9 @@ ingredients:
   - name:
     quantity:
     link:
+  - name: Bittercube Root Beer Bitters
+    quantity: 1 dash
+    link: https://store.bittercube.com/products/root-beer
 garnish:
 glass: Coupe or Nick and Nora
 instructions_html: >-
