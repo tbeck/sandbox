@@ -39,7 +39,7 @@ tags:
   - Winter
 products: Root Beer Bitters
 liqueurs:
-featured: false
+featured: true
 meta:
 ---
 
