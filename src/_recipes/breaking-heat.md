@@ -9,9 +9,9 @@ ingredients:
   - name: Fresh lime juice
     quantity: 3/4 oz
   - name: Cucumber syrup
-    quantity: 1 oz 
+    quantity: 1 oz
     link: http://bittercube.com/recipes/syrup/cucumber-syrup
-  - name: Bombay Sapphire East Gin
+  - name: Modern American Gin
     quantity: 2 oz
   - name: Seltzer
     quantity: 2 oz
@@ -36,5 +36,4 @@ products:
 featured: false
 meta:
 ---
-
 
