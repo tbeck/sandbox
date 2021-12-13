@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "from": "/visit/bar",
+      "to": "/visit",
+      "status": 301
+    }
+  ]
+}
