@@ -33,11 +33,9 @@ tags:
   - Savory
   - Spicy
   - Fall
-  - Winter
 products:
   - cherry-bark-vanilla
 featured: false
 meta:
 ---
-
 

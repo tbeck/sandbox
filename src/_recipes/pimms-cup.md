@@ -1,6 +1,6 @@
 ---
 layout: recipe
-name: Pimm’s Cup
+name: Bittercube Pimm’s Cup
 bartender:
 description:
 ingredients:
@@ -11,7 +11,7 @@ ingredients:
   - name: Simple syrup
     quantity: 3/4 oz
     link: http://bittercube.com/recipes/syrup/simple-syrup
-  - name: Bombay Sapphire Gin
+  - name: London Dry Gin
     quantity: 1 1/2 oz
   - name: Pimm’s No.1 Cup
     quantity: 3/4 oz
@@ -38,5 +38,4 @@ products:
 featured: false
 meta:
 ---
-
 

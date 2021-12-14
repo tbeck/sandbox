@@ -4,7 +4,7 @@ name: London Dry Gin Martini
 bartender:
 description:
 ingredients:
-  - name: Bombay Dry Gin
+  - name: London Dry Gin
     quantity: 2 oz
   - name: Dolin Dry Vermouth
     quantity: 1 oz
@@ -26,5 +26,4 @@ products:
 featured: false
 meta:
 ---
-
 

@@ -12,7 +12,7 @@ ingredients:
     quantity: 1 oz
   - name: Bittercube Orange Bitters
     quantity: 2 dropper / dash
-    link: 'https://store.bittercube.com/products/orange'
+    link: https://store.bittercube.com/products/orange
 garnish: Orange disc
 glass: Coupe or Martini
 instructions_html: >-
@@ -23,7 +23,6 @@ tags:
   - Spirit Forward
   - Bitter
   - Aromatic
-  - Winter
 products:
   - orange
 featured: false

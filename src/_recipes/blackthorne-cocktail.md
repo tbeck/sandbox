@@ -25,8 +25,8 @@ ingredients:
     link:
   - name: Bittercube Blackstrap Bitters
     quantity: 1 dash/dropper
-    link: 'https://store.bittercube.com/products/blackstrap'
-garnish: 'No listed garnish, but we like a cherry sunk to the bottom of the glass'
+    link: https://store.bittercube.com/products/blackstrap
+garnish: No listed garnish, but we like a cherry sunk to the bottom of the glass
 glass: Nick & Nora
 instructions_html: >-
   <p>Add all of the ingredients to a stirring vessel and then fill with ice.
@@ -35,10 +35,9 @@ image: /uploads/dscf0122.jpg
 tags:
   - Brunch
   - Herbaceous
-  - Winter
 products:
 liqueurs:
-featured: true
+featured: false
 meta:
 ---
 

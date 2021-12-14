@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
   - name: Simple syrup
     quantity: 1/4 oz
-    link: 'http://bittercube.com/recipes/syrup/simple-syrup'
+    link: http://bittercube.com/recipes/syrup/simple-syrup
   - name: Copper & Kings American Brandy
     quantity: 1 oz
   - name: Domaine De Canton Ginger Liqueur
@@ -17,7 +17,7 @@ ingredients:
     quantity: 1 1/2 oz
   - name: Bittercube Jamaican No.1 Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/jamaican-1'
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Shaved ginger
 glass: Flute
 instructions_html: >-
@@ -33,7 +33,6 @@ tags:
   - Spicy
   - Summer
   - Fall
-  - Winter
 products:
   - jamaican-1
 featured: false

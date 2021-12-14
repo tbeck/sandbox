@@ -2,7 +2,9 @@
 layout: recipe
 name: Root Beer Ramos
 bartender:
-description:
+description: >-
+  By swapping Rose Water for Root Beer Bitters, this New Orleans classic is
+  transformed into a frothy, winter sipper.
 ingredients:
   - name: Heavy cream
     quantity: 1 oz
@@ -15,8 +17,8 @@ ingredients:
     link:
   - name: Simple syrup
     quantity: 1 oz
-    link: 'https://bittercube.com/recipes/syrup/simple-syrup'
-  - name: Bombay Sapphire Gin
+    link: https://bittercube.com/recipes/syrup/simple-syrup
+  - name: London Dry Gin
     quantity: 2 oz
     link:
   - name: Seltzer
@@ -24,8 +26,8 @@ ingredients:
     link:
   - name: Bittercube Root Beer Bitters
     quantity: 4 dashes
-    link: 'https://store.bittercube.com/products/root-beer'
-garnish: 'Orange disc expressed and discarded, ground cinnamon'
+    link: https://store.bittercube.com/products/root-beer
+garnish: Orange disc expressed and discarded, ground cinnamon
 glass: Collins
 instructions_html: >-
   <p>Add all of the ingredients except seltzer to a cocktail shaker and then
@@ -36,9 +38,10 @@ image: /uploads/img-1800.JPG
 tags:
   - Effervescent
   - Creamy
+  - Winter
 products: Root Beer Bitters
 liqueurs:
-featured: false
+featured: true
 meta:
 ---
 

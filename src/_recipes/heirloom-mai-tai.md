@@ -13,7 +13,7 @@ ingredients:
   - name: Plantation O.F.T.D. Rum
     quantity: 1/2 oz
     link:
-  - name: Bacardi Superior Rum
+  - name: White Rum
     quantity: 3/4 oz
     link:
   - name: Heirloom Pineapple Amaro
@@ -21,7 +21,7 @@ ingredients:
     link:
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/orange'
+    link: https://store.bittercube.com/products/orange
 garnish: Mint bouquet
 glass: Tiki mug or Collins
 instructions_html: >-
@@ -33,7 +33,7 @@ tags:
   - Heirloom Liqueurs
   - Tropical
 products:
-liqueurs: 
+liqueurs:
   - Pineapple Amaro
 featured: false
 meta:

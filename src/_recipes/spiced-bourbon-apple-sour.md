@@ -21,7 +21,7 @@ ingredients:
     link:
   - name: Bittercube Jamaican No. 1 Bitters
     quantity: 1 dash
-    link: 'https://store.bittercube.com/products/jamaican-1'
+    link: https://store.bittercube.com/products/jamaican-1
 garnish: Thinly Fanned Apple Slices
 glass: Small Rocks or Coupe
 instructions_html: >-
@@ -36,9 +36,10 @@ tags:
   - Sour
   - Whiskey
   - Fall
+  - Winter
 products: Bittercube Jamaican No. 1 Bitters
 liqueurs:
-featured: false
+featured: true
 meta:
   - description: Apple cocktail. Fall cocktail recipe. Holiday cocktail recipe.
 ---

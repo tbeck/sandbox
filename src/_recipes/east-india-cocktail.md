@@ -22,7 +22,7 @@ ingredients:
     link:
   - name: Bittercube Bolivar Bitters
     quantity: 3 dashes
-    link: 'https://store.bittercube.com/products/bolivar'
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon twist expressed
 glass: Nick & Nora
 instructions_html: >-
@@ -38,7 +38,7 @@ tags:
 products:
 liqueurs:
   - Alchermes
-featured: true
+featured: false
 meta:
   - description: >-
       Brandy cocktail. Stirred cocktail. Aromatic Bitters. Tom Bullock cocktail

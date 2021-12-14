@@ -19,9 +19,9 @@ ingredients:
   - name: Birch extract
     quantity: 1 drop
     link:
-  - name:
-    quantity:
-    link:
+  - name: Bittercube Bolivar Bitters
+    quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/bolivar
 garnish: Dried Rosebuds
 glass: Coupe
 instructions_html: >-
@@ -33,7 +33,7 @@ tags:
   - Creme de Flora
   - Heirloom Liqueurs
   - Winter
-products:
+products: Bolivar
 liqueurs:
   - Creme De Flora
 featured: false

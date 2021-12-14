@@ -18,16 +18,16 @@ ingredients:
     link: https://store.bittercube.com/products/orange
 garnish: Orange wheel
 glass: Rocks
-instructions_html: '<p>Long shake, dump, dirty ice, garnish.</p>'
+instructions_html: <p>Long shake, dump, dirty ice, garnish.</p>
 image: /uploads/recipes/La_Femme_Rouge.jpg
 tags:
   - Creamy
   - Bitter
   - Herbaceous
+  - Winter
 products:
   - orange
 featured: false
 meta:
 ---
-
 

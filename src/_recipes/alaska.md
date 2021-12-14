@@ -15,10 +15,10 @@ ingredients:
     link:
   - name: Bittercube Orange Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/orange'
+    link: https://store.bittercube.com/products/orange
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
-    link: 'https://store.bittercube.com/products/bolivar'
+    link: https://store.bittercube.com/products/bolivar
 garnish: Lemon twist
 glass: Coupe or Nick and Nora
 instructions_html: >-
@@ -28,7 +28,7 @@ image: /uploads/alaska-2.jpg
 tags:
   - Genepy
   - Heirloom Liqueurs
-  - Winter
+  - Spring
 products:
 liqueurs:
   - Genepy

@@ -10,14 +10,14 @@ ingredients:
     quantity: 3/4 oz
   - name: Saffron syrup
     quantity: 3/4 oz
-    link: 'http://bittercube.com/recipes/syrup/saffron-syrup'
+    link: http://bittercube.com/recipes/syrup/saffron-syrup
   - name: Pierre Ferrand 1840 Cognac
     quantity: 1 1/2 oz
   - name: Licor 43
     quantity: 1/2 oz
   - name: Bittercube Chipotle Cacao Bitters
     quantity: 2 dashes
-    link: 'https://store.bittercube.com/products/corazon'
+    link: https://store.bittercube.com/products/corazon
 garnish:
 glass:
 instructions_html: >-
@@ -31,7 +31,6 @@ tags:
   - Citrusy
   - Savory
   - Fall
-  - Winter
 products:
   - chipotle cacao
 featured: false
