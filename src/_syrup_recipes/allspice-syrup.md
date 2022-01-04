@@ -8,7 +8,7 @@ ingredients:
   - name: Water
     quantity: 4 cups
   - name: Granulated sugar
-    quantity: 4 cups
+    quantity: Equal amount to water after allspice is strained
 instructions_html: >-
   <p>Bring water to a boil. Add allspice, remove from heat and cover. Let steep
   for 10 minutes. Strain and whisk in an equal amount of sugar to liquid by
