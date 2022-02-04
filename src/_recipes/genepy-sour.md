@@ -4,7 +4,7 @@ name: Genepy Sour
 bartender:
 description:
 ingredients:
-  - name: Fresh lemon juice
+  - name: Fresh squeezed lime juice
     quantity: 3/4 oz
     link:
   - name: Simple syrup
@@ -24,7 +24,7 @@ tags:
   - Heirloom Liqueurs
   - Sour
 products:
-liqueurs: 
+liqueurs:
   - Genepy
 featured: false
 meta:
