@@ -8,7 +8,7 @@ ingredients:
     quantity: 3/4 oz
     link:
   - name: Simple syrup
-    quantity: 1/2 oz
+    quantity: 1/3 oz
     link:
   - name: Heirloom Genepy
     quantity: 2 oz
