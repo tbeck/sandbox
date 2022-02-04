@@ -11,7 +11,7 @@ ingredients:
     quantity: 1/3 oz
     link:
   - name: Heirloom Genepy
-    quantity: 2 oz
+    quantity: 1-3/4 oz
     link:
 garnish:
 glass: Coupe or Nick and Nora
