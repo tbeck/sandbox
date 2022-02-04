@@ -4,7 +4,7 @@ name: Pineapple Amaro Sour
 bartender:
 description:
 ingredients:
-  - name: Fresh lemon juice
+  - name: Fresh squeezed lemon juice
     quantity: 3/4 oz
     link:
   - name: Simple syrup
