@@ -25,6 +25,9 @@ ingredients:
   - name: Crushed ice
     quantity: 1/2 cup
     link:
+  - name: Fresh squeezed lime juice
+    quantity: 1/4oz
+    link:
 garnish: Mint sprig and a pineapple and cherry skewer
 glass: Hurricane with crushed ice
 instructions_html: >-
