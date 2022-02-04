@@ -4,31 +4,28 @@ name: Piña Colada
 bartender:
 description:
 ingredients:
-  - name: Pineapple juice
+  - name: Pineapple Juice
     quantity: 2 oz
     link:
   - name: Coco Lopez Coconut Cream
     quantity: 1 oz
     link:
-  - name: Heavy Cream
-    quantity: 1 oz
+  - name: Fresh Squeezed Lime Juice
+    quantity: 1/4oz
     link:
-  - name: Don Q Blanco
+  - name: Don Q Rum Cristal
     quantity: 1 1/2 oz
     link:
   - name: Heirloom Pineapple Amaro
     quantity: 1 oz
     link:
-  - name: Bittercube Jamaican No.1 Bitters
-    quantity: 2 dropper/dash
-    link: https://store.bittercube.com/products/jamaican-1
+  - name: Bittercube Cherry Bark Vanilla Bitters
+    quantity: 1 dropper/dash
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
   - name: Crushed ice
     quantity: 1/2 cup
     link:
-  - name: Fresh squeezed lime juice
-    quantity: 1/4oz
-    link:
-garnish: Mint sprig and a pineapple and cherry skewer
+garnish: Pineapple and cherry skewer
 glass: Hurricane with crushed ice
 instructions_html: >-
   <p>Combine ingredients in a blender and blend until ice is pulverized. Pour
