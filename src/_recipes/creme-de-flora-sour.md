@@ -4,7 +4,7 @@ name: Creme de Flora Sour
 bartender:
 description:
 ingredients:
-  - name: Fresh lemon juice
+  - name: Fresh squeezed lime juice
     quantity: 3/4 oz
     link:
   - name: Simple syrup
