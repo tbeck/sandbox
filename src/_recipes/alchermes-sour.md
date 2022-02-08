@@ -13,7 +13,7 @@ ingredients:
   - name: Heirloom Alchermes
     quantity: 2 oz
     link:
-garnish:
+garnish: n/a
 glass: Coupe or Nick and Nora
 instructions_html: >-
   <p>Add all of the ingredients to a cocktail shaker and then fill with ice.
