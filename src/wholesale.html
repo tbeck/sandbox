@@ -2,13 +2,6 @@
 layout: page
 title: Wholesale
 meta:
-images:
-  - image: /uploads/OF2-crop.jpg
-    alt:
-  - image: /uploads/Bittercube_Family_2020.jpg
-    alt:  
-  - image: /uploads/web-shop-photos-21.jpg
-    alt:
 ---
 
 <div class="hero" style="background-image: url({{ site.baseurl }}/assets/img/wholesale-header.jpg)">
@@ -32,11 +25,20 @@ images:
       </div>
     </div>
     <div class="row">
-      {% for item in page.images %}
-        <div class="col-12 col-md-4">
-          <div class="bg-image aspect-4x3" style="background-image: url({{ item.image }})"></div>
-        </div>
-      {% endfor %}
+      <div class="col-12 mb-3">
+        <img src="/uploads/Bittercube_Family_2020.jpg" class="img-fluid" alt="Bittercube bottles">
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col-12 col-md-4">
+        <div class="bg-image aspect-1x1" style="background-image: url(/uploads/OF2-crop.jpg)"></div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="bg-image aspect-1x1" style="background-image: url(/uploads/web-shop-photos-21.jpg)"></div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="bg-image aspect-1x1" style="background-image: url(/uploads/bc-wholesale-droppers.jpg)"></div>
+      </div>
     </div>
   </div>
 </section>
