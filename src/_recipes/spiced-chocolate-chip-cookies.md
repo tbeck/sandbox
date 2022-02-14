@@ -21,10 +21,10 @@ ingredients:
     link:
   - name: Bittercube Cherry Bark Vanilla Bitters
     quantity: 1 teaspoon
-    link: 'https://store.bittercube.com/products/cherry-bark-vanilla'
+    link: https://store.bittercube.com/products/cherry-bark-vanilla
   - name: Bittercube Chipotle Cacao Bitters
     quantity: 1 teaspoon
-    link: 'https://store.bittercube.com/products/corazon'
+    link: https://store.bittercube.com/products/corazon
   - name: Cinnamon
     quantity: 1/2 teaspoon
     link:
@@ -46,7 +46,7 @@ ingredients:
   - name: Mini Semisweet chocolate chips
     quantity: 1/2 cup
     link:
-garnish: 'If you don''t have Turbinado, sub granulated sugar.'
+garnish: If you don't have Turbinado, sub granulated sugar.
 glass:
 instructions_html: >-
   <p>In a bowl, mix the dry ingredients. In kitchen-aid, combine butter and
@@ -64,6 +64,7 @@ tags:
   - Cooking
   - Food
   - Spicy
+  - baking
 products:
 liqueurs:
 featured: false
