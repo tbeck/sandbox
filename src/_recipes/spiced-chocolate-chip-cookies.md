@@ -2,7 +2,7 @@
 layout: recipe
 name: Spiced Chocolate Chip Cookies
 bartender:
-description:
+description: Chocolate chip cookies with a hint of spice!
 ingredients:
   - name: Softened Butter
     quantity: 1/2 cup
