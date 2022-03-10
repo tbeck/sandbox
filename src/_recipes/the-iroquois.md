@@ -1,8 +1,8 @@
 ---
 layout: recipe
-name: The Iroquois
+name: 'The Bark Ages '
 bartender:
-description:
+description: This daisy cocktail is vibrant and refreshing.
 ingredients:
   - name: Fresh lemon juice
     quantity: 3/4 oz
@@ -22,7 +22,7 @@ ingredients:
   - name: Bittercube Bolivar Bitters
     quantity: 1 dropper/dash
     link: https://store.bittercube.com/products/bolivar
-garnish: Dried Rosebuds
+garnish: Lemon peel & Dried Rosebuds
 glass: Coupe
 instructions_html: >-
   <p>Rinse glass with 1/8 oz Creme de Flora. Add all of the ingredients to a
