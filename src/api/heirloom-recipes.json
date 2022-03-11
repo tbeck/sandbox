@@ -5,7 +5,7 @@ layout: null
 {% assign recipes = site.recipes | where_exp: "recipe", "recipe.liqueurs != null" %}
 {% for recipe in recipes %}
   {
-    "slug": "{{ recipe.name | slugify }}",
+    "slug": "{{ recipe.name | slugify | replace: "ñ", "n" }}",
     "name": {{ recipe.name | jsonify }},
     "description": {{ recipe.description | jsonify }},
     "url": "{{ recipe.url | prepend: site.url }}",
