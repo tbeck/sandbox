@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<section id="syrup-recipe" class="bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="recipe-title">{{ page.title }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="recipe-ingredients">
+          <h5>Ingredients</h5>
+          <ul class="ingredients-list">
+            {% for ingredient in page.ingredients %}
+            <li>
+              <span class="ingredient-quantity">{{ ingredient.quantity }}</span>
+              <span class="ingredient-name">{{ ingredient.name }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="recipe-instructions">
+         <h5>Instructions</h5>
+         {{ page.instructions_html }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

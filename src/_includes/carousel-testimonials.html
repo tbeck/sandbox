@@ -1,0 +1,32 @@
+<div class="container">
+    <div id="testimonials-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="12000">
+      <ol class="carousel-indicators">
+        {% for testimonial in site.data.testimonials %}
+        <li data-target="#testimonials-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"
+          {% endif %}></li>
+        {% endfor %}
+      </ol>
+      <div class="carousel-inner">
+        {% for testimonial in site.data.testimonials %}
+        <div class="carousel-item {% if forloop.first %}active{% endif %}">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="content">
+                <blockquote>
+                  {{ testimonial.quote }}
+                  <span>- {{ testimonial.author }}{% if testimonial.company %}, {{ testimonial.company }}{% endif %}</span>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="content">
+                <img src="{{ testimonial.image }}" class="img-fluid" alt="{{ testimonial.company }}" />
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+</div>

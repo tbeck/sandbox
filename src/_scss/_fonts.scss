@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'bittercube';
+  src: url('/fonts/bittercube.eot');
+  src: url('/fonts/bittercube.eot#iefix') format('embedded-opentype'),
+    url('/fonts/bittercube.ttf') format('truetype'),
+    url('/fonts/bittercube.woff') format('woff'),
+    url('/fonts/bittercube.svg#bittercube') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'bittercube' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search::before {
+  content: "\e902";
+}
+.icon-pinterest::before {
+  content: "\e900";
+}
+.icon-cart::before {
+  content: "\e901";
+}
+.icon-facebook::before {
+  content: "\ea90";
+}
+.icon-instagram::before {
+  content: "\ea92";
+}
+.icon-twitter::before {
+  content: "\ea96";
+}

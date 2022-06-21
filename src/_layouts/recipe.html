@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% if page.image %}
+  {% assign featured_image = page.image %}
+{% else %}
+  {% assign featured_image = "http://via.placeholder.com/1250x600/000000/333333?text=placeholder" %}
+{% endif %}
+
+<section id="recipe" class="bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="recipe-title">{{ page.title }}{% if page.bartender %}<span class="d-block text-center" id="recipe-sub">Recipe by <span
+            class="text-capitalize">{{ page.bartender | replace: '-',' ' }}</span></p>{% endif %}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="recipe-image" style="background-image: url({{ featured_image }})">
+          <a href="https://pinterest.com/pin/create/button/?url={{ site.url | xml_escape }}{{ page.url | xml_escape }}&media={{ site.url | xml_escape }}{{ featured_image | xml_escape }}&description={{ page.title | xml_escape }}" target="_blank" data-pin-do="buttonPin" data-pin-custom="true" class="pinterest-share"><i class="icon-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="recipe-ingredients">
+          <h5>Ingredients</h5>
+          <ul class="ingredients-list">
+            {% for ingredient in page.ingredients %}
+            <li>
+              <span class="ingredient-quantity">{{ ingredient.quantity }}</span>
+              <span class="ingredient-name">
+                {% if ingredient.link %}
+                  <a href="{{ ingredient.link }}" class="underline">{{ ingredient.name }}</a>
+                {% else %}
+                  {{ ingredient.name }}
+                {% endif %}
+              </span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% if page.glass %}<p><strong>Glass:</strong> {{ page.glass }}</p>{% endif %}
+          {% if page.garnish %}<p><strong>Garnish:</strong> {{ page.garnish }}</p>{% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="recipe-instructions">
+          <h5>Instructions</h5>
+          {{ page.instructions_html }}
+          <small>Not sure the difference between a dropper and a dash?</small>
+          <a href="/dropper-vs-dash" class="button inline">Learn More</a>
+          <small>Not sure how to prepare syrups?</small>
+          <a href="/recipes/syrup/" class="button inline">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <p class="text-uppercase sans-serif">Imbibe Responsibly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

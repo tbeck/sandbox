@@ -1,0 +1,40 @@
+{% capture ingredients %}{% for recipe in site.recipes %}{% for ingredient in recipe.ingredients %}{{ ingredient.name | replace: "’", "'" }},{% endfor %}{% endfor %}{% endcapture %}
+
+{% capture tags %}{% for recipe in site.recipes %}{% for tag in recipe.tags %}{{ tag }},{% endfor %}{% endfor %}{% endcapture %}
+
+{% assign ingredientsArray = ingredients | split: ',' %}
+{% assign tagsArray = tags | split: ',' %}
+
+{% assign keyterms = ingredientsArray | concat: tagsArray | uniq %}
+
+<!-- Javascript -->
+<script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+
+<script src="{{ '/assets/js/vendor/jquery.autocomplete.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/vendor/venobox.min.js' | prepend: site.baseurl }}"></script>
+{% if page.include_search %}
+<script>
+  var keyterms = [
+    {% for recipe in site.recipes %}
+      { value: "{{recipe.name}}", data: { category: "Recipes" }}
+      ,
+    {% endfor %}
+    {% for term in keyterms %}
+      { value: "{{ term }}", data: { category: "Ingredients" }}
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  $('[data-ref="input-search"]').autocomplete({
+      lookup: keyterms,
+      // maxHeight: 250,
+      autoSelectFirst: true,
+      groupBy: 'category',
+      showNoSuggestionNotice: true,
+      onSelect: function (suggestion) {
+          console.log('Filtering by: ' + suggestion.value + ', ' + suggestion.data);
+      }
+  });
+</script>
+{% endif %}
+

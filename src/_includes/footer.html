@@ -1,0 +1,59 @@
+<footer id="page-footer" class="bg-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content">
+          <img src="/assets/img/wordmark.svg" class="img-fluid" alt="Bittercube logo" />
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.shop_url }}">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/recipes' | prepend: site.baseurl }}">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/wholesale' | prepend: site.baseurl }}">Wholesale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ '/refund-policy' | prepend: site.baseurl }}">Refund Policy</a>
+            </li>
+          </ul>
+          {% include navigation/socialnav.html %}
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content">
+          <h2 class="mt-0 editable">
+            Sign Up For Our Newsletter
+          </h2>
+          <div id="rj-subscribe"></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-details content">
+          <h2 class="mt-0 editable">
+            Contact
+          </h2>
+          <h4 class="editable">
+            General Inquiries
+          </h4>
+          <a href="mailto:info@bittercube.com" class="editable">info@bittercube.com</a>
+          <h4>Apothecary Phone</h4>
+          <a href="tel:414-207-6262" class="editable">414.207.6262</a>
+          <h4 class="editable">
+            Headquarters
+          </h4>
+          <div class="editable">
+            <address>4828 W Lisbon Ave<br />Milwaukee WI, 53210</address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

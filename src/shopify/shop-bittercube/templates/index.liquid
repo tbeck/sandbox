@@ -1,0 +1,63 @@
+{{ content_for_index }}
+
+{% for object in collections reversed %}
+{% if object.products.size > 0 %}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <h1 class="editable">{{ object.title }}</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          <div class="products">
+          {% assign collection = object.products %}
+            {% for product in collection %}
+              <div class="card">
+                <a href="{{ product.url }}">
+                  <div class="hover-overlay">
+                    <img class="card-img-top" src="{{ product.images.first.src | img_url: 'large_cropped' }}" alt="{{ product.title }}">
+                    <p class="overlay-text">{% for tag in product.tags %}{{ tag }}<br>{% endfor %}</p>
+                  </div>
+                </a>  
+                  <div class="card-body">
+                    <h4 class="card-title">{{ product.title }}</h4>
+                    {% include 'product-price' %}
+                  </div>
+                  <div class="card-footer">
+                    <a href="{{ product.url }}" class="button">View Product</a>
+                  </div>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+
+<section class="bg-yellow">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content text-center">
+          <h1 class="editable">Need Wholesale Pricing?</h1>
+          <p class="editable lead">Get in touch with our wholesale team to discuss pricing.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="content">
+          {% include 'contact' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

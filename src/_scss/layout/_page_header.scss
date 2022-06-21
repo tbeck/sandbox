@@ -1,0 +1,199 @@
+#page-header {
+  @include transition(.5s);
+  background-color: $brand-primary;
+  border-bottom: 2px solid $yellow;
+  -webkit-transform: translateZ(0); //fix for fixed header flash on scroll in chrome
+
+  .navbar-nav {
+    margin-top: 20px;
+    &.animated {
+      animation-delay: 1s;
+      animation-duration: 1s;
+    }
+
+    li {
+
+      a {
+        border-bottom: 0;
+        color: $white;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .socialnav {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+  }
+
+  #mainnav {
+    justify-content: flex-end;
+    .nav {
+      .nav-item {
+        a {
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    padding: 0;
+    width: 55px;
+    &.animated {
+      animation-delay: .5s;
+      animation-duration: 1s;
+    }
+  }
+
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+
+    &.open {
+      .close-one {
+        opacity: 0;
+      }
+
+      .close-two {
+        transform: rotate(45deg);
+        margin-top: 0;
+      }
+
+      .close-three {
+        transform: rotate(-45deg);
+        margin-top: 0;
+      }
+    }
+
+    .bar {
+      @include transition(.5s);
+      height: 1px;
+      width: 20px;
+      background: $white;
+      border-radius: 0;
+      display: block;
+      margin-top: 6px;
+
+      &.close-one {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+
+// Media Queries
+// Small devices (landscape phones, 576px and up, 767px and down)
+@media (min-width: $screen-sm-min) {}
+
+@media (max-width: $screen-sm-max) {
+  #page-header {
+
+    
+
+    #mainnav {
+      padding: 0;
+      background-color: $yellow;
+    }
+
+    .navbar {
+      padding: 0;
+    }
+
+    .navbar-nav {
+      li {
+        padding: 0 20px;
+
+        a {
+          color: $brand-primary;
+          padding: 10px 0;
+          border-bottom: 1px solid $white;
+        }
+      }
+    }
+
+    .navbar-brand {
+      margin-left: 20px;
+    }
+
+    .navbar-toggler {
+      margin-right: 20px;
+    }
+
+    .socialnav {
+      position: relative;
+      right: auto;
+      top: auto;
+      padding: 30px 20px;
+
+      a {
+        color: $brand-primary;
+        border-bottom: 0;
+
+        &.cart-link {
+          border-right: 1px solid $brand-primary;
+        }
+      }
+    }
+  }
+  #page-footer {
+    .button {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  #page-header {
+    .container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  #page-header {
+    &.home-header {
+      background-color: transparent;
+      border-bottom: 0;
+      #mainnav {
+        justify-content: center;
+      }
+
+      .navbar-nav {
+        margin-top: 0;
+      }
+
+      .navbar-brand,
+      .socialnav {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {
+  #page-header {
+    .navbar-nav {
+      li {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

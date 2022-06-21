@@ -1,0 +1,90 @@
+.banner-desktop {
+  display: block;
+}
+
+.banner-mobile {
+  display: none;
+}
+
+#instagram-feed {
+  .button.inline {
+    color: $white;
+    border-color: $white;
+    &:hover {
+      border-color: $yellow;
+    }
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .banner-desktop {
+    display: none;
+  }
+  .banner-mobile {
+    display: block;
+  }
+}
+
+#home-products {
+  .no-gutters {
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+  a {
+    @include transition(background-color, 0.4s);
+    hr {
+      border-color: $white;
+      @include transition(border-color, 0.4s);
+    }
+    &:hover {
+      background-color: $blue-dark;
+      hr {
+        &.blackstrap {
+          border-color: $blackstrap;
+        }
+        &.cherry-bark-vanilla {
+          border-color: $cherry-bark;
+        }
+        &.bolivar {
+          border-color: $bolivar;
+        }
+        &.orange {
+          border-color: $orange;
+        }
+        &.trinity {
+          border-color: $trinity;
+        }
+        &.root-beer {
+          border-color: $root-beer;
+        }
+        &.jamaican-1 {
+          border-color: $jamaican1;
+        }
+        &.jamaican-2 {
+          border-color: $jamaican2;
+        }
+        &.corazon {
+          border-color: $chipotle;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .homepage-layout {
+    #page-content {
+      padding-top: 0;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

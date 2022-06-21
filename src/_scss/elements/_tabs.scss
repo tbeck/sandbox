@@ -1,0 +1,73 @@
+.tabnav {
+  display: block;
+  margin-bottom: 30px;
+  li {
+    a {
+      border-bottom: 0;
+      padding-bottom: 15px;
+      position: relative;
+
+      &.active {
+        &::after {
+          content: '';
+          position: absolute;
+          overflow: hidden;
+          display: inline-block;
+          font-size: 12px; // set the size for arrow
+          width: 15px;
+          height: 15px;
+          left: 0;
+          top: 12px;
+          margin-left: -8px;
+          border-top: 1px solid $brand-primary;
+          border-left: 1px solid $brand-primary;
+          transform: rotate(135deg);
+        }
+      }
+    }
+  }
+}
+
+.tab-content {
+  background-color: $white;
+  border: 2px solid $brand-primary;
+  padding: 50px;
+
+  h5 {
+    margin-bottom: 5px;
+  }
+}
+
+// Media Queries
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  .tabnav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+    li {
+      a {
+        padding-bottom: 25px;
+
+        &.active {
+          &::after {
+            left: 50%;
+            transform: rotate(45deg);
+            top: auto;
+            bottom: -8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

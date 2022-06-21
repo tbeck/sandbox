@@ -1,0 +1,58 @@
+#search-recipes {
+  background-image: url('/assets/img/recipes/bg-ingredients.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+  input[type="text"] {
+    background-color: $brand-primary;
+    border: 2px solid $yellow;
+    color: $white;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px;
+    letter-spacing: 1px;
+  }
+
+  .button {
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 15px;
+    border-width: 2px;
+
+    i {
+      margin-right: 8px;
+    }
+  }
+  .dropdown-menu {
+    width: calc(100% - 30px);
+    border-radius: 0;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: $font-family-sans-serif;
+  }
+}
+
+// Small devices (landscape phones, 576px and up, 767px and down)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+  #search-recipes {
+
+    input[type="text"] {
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      width: 20%;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

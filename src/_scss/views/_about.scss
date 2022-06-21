@@ -1,0 +1,66 @@
+#about-story {
+  .lead {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+}
+
+#team {
+  h3 {
+    margin-top: 50px;
+  }
+}
+.team-member {
+  h4 {
+    font-size: 22px;
+    font-family: $font-family-serif;
+    letter-spacing: 0;
+  }
+  span {
+    font-size: 14px;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  &:last-of-type {
+    margin-right: auto;
+    margin-left: 2.5%;
+  }
+}
+
+.partners {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    border-bottom: 0;
+    display: block;
+    padding: 10px;
+    width: 50%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-sm-min) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-md-min) {
+
+  .partners {
+    a {
+      width: auto;
+      padding: 20px 7px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-lg-min) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-xl-min) {}

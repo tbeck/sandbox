@@ -1,0 +1,61 @@
+.event-card {
+  .bg-image {
+    background-color: $gray-light;
+  }
+  .card-body {
+    padding: 20px;
+    height: 100%;
+  }
+}
+
+.event-description {
+  line-height: 1.7;
+}
+
+.events-nav {
+  a {
+    &:hover {
+      cursor: pointer;
+    }
+    &:hover,
+    &.mixitup-control-active {
+      border-bottom: 1px solid $brand-primary;
+    }
+  }
+}
+
+.events-row {
+  .no-events {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    @include transition(opacity, .3s);
+    p {
+      font-size: 20px;
+    }
+  }
+  &.mixitup-container-failed {
+    .no-events {
+      opacity: 1;
+      visibility: visible;
+      height: auto;
+    }
+  }
+}
+
+.select {
+  &.event-select {
+    background-color: $white;
+    border: 0;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .events-row {
+    .no-events {
+      p {
+        font-size: 27px;
+      }
+    }
+  }
+}
