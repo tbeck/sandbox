@@ -1,7 +1,0 @@
----
-layout: null
----
-
-message,link
-{% for recipe in site.recipes %}Today's Bittercube #drinkoftheday is our {{recipe.name}} #bittercube, http://bittercube.com{{ recipe.url }}
-{% endfor %}
